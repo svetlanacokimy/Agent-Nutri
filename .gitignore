@@ -1,0 +1,41 @@
+# ============================================
+# Agent-Nutri — .gitignore
+# ============================================
+
+# --- Исходные файлы клиентов (бинарные, конфиденциальные) ---
+# Фото и сканы анализов
+clients/**/*.jpg
+clients/**/*.jpeg
+clients/**/*.png
+clients/**/*.gif
+clients/**/*.bmp
+
+# PDF и офисные документы клиентов
+clients/**/*.pdf
+clients/**/*.docx
+clients/**/*.doc
+clients/**/*.xlsx
+clients/**/*.xls
+clients/**/*.pptx
+
+# Папки исходников (если организованы как _source/)
+clients/**/_source/
+
+# --- Технические артефакты Cline ---
+skills/focus_chain_*.md
+**/.cline_temp/
+
+# --- Системные файлы ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Редакторы ---
+.vscode/settings.json
+.idea/
+
+# --- Временные файлы ---
+*.tmp
+*.bak
+*.swp
+*~
