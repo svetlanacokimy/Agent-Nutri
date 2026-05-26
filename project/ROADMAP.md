@@ -109,7 +109,7 @@ Copy
 | № | Кластер | Состояние | Основные файлы-результаты |
 |---|---------|-----------|---------------------------|
 | **1** | Лабораторная диагностика | ✅ 100% (Сессии 7+8, 2026-05-24) | `lab_values_master.md` ✅, `protocols/lab_diagnostics.md` ✅, `iron_deficiency.md` ✅, `SOURCES_INDEX.md` ✅ | `lab_values_master.md` ✅, `protocols/lab_diagnostics.md` ⏳ |
-| **2** | Макронутриенты, КБЖУ | ⏳ Следующий | `methodology/nutrition_basics.md` |
+| **2** | Макронутриенты, КБЖУ | 🟡 50% | `methodology/nutrition_basics.md` ✅, `nutrition_principles.md` ✅ |
 | **3** | Пищеварительная система, ЖКТ | ⏳ | `clinical_guidelines/digestion.md`, `methodology/digestion_protocols.md` |
 | **4** | Гепатобилиарная система | ⏳ | `clinical_guidelines/liver_biliary.md` |
 | **5** | Щитовидная железа | ⏳ | `clinical_guidelines/thyroid.md`, `methodology/thyroid_3_steps.md` |
@@ -126,7 +126,8 @@ Copy
 |---|---|---|---|---|
 | **7** | Завершение Кластера 1 | Протокол интерпретации анализов | 1.5 ч | `references/methodology/protocols/lab_diagnostics.md` |
 | **8** | Обновление SOURCES_INDEX | Подключить четырёхслойную структуру к пайплайнам | 30 мин | Обновлённый `v2/SOURCES_INDEX.md` |
-| **9** | Кластер 2 — макронутриенты | Извлечь методологию КБЖУ из уроков 2, 3, 5, 6 С1 | 2 ч | `methodology/nutrition_basics.md` |
+| **9** | Кластер 2 — макронутриенты | ✅ Извлечена методология КБЖУ (уроки 3, 5, 6) | 2026-05-26, `dd13105` | `methodology/nutrition_basics.md` (391 стр.) |
+| **10** | Кластер 2 — принципы | ✅ Извлечены КЩБ, стоп-продукты, глютен, молочка, масла (урок 2) | 2026-05-26, `afc355b` | `methodology/nutrition_principles.md` (272 стр.) |
 | **10** | Перепроверка Karaianova | Применить master-таблицу к существующему отчёту | 1 ч | Обновлённый `2026-05-20_consult_expert.md` |
 | **11** | Команда `/menu` | Меню на 7 дней из материалов школы | 1.5 ч | Пайплайн + меню Карайвановой |
 | **12** | Команда `/followup` ⭐ | Сравнение до/после через 12 недель | 1.5 ч | Шаблон + протокол |
