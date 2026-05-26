@@ -1,4 +1,4 @@
-# 🗺️ ROADMAP — Agent-Nutri
+﻿# 🗺️ ROADMAP — Agent-Nutri
 
 **Версия:** 2.0
 **Создан:** 2026-05-21 (v1.0), обновлён 2026-05-22 (v2.0)
@@ -108,7 +108,7 @@ Copy
 
 | № | Кластер | Состояние | Основные файлы-результаты |
 |---|---------|-----------|---------------------------|
-| **1** | Лабораторная диагностика | 🟡 80% (master-таблица готова, протокол впереди) | `lab_values_master.md` ✅, `protocols/lab_diagnostics.md` ⏳ |
+| **1** | Лабораторная диагностика | ✅ 100% (Сессии 7+8, 2026-05-24) | `lab_values_master.md` ✅, `protocols/lab_diagnostics.md` ✅, `iron_deficiency.md` ✅, `SOURCES_INDEX.md` ✅ | `lab_values_master.md` ✅, `protocols/lab_diagnostics.md` ⏳ |
 | **2** | Макронутриенты, КБЖУ | ⏳ Следующий | `methodology/nutrition_basics.md` |
 | **3** | Пищеварительная система, ЖКТ | ⏳ | `clinical_guidelines/digestion.md`, `methodology/digestion_protocols.md` |
 | **4** | Гепатобилиарная система | ⏳ | `clinical_guidelines/liver_biliary.md` |
