@@ -115,7 +115,8 @@
 
 ## ЖКТ: желчный пузырь
 
-Протокол: `references/methodology/intestinal_health.md` ⭐ (желчеотток, 6 способов работы, УЗИ-правило — урок 4)
+Протокол: `references/methodology/gallbladder_health.md` ⭐ (полный протокол ЖП — Этап 2, Урок 5: анатомия, 6 функций желчи, ДЖВП, камни, полипы, постхолецистэктомия)
+Смежный протокол: `references/methodology/intestinal_health.md` (желчеотток, 6 способов работы, УЗИ-правило — Этап 1, урок 4)
 Выжимка: `references/01_digestion_gastro.md` (раздел «Желчный») (DEPRECATED — мигрирует в Протокол)
 Первичный: `text_extracted/УРОК 5. Желчный пузырь.txt`
 
