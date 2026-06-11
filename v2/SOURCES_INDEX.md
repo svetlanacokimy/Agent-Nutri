@@ -1,4 +1,4 @@
-﻿# SOURCES_INDEX.md — Карта «тема → файл»
+# SOURCES_INDEX.md — Карта «тема → файл»
 
 
 Где искать знания по конкретной клинической теме.
@@ -52,10 +52,17 @@
 
 ## Инсулинорезистентность и диабет
 
+Методология: `references/methodology/insulin_resistance.md` _(полный протокол, 1106 строк, 25 разделов)_
 Выжимка: `references/04_lipids_insulin.md`
 Первичный: `text_extracted/УРОК 11. Инсулинорезстенстность. Диабет. Cхема работы.txt` _(имя файла сохранено as-is; тема: инсулинорезистентность)_
 Связанные: `text_extracted/Рекомендации для диабетиков.txt`
 Связанные: `references/09_nutraceuticals.md` (берберин, хром, альфа-липоевая кислота)
+
+Смежные протоколы:
+- `references/methodology/liver_health.md` — НАЖБП как следствие/причина ИР
+- `references/methodology/pancreas_health.md` — β-клетки, панкреатогенный СД
+- `references/methodology/sibo_sifo.md` — дисбиоз как фактор ИР
+- `references/methodology/stomach_health.md` — гипоацидность и углеводный обмен
 
 ---
 
