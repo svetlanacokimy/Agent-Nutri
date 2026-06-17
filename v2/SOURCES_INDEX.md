@@ -1,4 +1,4 @@
-# SOURCES_INDEX.md — Карта «тема → файл»
+﻿# SOURCES_INDEX.md — Карта «тема → файл»
 
 
 Где искать знания по конкретной клинической теме.
@@ -68,13 +68,22 @@
 
 ## Щитовидная железа и АИТ
 
-Выжимка: `references/06_thyroid_ait.md`
-Первичный: `text_extracted/УРОК 17. Щитовидная железа. Йод.txt`
-Первичный: `text_extracted/УРОК 18. АИТ. Вирус Эпшейна-Барр.txt`
-Связанные: `references/05_vitamins_minerals.md` (йод, селен, цинк как кофакторы)
+Методология: `references/methodology/thyroid_health.md` _(полный протокол, 692 строки, 27 разделов; физиология HPT-оси и периферической конверсии, гипо-/гипертиреоз, АИТ Хашимото, болезнь Грейвса, узлы и TIRADS, йод школьный vs ATA/ETA, селен 200 мкг при АИТ, безглютеновая диета, стратегия с L-тироксином, 11+ красных флагов)_
+Первичный: `text_extracted/УРОК 17. Щитовидная железа. Йод.txt` _(487 строк, основной источник: ЩЖ, гипо/гипертиреоз, АИТ, йод, патч-тест, феномен Браунштейна, отмена L-тироксина)_
+Связанные: `text_extracted/УРОК 12. Селен, йод, цинк.txt` _(нутрицевтика при ЩЖ)_
+Связанные: `text_extracted/УРОК 19. Анализы.txt` _(лабораторная диагностика)_
+Связанные: `text_extracted/УРОК 22. Аутоиммунные заболевания.txt` _(АИТ, триггеры)_
+
+Смежные протоколы:
+- `references/methodology/female_hormones.md` — ↑пролактин при гипотиреозе, СПКЯ-имитация, СДЭ, мастопатия
+- `references/methodology/insulin_resistance.md` — гипотиреоз и ИР, общий аутоиммунный фон
+- `references/methodology/liver_health.md` — конверсия T4→T3, НАЖБП и гипотиреоз
+- `references/methodology/intestinal_health.md` — целиакия + АИТ, всасывание L-тироксина
+- `references/methodology/sibo_sifo.md` — СИБР при гипотиреозе
+- `references/methodology/stomach_health.md` — H. pylori и всасывание L-тироксина и Fe
+- `references/methodology/lab_diagnostics.md` — интерпретация панели ЩЖ
 
 ---
-
 ## Витамины
 
 Выжимка: `references/05_vitamins_minerals.md` (разделы жиро- и водорастворимых витаминов)
