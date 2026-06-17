@@ -174,8 +174,19 @@
 
 ## Гормоны: половые, СДЭ, мастопатия, КОК, менопауза
 
+Методология: `references/methodology/female_hormones.md` _(полный протокол, 778 строк, 27 разделов; СДЭ, СПКЯ‑фенотип, гиперпролактинемия, ПМС, ВДКН, эстроболом, нутрицевтики)_
 Выжимка: `references/07_hormones_skin_hair.md`
-Первичный: `text_extracted/УРОК 21. Гормоны. СДЭ. Мастопатия. КОК. Менопауза.txt`
+Первичный: `text_extracted/УРОК 21. Гормоны. СДЭ. Мастопатия. КОК. Менопауза.txt` _(722 строки, основной источник: СДЭ, КОК, мастопатия, менопауза)_
+Связанные: `text_extracted/УРОК 8. Режим дня. Спорт. ПМС..txt` _(ПМС, режим дня)_
+Связанные: `references/09_nutraceuticals.md` _(витекс, DIM, I3C, мио‑инозитол, кальций‑D‑глюкарат)_
+
+Смежные протоколы:
+- `references/methodology/insulin_resistance.md` — ИР как основа 70‑80 % СПКЯ‑фенотипа, снижение ГСПГ
+- `references/methodology/liver_health.md` — детокс эстрогенов (фазы I/II), синтез ГСПГ
+- `references/methodology/sibo_sifo.md` — эстроболом, β‑глюкуронидаза
+- `references/methodology/intestinal_health.md` — выведение эстрогенов, клетчатка
+- `references/methodology/nutrition_basics.md` — полноценные жиры для синтеза стероидов
+- `references/methodology/lab_diagnostics.md` — референсы гормональной панели
 
 ---
 
