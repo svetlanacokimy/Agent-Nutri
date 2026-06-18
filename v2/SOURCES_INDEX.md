@@ -246,14 +246,51 @@
 
 ---
 
-## ЖКТ: печень, НаЖБП, синдром Жильбера
+## ЖКТ: печень, НаЖБП/MASLD, синдром Жильбера
 
-Протокол: `references/methodology/liver_health.md` ⭐ (5 функций, 3 фазы детокса, лабораторная диагностика, гемангиома, нутрицевтики, синдром Жильбера — II ступень уроки 4, 6)
-Выжимка: `references/01_digestion_gastro.md` (раздел «Печень») (DEPRECATED — мигрирует в Протокол)
-Первичный: `text_extracted/УРОК 4. Печень. Анализы. Нутрицевтики.txt`
-Первичный: `text_extracted/Урок 6. Синдром Жильбера.txt`
+### Методология
+- `references/methodology/liver_health.md` — клинический протокол (984 строки, 27 разделов из них 24 содержательных, 97 H3, ⭐54 / ◆32 / ⚠️45). Структура: физиология (1–3), лабораторная диагностика (4), патологии (5–7 гемангиома, нутрицевтики, СЖ), NAЖБП/MASLD блок (10–12 по AASLD/EASL 2023), DILI (13), вирусные гепатиты (14), аутоиммунные (15), холестаз (16), питание/алкоголь/образ жизни (17–19), нутриенты (20), гормональный метаболизм (21), особые группы (22), расширенная дифдиагностика (23), бенчмарк (24), правила и чек-лист (25–26).
 
----
+### Бенчмарк (§24 — школа vs доказательная медицина)
+- «Чистки печени» оливковым маслом + лимонным соком: псевдокамни как мыла жирных кислот (Sies, Lancet 2005)
+- «Фаза 3 детоксикации» школьная vs реальная биохимия ABC-транспортёров MRP2/MDR1/BCRP (Keppler 2011)
+- Силимарин как «универсальный гепатопротектор» vs Cochrane Rambaldi 2007 (умеренный эффект)
+- «NAFLD лечится травами» vs EASL/AASLD 2023 (потеря веса −7–10%, resmetirom, GLP-1)
+- «Печень регенерирует всё» vs стадии фиброза F0–F4 (F4 необратим)
+- Гепатопротекторы «всем подряд курсами» vs показания (силимарин, УДХК, фосфолипиды)
+
+### Клинические рекомендации
+- EASL Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (J Hepatol 2024)
+- AASLD Practice Guidance on the clinical assessment and management of NAFLD/MASLD (Hepatology 2023)
+- NICE NG49: Non-alcoholic fatty liver disease — assessment and management (2016, обновления)
+- AASLD/IDSA HCV Guidance (hcvguidelines.org, обновляется ежегодно)
+- LiverTox: Clinical and Research Information on Drug-Induced Liver Injury (NIH, livertox.nih.gov)
+- WHO AUDIT — Alcohol Use Disorders Identification Test (2001)
+
+### Ключевые исследования и обзоры
+- Rinella ME et al. A multisociety Delphi consensus statement on new fatty liver disease nomenclature (Hepatology 2023)
+- Younossi ZM et al. Global epidemiology of MASLD: systematic review and meta-analysis (Hepatology 2023, 38% распространённость)
+- Harrison SA et al. A Phase 3, Randomized, Controlled Trial of Resmetirom in NASH with Liver Fibrosis — MAESTRO-NASH (NEJM 2024)
+- Newsome PN et al. A Placebo-Controlled Trial of Subcutaneous Semaglutide in NASH (NEJM 2021)
+- Lassailly G et al. Bariatric surgery provides long-term resolution of NASH and regression of fibrosis (Gastroenterology 2020)
+- Wijarnpreecha K et al. Coffee consumption and risk of NAFLD: meta-analysis (Eur J Gastroenterol Hepatol 2017)
+- Anania C et al. Mediterranean diet and NAFLD (World J Gastroenterol 2018)
+- Cochrane: Milk thistle for liver diseases (Rambaldi 2007, обновления)
+- Sanyal AJ et al. Prospective study of outcomes in adults with NAFLD (NEJM 2021, биомаркеры фиброза)
+- GBD 2016 Alcohol Collaborators. Alcohol use and burden — global analysis (Lancet 2018)
+
+### Связанные протоколы методологии
+- `references/methodology/gallbladder_health.md` — желчные кислоты, ПХЭС, билиарный путь метаболизма эстрогенов
+- `references/methodology/pancreas_health.md` — сфинктер Одди, билиарный панкреатит, диабет 3c
+- `references/methodology/intestinal_health.md` — энтерогепатическая циркуляция
+- `references/methodology/sibo_sifo.md` — СИБР при холестазе и ПХЭС
+- `references/methodology/insulin_resistance.md` — MASLD как печёночное проявление метаболического синдрома
+- `references/methodology/female_hormones.md` — метаболизм эстрогенов 2-OH/16α-OH через CYP1A1/CYP3A4
+- `references/methodology/mastopathy.md` — связь печёночного метаболизма эстрогенов и риска пролиферации
+- `references/methodology/menopause.md` — ЗГТ и печень
+- `references/methodology/stress_adrenals.md` — кортизол и глюконеогенез, печёночный путь
+- `references/methodology/thyroid_health.md` — конверсия T4→T3 через дейодиназу D1
+- `references/methodology/gluten_celiac.md` — целиакия и повышение трансаминаз
 
 ## Желчный пузырь и желчевыводящие пути
 
