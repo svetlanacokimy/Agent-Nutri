@@ -165,6 +165,52 @@
 
 **Двухколоночный анализ «школа vs доказательная медицина»:** разделы 18 (ЗГТ) и 22 (фитоэстрогены)
 
+
+## Стресс и надпочечники
+
+**Методология:** `references/methodology/stress_adrenals.md` (1017 строк, 27 разделов)
+
+**Первичные источники (уроки школы):**
+- Урок по стрессу и надпочечникам (определить точный номер)
+- Урок 17 — Щитовидная железа (HPT-HPA cross-talk, low-T3 syndrome)
+- Урок 12 — Селен, йод, цинк (нутрицевтики поддержки)
+
+**Связанные методологические файлы:**
+- `references/methodology/thyroid_health.md` — HPT-HPA cross-talk, маска «adrenal fatigue»
+- `references/methodology/insulin_resistance.md` — кортизол → ИР, висцеральное ожирение
+- `references/methodology/female_hormones.md` — pregnenolone steal, функциональный гипогонадизм
+- `references/methodology/menopause.md` — адренопауза, ДГЭА в постменопаузе
+- `references/methodology/mastopathy.md` — стресс ↑ пролактин, баланс Е/П
+- `references/methodology/liver_health.md` — 11β-HSD1, метаболизм ГК
+- `references/methodology/intestinal_health.md` — gut-brain axis, дисбиоз при стрессе
+
+**Клинические руководства:**
+- Endocrine Society 2016 — Primary Adrenal Insufficiency (Bornstein SR et al.) — JCEM 2016;101(2):364-389
+- Endocrine Society 2008 — Diagnosis of Cushing's Syndrome (Nieman LK et al.) — JCEM 2008;93(5):1526-1540
+- Endocrine Society 2014 — Pheochromocytoma and Paraganglioma (Lenders JW et al.) — JCEM 2014;99(6):1915-1942
+- Endocrine Society 2018 — Congenital Adrenal Hyperplasia (Speiser PW et al.) — JCEM 2018;103(11):4043-4088
+- ESE 2016/2023 — Management of Adrenal Incidentalomas (Fassnacht M et al.)
+- Endocrine Society 2010 — позиция по «adrenal fatigue» (термин отвергнут)
+
+**Ключевые исследования:**
+- Cadegiani FA, Kater CE 2016 — «Adrenal fatigue does not exist: a systematic review» — BMC Endocr Disord 2016;16(1):48
+- McEwen BS 1998 — Allostasis and allostatic load — Ann N Y Acad Sci 1998;840:33-44
+- Seeman TE et al. 1997 — Allostatic load (MacArthur Studies) — Arch Intern Med 1997;157(19):2259-2268
+- Felitti VJ et al. 1998 — ACE Study — Am J Prev Med 1998;14(4):245-258
+- Selye H 1936/1976 — The Stress of Life (General Adaptation Syndrome)
+- Salve J et al. 2019 — Ashwagandha (KSM-66), Cureus 2019;11(12):e6466
+- Lopresti AL et al. 2019 — Ashwagandha and stress/anxiety, Medicine 2019;98(37):e17186
+- Pratte MA et al. 2014 — Ashwagandha systematic review, J Altern Complement Med
+- Olsson EM et al. 2009 — Rhodiola rosea, stress and fatigue, Planta Med
+- Hellhammer J et al. 2004 — Phosphatidylserine and stress, Stress 2004;7(2):119-126
+- Goyal M et al. 2014 — Meditation meta-analysis, JAMA Intern Med 2014;174(3):357-368
+- Kiecolt-Glaser JK et al. 2011 — Omega-3 and anxiety, Brain Behav Immun
+- Boyle NB et al. 2017 — Magnesium and anxiety, Nutrients 2017;9(5):429
+- Holt-Lunstad J et al. 2010 — Social relationships and mortality, PLoS Med
+- Wilson JL 2001 — Adrenal Fatigue: The 21st Century Stress Syndrome (источник школьной концепции)
+
+**Двухколоночный анализ «школа vs доказательная медицина»:** раздел 14 — «adrenal fatigue» vs HPA dysfunction (**5-й бенчмарк Кластера 4**)
+
 ## Витамины
 
 Выжимка: `references/05_vitamins_minerals.md` (разделы жиро- и водорастворимых витаминов)
