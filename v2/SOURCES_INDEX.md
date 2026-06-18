@@ -125,6 +125,46 @@
 - Collaborative Group 2002 (лактация и РМЖ, n=147 000).
 - Hamajima 2002 (алкоголь и РМЖ, n=58 515).
 
+
+## Менопауза и климактерий
+
+**Методология:** `references/methodology/menopause.md` (868 строк, 27 разделов)
+
+**Первичные источники (уроки школы):**
+- Урок 21 — Менопауза, климактерический синдром, ЗГТ
+- Урок 17 — Щитовидная железа (гипотиреоз маскирует климактерий)
+- Урок 22 — Аутоиммунные заболевания (АИТ ↑ в перименопаузе)
+
+**Связанные методологические файлы:**
+- `references/methodology/female_hormones.md` — гормональная база до менопаузы
+- `references/methodology/mastopathy.md` — ФКМ и риск РМЖ, йод
+- `references/methodology/thyroid_health.md` — АИТ и гипотиреоз
+- `references/methodology/insulin_resistance.md` — ИР в постменопаузе
+- `references/methodology/liver_health.md` — НАЖБП, детокс эстрогенов
+- `references/methodology/intestinal_health.md` — эстроболом
+
+**Клинические руководства:**
+- NAMS 2022 Hormone Therapy Position Statement — Menopause 2022;29(7):767-794
+- IMS 2016 Recommendations on Women's Midlife Health — Climacteric 2016;19(2):109-150
+- NICE NG23 Menopause: diagnosis and management (обновл. 2024)
+- ACOG Practice Bulletin No. 141 — Management of Menopausal Symptoms
+- Endocrine Society 2015 — Treatment of Symptoms of the Menopause
+- ESC 2021 Guidelines on cardiovascular disease prevention
+- ISCD 2019 Official Positions — DXA, FRAX
+- USPSTF 2024 — Breast Cancer Screening
+
+**Ключевые РКИ и метаанализы:**
+- WHI 2002 (Rossouw) — JAMA 2002;288(3):321-333 (риски ЗГТ, критика дизайна)
+- Manson 2017 — JAMA 2017;318(10):927-938 (18-летнее наблюдение WHI, mortality benefit <60 лет)
+- ELITE (Hodis 2016) — N Engl J Med 2016;374:1221-1231 (timing hypothesis)
+- KEEPS (Harman 2014) — Ann Intern Med 2014;161:249-260 (биоидентичные)
+- Lethaby Cochrane 2013 — фитоэстрогены при вазомоторных симптомах
+- Bommer 2011 — шалфей при приливах (РКИ)
+- Konig 2018 — коллаген пептиды и BMD (РКИ)
+- Bolland 2010 — BMJ, кальций добавки и СС-риск
+
+**Двухколоночный анализ «школа vs доказательная медицина»:** разделы 18 (ЗГТ) и 22 (фитоэстрогены)
+
 ## Витамины
 
 Выжимка: `references/05_vitamins_minerals.md` (разделы жиро- и водорастворимых витаминов)
