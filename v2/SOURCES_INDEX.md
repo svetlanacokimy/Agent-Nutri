@@ -255,14 +255,45 @@
 
 ---
 
-## ЖКТ: желчный пузырь
+## Желчный пузырь и желчевыводящие пути
 
-Протокол: `references/methodology/gallbladder_health.md` ⭐ (полный протокол ЖП — Этап 2, Урок 5: анатомия, 6 функций желчи, ДЖВП, камни, полипы, постхолецистэктомия)
-Смежный протокол: `references/methodology/intestinal_health.md` (желчеотток, 6 способов работы, УЗИ-правило — Этап 1, урок 4)
-Выжимка: `references/01_digestion_gastro.md` (раздел «Желчный») (DEPRECATED — мигрирует в Протокол)
-Первичный: `text_extracted/УРОК 5. Желчный пузырь.txt`
+### Методология
+- `references/methodology/gallbladder_health.md` — клинический протокол (663 строки, 26 разделов, 57 H3, ⭐29 / ◆15 / ⚠️46). Структура: физиология (1–7), клиника и нутрицевтика (8–17), патология ЖКБ/ПХЭС/безопасность (18–23), бенчмарк «школа vs ДМ» (24), расширенная диагностика (25), кросс‑протоколы и источники (26).
 
----
+### Бенчмарк (§24 — школа vs доказательная медицина)
+- Симптомные ЖКБ: литолитики vs холецистэктомия (EASL 2016, NICE CG188, Cochrane УДХК 2013)
+- Билиарный сладж и концепция «застоя желчи» (EASL 2016)
+- Желчегонные травы — артишок, силимарин, куркумин (Holtmann 2003, Cochrane 2007)
+- Дюбажи с магния сульфатом — риски при ЖКБ
+- Психосоматика ЖП — TCM vs Rome IV (Cotton 2016)
+- Холестериновые vs пигментные камни — что растворяется
+- Последствия холецистэктомии — ПХЭС, СИБР, КРР (реальные риски)
+
+### Клинические рекомендации
+- EASL Clinical Practice Guidelines on gallstones (J Hepatol 2016)
+- NICE CG188: Gallstone disease — diagnosis and management (2014, обновления)
+- ACG Clinical Guideline: Functional Gallbladder Disorder (Cotton 2016, Rome IV)
+- AGA Clinical Practice Update: Functional Gallbladder Disorder (2022)
+
+### Ключевые исследования и обзоры
+- Cochrane: Ursodeoxycholic acid for gallstones (2013)
+- Cochrane: Milk thistle for liver diseases (Rambaldi 2007)
+- Lammert F. et al. Gallstones. Nature Reviews Disease Primers (2016)
+- Holtmann G. et al. Artichoke leaf extract in functional dyspepsia (Aliment Pharmacol Ther 2003)
+- Acalovschi M. Cholesterol gallstones: epidemiology to prevention (Postgrad Med J 2001)
+- Cotton PB et al. Rome IV. Gallbladder and sphincter of Oddi disorders (Gastroenterology 2016)
+
+### Связанные протоколы методологии
+- `references/methodology/liver_health.md` — синтез желчных кислот, NAЖБП, метаболизм эстрогенов
+- `references/methodology/pancreas_health.md` — сфинктер Одди, билиарный панкреатит
+- `references/methodology/intestinal_health.md` — энтерогепатическая циркуляция
+- `references/methodology/sibo_sifo.md` — СИБР при ПХЭС и холестазе
+- `references/methodology/colon_coprogram.md` — маркеры дисфункции ЖП в стуле
+- `references/methodology/female_hormones.md` — эстроген‑доминирование и литогенность желчи
+- `references/methodology/mastopathy.md` — билиарный путь метаболизма эстрогенов
+- `references/methodology/menopause.md` — ЗГТ и риск ЖКБ
+- `references/methodology/insulin_resistance.md` — метаболический синдром и литогенность
+- `references/methodology/stress_adrenals.md` — функциональные билиарные расстройства
 
 ## ЖКТ: поджелудочная железа, ферменты
 
