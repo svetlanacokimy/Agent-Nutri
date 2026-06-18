@@ -332,13 +332,52 @@
 - `references/methodology/insulin_resistance.md` — метаболический синдром и литогенность
 - `references/methodology/stress_adrenals.md` — функциональные билиарные расстройства
 
-## ЖКТ: поджелудочная железа, ферменты
+## ЖКТ: поджелудочная железа, ферменты, панкреатит, EPI, СД 3c
 
-Протокол: `references/methodology/pancreas_health.md` ⭐ (полный протокол ПЖ — Этап 2, Урок 7: анатомия, 10 ферментов, 8 правил перед назначением, животные vs растительные ферменты, панкреатит, лабораторная диагностика, связь с ИР)
-Смежный протокол: `references/methodology/gluten_celiac.md` (глютен как фактор риска панкреатита; см. отдельный раздел ниже)
-Первичный: `text_extracted/УРОК 7. Поджелудочная железа. Ферменты. Глютен.txt`
+### Методология
 
----
+- [`references/methodology/pancreas_health.md`](../references/methodology/pancreas_health.md) — клинический протокол поджелудочной железы (901 строка, 27 разделов, 92 H3, маркеры ⭐45 / ◆31 / ⚠️60). Покрывает: анатомию и 10 ферментов, карту ферментов ЖКТ, связки с печенью/желчным/кишечником/инсулином, 8 правил приёма ферментов, дозировки по UEG 2017 (40–50 тыс. ед. липазы), лабораторную диагностику (липаза, амилаза, эластаза-1 кала как золотой стандарт EPI), острый и хронический панкреатит (Atlanta 2012, TIGAR-O), 6 причин (алкоголь 40 %, ЖКБ 35 %, ТГ), связь с ИР, диету по UEG 2017 (НЕ Певзнер 5п), нутрицевтики, EPI/PEI, PERT, СД 3c (Hardt/Ewald), кисты и IPMN (ACG 2018), аутоиммунный панкреатит (IgG4, Hamano 2001), онконастороженность (триада: желтуха + потеря веса + новый СД).
+
+### Бенчмарк §26 (школа vs доказательная медицина) — 6 тем
+
+1. Ферменты «для пищеварения» vs UEG 2017 (только при EPI с эластазой-1 <200)
+2. «Панкреатит от жирного» vs Banks 2012 (алкоголь 40 %, ЖКБ 35 %, жиры — лишь при ТГ >1000)
+3. Растительные ферменты (бромелайн/папаин) vs ACG 2020 (не заменяют PERT)
+4. Дюбажи и «чистка ПЖ» vs отсутствие доказательств (риск при ЖКБ)
+5. Диета 5п (Певзнер 1929) пожизненно vs UEG 2017 (нормокалорийная, жиры не ограничивать)
+6. «СД при панкреатите = СД2» vs Hardt 2008 / Ewald 2012 (СД 3c — отдельный тип)
+
+### Клинические рекомендации
+
+- **UEG evidence-based guideline 2017** (Löhr JM et al., HaPanEU) — chronic pancreatitis, PERT, EPI
+- **ACG Clinical Guideline 2020** (Gardner TB et al.) — chronic pancreatitis
+- **ACG Guideline 2013** (Tenner S et al.) — acute pancreatitis
+- **AGA Guideline 2018** — initial management of acute pancreatitis
+- **ACG Guideline 2018** + **European 2018** — pancreatic cysts and IPMN
+- **ICDC 2011** — autoimmune pancreatitis (International Consensus Diagnostic Criteria)
+
+### Ключевые исследования
+
+- **Banks PA et al. Gut 2013** — Atlanta classification 2012
+- **Whitcomb DC. NEJM 2019** — chronic pancreatitis review; Whitcomb 1996 — PRSS1
+- **Hardt PD et al. Diabetes Care 2008**; **Ewald N et al. 2012** — type 3c diabetes
+- **Hamano H et al. NEJM 2001** — IgG4 autoimmune pancreatitis
+- **Lowenfels AB et al. NEJM 1993** — pancreatic cancer risk in chronic pancreatitis
+- **Wagner R et al. Nature Med 2020** — pancreatic steatosis and diabetes
+- **GLOBOCAN 2020** — pancreatic cancer epidemiology
+
+### Связанные протоколы
+
+- [`references/methodology/liver_health.md`](../references/methodology/liver_health.md) — общий проток Одди, НАЖБП ↔ панкреатический стеатоз, AIP-1 ↔ PSC (IgG4)
+- [`references/methodology/gallbladder_health.md`](../references/methodology/gallbladder_health.md) — билиарный панкреатит 35 % ОП, постхолецистэктомический синдром → EPI
+- [`references/methodology/intestinal_health.md`](../references/methodology/intestinal_health.md) — энтерокиназа → активация трипсина, атрофия → функциональная EPI
+- [`references/methodology/sibo_sifo.md`](../references/methodology/sibo_sifo.md) — СИБР маскирует EPI, ложно низкая эластаза-1
+- [`references/methodology/gluten_celiac.md`](../references/methodology/gluten_celiac.md) — целиакия → функциональная EPI, дифдиагноз стеатореи
+- [`references/methodology/colon_coprogram.md`](../references/methodology/colon_coprogram.md) — стеаторея в копрограмме = маркер EPI
+- [`references/methodology/insulin_resistance.md`](../references/methodology/insulin_resistance.md) — СД 3c vs СД2, разная тактика
+- [`references/methodology/digestion_basics.md`](../references/methodology/digestion_basics.md) — базовая физиология ферментного каскада
+- [`references/methodology/nutrition_principles.md`](../references/methodology/nutrition_principles.md) — БЖУ, MCT-масла при EPI
+- [`references/methodology/stress_adrenals.md`](../references/methodology/stress_adrenals.md) — кортизол → гипергликемия → нагрузка на бета-клетки
 ## ЖКТ: глютен и целиакия
 
 Протокол: `references/methodology/gluten_celiac.md` ⭐ (полный протокол по глютену и целиакии — Этап 1 Урок 2 + Этап 2 Урок 7: биохимия глютена, 3 механизма повреждения слизистой, спектр состояний (целиакия, NCGS, аллергия), HLA-DQ2/DQ8, лабораторная диагностика (АТ к глиадину, биопсия, tTG, HLA), 18 признаков непереносимости, связки с ПЖ/ЖП/ЩЖ/молочкой, безглютеновая диета, восстановление слизистой)
@@ -484,6 +523,7 @@
 - Суставы / остеопороз — только УРОК 26, выжимки нет.
 - Онкология, онкопрофилактика — нет в базе, Категория C.
 - Препараты (рецептурные, фармакокинетика) — за пределами компетенции агента.
+
 
 
 
