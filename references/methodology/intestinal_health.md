@@ -1,11 +1,5 @@
 ﻿# Протокол: здоровье кишечника
 
-**Версия:** 2.0
-**Дата:** 2026-06-19
-**Статус:** активный
-**Кластер:** 5 (ЖКТ-расширение)
-**Источник:** УРОК 4. Кишечник + расширения Session 28
-
 ## Связанные документы
 - `gallbladder_health.md` — желчеотток, желчегонные, магний, гормоны (детально)
 - `nutrition_principles.md` §9 — сладкая зависимость и завтрак
@@ -864,16 +858,16 @@
 - McFarland LV. S. boulardii meta-analysis, World J Gastroenterol 2010
 - Связанные протоколы: gallbladder_health.md, sibo_sifo.md, gluten_celiac.md, pancreas_health.md, nutrition_principles.md
 
+---
+
 ## Метаданные
-- Автор: Agent-Nutri team
-- Версия: 2.0 (Session 28 Part A — рестуктуризация, кросс-ссылки)
-- Следующий этап: Part B (анатомия, барьер, микробиота, SCFA, gut-axes, FODMAP)
 
-
-
-
-
-
-
-
-
+- **Автор:** Agent-Nutri team
+- **Версия:** 2.0
+- **Кластер:** 5 (ЖКТ-расширение)
+- **Создано:** 2026-05-29 (Сессия 12)
+- **Последнее обновление:** 2026-06-19 (Сессия 28)
+- **Источник школы:** УРОК 4 (Кишечник), Этап 2 + расширения Session 28
+- **Связанные протоколы:** `liver_health.md`, `gallbladder_health.md`, `pancreas_health.md`, `stomach_health.md`, `sibo_sifo.md`, `colon_coprogram.md`, `gluten_celiac.md`, `digestion_basics.md`, `nutrition_principles.md`
+- **Метрики:** 858 строк, 27 H2, 92 H3, ⭐90 / ◆30 / ⚠️65
+- **Статус:** ✅ Готов
