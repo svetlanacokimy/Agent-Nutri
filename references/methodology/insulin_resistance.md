@@ -1105,3 +1105,16 @@
 - `references/methodology/intestinal_health.md`
 - `references/methodology/nutrition_basics.md`
 
+---
+
+## Метаданные
+
+- **Автор:** Agent-Nutri team
+- **Версия:** 2.0
+- **Кластер:** 4 (Эндокринология/метаболизм)
+- **Создано:** 2026-06-12 (Сессия 19)
+- **Последнее обновление:** 2026-06-19 (Сессия 28)
+- **Источник школы:** УРОК 11 (ИР. Диабет), Этап 2 + ADA/IDF/EASD
+- **Связанные протоколы:** `liver_health.md`, `pancreas_health.md`, `sibo_sifo.md`, `intestinal_health.md`, `nutrition_basics.md`, `thyroid_health.md`, `stress_adrenals.md`
+- **Метрики:** 1118 строк, 25 H2, 100 H3, ⭐78 / ◆125 / ⚠️27
+- **Статус:** ✅ Готов
