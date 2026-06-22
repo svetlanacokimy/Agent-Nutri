@@ -773,12 +773,6 @@
 - `references/04_lipids_insulin.md`
 - `references/09_nutraceuticals.md`
 
----
-
-> **Версия протокола:** 1.0 (2026‑06‑12). **Сессия 20**, Кластер 4 (Эндокринология/метаболизм). Следующее обновление — после создания протоколов `menopause.md`, `mastopathy.md`, `thyroid_health.md`.
-
----
-
 ## Метаданные
 
 - **Автор:** Agent-Nutri team
