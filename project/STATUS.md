@@ -11,7 +11,7 @@
 | № | Название | Файлы | Прогресс |
 |---|----------|-------|----------|
 | 1 | Основы питания и пищеварения | `digestion_basics.md`, `nutrition_basics.md`, `nutrition_principles.md` | 3/3 ✅ |
-| 2 | ЖКТ (верхний и нижний отделы) | `stomach_health.md`, `intestinal_health.md`, `colon_coprogram.md`, `sibo_sifo.md` (◐), `gluten_celiac.md` (◐), `ibs.md` (план), `ibd.md` (план) | 5/7 (71%) |
+| 2 | ЖКТ (верхний и нижний отделы) | `stomach_health.md`, `intestinal_health.md`, `colon_coprogram.md`, `sibo_sifo.md` ✅, `gluten_celiac.md` (◐), `ibs.md` (план), `ibd.md` (план) | 6/7 (86%) |
 | 3 | Гепато-билиарно-панкреатическая система | `liver_health.md`, `gallbladder_health.md`, `pancreas_health.md` | 3/3 ✅ |
 | 4 | Эндокринология: щитовидная железа | `thyroid_health.md` | 1/1 ✅ |
 | 5 | Эндокринология: метаболизм и углеводы | `insulin_resistance.md` | 1/1 ✅ |
@@ -28,7 +28,7 @@
 | intestinal_health.md | 879 | 28 | 92 | 90 | 30 | 65 | ✅ |
 | colon_coprogram.md | 887 | 25 | 45 | 65 | 47 | 35 | ✅ |
 | gluten_celiac.md | 544 | 21 | 35 | 50 | 14 | 24 | ◐ |
-| sibo_sifo.md | 463 | 24 | 23 | 35 | 16 | 22 | ◐ |
+| sibo_sifo.md | 661 | 27 | 33 | 55 | 28 | 32 | ✅ |
 | ibs.md | — | — | — | — | — | — | ✗ план |
 | ibd.md | — | — | — | — | — | — | ✗ план |
 
@@ -61,25 +61,27 @@
 
 ---
 
-## ➡️ Следующая сессия — Сессия 30: расширение `sibo_sifo.md`
+## ➡️ Следующая сессия — Сессия 31: расширение `gluten_celiac.md`
 
-**Файл:** `references/methodology/sibo_sifo.md` (463 строки, 24 H2, 23 H3, ⭐ 35 / ◆ 16 / ⚠️ 22) — требует расширения существующих разделов и добавления навигационного слоя.
+**Файл:** `references/methodology/gluten_celiac.md` (544 строки, 21 H2, 35 H3) — требует расширения существующих разделов и добавления EBM-навигационного слоя.
 
-**Цель:** ~700 строк, 27 H2, ~50 H3, ⭐ 55, ◆ 25, ⚠️ 35.
+**Цель:** ~700 строк, 25 H2, ~50 H3, ⭐ 50, ◆ 25, ⚠️ 30.
 
-**План (3 части):**
-- **Part B** (PowerShell, +~150 строк): расширение §9 «Типы СИБР по доминирующему газу» (водородный/метановый/сероводородный — патогенез, тесты, антимикробики, диета); §12 «Лабораторная диагностика» (подготовка к breath-тесту, интерпретация H₂/CH₄/H₂S, glucose vs lactulose); §16 «Современные клинические дополнения» (рифаксимин 550 мг ×3 14 дней, neomycin при IMO, элементарная диета, прокинетики, herbal antimicrobials).
-- **Part C** (Cline, +~180 строк): §23 «Симптом-навигатор СИБР/СДК», §24 «Бенчмарк школа vs EBM» (15+ вопросов: рифаксимин vs метронидазол, элементарная диета, длительный low-FODMAP, glucose vs lactulose, herbal vs АБ, FMT при СИБР, low-dose naltrexone, prokinetics), §25 «Метаданные».
-- **Cleanup:** прогон `& scripts\audit_links.ps1` → ожидаем `Broken: 0`; обновление `STATUS.md`.
+**План (по образцу Сессии 30):**
+- **Part 1:** расширение разделов про целиакию (диагностика — серология tTG-IgA, EMA, DGP; биопсия Marsh-Oberhuber; HLA-DQ2/DQ8), про НЦЧГ (non-celiac gluten sensitivity) и про конкретные перекрёстные реакции.
+- **Part 2:** §«Современные клинические дополнения» (Low FODMAP при НЦЧГ, овёс без глютена, follow-up серологии, мониторинг дефицитов Fe/B12/D/Ca).
+- **Part 3:** §«Симптом-навигатор» + §«Бенчмарк школа vs EBM» (ESsCD 2019, ACG 2023, NICE NG20).
+- **Cleanup:** `& scripts\audit_links.ps1` → `Broken: 0`; обновление `STATUS.md`, `CHANGELOG.md`, `_clusters.md`.
 
-**Ключевые источники:** Pimentel 2011 (TARGET trials, рифаксимин), Pimentel 2004 (элементарная диета), Chedid 2014 (herbal antimicrobials), Rezaie 2017 (North American Consensus on breath testing), ACG 2020 (SIBO), Rao 2018 (H₂S SIBO), Pimentel 2020 (IMO).
+**Ключевые источники:** ESsCD 2019 (European Society for the Study of Coeliac Disease), ACG 2023 clinical guideline (celiac disease), Lebwohl 2018 (NEJM review), Catassi 2017 (NCGS Salerno criteria), NICE NG20 2015.
 
-**После Сессии 30:** Сессия 31 — `gluten_celiac.md` (расширение, 544 → ~700 строк); Сессия 32 — создание `ibs.md` из `_template.md`; Сессия 33 — создание `ibd.md`. После этого Кластер 2 «ЖКТ» закрывается на 100 %.
+**После Сессии 31:** Сессия 32 — создание `ibs.md` из `_template.md`; Сессия 33 — создание `ibd.md`. После этого Кластер 2 «ЖКТ» закрывается на 100 % (7/7).
 
 ---
 
 ## 📜 История сессий (краткая хронология)
 
+- **Сессия 30** (sibo_sifo, 2026-06-22): `sibo_sifo.md` 472 → 661 строк (+189), +§9 (типы СИБР по газам), +§16 (FODMAP/элементная/фитотерапия/прокинетики/биоплёнки), +§12.5 (расширенные маркеры), +§23 (симптом-навигатор), +§24 (бенчмарк школа vs EBM). 4 коммита: 3b9a829, de01b3c, ab37334, fd3a283. Кластер 2 → 6/7 (86 %).
 - **Сессия 24** (stomach, colon): завершены `stomach_health.md` (964 строки) и `colon_coprogram.md` (877 строк).
 - **Сессия 25** (gallbladder, 2026-06-18): `gallbladder_health.md` 396 → 663 строк, бенчмарк §24 (EASL 2016, NICE CG188, Cochrane УДХК 2013).
 - **Сессия 26** (liver, 2026-06-18): `liver_health.md` 580 → 984 строк, +13 разделов (MASLD, DILI, viral, AIH, cholestasis), бенчмарк §24 (EASL 2024, AASLD 2023, MAESTRO-NASH 2024).
