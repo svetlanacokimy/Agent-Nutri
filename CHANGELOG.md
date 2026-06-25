@@ -8,7 +8,7 @@
 - **MINOR** (0.X.0) — завершение крупного блока (кластер, миграция, новый слой архитектуры).
 - **PATCH** (0.0.X) — отдельные доработки внутри блока.
 
-Текущая версия: **0.5.1** (в активной разработке).
+Текущая версия: **0.5.2** (в активной разработке).
 
 ---
 
@@ -21,6 +21,30 @@
 - Расширение `references/clinical_guidelines/` гайдлайнами по витамину D, гипотиреозу, метаболическому синдрому.
 - Введение ADR (Architecture Decision Records) в `docs/decisions/`.
 - Завершение миграции старого плоского слоя `references/01_…13_*.md` в новый четырёхслойный.
+
+---
+
+## [0.5.2] — 2026-06-22
+
+### Added
+- `references/methodology/gluten_celiac.md` §13 «Лабораторная диагностика» расширение (+66 строк): подсекции 13.5 референсные значения и отсечки (tTG-IgA, EMA, DGP, общий IgA), 13.6 ESPGHAN 2020 no-biopsy алгоритм, 13.7 классификация Marsh-Oberhuber. Источники: ACG 2023 (Rubio-Tapia), ESsCD 2019 (Al-Toma), ESPGHAN 2020 (Husby), Oberhuber 1999.
+- `references/methodology/gluten_celiac.md` §12 «Целиакия» расширение (+59 строк): подсекции 12.6 эпидемиология (~1% популяции, 7.5% родственников 1-й линии, гендерное соотношение 2-3:1), 12.7 ассоциированные АИ (АИТ, T1DM, IgA-нефропатия, синдром Шегрена, аутоиммунный гепатит), 12.8 атипичные формы (silent, potential, refractory I/II, EATL). Источники: Singh 2018 (meta-analysis), Catassi 2014, Lebwohl 2018, Ventura 1999, Rubio-Tapia 2010.
+- `references/methodology/gluten_celiac.md` §8.2 «NCGS» расширение (+47 строк): подсекции 8.2.1 Salerno criteria 2015 (4-шаговый алгоритм с DBPC-провокацией), 8.2.2 триггеры — не только глютен (ATI, FODMAP-фруктаны, WGA, собственно глютен), 8.2.3 дифференциальная диагностика NCGS vs целиакия vs аллергия. Источники: Catassi 2015, Skodje 2018 (Gastroenterology RCT), Biesiekierski 2013, Junker 2012, Volta 2014.
+- `references/methodology/gluten_celiac.md` §17 «Стратегия восстановления» расширение (+41 строка): подсекции 17.5 серологический мониторинг (график 3/6/12/24 мес, NRCD алгоритм), 17.6 овёс при безглютеновой диете (Codex Alimentarius ≤20 ppm, авенин-чувствительность у ~5%). Источники: ACG 2023, ESsCD 2019, Leffler 2007, Pinto-Sanchez 2017, Arentz-Hansen 2004.
+- `references/methodology/gluten_celiac.md` §22 «Симптом-навигатор» — таблица маршрутизации от симптомов (вздутие, железодефицит, остеопороз, ДГ, бесплодие, АИТ, T1DM, brain fog, NRCD) к диагностической логике и разделам протокола.
+- `references/methodology/gluten_celiac.md` §23 «Бенчмарк: школьная схема vs EBM» — таблица из 9 строк сравнения школьного подхода и международных гайдлайнов (ACG 2023, ESsCD 2019, NICE NG20).
+
+### Changed
+- `references/methodology/gluten_celiac.md`: 538 → 788 строк (+250). Метаданные: версия 2.0 → 2.1, статус 🔄 Базовый → ✅ Готов, метрики 523/21/35 → 788/24/43, ⭐49/◆13/⚠️23 → ⭐66/◆39/⚠️36, дата 2026-06-19 → 2026-06-22 (Сессия 31).
+- `project/STATUS.md`: Кластер 2 (ЖКТ) `gluten_celiac.md` (◐) → ✅; прогресс 6/7 (86%) → 5/7 (71%) — пересчёт реальной готовности (без `ibs.md`/`ibd.md`); блок «Следующая сессия» → Сессия 32 (`ibs.md`).
+- `references/methodology/_clusters.md`: Кластер 2 — обновлён статус `gluten_celiac.md` ✅.
+
+### Commits
+- `9b9f744` — Session 31 (part 1): expand gluten_celiac.md §13 (lab diagnostics, +66 lines)
+- `a8673d3` — Session 31 (part 2): expand gluten_celiac.md §12 (epidemiology, associated AI, atypical forms, +59 lines)
+- `bb91a5d` — Session 31 (part 3): expand gluten_celiac.md §8.2 NCGS (Salerno criteria, ATI/FODMAP triggers, differential dx, +47 lines)
+- `5dba66c` — Session 31 (part 4): expand gluten_celiac.md §17 (serology monitoring, gluten-free oats, +41 lines)
+- `1a3ad1e` — Session 31 (part 5): add §22 symptom-navigator + §23 EBM benchmark; update metadata v2.1 (+37 lines, total 788)
 
 ---
 
