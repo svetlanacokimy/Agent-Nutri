@@ -338,5 +338,149 @@
 - Menees SB, et al. *A meta-analysis of the utility of C-reactive protein, erythrocyte sedimentation rate, fecal calprotectin, and fecal lactoferrin to exclude inflammatory bowel disease in adults with IBS.* Am J Gastroenterol. 2015;110(3):444-454.
 - Camilleri M. *Bile Acid Diarrhea: Prevalence, Pathogenesis, and Therapy.* Gut Liver. 2015;9(3):332-339.
 
+## 10. ⭐ Диетотерапия
+
+Диета — **первая линия** немедикаментозного лечения СРК (ACG 2021, BSG 2021). Подход поэтапный: общие принципы → специфические протоколы → персонализация по дневнику симптомов.
+
+### 10.1. Общие принципы питания при СРК ⭐
+
+- **Регулярность приёмов пищи:** 3 основных + 1‑2 перекуса; не пропускать завтрак (стимуляция гастроколического рефлекса).
+- **Медленная еда, тщательное жевание:** снижает аэрофагию и постпрандиальное вздутие.
+- **Адекватный объём жидкости:** 1.5‑2 л/сут (особенно при IBS‑C).
+- **Ограничить:** кофеин (>400 мг/сут усиливает диарею при IBS‑D), алкоголь, газированные напитки, искусственные подсластители (сорбитол, ксилит — осмотическая диарея), жирную пищу (замедляет опорожнение, усиливает боль), острые специи (TRPV1‑активация).
+- **Школа:** акцент на культуре еды, ритуале, спокойной обстановке (снижение тонуса симпатической нервной системы).
+
+### 10.2. Low FODMAP ⭐
+
+Наиболее доказанный диетический протокол при СРК (Halmos 2014 RCT, NNT≈5). Эффективен в 50‑75 % случаев — особенно IBS‑M и IBS‑D с вздутием.
+
+**Три фазы (краткая схема):**
+1. **Элиминация** — строгое ограничение FODMAP 4‑6 недель.
+2. **Реинтродукция** — поочерёдное возвращение групп (фруктаны, лактоза, фруктоза, полиолы, ГОС) по 3 дня каждая, 6‑8 недель.
+3. **Персонализация** — пожизненная диета с индивидуальными триггерами и порогами.
+
+⚠️ Полная фаза 1 НЕ должна продолжаться >6 недель — риск дисбиоза (снижение Bifidobacterium, Staudacher 2017).
+
+🔗 Полный протокол с таблицами продуктов и пороговыми дозами: см. [`sibo_sifo.md` §16.1](sibo_sifo.md#161-протокол-low-fodmap).
+
+### 10.3. Растворимая клетчатка ⭐
+
+- **Псиллиум (ispaghula husk):** 10‑20 г/сут — доказан мета‑анализом Moayyedi 2014 (NNT≈7), эффективен при IBS‑C и смешанной форме.
+- **Овсяные отруби, льняное семя:** альтернатива псиллиуму.
+- ⚠️ **Нерастворимая клетчатка** (пшеничные отруби) — НЕ рекомендуется: усиливает боль и вздутие у 55 % пациентов с СРК (Bijkerk 2009).
+- **Старт:** 3‑5 г/сут, наращивать постепенно за 2‑3 недели до целевой дозы (профилактика газообразования).
+
+### 10.4. Что НЕ работает (по EBM) ◆
+
+- **Безглютеновая диета без NCGS/целиакии** — нет преимуществ перед Low FODMAP (Skodje 2018: эффект GFD объясняется снижением фруктанов).
+- **Безлактозная диета без подтверждённой непереносимости** — нецелесообразна; рекомендуется H₂‑тест с лактозой.
+- **Тотальная элиминация на основе IgG‑тестов** — не имеет EBM‑базы (AAAAI 2010, BSACI 2014: IgG‑панели не валидированы).
+
+#### Источники §10
+- Halmos EP, et al. *A diet low in FODMAPs reduces symptoms of irritable bowel syndrome.* Gastroenterology. 2014;146(1):67-75.
+- Moayyedi P, et al. *The effect of fiber supplementation on irritable bowel syndrome: a systematic review and meta-analysis.* Am J Gastroenterol. 2014;109(9):1367-1374.
+- Staudacher HM, et al. *A diet low in FODMAPs reduces symptoms in patients with irritable bowel syndrome and a probiotic restores Bifidobacterium species.* Gastroenterology. 2017;153(4):936-947.
+- Bijkerk CJ, et al. *Soluble or insoluble fibre in irritable bowel syndrome in primary care?* BMJ. 2009;339:b3154.
+- Skodje GI, et al. *Fructan, rather than gluten, induces symptoms in patients with self-reported non-celiac gluten sensitivity.* Gastroenterology. 2018;154(3):529-539.
+
+---
+
+## 11. Общая стратегия лечения
+
+### 11.1. Step-up подход ⭐
+
+1. **Шаг 1 — образование пациента + общие диетические принципы** (§10.1) + дневник симптомов (4 недели).
+2. **Шаг 2 — специфическая диета** (Low FODMAP §10.2 или псиллиум §10.3) + базовая фармакотерапия по доминирующему симптому (§12).
+3. **Шаг 3 — комбинированная терапия** (висцеральные модуляторы §12.5 + психотерапия §14).
+4. **Шаг 4 — рефрактерный СРК** — мультидисциплинарная команда, пересмотр диагноза (исключить SIBO §8, BAM, микроскопический колит).
+
+### 11.2. Управление ожиданиями ⭐
+
+- СРК — **функциональное хроническое** заболевание; цель — контроль симптомов, не «излечение».
+- Реалистичный таймлайн: первые улучшения 2‑4 недели, стабильный эффект 8‑12 недель.
+- Эффект плацебо в СРК высок (30‑40 %) — учитывать при оценке любых интервенций.
+
+### 11.3. Дневник симптомов и триггеров ◆
+
+Базовый инструмент персонализации (Bristol Stool Scale + 0‑10 шкала боли/вздутия + триггеры еды/стресса/сна). Минимум 2‑4 недели до и после любой интервенции.
+
+---
+
+## 12. ⭐ Фармакотерапия по подтипам
+
+> **Принцип:** препарат подбирается по доминирующему симптому, не «по диагнозу СРК».
+
+### 12.1. IBS-D (диарейный подтип) ⭐
+
+| Препарат | Доза | Доказательность | Комментарий |
+|---|---|---|---|
+| **Loperamide** | 2‑4 мг по требованию, ≤16 мг/сут | ACG: conditional | Симптоматический контроль диареи; не влияет на боль/вздутие |
+| **Rifaximin** | 550 мг × 3/сут × 14 дней | ACG: strong (NNT≈9) | TARGET 1/2 (Pimentel 2011); эффект 10‑12 нед, возможен повтор |
+| **Eluxadoline** | 75‑100 мг × 2/сут | ACG: conditional | μ-opioid agonist; ⚠️ противопоказан без жёлчного пузыря (риск панкреатита) |
+| **Ondansetron** | 4‑8 мг по требованию | conditional | 5-HT₃-антагонист; off-label, эффективен при срочности |
+| **Желчекислотные секвестранты** (cholestyramine, colesevelam) | по показаниям | conditional | При подтверждённой BAM (SeHCAT или эмпирически) |
+
+### 12.2. IBS-C (запорный подтип) ⭐
+
+| Препарат | Доза | Доказательность | Комментарий |
+|---|---|---|---|
+| **PEG 3350** | 17‑34 г/сут | ACG: conditional | Улучшает частоту стула, НО не боль/вздутие |
+| **Linaclotide** | 290 мкг × 1/сут | ACG: strong (NNT≈6) | Guanylate cyclase-C агонист; Chey 2012 |
+| **Plecanatide** | 3 мг × 1/сут | ACG: strong | Аналог linaclotide, лучше переносимость |
+| **Lubiprostone** | 8 мкг × 2/сут | ACG: conditional | ClC-2 активатор; чаще у женщин |
+| **Tenapanor** | 50 мг × 2/сут | ACG: conditional | NHE3-ингибитор (2020+) |
+
+### 12.3. IBS-M (смешанный подтип) ◆
+
+Лечение по **доминирующему симптому в данный момент**: переключение между протоколами IBS‑D и IBS‑C в зависимости от текущей фазы. Постоянная терапия — спазмолитики (§12.4) + висцеральные модуляторы (§12.5).
+
+### 12.4. Спазмолитики и контроль боли ⭐
+
+- **Mebeverine** 135‑200 мг × 3/сут — мускариновый антагонист, безопасен.
+- **Otilonium bromide** 40 мг × 2‑3/сут — европейский стандарт.
+- **Hyoscine butylbromide** 10‑20 мг по требованию — для постпрандиальной боли.
+- **Peppermint oil (enteric-coated)** 0.2‑0.4 мл × 3/сут — мета-анализ Khanna 2014 (NNT≈3); IBSREST trial (Cash 2016).
+
+### 12.5. Висцеральные модуляторы ⭐
+
+- **TCA в низких дозах** (amitriptyline 10‑25 мг на ночь, nortriptyline) — ACG: strong; работают через висцеральную гипералгезию и моторику (полезны при IBS‑D — антихолинергический эффект).
+- **SSRI** (citalopram, paroxetine, fluoxetine 20‑40 мг) — conditional; предпочтительны при IBS‑C и сопутствующей тревоге/депрессии.
+- **SNRI** (duloxetine 30‑60 мг) — off-label, при коморбидной фибромиалгии.
+- ⚠️ Эффект развивается через 4‑6 недель; информировать пациента, что это НЕ «психиатрическое» назначение.
+
+#### Источники §12
+- Lacy BE, et al. *ACG Clinical Guideline: Management of Irritable Bowel Syndrome.* Am J Gastroenterol. 2021;116(1):17-44.
+- Vasant DH, et al. *British Society of Gastroenterology guidelines on the management of irritable bowel syndrome.* Gut. 2021;70(7):1214-1240.
+- Pimentel M, et al. *Rifaximin therapy for patients with irritable bowel syndrome without constipation.* N Engl J Med. 2011;364(1):22-32.
+- Chey WD, et al. *Linaclotide for irritable bowel syndrome with constipation.* Am J Gastroenterol. 2012;107(11):1702-1712.
+- Khanna R, et al. *Peppermint oil for the treatment of irritable bowel syndrome: a systematic review and meta-analysis.* J Clin Gastroenterol. 2014;48(6):505-512.
+- Ford AC, et al. *Effect of antidepressants and psychological therapies in IBS: an updated systematic review and meta-analysis.* Am J Gastroenterol. 2019;114(1):21-39.
+
+---
+
+## 13. ⭐ Пробиотики
+
+### 13.1. Доказательная база ⭐
+
+- **Bifidobacterium infantis 35624** — наиболее доказанный штамм при СРК (Whorwell 2006; NNT≈4 для общего улучшения).
+- **Мультиштаммовые препараты** (VSL#3 / Visbiome, Symprove) — эффективны по мета-анализу Ford 2018 (NNT≈7).
+- **Lactobacillus plantarum 299v** — снижение боли и вздутия (Niedzielin 2001, Ducrotté 2012).
+- **Saccharomyces boulardii CNCM I-745** — при IBS-D, особенно постинфекционном.
+
+### 13.2. Школьный подход + EBM ⭐
+
+Школа рассматривает пробиотики как **поддерживающий**, а не основной инструмент: восстановление микробиоты после рифаксимина, после острых эпизодов, при дисбиозе на фоне Low FODMAP. EBM подтверждает этот подход (Staudacher 2017).
+
+### 13.3. Что НЕ работает ◆
+
+- **Одиночные пробиотики без указания штамма** — нет доказательной базы (эффект штамм-специфичен).
+- **Длительный приём >12 недель без оценки эффекта** — пересмотр по дневнику симптомов.
+- ⚠️ **Пробиотики при тяжёлом иммунодефиците** — риск бактериемии/фунгемии.
+
+#### Источники §13
+- Whorwell PJ, et al. *Efficacy of an encapsulated probiotic Bifidobacterium infantis 35624 in women with irritable bowel syndrome.* Am J Gastroenterol. 2006;101(7):1581-1590.
+- Ford AC, et al. *Systematic review with meta-analysis: the efficacy of prebiotics, probiotics, synbiotics and antibiotics in IBS.* Aliment Pharmacol Ther. 2018;48(10):1044-1060.
+- Ducrotté P, et al. *Clinical trial: Lactobacillus plantarum 299v (DSM 9843) improves symptoms of irritable bowel syndrome.* World J Gastroenterol. 2012;18(30):4012-4018.
+
 ---
 
