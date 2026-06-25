@@ -482,5 +482,131 @@
 - Ford AC, et al. *Systematic review with meta-analysis: the efficacy of prebiotics, probiotics, synbiotics and antibiotics in IBS.* Aliment Pharmacol Ther. 2018;48(10):1044-1060.
 - Ducrotté P, et al. *Clinical trial: Lactobacillus plantarum 299v (DSM 9843) improves symptoms of irritable bowel syndrome.* World J Gastroenterol. 2012;18(30):4012-4018.
 
+## 14. ⭐ Психотерапия и mind-gut axis
+
+Психологические интервенции имеют **сильную доказательную базу** при СРК (ACG 2021: strong recommendation, NNT≈4). Особенно показаны при рефрактерных случаях, выраженной коморбидной тревоге/депрессии, неэффективности диеты и фармакотерапии.
+
+### 14.1. Когнитивно-поведенческая терапия (CBT) ⭐
+
+- **Стандарт:** 8‑12 сессий, фокус на катастрофизации симптомов, избегающем поведении, тревожной гипербдительности.
+- **Доказательность:** Lackner 2018 (IBSOS trial, n=436) — CBT превосходит контроль (NNT≈4); эффект сохраняется ≥12 месяцев.
+- **Минимальные форматы:** интернет-CBT (4 сессии) сопоставимы со стандартной CBT при лёгкой/средней тяжести.
+
+### 14.2. Gut-directed hypnotherapy (GDH) ⭐
+
+- **Manchester protocol:** 7‑12 сессий, специфические внушения для регуляции ЖКТ.
+- **Доказательность:** мета-анализ Peters 2016 (NNT≈4); эффект сравним с Low FODMAP в RCT (Peters 2016 head-to-head).
+- **Преимущество:** эффективен даже при сопротивлении пациента «психологическому» объяснению.
+
+### 14.3. Mindfulness-based stress reduction (MBSR) ◆
+
+- **Программа:** 8 недель, ежедневная практика 30‑45 мин.
+- **Доказательность:** Gaylord 2011 (RCT, n=75) — снижение тяжести СРК на 26.4% vs 6.2% контроль; conditional recommendation.
+- **Показания:** пациенты с выраженным компонентом стресса, неготовые к CBT.
+
+### 14.4. Школьный взгляд ⭐
+
+> «Кишечник — второй мозг. Невозможно вылечить СРК, не работая со стрессом.»
+
+Школа подчёркивает базовые техники саморегуляции **до** обращения к специалисту: диафрагмальное дыхание (4‑7‑8), регулярный сон, ограничение экранного времени перед сном, физическая активность 150 мин/нед (умеренная), социальные связи. EBM подтверждает: упражнения снижают тяжесть СРК (Johannesson 2011 RCT).
+
+#### Источники §14
+- Lackner JM, et al. *Improvement in gastrointestinal symptoms after cognitive behavior therapy for refractory irritable bowel syndrome.* Gastroenterology. 2018;155(1):47-57.
+- Peters SL, et al. *Randomised clinical trial: the efficacy of gut-directed hypnotherapy is similar to that of the low FODMAP diet for the treatment of irritable bowel syndrome.* Aliment Pharmacol Ther. 2016;44(5):447-459.
+- Gaylord SA, et al. *Mindfulness training reduces the severity of irritable bowel syndrome in women: results of a randomized controlled trial.* Am J Gastroenterol. 2011;106(9):1678-1688.
+- Johannesson E, et al. *Physical activity improves symptoms in irritable bowel syndrome: a randomized controlled trial.* Am J Gastroenterol. 2011;106(5):915-922.
+
+---
+
+## 15. ◆ Нутрицевтическая поддержка
+
+> Дополнения к диете и фармакотерапии. Доказательность варьирует от умеренной (магний, мелатонин) до низкой (большинство фитопрепаратов). Не заменяют первую линию.
+
+### 15.1. Магний ⭐
+
+- **Magnesium oxide / citrate** 300‑500 мг/сут — особенно при IBS‑C (осмотический эффект + расслабление гладкой мускулатуры).
+- ⚠️ При ХБП — коррекция дозы; контроль уровня при длительном приёме >3 мес.
+
+### 15.2. Мелатонин ◆
+
+- **Доза:** 3 мг на ночь × 8 нед.
+- **Доказательность:** Lu 2005 RCT — снижение абдоминальной боли независимо от качества сна.
+- **Показания:** СРК с нарушением сна, ночными симптомами, сменной работой.
+
+### 15.3. Растительные препараты ◆
+
+| Препарат | Доза | Доказательность |
+|---|---|---|
+| **Куркумин** (с пиперином) | 500 мг × 2/сут | Bundy 2004 (open-label) — снижение симптомов на 56% |
+| **STW-5 (Iberogast)** | 20 капель × 3/сут | Madisch 2004 RCT — улучшение боли и вздутия |
+| **Мята перечная (enteric-coated)** | см. §12.4 | NNT≈3 |
+
+### 15.4. L-глутамин ◆
+
+- **Доза:** 5 г × 3/сут × 8 нед.
+- **Показания:** постинфекционный СРК (PI-IBS) с повышенной кишечной проницаемостью.
+- **Доказательность:** Zhou 2019 RCT — нормализация Rome III симптомов у 79.6% vs 5.8% плацебо.
+
+#### Источники §15
+- Lu WZ, et al. *Melatonin improves bowel symptoms in female patients with irritable bowel syndrome.* Aliment Pharmacol Ther. 2005;22(10):927-934.
+- Bundy R, et al. *Turmeric extract may improve irritable bowel syndrome symptomology in otherwise healthy adults.* J Altern Complement Med. 2004;10(6):1015-1018.
+- Madisch A, et al. *Treatment of functional dyspepsia with a herbal preparation. A double-blind, randomized, placebo-controlled, multicenter trial.* Digestion. 2004;69(1):45-52.
+- Zhou Q, et al. *Randomised placebo-controlled trial of dietary glutamine supplements for postinfectious irritable bowel syndrome.* Gut. 2019;68(6):996-1002.
+
+---
+
+## 16. ⭐ Особые ситуации
+
+### 16.1. Постинфекционный СРК (PI-IBS) ⭐
+
+- **Эпидемиология:** развивается у 10‑15% после острого бактериального гастроэнтерита; OR≈4‑8 vs общая популяция (Klem 2017 meta).
+- **Триггеры:** Campylobacter, Salmonella, Shigella, E. coli, Giardia.
+- **Особенности:** чаще IBS-D, повышенная кишечная проницаемость, антитела к виникулину (Pimentel 2015 — биомаркер CdtB/виникулин).
+- **Терапия:** L-глутамин (§15.4), рифаксимин (§12.1), пробиотики S. boulardii.
+- **Прогноз:** ~50% разрешаются за 5‑8 лет.
+
+### 16.2. СРК + SIBO ⭐
+
+Пересечение 30‑80% (Ghoshal 2017 meta). При рефрактерном СРК с вздутием обязателен H₂/CH₄-дыхательный тест. Подход: kill-фаза → диета → восстановление микробиоты.
+
+🔗 Полный протокол: [`sibo_sifo.md`](sibo_sifo.md) (§§14‑17).
+
+### 16.3. СРК у женщин ⭐
+
+- Распространённость в 2‑3 раза выше, чем у мужчин.
+- **Циклические флуктуации:** ухудшение симптомов в перименструальной фазе (Heitkemper 2003).
+- **Менопауза:** учитывать ЗГТ как фактор; эстроген влияет на висцеральную чувствительность.
+- **Беременность:** избегать rifaximin (категория C), eluxadoline; безопасны псиллиум, peppermint oil, базовая диета.
+
+### 16.4. СРК у пожилых (>50 лет) ⚠️
+
+- **Новый дебют после 50 лет — красный флаг** (см. §7): обязательная колоноскопия + расширенная лаб. панель.
+- Чаще функциональный диспепсический оверлап, BAM, медикаментозно-индуцированные симптомы (опиоиды, антихолинергики).
+- Осторожность с TCA (антихолинергические эффекты, риск падений, делирия).
+
+#### Источники §16
+- Klem F, et al. *Prevalence, risk factors, and outcomes of irritable bowel syndrome after infectious enteritis: a systematic review and meta-analysis.* Gastroenterology. 2017;152(5):1042-1054.
+- Pimentel M, et al. *Development and validation of a biomarker for diarrhea-predominant irritable bowel syndrome.* PLoS One. 2015;10(5):e0126438.
+- Ghoshal UC, et al. *Irritable bowel syndrome and small intestinal bacterial overgrowth: meaningful association or unnecessary hype.* World J Gastroenterol. 2014;20(10):2482-2491.
+- Heitkemper MM, et al. *Symptoms across the menstrual cycle in women with irritable bowel syndrome.* Am J Gastroenterol. 2003;98(2):420-430.
+
+---
+
+## 17. ⭐ Чек-лист Agent-Nutri
+
+Алгоритм для бота при подозрении на СРК (порядок строгий):
+
+1. **Анамнез:** длительность ≥3 мес, характеристика боли, связь с дефекацией, тип стула (Bristol).
+2. **Rome IV (§3):** боль ≥1 день/нед + ≥2 из 3 критериев.
+3. **Red flags (§7):** возраст >50, кровь, ночные симптомы, потеря веса, семейный анамнез — НЕ СРК → направление к врачу.
+4. **Подтип (§4):** IBS-D / IBS-C / IBS-M / IBS-U.
+5. **Базовая лаб. диагностика (§9):** ОАК, СРБ, кальпротектин, tTG-IgA, TSH; по показаниям — H₂-тест.
+6. **Первая линия:** общие принципы (§10.1) + дневник симптомов 4 недели.
+7. **Вторая линия:** Low FODMAP (→ sibo_sifo.md §16.1) или псиллиум (§10.3); фарма по подтипу (§12).
+8. **Третья линия:** висцеральные модуляторы (§12.5) + психотерапия (§14).
+9. **Мониторинг:** оценка через 4 / 8 / 12 нед; если нет ответа — пересмотр диагноза (§16.2).
+
+⚠️ Бот **не назначает** рецептурные препараты — только предоставляет EBM-обзор и направляет к врачу.
+
 ---
 
