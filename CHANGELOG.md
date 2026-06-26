@@ -8,7 +8,7 @@
 - **MINOR** (0.X.0) — завершение крупного блока (кластер, миграция, новый слой архитектуры).
 - **PATCH** (0.0.X) — отдельные доработки внутри блока.
 
-Текущая версия: **0.5.2** (в активной разработке).
+Текущая версия: **0.5.3** (в активной разработке).
 
 ---
 
@@ -21,6 +21,25 @@
 - Расширение `references/clinical_guidelines/` гайдлайнами по витамину D, гипотиреозу, метаболическому синдрому.
 - Введение ADR (Architecture Decision Records) в `docs/decisions/`.
 - Завершение миграции старого плоского слоя `references/01_…13_*.md` в новый четырёхслойный.
+
+---
+
+## [0.5.3] — 2026-06-23
+
+### Added
+- `references/methodology/ibs.md` — **новый протокол** создан с нуля (673 строки, 22 H2, 55 H3, ⭐54 / ◆22 / ⚠️18). Полная структура: §§1-5 определение СРК / эпидемиология / Rome IV критерии / подтипы (IBS-D/C/M/U) / патогенез (ось мозг-кишечник, дисбиоз, повышенная проницаемость, мастоцитоз, школьная позиция «СРК как ярлык»); §§6-9 клиническая картина / red flags / расширенная дифдиагностика / лабораторная и инструментальная диагностика (базовый чек-лист + расширения по подтипам); §§10-13 диетотерапия (общие принципы, Low FODMAP через ссылку на `sibo_sifo.md §16.1`, псиллиум, что НЕ работает) / step-up стратегия / фармакотерапия по подтипам IBS-D/C/M / спазмолитики / висцеральные модуляторы / пробиотики штамм-специфично; §§14-17 психотерапия и mind-gut axis (CBT, gut-directed hypnotherapy, MBSR) / нутрицевтики (магний, мелатонин, куркумин, STW-5, L-глутамин) / особые ситуации (PI-IBS, СРК+SIBO, женщины, пожилые) / чек-лист Agent-Nutri; §18 симптом-навигатор (12 строк); §19 бенчмарк школа vs EBM (12 аспектов).
+- Ключевые источники: Lacy 2021 (ACG IBS Clinical Guideline), Vasant 2021 (BSG IBS), Rome IV 2016 (Lacy/Mearin), NICE CG61 (2017 update), Pimentel 2011 (TARGET 1/2 rifaximin), Halmos 2014 (Low FODMAP RCT), Moayyedi 2014 (fiber meta), Staudacher 2017 (FODMAP+probiotic), Whorwell 2006 (B. infantis 35624), Ford 2018 (probiotic meta), Lackner 2018 (CBT IBSOS), Peters 2016 (gut-directed hypnotherapy), Zhou 2019 (L-glutamine PI-IBS), Klem 2017 (PI-IBS meta), Sperber 2021 (Rome Foundation global), Drossman 2016 (biopsychosocial model), Pittayanon 2019 (microbiota IBS), Skodje 2018 (fructan vs gluten).
+
+### Changed
+- `project/STATUS.md`: Кластер 2 прогресс 5/7 (71%) → 6/7 (86%); `ibs.md` отмечен ✅ с реальными метриками (673/22/55/54/22/18); аудит 109 → 130 кросс-ссылок; блок «Следующая сессия» заменён на Сессию 33 (создание `ibd.md` — финальный файл Кластера 2); добавлена запись истории Сессии 32.
+- `references/methodology/_clusters.md`: Кластер 2 → 6/7 (86%), `ibs.md` отмечен ✅.
+
+### Commits (Session 32, all on `copilot/build-v2-nutrition-agent-core`)
+- `eaeb766` — Session 32 (part 1): create ibs.md skeleton + §§1-5 (definition, epidemiology, Rome IV, subtypes, pathogenesis) — 180 lines
+- `0cd05a8` — Session 32 (part 2): expand ibs.md §§6-9 (clinical picture, red flags, differential dx, lab diagnostics, +162 lines)
+- `cf4ce3d` — Session 32 (part 3): expand ibs.md §§10-13 (diet therapy, Low FODMAP link, fiber, treatment strategy, pharmacotherapy by subtype, probiotics, +144 lines)
+- `1c43823` — Session 32 (part 4): expand ibs.md §§14-17 (psychotherapy mind-gut, nutraceuticals, special situations, Agent-Nutri checklist, +126 lines)
+- `fb266d4` — Session 32 (part 5): add ibs.md §18 symptom-navigator + §19 EBM benchmark + metadata v2.0 (673 lines, 22 H2, 55 H3, status: Ready)
 
 ---
 
