@@ -9,7 +9,7 @@
 | № | Название | Файлы | Статус | Прогресс |
 |---|----------|-------|--------|----------|
 | 1 | Основы питания и пищеварения | `digestion_basics.md`, `nutrition_basics.md`, `nutrition_principles.md` | 🟢 Активный | 3/3 ✅ |
-| 2 | ЖКТ (верхний и нижний отделы) | `stomach_health.md`, `intestinal_health.md`, `colon_coprogram.md`, `sibo_sifo.md` ✅, `gluten_celiac.md` ✅, `ibs.md` ✅, `ibd.md` (план) | 🟢 Активный | 6/7 (86%) |
+| 2 | ЖКТ (верхний и нижний отделы) | `stomach_health.md` ✅, `intestinal_health.md` ✅, `colon_coprogram.md` ✅, `sibo_sifo.md` ✅, `gluten_celiac.md` ✅, `ibs.md` ✅, `ibd.md` ✅ | 🟢 Активный | 7/7 ✅ (100%) |
 | 3 | Гепато-билиарно-панкреатическая система | `liver_health.md`, `gallbladder_health.md`, `pancreas_health.md` | 🟢 Активный | 3/3 ✅ |
 | 4 | Эндокринология: щитовидная железа | `thyroid_health.md` | 🟢 Активный | 1/1 ✅ |
 | 5 | Эндокринология: метаболизм и углеводы | `insulin_resistance.md` | 🟢 Активный | 1/1 ✅ |
