@@ -17,10 +17,10 @@
 | 7   | Стресс и надпочечники                   | `stress_adrenals.md`                                                                                                                           | 🟢 Активный     | 1/1 ✅        |
 | 8   | Микронутриенты (витамины и минералы)    | `vitamins.md` ✅, `minerals.md` ✅ | 🟢 Активный     | 2/2 ✅        |
 | 9   | Аутоиммунные состояния | `autoimmune_basics.md` ✅, `hashimoto.md` ✅, `rheumatoid_arthritis.md` ✅, `psoriasis.md` ✅, `lupus_sle.md` ✅, `multiple_sclerosis.md` ✅, `vitiligo.md` ✅, `sjogren.md` ✅, `ibd.md` ✅, `scleroderma.md` ✅, `myasthenia_gravis.md` ✅ | 🟢 Активный | 11/11 ✅ |
-| 10  | Антипаразитарные протоколы             | `parasitology_basics.md` ✅, `blastocystis.md` ✅, `giardia.md` ✅ | 🟡 В работе     | 3/6           |
+| 10  | Антипаразитарные протоколы             | `parasitology_basics.md` ✅, `blastocystis.md` ✅, `giardia.md` ✅, `helminths.md` ✅ | 🟡 В работе     | 4/6           |
 | 11  | Клиентская работа                       | —                                                                                                                                              | 🟡 Запланирован | 0/?           |
 
-**Итого активных файлов:** 31 (Кластеры 1–10). **Готовность Кластеров 1–7:** 17/19 (89%). **Кластер 8 закрыт (2/2)** файлами `vitamins.md`, `minerals.md`. Кластер 9 открыт файлами `autoimmune_basics.md`, `hashimoto.md`, `rheumatoid_arthritis.md`, `psoriasis.md`, `lupus_sle.md`, `multiple_sclerosis.md`, `vitiligo.md`, `sjogren.md`, `ibd.md`, `scleroderma.md`, `myasthenia_gravis.md`. **Кластер 9 закрыт (11/11).** Кластер 9 расширяется (планируется 11 файлов).
+**Итого активных файлов:** 32 (Кластеры 1–10). **Готовность Кластеров 1–7:** 17/19 (89%). **Кластер 8 закрыт (2/2)** файлами `vitamins.md`, `minerals.md`. Кластер 9 открыт файлами `autoimmune_basics.md`, `hashimoto.md`, `rheumatoid_arthritis.md`, `psoriasis.md`, `lupus_sle.md`, `multiple_sclerosis.md`, `vitiligo.md`, `sjogren.md`, `ibd.md`, `scleroderma.md`, `myasthenia_gravis.md`. **Кластер 9 закрыт (11/11).** Кластер 9 расширяется (планируется 11 файлов).
 
 ### 1.1 Кластер 8 — детали (`vitamins.md`)
 
