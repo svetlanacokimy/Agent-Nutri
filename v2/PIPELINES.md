@@ -1,4 +1,4 @@
-# PIPELINES.md — Пайплайны команд
+﻿# PIPELINES.md — Пайплайны команд
 
 Внутренний процесс мышления агента для каждой команды. Дополняет `AGENT.md` (маршрутизация) — здесь описано **как агент думает**, а не только что делает.
 
@@ -18,7 +18,7 @@
 **Что читает перед стартом:**
 - `clients/[Фамилия]/profile.md`
 - `clients/[Фамилия]/blood_tests.md`
-- `references/11_reference_values.md`
+- `references/methodology/tables/lab_values_master.md`
 - Профильные `references/` по выявленным системам
 - `learning/new_knowledge.md`
 - `learning/cases.md` (по этой фамилии, если есть)
@@ -151,7 +151,7 @@
 
 ## Pipeline `/compare [Фамилия]`
 
-**Что читает:** ВСЕ предыдущие файлы клиента (обязательно, до начала анализа), `references/11_reference_values.md`.
+**Что читает:** ВСЕ предыдущие файлы клиента (обязательно, до начала анализа), `references/methodology/tables/lab_values_master.md`.
 
 **Шаги:**
 1. Читает всю историю клиента — не начинает с нуля.

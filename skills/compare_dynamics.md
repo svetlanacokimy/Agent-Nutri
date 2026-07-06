@@ -1,4 +1,4 @@
----
+﻿---
 name: compare-dynamics
 description: >
   Сравнение анализов между датами, оценка результата схемы и корректировка плана.
@@ -24,7 +24,7 @@ description: >
 1. Исторические анализы клиента
 2. Текущие анализы клиента
 3. Последняя схема рекомендаций
-4. references/11_reference_values.md
+4. references/methodology/tables/lab_values_master.md
 
 ## Последовательность
 

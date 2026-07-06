@@ -769,7 +769,7 @@
 - `references/methodology/sibo_sifo.md`
 - `references/methodology/intestinal_health.md`
 - `references/methodology/nutrition_basics.md`
-- `references/methodology/lab_diagnostics.md`
+- `references/methodology/protocols/lab_diagnostics.md`
 - `references/04_lipids_insulin.md`
 - `references/09_nutraceuticals.md`
 

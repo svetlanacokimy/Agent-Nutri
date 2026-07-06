@@ -22,7 +22,7 @@
 
 Таблица: `references/methodology/tables/lab_values_master.md` — мастер-таблица референсов (85 показателей, 12 разделов, 3 уровня: 🔵 лабораторный / 🟡 клинический / 🟢 функциональный). **Приоритетный источник норм.**
 Протокол: `references/methodology/protocols/lab_diagnostics.md` — алгоритм первичного осмотра (7 шагов), опорные паттерны (анемии, воспаление, ИР, щитовидка, метилирование), расхождения с гайдлайнами, чек-лист годовых анализов. **Приоритетный источник алгоритмов.**
-Выжимка (DEPRECATED): `references/11_reference_values.md` — старые референсы, заменены master-таблицей.
+Выжимка (DEPRECATED): `references/methodology/tables/lab_values_master.md` — старые референсы, заменены master-таблицей.
 Выжимка (DEPRECATED): `references/03_lab_diagnostics.md` — старые принципы, заменены протоколом.
 Первичный: `text_extracted/УРОК 7. ЛАБОРАТОРНАЯ ДИАГНОСТИКА.txt`
 Первичный: `text_extracted/УРОК 15. Общий анализ крови (ОАК).txt`
@@ -71,7 +71,7 @@
 Методология: `references/methodology/thyroid_health.md` _(полный протокол, 692 строки, 27 разделов; физиология HPT-оси и периферической конверсии, гипо-/гипертиреоз, АИТ Хашимото, болезнь Грейвса, узлы и TIRADS, йод школьный vs ATA/ETA, селен 200 мкг при АИТ, безглютеновая диета, стратегия с L-тироксином, 11+ красных флагов)_
 Первичный: `text_extracted/УРОК 17. Щитовидная железа. Йод.txt` _(487 строк, основной источник: ЩЖ, гипо/гипертиреоз, АИТ, йод, патч-тест, феномен Браунштейна, отмена L-тироксина)_
 Связанные: `text_extracted/УРОК 12. Селен, йод, цинк.txt` _(нутрицевтика при ЩЖ)_
-Связанные: `text_extracted/УРОК 19. Анализы.txt` _(лабораторная диагностика)_
+Связанные: `text_extracted/УРОК 19. Разбор анализов.txt` _(лабораторная диагностика)_
 Связанные: `text_extracted/УРОК 22. Аутоиммунные заболевания.txt` _(АИТ, триггеры)_
 
 Смежные протоколы:
@@ -81,7 +81,7 @@
 - `references/methodology/intestinal_health.md` — целиакия + АИТ, всасывание L-тироксина
 - `references/methodology/sibo_sifo.md` — СИБР при гипотиреозе
 - `references/methodology/stomach_health.md` — H. pylori и всасывание L-тироксина и Fe
-- `references/methodology/lab_diagnostics.md` — интерпретация панели ЩЖ
+- `references/methodology/protocols/lab_diagnostics.md` — интерпретация панели ЩЖ
 
 ---
 
@@ -102,7 +102,7 @@
 - `references/methodology/insulin_resistance.md` — ↓ГСПГ, ↑ИФР-1, метаболический синдром как факторы риска ФКМ и РМЖ.
 - `references/methodology/liver_health.md` — 1-2 фазы детоксикации эстрогенов, метаболиты 2/4/16α-OH-E1, COMT/SULT/GST.
 - `references/methodology/intestinal_health.md` — эстраболом, β-глюкуронидаза, дисбиоз и реабсорбция эстрогенов.
-- `references/methodology/lab_diagnostics.md` — гормональные и микроэлементные панели.
+- `references/methodology/protocols/lab_diagnostics.md` — гормональные и микроэлементные панели.
 - `references/methodology/nutrition_basics.md` — крестоцветные, льняное семя, омега-3, клетчатка, ограничение алкоголя.
 
 **Гайдлайны:**
@@ -429,7 +429,7 @@
 - `references/methodology/sibo_sifo.md` — эстроболом, β‑глюкуронидаза
 - `references/methodology/intestinal_health.md` — выведение эстрогенов, клетчатка
 - `references/methodology/nutrition_basics.md` — полноценные жиры для синтеза стероидов
-- `references/methodology/lab_diagnostics.md` — референсы гормональной панели
+- `references/methodology/protocols/lab_diagnostics.md` — референсы гормональной панели
 
 ---
 

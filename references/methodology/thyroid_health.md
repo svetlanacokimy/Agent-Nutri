@@ -654,7 +654,7 @@ T3 связывается с мембранными рецепторами (ин
 - `references/methodology/sibo_sifo.md` — СИБР при гипотиреозе
 - `references/methodology/stomach_health.md` — H. pylori и всасывание L-тироксина и Fe
 - `references/methodology/nutrition_basics.md` — белок, КБЖУ, режим
-- `references/methodology/lab_diagnostics.md` — интерпретация панели
+- `references/methodology/protocols/lab_diagnostics.md` — интерпретация панели
 
 ### ◆ Источники
 
