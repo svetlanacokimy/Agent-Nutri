@@ -17,10 +17,10 @@
 | 7   | Стресс и надпочечники                   | `stress_adrenals.md`                                                                                                                           | 🟢 Активный     | 1/1 ✅        |
 | 8   | Микронутриенты (витамины и минералы)    | `vitamins.md` ✅, `minerals.md` ✅ | 🟢 Активный     | 2/2 ✅        |
 | 9   | Аутоиммунные состояния | `autoimmune_basics.md` ✅, `hashimoto.md` ✅, `rheumatoid_arthritis.md` ✅, `psoriasis.md` ✅, `lupus_sle.md` ✅, `multiple_sclerosis.md` ✅, `vitiligo.md` ✅, `sjogren.md` ✅, `ibd.md` ✅, `scleroderma.md` ✅, `myasthenia_gravis.md` ✅ | 🟢 Активный | 11/11 ✅ |
-| 10  | Антипаразитарные протоколы              | —                                                                                                                                              | 🟡 Запланирован | 0/?           |
+| 10  | Антипаразитарные протоколы             | `parasitology_basics.md` ✅ | 🟡 В работе     | 1/6           |
 | 11  | Клиентская работа                       | —                                                                                                                                              | 🟡 Запланирован | 0/?           |
 
-**Итого активных файлов:** 28 (Кластеры 1–9). **Готовность Кластеров 1–7:** 17/19 (89%). **Кластер 8 закрыт (2/2)** файлами `vitamins.md`, `minerals.md`. Кластер 9 открыт файлами `autoimmune_basics.md`, `hashimoto.md`, `rheumatoid_arthritis.md`, `psoriasis.md`, `lupus_sle.md`, `multiple_sclerosis.md`, `vitiligo.md`, `sjogren.md`, `ibd.md`, `scleroderma.md`, `myasthenia_gravis.md`. **Кластер 9 закрыт (11/11).** Кластер 9 расширяется (планируется 11 файлов).
+**Итого активных файлов:** 29 (Кластеры 1–10). **Готовность Кластеров 1–7:** 17/19 (89%). **Кластер 8 закрыт (2/2)** файлами `vitamins.md`, `minerals.md`. Кластер 9 открыт файлами `autoimmune_basics.md`, `hashimoto.md`, `rheumatoid_arthritis.md`, `psoriasis.md`, `lupus_sle.md`, `multiple_sclerosis.md`, `vitiligo.md`, `sjogren.md`, `ibd.md`, `scleroderma.md`, `myasthenia_gravis.md`. **Кластер 9 закрыт (11/11).** Кластер 9 расширяется (планируется 11 файлов).
 
 ### 1.1 Кластер 8 — детали (`vitamins.md`)
 
