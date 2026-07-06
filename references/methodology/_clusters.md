@@ -15,7 +15,7 @@
 | 5   | Эндокринология: метаболизм и углеводы   | `insulin_resistance.md`                                                                                                                        | 🟢 Активный     | 1/1 ✅        |
 | 6   | Эндокринология: женское здоровье        | `female_hormones.md`, `menopause.md`, `mastopathy.md`                                                                                          | 🟢 Активный     | 3/3 ✅        |
 | 7   | Стресс и надпочечники                   | `stress_adrenals.md`                                                                                                                           | 🟢 Активный     | 1/1 ✅        |
-| 8   | Микронутриенты                          | `vitamins.md` ✅, `minerals.md` ✅ | 🟢 Активный     | 2/2 ✅        |
+| 8   | Микронутриенты (витамины и минералы)    | `vitamins.md` ✅, `minerals.md` ✅ | 🟢 Активный     | 2/2 ✅        |
 | 9   | Аутоиммунные состояния | `autoimmune_basics.md` ✅, `hashimoto.md` ✅, `rheumatoid_arthritis.md` ✅, `psoriasis.md` ✅, `lupus_sle.md` ✅, `multiple_sclerosis.md` ✅, `vitiligo.md` ✅, `sjogren.md` ✅, `ibd.md` ✅, `scleroderma.md` ✅, `myasthenia_gravis.md` ✅ | 🟢 Активный | 11/11 ✅ |
 | 10  | Антипаразитарные протоколы              | —                                                                                                                                              | 🟡 Запланирован | 0/?           |
 | 11  | Клиентская работа                       | —                                                                                                                                              | 🟡 Запланирован | 0/?           |
