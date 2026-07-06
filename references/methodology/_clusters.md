@@ -16,11 +16,11 @@
 | 6   | Эндокринология: женское здоровье        | `female_hormones.md`, `menopause.md`, `mastopathy.md`                                                                                          | 🟢 Активный     | 3/3 ✅        |
 | 7   | Стресс и надпочечники                   | `stress_adrenals.md`                                                                                                                           | 🟢 Активный     | 1/1 ✅        |
 | 8   | Микронутриенты                          | `vitamins.md` ✅                                                                                                                               | 🟢 Активный     | 1/?           |
-| 9   | Аутоиммунные состояния | `autoimmune_basics.md` ✅, `hashimoto.md` ✅, `rheumatoid_arthritis.md` ✅, `psoriasis.md` ✅, `lupus_sle.md` ✅, `multiple_sclerosis.md` ✅, `vitiligo.md` ✅, `sjogren.md` ✅, `ibd.md` ✅, `scleroderma.md` ✅ | 🟢 Активный | 10/11 |
+| 9   | Аутоиммунные состояния | `autoimmune_basics.md` ✅, `hashimoto.md` ✅, `rheumatoid_arthritis.md` ✅, `psoriasis.md` ✅, `lupus_sle.md` ✅, `multiple_sclerosis.md` ✅, `vitiligo.md` ✅, `sjogren.md` ✅, `ibd.md` ✅, `scleroderma.md` ✅, `myasthenia_gravis.md` ✅ | 🟢 Активный | 11/11 ✅ |
 | 10  | Антипаразитарные протоколы              | —                                                                                                                                              | 🟡 Запланирован | 0/?           |
 | 11  | Клиентская работа                       | —                                                                                                                                              | 🟡 Запланирован | 0/?           |
 
-**Итого активных файлов:** 26 (Кластеры 1–9). **Готовность Кластеров 1–7:** 17/19 (89%). Кластер 8 открыт файлом `vitamins.md`. Кластер 9 открыт файлами `autoimmune_basics.md`, `hashimoto.md`, `rheumatoid_arthritis.md`, `psoriasis.md`, `lupus_sle.md`, `multiple_sclerosis.md`, `vitiligo.md`, `sjogren.md`, `ibd.md`, `scleroderma.md`. Кластер 9 расширяется (планируется 11 файлов).
+**Итого активных файлов:** 27 (Кластеры 1–9). **Готовность Кластеров 1–7:** 17/19 (89%). Кластер 8 открыт файлом `vitamins.md`. Кластер 9 открыт файлами `autoimmune_basics.md`, `hashimoto.md`, `rheumatoid_arthritis.md`, `psoriasis.md`, `lupus_sle.md`, `multiple_sclerosis.md`, `vitiligo.md`, `sjogren.md`, `ibd.md`, `scleroderma.md`, `myasthenia_gravis.md`. **Кластер 9 закрыт (11/11).** Кластер 9 расширяется (планируется 11 файлов).
 
 ### 1.1 Кластер 8 — детали (`vitamins.md`)
 
