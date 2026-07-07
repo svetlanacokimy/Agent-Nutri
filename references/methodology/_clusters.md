@@ -8,19 +8,19 @@
 
 | №   | Название                                | Файлы                                                                                                                                          | Статус          | Прогресс      |
 | --- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------------- |
-| 1   | Основы питания и пищеварения            | `digestion_basics.md`, `nutrition_basics.md`, `nutrition_principles.md`                                                                        | 🟢 Активный     | 3/3 ✅        |
-| 2   | ЖКТ (верхний и нижний отделы)           | `stomach_health.md` ✅, `intestinal_health.md` ✅, `colon_coprogram.md` ✅, `sibo_sifo.md` ✅, `gluten_celiac.md` ✅, `ibs.md` ✅, `ibd.md` ✅ | 🟢 Активный     | 7/7 ✅ (100%) |
-| 3   | Гепато-билиарно-панкреатическая система | `liver_health.md`, `gallbladder_health.md`, `pancreas_health.md`                                                                               | 🟢 Активный     | 3/3 ✅        |
-| 4   | Эндокринология: щитовидная железа       | `thyroid_health.md`                                                                                                                            | 🟢 Активный     | 1/1 ✅        |
-| 5   | Эндокринология: метаболизм и углеводы   | `insulin_resistance.md`                                                                                                                        | 🟢 Активный     | 1/1 ✅        |
-| 6   | Эндокринология: женское здоровье        | `female_hormones.md`, `menopause.md`, `mastopathy.md`                                                                                          | 🟢 Активный     | 3/3 ✅        |
-| 7   | Стресс и надпочечники                   | `stress_adrenals.md`                                                                                                                           | 🟢 Активный     | 1/1 ✅        |
-| 8   | Микронутриенты (витамины и минералы)    | `vitamins.md` ✅, `minerals.md` ✅ | 🟢 Активный     | 2/2 ✅        |
-| 9   | Аутоиммунные состояния | `autoimmune_basics.md` ✅, `hashimoto.md` ✅, `rheumatoid_arthritis.md` ✅, `psoriasis.md` ✅, `lupus_sle.md` ✅, `multiple_sclerosis.md` ✅, `vitiligo.md` ✅, `sjogren.md` ✅, `ibd.md` ✅, `scleroderma.md` ✅, `myasthenia_gravis.md` ✅ | 🟢 Активный | 11/11 ✅ |
+| 1   | Основы питания и пищеварения            | `digestion_basics.md`, `nutrition_basics.md`, `nutrition_principles.md`                                                                        | 🟢 Закрыт       | 3/3 ✅        |
+| 2   | ЖКТ (верхний и нижний отделы)           | `stomach_health.md` ✅, `intestinal_health.md` ✅, `colon_coprogram.md` ✅, `sibo_sifo.md` ✅, `gluten_celiac.md` ✅, `ibs.md` ✅, `ibd.md` ✅ | 🟢 Закрыт       | 7/7 ✅ (100%) |
+| 3   | Гепато-билиарно-панкреатическая система | `liver_health.md`, `gallbladder_health.md`, `pancreas_health.md`                                                                               | 🟢 Закрыт       | 3/3 ✅        |
+| 4   | Эндокринология: щитовидная железа       | `thyroid_health.md`                                                                                                                            | 🟢 Закрыт       | 1/1 ✅        |
+| 5   | Эндокринология: метаболизм и углеводы   | `insulin_resistance.md`                                                                                                                        | 🟢 Закрыт       | 1/1 ✅        |
+| 6   | Эндокринология: женское здоровье        | `female_hormones.md`, `menopause.md`, `mastopathy.md`                                                                                          | 🟢 Закрыт       | 3/3 ✅        |
+| 7   | Стресс и надпочечники                   | `stress_adrenals.md`                                                                                                                           | 🟢 Закрыт       | 1/1 ✅        |
+| 8   | Микронутриенты (витамины и минералы)    | `vitamins.md` ✅, `minerals.md` ✅ | 🟢 Закрыт       | 2/2 ✅        |
+| 9   | Аутоиммунные состояния | `autoimmune_basics.md` ✅, `hashimoto.md` ✅, `rheumatoid_arthritis.md` ✅, `psoriasis.md` ✅, `lupus_sle.md` ✅, `multiple_sclerosis.md` ✅, `vitiligo.md` ✅, `sjogren.md` ✅, `ibd.md` ✅, `scleroderma.md` ✅, `myasthenia_gravis.md` ✅ | 🟢 Закрыт   | 11/11 ✅ |
 | 10  | Антипаразитарные протоколы | `parasitology_basics.md` ✅, `blastocystis.md` ✅, `giardia.md` ✅, `helminths.md` ✅, `protozoa_others.md` ✅, `sibo_parasites_overlap.md` ✅ | 🟢 Закрыт | 6/6 |
 | 11  | Клиентская работа | `client_intake.md` ✅, `client_assessment.md` ✅, `motivational_interviewing.md` ✅, `goal_setting.md` ✅, `objection_handling.md` ✅, `client_communication.md` ✅, `long_term_support.md` ✅, `ethics_scope.md` ✅ | 🟢 Закрыт | 8/8 |
 
-**Итого активных файлов:** 42 (Кластеры 1–11). **Готовность Кластеров 1–7:** 17/19 (89%). **Кластер 8 закрыт (2/2)** файлами `vitamins.md`, `minerals.md`. Кластер 9 открыт файлами `autoimmune_basics.md`, `hashimoto.md`, `rheumatoid_arthritis.md`, `psoriasis.md`, `lupus_sle.md`, `multiple_sclerosis.md`, `vitiligo.md`, `sjogren.md`, `ibd.md`, `scleroderma.md`, `myasthenia_gravis.md`. **Кластер 9 закрыт (11/11).** Кластер 9 расширяется (планируется 11 файлов).
+**Итого активных файлов:** 42 (Кластеры 1–11). **Все 11 кластеров закрыты (100%).** Разбивка: Кластер 1 — 3/3, Кластер 2 — 7/7, Кластер 3 — 3/3, Кластер 4 — 1/1, Кластер 5 — 1/1, Кластер 6 — 3/3, Кластер 7 — 1/1, Кластер 8 — 2/2, Кластер 9 — 11/11, Кластер 10 — 6/6, Кластер 11 — 8/8.
 
 ### 1.1 Кластер 8 — детали (`vitamins.md`)
 
