@@ -1,9 +1,9 @@
 ﻿# SOURCES_INDEX.md — Карта «тема → файл»
 
-
 Где искать знания по конкретной клинической теме.
 
 **Порядок чтения (приоритет сверху вниз):**
+
 1. **Гайдлайн** — `references/clinical_guidelines/*.md` — клинические протоколы по конкретным состояниям (с международными источниками).
 2. **Протокол** — `references/methodology/protocols/*.md` — алгоритмы школы.
 3. **Таблица** — `references/methodology/tables/*.md` — справочные таблицы (мастер-референсы).
@@ -14,7 +14,6 @@
 Если темы нет ни на одном уровне — см. `v2/KNOWLEDGE_PROTOCOL.md`, Категория B или C.
 
 **Период миграции (с 2026-05-22):** новый четырёхуровневый слой (`biochemistry/`, `clinical_guidelines/`, `methodology/`, `personal_practice/`) сосуществует со старым плоским слоем. Старые файлы помечены DEPRECATED по мере замены.
-
 
 ---
 
@@ -34,7 +33,6 @@
 Первичный: `text_extracted/УРОК 19. Разбор анализов.txt`
 Связанные: `text_extracted/Таблица для отслеживания результатов.txt`
 
-
 ---
 
 ## Железодефицит и анемия
@@ -47,7 +45,6 @@
 Первичный: `text_extracted/УРОК 15. Общий анализ крови (ОАК).txt`
 Связанные: `text_extracted/УРОК 16. Биохимический анализ крови.txt`
 
-
 ---
 
 ## Инсулинорезистентность и диабет
@@ -59,6 +56,7 @@
 Связанные: `references/09_nutraceuticals.md` (берберин, хром, альфа-липоевая кислота)
 
 Смежные протоколы:
+
 - `references/methodology/liver_health.md` — НАЖБП как следствие/причина ИР
 - `references/methodology/pancreas_health.md` — β-клетки, панкреатогенный СД
 - `references/methodology/sibo_sifo.md` — дисбиоз как фактор ИР
@@ -69,12 +67,14 @@
 ## Щитовидная железа и АИТ
 
 Методология: `references/methodology/thyroid_health.md` _(полный протокол, 692 строки, 27 разделов; физиология HPT-оси и периферической конверсии, гипо-/гипертиреоз, АИТ Хашимото, болезнь Грейвса, узлы и TIRADS, йод школьный vs ATA/ETA, селен 200 мкг при АИТ, безглютеновая диета, стратегия с L-тироксином, 11+ красных флагов)_
+Подпротокол: `references/methodology/hashimoto.md` — аутоиммунный тиреоидит Хашимото (541 строка): патогенез, антитела (АТ-ТПО, АТ-ТГ), стадии, селен 200 мкг, безглютеновая диета, LDN, стратегия с L-тироксином, ассоциированные аутоиммунные состояния.
 Первичный: `text_extracted/УРОК 17. Щитовидная железа. Йод.txt` _(487 строк, основной источник: ЩЖ, гипо/гипертиреоз, АИТ, йод, патч-тест, феномен Браунштейна, отмена L-тироксина)_
 Связанные: `text_extracted/УРОК 12. Селен, йод, цинк.txt` _(нутрицевтика при ЩЖ)_
 Связанные: `text_extracted/УРОК 19. Разбор анализов.txt` _(лабораторная диагностика)_
 Связанные: `text_extracted/УРОК 22. Аутоиммунные заболевания.txt` _(АИТ, триггеры)_
 
 Смежные протоколы:
+
 - `references/methodology/female_hormones.md` — ↑пролактин при гипотиреозе, СПКЯ-имитация, СДЭ, мастопатия
 - `references/methodology/insulin_resistance.md` — гипотиреоз и ИР, общий аутоиммунный фон
 - `references/methodology/liver_health.md` — конверсия T4→T3, НАЖБП и гипотиреоз
@@ -88,15 +88,18 @@
 ## Молочная железа и мастопатия
 
 **Методология (полный протокол):**
+
 - `references/methodology/mastopathy.md` — 789 строк, 27 разделов, 103 подзаголовка. Покрывает физиологию МЖ (HPG/HPT/печёночно-кишечная оси, эмбриогенез, циклические изменения, лактация, йод в ткани МЖ), патологию (классификация ФКМ по МКБ-10, Dupont-Page, BI-RADS, 6-факторный патогенез, мастодиния, выделения из соска, факторы риска РМЖ, наследственные синдромы BRCA1/2, CHEK2, PALB2), диагностику (УЗИ, маммография, томосинтез, МРТ, биопсия), терапию (нутрицевтики с разбором школа vs доказательная: DIM/I3C, кальций-D-глюкарат, селен, магний, B6, омега-3, витамин D, мелатонин, витекс, GLA), питание, образ жизни, 4-шаговый чек-лист. Два двухколонных раздела: 11 (6 причин ФКМ) и 22 (йод при ФКМ — Ghent 1993, Kessler 2004, формы KI/I₂/Lugol, дозы, противопоказания).
 
 **Первичные источники (школа):**
+
 - `text_extracted/УРОК 21. Гормоны…txt` — раздел 3 (мастопатия): СДЭ, прогестерон-дефицит, ПМС-мастодиния, нутрицевтики (DIM, индол-3-карбинол, магний B6, омега-3, витекс, прогестерон трансдермально).
 - `text_extracted/УРОК 17. Щитовидная железа. Йод.txt` — йод как фактор лечения ФКМ (Ghent, Kessler, патч-тест, дозы 400-600 мкг, противопоказания при АИТ и узлах).
 - `text_extracted/УРОК 12. Селен, йод, цинк.txt` — селен 200 мкг при АИТ-ассоциированной ФКМ, цинк, формы йода.
 - `text_extracted/УРОК 22. Аутоиммунные заболевания.txt` — АИТ как фактор риска ФКМ через гиперпролактинемию.
 
 **Связанные методологии:**
+
 - `references/methodology/female_hormones.md` — СДЭ, прогестерон-дефицит, гиперпролактинемия, СПКЯ, ПМС (основа патогенеза ФКМ).
 - `references/methodology/thyroid_health.md` — гипотиреоз → ↑ТРГ → ↑PRL → ФКМ; йод и селен как кофакторы МЖ и ЩЖ.
 - `references/methodology/insulin_resistance.md` — ↓ГСПГ, ↑ИФР-1, метаболический синдром как факторы риска ФКМ и РМЖ.
@@ -106,6 +109,7 @@
 - `references/methodology/nutrition_basics.md` — крестоцветные, льняное семя, омега-3, клетчатка, ограничение алкоголя.
 
 **Гайдлайны:**
+
 - NCCN Breast Cancer Screening and Diagnosis 2024.
 - NICE NG101 (РМЖ, 2018/2023), NICE CG164 (наследственный РМЖ, 2013/2023).
 - ESMO Primary Breast Cancer 2023.
@@ -114,6 +118,7 @@
 - WHO Iodine Deficiency Disorders 2007/2023.
 
 **Ключевые исследования:**
+
 - Ghent 1993 (йод при ФКМ, открытое исследование); Kessler 2004 (молекулярный йод РКИ, n=111).
 - Reed 2008 (DIM/I3C и соотношение метаболитов эстрогенов).
 - Wuttke 2003, van Die 2013 (витекс при мастодинии и ПМС).
@@ -125,17 +130,18 @@
 - Collaborative Group 2002 (лактация и РМЖ, n=147 000).
 - Hamajima 2002 (алкоголь и РМЖ, n=58 515).
 
-
 ## Менопауза и климактерий
 
 **Методология:** `references/methodology/menopause.md` (868 строк, 27 разделов)
 
 **Первичные источники (уроки школы):**
+
 - Урок 21 — Менопауза, климактерический синдром, ЗГТ
 - Урок 17 — Щитовидная железа (гипотиреоз маскирует климактерий)
 - Урок 22 — Аутоиммунные заболевания (АИТ ↑ в перименопаузе)
 
 **Связанные методологические файлы:**
+
 - `references/methodology/female_hormones.md` — гормональная база до менопаузы
 - `references/methodology/mastopathy.md` — ФКМ и риск РМЖ, йод
 - `references/methodology/thyroid_health.md` — АИТ и гипотиреоз
@@ -144,6 +150,7 @@
 - `references/methodology/intestinal_health.md` — эстроболом
 
 **Клинические руководства:**
+
 - NAMS 2022 Hormone Therapy Position Statement — Menopause 2022;29(7):767-794
 - IMS 2016 Recommendations on Women's Midlife Health — Climacteric 2016;19(2):109-150
 - NICE NG23 Menopause: diagnosis and management (обновл. 2024)
@@ -154,6 +161,7 @@
 - USPSTF 2024 — Breast Cancer Screening
 
 **Ключевые РКИ и метаанализы:**
+
 - WHI 2002 (Rossouw) — JAMA 2002;288(3):321-333 (риски ЗГТ, критика дизайна)
 - Manson 2017 — JAMA 2017;318(10):927-938 (18-летнее наблюдение WHI, mortality benefit <60 лет)
 - ELITE (Hodis 2016) — N Engl J Med 2016;374:1221-1231 (timing hypothesis)
@@ -165,17 +173,18 @@
 
 **Двухколоночный анализ «школа vs доказательная медицина»:** разделы 18 (ЗГТ) и 22 (фитоэстрогены)
 
-
 ## Стресс и надпочечники
 
 **Методология:** `references/methodology/stress_adrenals.md` (1017 строк, 27 разделов)
 
 **Первичные источники (уроки школы):**
+
 - Урок по стрессу и надпочечникам (определить точный номер)
 - Урок 17 — Щитовидная железа (HPT-HPA cross-talk, low-T3 syndrome)
 - Урок 12 — Селен, йод, цинк (нутрицевтики поддержки)
 
 **Связанные методологические файлы:**
+
 - `references/methodology/thyroid_health.md` — HPT-HPA cross-talk, маска «adrenal fatigue»
 - `references/methodology/insulin_resistance.md` — кортизол → ИР, висцеральное ожирение
 - `references/methodology/female_hormones.md` — pregnenolone steal, функциональный гипогонадизм
@@ -185,6 +194,7 @@
 - `references/methodology/intestinal_health.md` — gut-brain axis, дисбиоз при стрессе
 
 **Клинические руководства:**
+
 - Endocrine Society 2016 — Primary Adrenal Insufficiency (Bornstein SR et al.) — JCEM 2016;101(2):364-389
 - Endocrine Society 2008 — Diagnosis of Cushing's Syndrome (Nieman LK et al.) — JCEM 2008;93(5):1526-1540
 - Endocrine Society 2014 — Pheochromocytoma and Paraganglioma (Lenders JW et al.) — JCEM 2014;99(6):1915-1942
@@ -193,6 +203,7 @@
 - Endocrine Society 2010 — позиция по «adrenal fatigue» (термин отвергнут)
 
 **Ключевые исследования:**
+
 - Cadegiani FA, Kater CE 2016 — «Adrenal fatigue does not exist: a systematic review» — BMC Endocr Disord 2016;16(1):48
 - McEwen BS 1998 — Allostasis and allostatic load — Ann N Y Acad Sci 1998;840:33-44
 - Seeman TE et al. 1997 — Allostatic load (MacArthur Studies) — Arch Intern Med 1997;157(19):2259-2268
@@ -213,7 +224,8 @@
 
 ## Витамины
 
-Выжимка: `references/05_vitamins_minerals.md` (разделы жиро- и водорастворимых витаминов)
+Протокол: `references/methodology/vitamins.md` — клинический протокол по витаминам (1692 строки): биохимия, формы, нормы, дефицит, токсичность, лабораторная диагностика, дозировки, лекарственные взаимодействия, особые группы (школа Урок 12 + Endocrine Society, IOM/NAM, EFSA, Linus Pauling Institute). **Приоритетный источник.**
+Выжимка (DEPRECATED, замещён vitamins.md): `references/05_vitamins_minerals.md` (разделы жиро- и водорастворимых витаминов)
 Первичный: `text_extracted/УРОК 12. Витамины. Формы. Анализы. Дозировки.txt`
 Связанные: `references/09_nutraceuticals.md` (конкретные формы БАД)
 
@@ -221,7 +233,8 @@
 
 ## Минеральные элементы
 
-Выжимка: `references/05_vitamins_minerals.md` (раздел «Минеральные элементы»)
+Протокол: `references/methodology/minerals.md` — клинический протокол по 14 ключевым минералам (1293 строки): биохимия, функции, нормы, дефицит, токсичность, лабораторная диагностика, источники, дозировки, взаимодействия, клинические ассоциации. **Приоритетный источник.**
+Выжимка (DEPRECATED, замещён minerals.md): `references/05_vitamins_minerals.md` (раздел «Минеральные элементы»)
 Первичный: `text_extracted/УРОК 13. Минеральные элементы.txt`
 Первичный: `text_extracted/Таблицы совместимости минералов и витаминов.txt`
 
@@ -234,6 +247,7 @@
 Первичный: `text_extracted/УРОК 2. ГЭРБ. Схема работы.txt` (Этап 2, II ступень)
 Первичный: `text_extracted/УРОК 3. Нelicobacter pylori. Нутрицевтическая схема работы.txt` (Этап 2, II ступень)
 Смежные протоколы: `intestinal_health.md` (мальабсорбция B12/железа при гипоацидности), `sibo_sifo.md` (гипоацидность → СИБР), `gallbladder_health.md` (ДГР, нейтрализация HCl), `pancreas_health.md` (последовательность пищеварения), `colon_coprogram.md` (мышечные волокна как маркёр гипоацидности), `gluten_celiac.md` (аутоиммунные ассоциации)
+
 ---
 
 ## ЖКТ: кишечник — общая физиология и микрофлора
@@ -249,9 +263,11 @@
 ## ЖКТ: печень, НаЖБП/MASLD, синдром Жильбера
 
 ### Методология
+
 - `references/methodology/liver_health.md` — клинический протокол (984 строки, 27 разделов из них 24 содержательных, 97 H3, ⭐54 / ◆32 / ⚠️45). Структура: физиология (1–3), лабораторная диагностика (4), патологии (5–7 гемангиома, нутрицевтики, СЖ), NAЖБП/MASLD блок (10–12 по AASLD/EASL 2023), DILI (13), вирусные гепатиты (14), аутоиммунные (15), холестаз (16), питание/алкоголь/образ жизни (17–19), нутриенты (20), гормональный метаболизм (21), особые группы (22), расширенная дифдиагностика (23), бенчмарк (24), правила и чек-лист (25–26).
 
 ### Бенчмарк (§24 — школа vs доказательная медицина)
+
 - «Чистки печени» оливковым маслом + лимонным соком: псевдокамни как мыла жирных кислот (Sies, Lancet 2005)
 - «Фаза 3 детоксикации» школьная vs реальная биохимия ABC-транспортёров MRP2/MDR1/BCRP (Keppler 2011)
 - Силимарин как «универсальный гепатопротектор» vs Cochrane Rambaldi 2007 (умеренный эффект)
@@ -260,6 +276,7 @@
 - Гепатопротекторы «всем подряд курсами» vs показания (силимарин, УДХК, фосфолипиды)
 
 ### Клинические рекомендации
+
 - EASL Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (J Hepatol 2024)
 - AASLD Practice Guidance on the clinical assessment and management of NAFLD/MASLD (Hepatology 2023)
 - NICE NG49: Non-alcoholic fatty liver disease — assessment and management (2016, обновления)
@@ -268,6 +285,7 @@
 - WHO AUDIT — Alcohol Use Disorders Identification Test (2001)
 
 ### Ключевые исследования и обзоры
+
 - Rinella ME et al. A multisociety Delphi consensus statement on new fatty liver disease nomenclature (Hepatology 2023)
 - Younossi ZM et al. Global epidemiology of MASLD: systematic review and meta-analysis (Hepatology 2023, 38% распространённость)
 - Harrison SA et al. A Phase 3, Randomized, Controlled Trial of Resmetirom in NASH with Liver Fibrosis — MAESTRO-NASH (NEJM 2024)
@@ -280,6 +298,7 @@
 - GBD 2016 Alcohol Collaborators. Alcohol use and burden — global analysis (Lancet 2018)
 
 ### Связанные протоколы методологии
+
 - `references/methodology/gallbladder_health.md` — желчные кислоты, ПХЭС, билиарный путь метаболизма эстрогенов
 - `references/methodology/pancreas_health.md` — сфинктер Одди, билиарный панкреатит, диабет 3c
 - `references/methodology/intestinal_health.md` — энтерогепатическая циркуляция
@@ -295,9 +314,11 @@
 ## Желчный пузырь и желчевыводящие пути
 
 ### Методология
+
 - `references/methodology/gallbladder_health.md` — клинический протокол (663 строки, 26 разделов, 57 H3, ⭐29 / ◆15 / ⚠️46). Структура: физиология (1–7), клиника и нутрицевтика (8–17), патология ЖКБ/ПХЭС/безопасность (18–23), бенчмарк «школа vs ДМ» (24), расширенная диагностика (25), кросс‑протоколы и источники (26).
 
 ### Бенчмарк (§24 — школа vs доказательная медицина)
+
 - Симптомные ЖКБ: литолитики vs холецистэктомия (EASL 2016, NICE CG188, Cochrane УДХК 2013)
 - Билиарный сладж и концепция «застоя желчи» (EASL 2016)
 - Желчегонные травы — артишок, силимарин, куркумин (Holtmann 2003, Cochrane 2007)
@@ -307,12 +328,14 @@
 - Последствия холецистэктомии — ПХЭС, СИБР, КРР (реальные риски)
 
 ### Клинические рекомендации
+
 - EASL Clinical Practice Guidelines on gallstones (J Hepatol 2016)
 - NICE CG188: Gallstone disease — diagnosis and management (2014, обновления)
 - ACG Clinical Guideline: Functional Gallbladder Disorder (Cotton 2016, Rome IV)
 - AGA Clinical Practice Update: Functional Gallbladder Disorder (2022)
 
 ### Ключевые исследования и обзоры
+
 - Cochrane: Ursodeoxycholic acid for gallstones (2013)
 - Cochrane: Milk thistle for liver diseases (Rambaldi 2007)
 - Lammert F. et al. Gallstones. Nature Reviews Disease Primers (2016)
@@ -321,6 +344,7 @@
 - Cotton PB et al. Rome IV. Gallbladder and sphincter of Oddi disorders (Gastroenterology 2016)
 
 ### Связанные протоколы методологии
+
 - `references/methodology/liver_health.md` — синтез желчных кислот, NAЖБП, метаболизм эстрогенов
 - `references/methodology/pancreas_health.md` — сфинктер Одди, билиарный панкреатит
 - `references/methodology/intestinal_health.md` — энтерогепатическая циркуляция
@@ -378,6 +402,21 @@
 - [`references/methodology/digestion_basics.md`](../references/methodology/digestion_basics.md) — базовая физиология ферментного каскада
 - [`references/methodology/nutrition_principles.md`](../references/methodology/nutrition_principles.md) — БЖУ, MCT-масла при EPI
 - [`references/methodology/stress_adrenals.md`](../references/methodology/stress_adrenals.md) — кортизол → гипергликемия → нагрузка на бета-клетки
+
+## ЖКТ: синдром раздражённого кишечника (СРК)
+
+Протокол: `references/methodology/ibs.md` — клинический протокол по СРК (673 строки): Римские критерии IV, 3 подтипа (СРК-Д/СРК-З/СРК-М), патофизиология (ось кишечник-мозг, висцеральная гиперчувствительность, дисбиоз, постинфекционный СРК), диагностика и красные флаги, low FODMAP, нутрицевтическая поддержка.
+Связанные: `references/methodology/sibo_sifo.md` (СИБР как причина СРК), `references/methodology/colon_coprogram.md` (копрограмма, Бристольская шкала), `references/methodology/intestinal_health.md` (микрофлора)
+
+---
+
+## ЖКТ: воспалительные заболевания кишечника (ВЗК)
+
+Протокол: `references/methodology/ibd.md` — клинический протокол по ВЗК/IBD (564 строки): болезнь Крона и язвенный колит, патогенез, диагностика (кальпротектин, эндоскопия), красные флаги, нутритивная поддержка, противовоспалительное питание.
+Связанные: `references/methodology/intestinal_health.md` (кишечная проницаемость), `references/methodology/colon_coprogram.md` (маркёры воспаления), `references/methodology/autoimmune_basics.md` (аутоиммунный компонент)
+
+---
+
 ## ЖКТ: глютен и целиакия
 
 Протокол: `references/methodology/gluten_celiac.md` ⭐ (полный протокол по глютену и целиакии — Этап 1 Урок 2 + Этап 2 Урок 7: биохимия глютена, 3 механизма повреждения слизистой, спектр состояний (целиакия, NCGS, аллергия), HLA-DQ2/DQ8, лабораторная диагностика (АТ к глиадину, биопсия, tTG, HLA), 18 признаков непереносимости, связки с ПЖ/ЖП/ЩЖ/молочкой, безглютеновая диета, восстановление слизистой)
@@ -392,13 +431,11 @@
 Первичный: `text_extracted/УРОК 8. СИБР. СДК. Анализ по Осипову.txt` (Этап 2 Урок 8)
 Смежные протоколы: `intestinal_health.md` (общая физиология), `gluten_celiac.md`, `gallbladder_health.md`, `pancreas_health.md`
 
-
 ## ЖКТ: толстый кишечник, копрограмма
 
 Протокол: `references/methodology/colon_coprogram.md` ⭐ (полный протокол толстого кишечника и копрограммы — Этап 2 Урок 9: анатомия 4 отделов ободочной + прямая (160 см), 4 функции (детокс, выведение эстрогенов, всасывание воды, формирование кала), микрофлора и бутират ◆, Бристольская шкала ⭐ (все 7 типов ◆), запоры/диарея 4 механизма ⭐, СРК ◆ (3 подтипа, Римские критерии IV, low FODMAP), дивертикулёз ◆, копрограмма ⭐ (22 показателя, полная расшифровка), 4 синдрома по копрограмме ⭐ (желудок/ЖП/ПЖ/СИБР), современные маркеры ◆ (кальпротектин, лактоферрин, эластаза-1, sIgA, β-дефензин-2, зонулин), нутрицевтика ◆ (псиллиум, бутират, магний, пробиотики, L-глутамин, алоэ, цинк-карнозин, куркумин), 10 правил безопасности, чек-лист Agent-Nutri)
 Первичный: `text_extracted/УРОК 9. Толстый кишечник. Копрограмма. Почки. ОАМ.txt` (Этап 2 Урок 9, разделы 1-2: толстый кишечник + копрограмма; разделы 3-4 «Почки» и «ОАМ» — для будущего кластера выделительной системы)
 Смежные протоколы: `sibo_sifo.md` (СИБР/СДК), `gluten_celiac.md`, `pancreas_health.md`, `gallbladder_health.md`, `intestinal_health.md`, `digestion_basics.md`
-
 
 ## Липидный профиль, гомоцистеин
 
@@ -409,9 +446,23 @@
 
 ## Аутоиммунные заболевания
 
-Выжимка: `references/08_autoimmune_neuro.md`
-Первичный: `text_extracted/УРОК 22. Аутоиммунные заболевания.txt`
-Связанные: `text_extracted/Аутоиммунное меню.txt`
+Базовый протокол: `references/methodology/autoimmune_basics.md` — базовые механизмы и нутрициологические подходы (926 строк): классификация, патогенез (потеря толерантности, молекулярная мимикрия, кишечная проницаемость), общие триггеры, диагностика, противовоспалительное/элиминационное питание, нутрицевтическая поддержка. **Референс для частных аутоиммунных заболеваний.**
+Подпротоколы:
+
+- `references/methodology/hashimoto.md` — аутоиммунный тиреоидит Хашимото (541 строка)
+- `references/methodology/rheumatoid_arthritis.md` — ревматоидный артрит (739 строк)
+- `references/methodology/psoriasis.md` — псориаз (735 строк)
+- `references/methodology/lupus_sle.md` — системная красная волчанка (535 строк)
+- `references/methodology/multiple_sclerosis.md` — рассеянный склероз (529 строк)
+- `references/methodology/vitiligo.md` — витилиго (514 строк)
+- `references/methodology/sjogren.md` — синдром Шегрена (435 строк)
+- `references/methodology/scleroderma.md` — системная склеродермия (466 строк)
+- `references/methodology/myasthenia_gravis.md` — миастения гравис (400 строк)
+- `references/methodology/ibd.md` — воспалительные заболевания кишечника (564 строки)
+  Выжимка (DEPRECATED): `references/08_autoimmune_neuro.md`
+  Первичный: `text_extracted/УРОК 22. Аутоиммунные заболевания.txt`
+  Связанные: `text_extracted/Аутоиммунное меню.txt`
+  Связанные протоколы: `references/methodology/intestinal_health.md` (кишечная проницаемость), `references/methodology/stress_adrenals.md` (кортизол-триггер), `references/methodology/gluten_celiac.md` (молекулярная мимикрия)
 
 ---
 
@@ -424,6 +475,7 @@
 Связанные: `references/09_nutraceuticals.md` _(витекс, DIM, I3C, мио‑инозитол, кальций‑D‑глюкарат)_
 
 Смежные протоколы:
+
 - `references/methodology/insulin_resistance.md` — ИР как основа 70‑80 % СПКЯ‑фенотипа, снижение ГСПГ
 - `references/methodology/liver_health.md` — детокс эстрогенов (фазы I/II), синтез ГСПГ
 - `references/methodology/sibo_sifo.md` — эстроболом, β‑глюкуронидаза
@@ -450,13 +502,22 @@
 
 ---
 
-## Паразиты, антипаразитарный курс
+## Паразитология и антипаразитарный курс
 
-Выжимка: `references/10_antiparasitic.md`
-Первичный: `text_extracted/УРОК 29. Антипаразитарный курс. Правила прохождения.txt`
-Первичный: `text_extracted/АПК от Аврора от лямблий и аскарид.txt`
-Первичный: `text_extracted/АПК от всех видов паразитов.txt`
-Первичный: `text_extracted/Антипаразитарное меню.txt`
+Базовый протокол: `references/methodology/parasitology_basics.md` — база кластера (528 строк): классификация, эпидемиология, диагностика, клинические маски, роль в микробиоме и иммунном ответе, принципы эрадикации, антипаразитарная нутрициологическая поддержка. **Референс для частных паразитарных протоколов.**
+Подпротоколы:
+
+- `references/methodology/giardia.md` — Giardia lamblia (501 строка)
+- `references/methodology/blastocystis.md` — Blastocystis spp. (408 строк)
+- `references/methodology/helminths.md` — гельминтозы (656 строк)
+- `references/methodology/protozoa_others.md` — прочие простейшие (500 строк)
+- `references/methodology/sibo_parasites_overlap.md` — пересечение СИБР и паразитарных инфекций (416 строк)
+  Выжимка: `references/10_antiparasitic.md`
+  Первичный: `text_extracted/УРОК 29. Антипаразитарный курс. Правила прохождения.txt`
+  Первичный: `text_extracted/АПК от Аврора от лямблий и аскарид.txt`
+  Первичный: `text_extracted/АПК от всех видов паразитов.txt`
+  Первичный: `text_extracted/Антипаразитарное меню.txt`
+  Связанные: `references/methodology/sibo_sifo.md`, `references/methodology/intestinal_health.md`, `references/methodology/colon_coprogram.md`
 
 ---
 
@@ -499,12 +560,22 @@
 
 ---
 
-## Работа с клиентами, анкета, дневник питания
+## Работа с клиентами: интервью, оценка, ведение
 
-Выжимка: `references/13_client_work.md`
-Первичный: `text_extracted/УРОК 30. Работа с клиентами. Социальные сети.txt`
-Первичный: `text_extracted/АНКЕТА ДЛЯ ЗАПОЛНЕНИЯ.txt`
-Первичный: `text_extracted/Дневник питания форма для печати.txt`
+Протоколы (кластер 11 «Клиентская работа»):
+
+- `references/methodology/ethics_scope.md` — этика и границы компетенций нутрициолога (1079 строк)
+- `references/methodology/client_intake.md` — первичный приём: сбор анамнеза и запроса (607 строк)
+- `references/methodology/client_assessment.md` — оценка и анализ данных клиента (539 строк)
+- `references/methodology/motivational_interviewing.md` — мотивационное интервью (619 строк)
+- `references/methodology/goal_setting.md` — постановка целей и планирование поведения (644 строки)
+- `references/methodology/objection_handling.md` — работа с возражениями клиента (627 строк)
+- `references/methodology/client_communication.md` — коммуникация и сопровождение клиента (758 строк)
+- `references/methodology/long_term_support.md` — долгосрочное сопровождение клиента (807 строк)
+  Выжимка: `references/13_client_work.md`
+  Первичный: `text_extracted/УРОК 30. Работа с клиентами. Социальные сети.txt`
+  Первичный: `text_extracted/АНКЕТА ДЛЯ ЗАПОЛНЕНИЯ.txt`
+  Первичный: `text_extracted/Дневник питания форма для печати.txt`
 
 ---
 
@@ -518,13 +589,13 @@
 ## Темы, которых нет в базе (требуют досдачи или относятся к Категории B/C)
 
 - Генетические полиморфизмы (MTHFR, VDR, COMT и др.) — нет в базе, Категория C.
-- Микробиом (подробные протоколы) — частично в `references/01_digestion_gastro.md` и УРОК 4/8, но без протоколов восстановления.
 - Восстановление после ковид — только УРОК 27, выжимки нет.
-- Суставы / остеопороз — только УРОК 26, выжимки нет.
+- Суставы / остеопороз — только УРОК 26; плановый протокол `joints_osteoporosis.md` (ROADMAP).
 - Онкология, онкопрофилактика — нет в базе, Категория C.
 - Препараты (рецептурные, фармакокинетика) — за пределами компетенции агента.
 
+**Плановые протоколы (Категория B, ROADMAP):**
 
-
-
-
+- Кожа, волосы, ногти — плановый протокол `skin_hair_health.md`.
+- Нервная система, мигрень, сон — плановый протокол `nervous_system.md`.
+- Нутрицевтики (сводный протокол БАД) — плановый протокол `nutraceuticals_comprehensive.md`.
