@@ -37,6 +37,7 @@ desktop.ini
 # --- Временные файлы ---
 *.tmp
 *.bak
+*.bak.*
 *.swp
 *~
 
