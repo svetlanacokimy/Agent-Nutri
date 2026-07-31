@@ -1,9 +1,9 @@
 ﻿# STATUS.md — состояние проекта Agent-Nutri v2
 
-## 📌 Текущее состояние (на 2026-07-27)
+## 📌 Текущее состояние (на 2026-07-31)
 
-**Ветка:** `copilot/build-v2-nutrition-agent-core`
-**Последнее событие:** Миграция базы знаний — Этап B2/B3 (создание 8 методичек + синхронизация реестров `SOURCES_INDEX.md` и `_clusters.md`).
+**Ветка:** `main` (ветка `copilot/build-v2-nutrition-agent-core` замёржена через PR #2 и удалена в Session 49).
+**Последнее событие:** Этап F.1 — EBM-обогащение `nutraceuticals.md` (0 → 74 EBM-тега, §13 EBM Benchmark). Создана спецификация `project/EBM_STANDARD.md` v1.0 и аудит-инструмент `scripts/audit_ebm_compliance.ps1`.
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
@@ -71,66 +71,77 @@
 
 ---
 
-## 🔄 Последняя сессия — 2026-07-27 (Сессия 38, Этап B2 + B3)
-
-**Тема:** Массовое создание методологического слоя — 8 новых методичек по Категории B и расширению покрытия + полная синхронизация реестров.
-
-**Сделано:**
-
-- **8 новых методичек в `references/methodology/`** (все приняты с первого раза, 4 486 строк новой методологии):
-  1. `tables/unit_conversions.md` — 408 строк (12 таблиц: глюкоза, липиды, гормоны, витамины, минералы, ферменты, гематология). Коммит `df720ad`.
-  2. `skin_hair_health.md` — 618 строк (акне, розацеа, демодекоз, атопический дерматит, коллаген, выпадение волос, ногти). Коммит `1c64b15`.
-  3. `urogenital_infections.md` — 605 строк (цистит, кандидоз, пигментация: мелазма/хлоазма). Коммит `223ac47`.
-  4. `lymph_immune.md` — 512 строк (лимфодренаж, иммуномодуляция, Th1/Th2). Коммит `0ba0556`.
-  5. `nervous_system.md` — 637 строк (стресс, сон, мигрень, HPA-ось, PHQ-9/GAD-7). Коммит `1e0a545`.
-  6. `covid_pregnancy.md` — 654 строки (пост-COVID, MTHFR, спермограмма, прегравидарная подготовка). Коммит `ff186f2`.
-  7. `menus.md` — 501 строка (7 типов лечебных меню: безмолочное, вегетарианское, AIP, антипаразитарное, 1200/1300 ккал, запор/диарея, диабет/ИР). Коммит `46e2b44`.
-  8. `nutraceuticals.md` — 551 строка (классификация, адаптогены, иммуномодуляторы, взаимодействия с лекарствами, АИЗ, беременность, красные флаги). Коммит `cb4a910`.
-
-- **Синхронизация реестров (Этап B2, 3 коммита):**
-  - `v2/SOURCES_INDEX.md`: +25/−7, 601 → 619 строк. Добавлены протокольные ссылки на 8 новых файлов + 2 новых раздела (урогенитальные инфекции, лимфа/иммунитет). Коммит `b748356`.
-  - `references/methodology/_clusters.md`: +74/−17, 74 → 131 строка, v1.0 → v1.1. Добавлены кластеры 12–18. Коммит `34411e5`.
-
-- **Инфраструктура (уборка):**
-  - `.gitignore`: добавлен паттерн `*.bak.*` (защита от коммита бэкапов).
-  - `scripts/patch_sources_index.ps1`: сохранён идемпотентный патчер SOURCES_INDEX (эталон для будущих массовых правок markdown). Коммит `3e241ab`.
-
-**Технические уроки сессии:**
-
-- PowerShell `[regex]::Replace($c, $pattern, $replacement)` требует string-overload для back-references `$1`, `$2` (MatchEvaluator-блок теряет их).
-- Windows CRLF vs LF: перед `.Contains()` и regex-заменой файл нужно нормализовать к LF, потом восстановить CRLF при записи.
-- UTF-8 BOM обязателен при записи через `[System.IO.File]::WriteAllText` — `New-Object System.Text.UTF8Encoding($true)`.
-- Идемпотентные патчеры (проверка marker-паттерна перед заменой) — обязательный паттерн для повторяемых миграций.
-
-**Итого коммитов в сессии:** 11 (8 методичек + `SOURCES_INDEX` + `_clusters` + cleanup).
-**Итого строк новой методологии:** ~4 700 (методички + правки реестров + инфраструктура).
-
+## 🔄 Последняя сессия — 2026-07-31 (Session 50, Этап F.1)
+
+**Тема:** Старт Этапа F — EBM-обогащение `nutraceuticals.md` + создание единой спецификации EBM-стандарта и инструмента аудита.
+
+**Сделано:**
+
+- **`references/methodology/nutraceuticals.md`**: 551 → 655 строк, 63 → 78 KB, **74 EBM-тега** (было 0). Добавлен §13 EBM Benchmark (4 подраздела: гайдлайны, RCT/мета-анализы, «школа vs EBM» на 8+ расхождений, красные зоны). Inline-теги в §3 (Родиола [EBM: Panossian 2010; Ishaque 2012 Cochrane], Мака [EBM: Gonzales 2014], Нони [EBM: West 2018]) и других секциях. Idempotency marker `<!-- EBM_ENRICHED_v1.1 -->`. Backup: `nutraceuticals.md.bak.20260731-184520`. Коммит `66d1a15` (+542/−50).
+
+- **`scripts/ebm_enrich_nutraceuticals.ps1`** (26 987 байт, UTF-8 BOM): идемпотентный EBM-lite enrichment по стандарту Sessions 40–47. 14 патчей применено, 6 SKIP.
+
+- **`project/EBM_STANDARD.md`** v1.0 (18 969 байт, 308 строк, 12 секций): единая спецификация EBM-обогащения — состояния файлов (NO_EBM/PARTIAL_EBM/FULL_EBM), формат inline-тегов, обязательные структурные элементы, idempotency marker, метрики (≥30 тегов, ≥8 расхождений), стандарты PowerShell-скриптов, разрешённые/запрещённые источники, pre-commit чек-лист. Коммит `a8c8cb2`.
+
+- **`scripts/audit_ebm_compliance.ps1`**: аудит всех 53 контентных файлов `references/methodology/` по 15 критериям EBM_STANDARD v1.0. Результат: **FULL_EBM: 4 (7.5 %)** (autoimmune_basics, minerals, nutraceuticals, thyroid_health), **PARTIAL_EBM: 9 (17 %)** (covid_pregnancy, female_hormones, gallbladder_health, hashimoto, joints_osteoporosis, nervous_system, pancreas_health, stress_adrenals, vitamins), **NO_EBM: 40 (75.5 %)**. Всего 435 EBM-тегов, 37 373 строки. Коммит `a8c8cb2`.
+
+**Технические уроки Session 50:**
+
+- **Reality check важнее оптимизма.** До аудита предполагалось «6 файлов до FULL за 3–5 часов». Реальный аудит показал 40 файлов NO_EBM и 9 PARTIAL. Реальный объём Этапа F — 5–7 сессий.
+- **Читать CLAUDE.md ДО работы.** Попытка создать параллельные документы (EBM_FACTORY.md, ETAPE_F_PLAN.md) без чтения существующей архитектуры — антипаттерн. Решение: используется существующая иерархия ROADMAP → STATUS → EBM_STANDARD → скрипты.
+- **Единый блок кода = единая копия.** Правило проекта: скрипты и патчи присылаются одним PowerShell-блоком, не дробятся. Ручные правки поиском по файлу запрещены.
+- **Backtick в PowerShell here-strings небезопасен.** Для литеральных обратных кавычек в @"..."@ использовать переменную `[char]96`. Иначе строка не совпадёт с искомой при .Contains().
+
+**Итого коммитов Session 50:** 2 (`66d1a15`, `a8c8cb2`).
+
+---
+
+## 🔄 Session 49 — 2026-07-31 (закрытие миграции)
+
+**Тема:** Merge PR #2 в `main`, удаление рабочей ветки, синхронизация локального репозитория.
+
+**Сделано:**
+
+- Merge PR #2 (`copilot/build-v2-nutrition-agent-core` → `main`): 69 коммитов, 79 файлов, +26 515 / −6 584 строк. Merge commit `cf54b6e`.
+- Локальный `main` fast-forward: `7c679e6` → `cf54b6e`.
+- Удалена ветка `copilot/build-v2-nutrition-agent-core` локально и на remote.
+
+**Итого:** миграция базы знаний (Этапы A–E) полностью замёржена в `main`.
+
+<!-- STATUS_SESSION50_APPLIED -->
 ---
 
-## ➡️ Следующая сессия — Этап F (планирование)
-
-**Все этапы миграции закрыты (A–E).** Проект в стабильном состоянии: 19 кластеров, 56 методичек, ~360 EBM-тегов, 16 безоткатных коммитов Этапа E.
-
-**Приоритет 1 (финализация Session 48, ~40 мин):**
-
-- Обновить `project/EBM_UPGRADE_PLAN.md` — итоговая таблица 8/8, timeline сессий 40–47, метрики (~8 200 строк enrich, ~360 тегов, 16 коммитов).
-- Обновить `project/EBM_WORKFLOW.md` — уроки Этапа E: 3 формата метаданных (blockquote/plain list/отдельная секция), idempotency marker, структурные аномалии (nervous_system дубликаты, autoimmune_basics строка 153), паттерн SKIP-замен (10–50 %), 5 технических предохранителей, шаблон workflow из 5 команд.
-
-**Приоритет 2 (Этап F — планирование):**
-
-- Определить содержание Этапа F. Возможные направления:
-  - CI-валидатор (проверка маркеров EBM_ENRICHED, таблиц, порядка секций, BOM во всех 8 методичках).
-  - Расширение EBM-lite до EBM-full (уровень 2) для приоритетных методичек.
-  - Merge ветки `copilot/build-v2-nutrition-agent-core` в `main` одним PR.
-  - Автоматизация проверки ссылок между методичками (`audit_links.ps1` v2).
-
-**Приоритет 3 (опционально):**
-
-- Обзор `_archive/` — что оставить, что удалить окончательно.
+## ➡️ Следующая сессия — Session 51 (Этап F.2)
+
+**Контекст:** Этап F запущен. По данным `audit_ebm_compliance.ps1` от 2026-07-31:
+- **FULL_EBM (4/53):** autoimmune_basics, minerals, nutraceuticals, thyroid_health.
+- **PARTIAL_EBM (9/53):** covid_pregnancy, female_hormones, gallbladder_health, hashimoto, joints_osteoporosis, nervous_system, pancreas_health, stress_adrenals, vitamins.
+- **NO_EBM (40/53):** методологические/клиентские файлы, EBM в форме RCT неприменима.
+
+**План Этапа F — довести 9 PARTIAL до FULL:**
+
+1. `joints_osteoporosis.md` (Session 51) — VITAL, LeBoff 2022, NOF 2022, GAIT 2006, FRAX.
+2. `hashimoto.md` (Session 52) — ATA/ETA 2013, Chaker 2017, Rayman 2019.
+3. `vitamins.md` (Session 53) — VITAL, IOM DRI, LactMed.
+4. `female_hormones.md`, `covid_pregnancy.md`, `nervous_system.md`, `pancreas_health.md`, `stress_adrenals.md`, `gallbladder_health.md` — по мере готовности.
+
+**Приоритет 1 (Session 51, ~60–90 мин):**
+
+- EBM-обогащение `joints_osteoporosis.md` по стандарту `EBM_STANDARD.md` v1.0.
+- Создать `scripts/ebm_enrich_joints_osteoporosis.ps1` (5 патчей + §17 EBM Benchmark).
+- Целевые метрики: +30–40 EBM-тегов, +150–200 строк, idempotency marker `EBM_ENRICHED_v1.1`.
+- Прогон `audit_ebm_compliance.ps1` до и после — подтвердить PARTIAL → FULL.
+
+**Приоритет 2 (инфраструктура, опционально):**
+
+- Обобщить `update_status_session50.ps1` → универсальный `scripts/update_status.ps1`.
+- Зафиксировать правила проекта в `learning/corrections.md`: «единый блок кода = единая копия», «backtick-safe here-strings».
 
 ---
 ## 📜 История сессий (краткая хронология)
 
+- **Session 50** (Этап F.1, 2026-07-31): `nutraceuticals.md` 0 → 74 EBM-тегов, +150 строк, §13 EBM Benchmark. Создан `EBM_STANDARD.md` v1.0 (308 строк). Создан `audit_ebm_compliance.ps1` — карта состояний 53 файлов: 4 FULL / 9 PARTIAL / 40 NO_EBM. Коммиты `66d1a15`, `a8c8cb2`. 🎉 **Этап F запущен.**
+- **Session 49** (закрытие миграции, 2026-07-31): Merge PR #2 (69 коммитов, +26 515 / −6 584) в `main`. Merge commit `cf54b6e`. Ветка `copilot/build-v2-nutrition-agent-core` удалена. 🎉 **Этапы A–E замёржены в main.**
 - **Сессия 47** (EBM Этап E 8/8, 2026-07-27): `thyroid_health.md` v2.0→2.1, 798 строк, 106.5 KB, **116 EBM-тегов** (рекорд), 11 inline-замен, §§27.4–27.8 (OCEBM, таблица 10 расхождений, гайдлайны ATA/ETA/NICE, 20 RCT с DOI). Коммиты `bce6025` (+172/−81), `fefde08` (+326, script). 🎉 **Этап E закрыт 8/8 = 100 %.**
 - **Сессия 46** (EBM 7/8, 2026-07-26): `autoimmune_basics.md` v1.0→1.1, 1017 строк, 87.2 KB, **81 EBM-тег**, 15 inline-замен, §10 EBM benchmark (иерархия, 10 расхождений, EULAR/ACR/ECCO, 20 RCT). Коммиты `c448de8` (+151/−61), `3af1f9a` (+316, script).
 - **Сессия 45** (EBM 6/8, 2026-07-26): `female_hormones.md` v2.0→2.1, 885 строк, 86.9 KB, 29 EBM-тегов, 21 inline-замен, §§27.4–27.8 (Monash/AE-PCOS 2023, NICE NG73, NAMS 2022, 25 RCT). Коммиты `c9d2c01` (+113/−14), `5a2555a` (+350, script).
@@ -170,4 +181,4 @@
 - **SSoT для нумерации кластеров** — `references/methodology/_clusters.md`; здесь только зеркало.
 - **Обновлять STATUS.md** — в конце каждой сессии, не откладывать на потом.
 
-<!-- STATUS_SESSION48_APPLIED -->
+<!-- STATUS_SESSION50_APPLIED -->
