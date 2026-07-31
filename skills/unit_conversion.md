@@ -1,4 +1,4 @@
----
+﻿---
 name: unit_conversion
 description: >
   Проверка и пересчёт единиц измерения анализов перед клинической интерпретацией.
@@ -21,13 +21,13 @@ description: >
 ## Входные данные
 
 1. clients/[ФИО]/blood_tests.md и/или исходные бланки
-2. references/11_reference_values.md
+2. references/methodology/tables/lab_values_master.md
 3. references/unit_conversions.md
 
 ## Последовательность
 
 1. Для каждого показателя определить единицу клиента.
-2. Сверить с эталонной единицей из references/11_reference_values.md.
+2. Сверить с эталонной единицей из references/methodology/tables/lab_values_master.md.
 3. При несовпадении выполнить пересчёт по references/unit_conversions.md.
 4. Зафиксировать исходное и пересчитанное значение.
 5. Передать нормализованные значения в skills/analyze_blood.md.

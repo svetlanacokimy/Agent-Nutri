@@ -1,4 +1,4 @@
----
+﻿---
 name: client-intake
 description: >
   Первичный приём: анкета, сбор анамнеза, чек-лист анализов и создание профиля клиента.
@@ -23,7 +23,7 @@ description: >
 1. Ответы клиента по анкете
 2. references/13_client_work.md
 3. references/03_lab_diagnostics.md
-4. references/11_reference_values.md
+4. references/methodology/tables/lab_values_master.md
 
 ## Последовательность
 
