@@ -1,9 +1,9 @@
 ﻿# STATUS.md — состояние проекта Agent-Nutri v2
 
-## 📌 Текущее состояние (на 2026-07-31)
+## 📌 Текущее состояние (на 2026-07-31, Session 52)
 
 **Ветка:** `main`
-**Последнее событие:** Session 51, Этап F.2 — EBM-обогащение `joints_osteoporosis.md` (PARTIAL → FULL_EBM, 0 → 33 EBM-тега, v1.0 → v1.2). Прогресс: 4 → **5 FULL_EBM** файлов (9.4 %), 9 → 8 PARTIAL, 468 EBM-тегов всего.
+**Последнее событие:** Session 52, Этап F.2 — EBM-обогащение `hashimoto.md` (PARTIAL → FULL_EBM, 24 → 34 EBM-тега, v1.1 → v1.2). Прогресс: 5 → **6 FULL_EBM** файлов (11.3 %), 8 → 7 PARTIAL, 478 EBM-тегов всего.
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
@@ -97,26 +97,53 @@
 - Файлы с существующим §EBM Benchmark и подробными Src-ссылками требуют только inline-тегов, не структурного расширения (экономия ~50% усилий на сессию).
 ---
 
-## ➡️ Следующая сессия — Session 52 (Этап F.2 продолжение)
-
-**Контекст:** Session 51 закрыла `joints_osteoporosis.md` (PARTIAL → FULL). Осталось 8 PARTIAL_EBM файлов и 40 NO_EBM.
-
-**PARTIAL_EBM (осталось 8/53):** covid_pregnancy, female_hormones, gallbladder_health, hashimoto, nervous_system, pancreas_health, stress_adrenals, vitamins.
-
-**Приоритет 1 (Session 52, ~60–90 мин):** EBM-обогащение `hashimoto.md` (сейчас 24 тега PARTIAL, порог 30).
-- Аудит: `audit_ebm_compliance.ps1 | Select-String hashimoto` — знать актуальное состояние.
-- Ключевые источники: ATA/ETA 2013, Chaker 2017, Rayman 2019 (селен), Toulis 2010, Wichman 2016 (селен и АТ-ТПО), NICE Thyroid 2019, LactMed.
-- Стратегия: v1 (типовые термины: селен, TSH, T4, АТ-ТПО, антитела, левотироксин, аутоиммунный тиреоидит) → аудит → v2 (доп-теги по разведке).
-- Целевые метрики: 24 → 30+ тегов, marker EBM_ENRICHED_v1.1, метаданные v2.0 → v2.1.
-
-**Приоритет 2 (опционально после hashimoto):** Session 53 — `vitamins.md` (29 тегов, максимально близко к порогу).
-
-**После закрытия PARTIAL (Sessions 52-57, ~5-6 сессий):**
-- Обзор NO_EBM файлов — какие из 40 реально нуждаются в EBM-обогащении (клинические: menopause, mastopathy, ibs, ibd, insulin_resistance, liver_health, stomach_health, gluten_celiac, skin_hair_health, urogenital_infections), а какие корректно остаются NO_EBM (методологические: client_intake, motivational_interviewing, ethics_scope, goal_setting, nutrition_basics).
-- Обсудить с пользователем целевое покрытие Этапа F: 100 % FULL для клинических методичек = ещё ~15-20 сессий.
+## ➡️ Следующая сессия — Session 53 (Этап F.2 продолжение)
 
----
+**Цель:** EBM-обогащение `vitamins.md` (PARTIAL_EBM → FULL_EBM)
+
+### Исходное состояние
+
+- `references/methodology/vitamins.md`: 1777 строк, 171.6 KB (самая крупная методичка проекта)
+- **29 EBM-тегов** (нужно ≥30 для FULL_EBM — на пороге, добавить минимум +5–10 для запаса)
+- `EBM Benchmark` секция присутствует (yes), метаданные отсутствуют (no)
+- Маркер обогащения ещё не установлен → v1.1 (новый)
+
+### Ключевые источники для добавления
+
+- **IOM DRI 2011** — референсные диапазоны витамина D
+- **Manson 2019 VITAL** — витамин D 2000 МЕ РКИ (кардио/онко)
+- **LeBoff 2022 VITAL bone** — витамин D и переломы
+- **Endocrine Society 2024** — обновлённые рекомендации по D
+- **Autier 2014 Lancet Diabetes Endocrinol** — мета-анализ D
+- **Green 2017 Blood** — диагностика дефицита B12
+- **MRC 1991 Lancet** — фолиевая кислота и NTD (Neural Tube Defects)
+- **Knapen 2013** — витамин K2 (переиспользовать из joints)
+- **WHO 2011** — витамин А и иммунитет
+- **Klein 2011 SELECT** — витамин E (переиспользовать из hashimoto)
+
+### Оценка усилий
+
+- 90–120 минут (файл в 3× больше hashimoto)
+- Стратегия: разведка H2-структуры → 12–15 inline-патчей → расширение §EBM Benchmark если требуется
+- Целевой маркер: `<!-- EBM_ENRICHED_v1.1 -->`
+
+### Оставшиеся PARTIAL_EBM после Session 53
+
+covid_pregnancy.md, female_hormones.md, gallbladder_health.md, nervous_system.md, pancreas_health.md, stress_adrenals.md — итого 6 файлов на Sessions 54–57.
+
+### Долгосрочный план Этапа F.2
+
+- Session 53: vitamins.md (29 → ~40 тегов)
+- Session 54: female_hormones.md (29 → ~35, добавить 5–8)
+- Session 55: nervous_system.md (36 тегов + §19 — только структурная нормализация)
+- Session 56: covid_pregnancy.md (16 тегов + §21)
+- Session 57: stress_adrenals.md, gallbladder_health.md, pancreas_health.md (0 тегов, +Benchmark)
+
+**Прогноз к концу Session 57:** 12/53 FULL_EBM (22.6 %), 1 PARTIAL, 40 NO_EBM.
+
 ## 📜 История сессий (краткая хронология)
+
+- **Session 52** (2026-07-31, Этап F.2): `hashimoto.md` PARTIAL → FULL_EBM (24 → 34 EBM-тега, v1.1 → v1.2). Скрипт `ebm_enrich_hashimoto_v2.ps1` (180 строк, 10 патчей, стратегия парных якорей). Источники: Stagnaro-Green 2011, Mizokami 2004, Ch'ng 2007, Tomer 2013, Kim 2017, Mahmoodianfard 2015, Rayman 2019, Messina 2006, Skelin 2017, Alexander 2017 ATA Pregnancy. Коммиты: `ff2008b` (обогащение), `e55b583` (частичное закрытие), fix-коммит (ремонт). Прогресс: FULL 5→6, PARTIAL 8→7, тегов 468→478.
 
 - **Session 51** (Этап F.2, 2026-07-31): `joints_osteoporosis.md` PARTIAL → **FULL_EBM** (0 → 33 EBM-тега, v1.0 → v1.2), §16 EBM benchmark сохранён. Два скрипта: v1 (11/14 патчей) + v2 (20/20 патчей после точечной разведки). Источники: WHO 1994, NOF 2022, VITAL, GAIT, Knapen 2013, Kuptniratsaikul, Bolland, Rizzoli ESCEO. Коммит `59447a5` (+442/−30). 🎉 **5/53 FULL_EBM (9.4 %).**
 - **Session 50** (Этап F.1, 2026-07-31): `nutraceuticals.md` 0 → 74 EBM-тегов, +150 строк, §13 EBM Benchmark. Создан `EBM_STANDARD.md` v1.0 (308 строк). Создан `audit_ebm_compliance.ps1` — карта состояний 53 файлов: 4 FULL / 9 PARTIAL / 40 NO_EBM. Коммиты `66d1a15`, `a8c8cb2`. 🎉 **Этап F запущен.**
