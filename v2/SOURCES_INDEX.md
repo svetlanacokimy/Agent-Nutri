@@ -605,6 +605,31 @@
 
 ---
 
+## EBM-обогащение методичек (стандарт доказательной медицины)
+
+**Спецификация:** `project/EBM_STANDARD.md` v1.0 (2026-07-31, Session 50) — единый стандарт EBM-обогащения: состояния файлов (NO_EBM / PARTIAL_EBM / FULL_EBM), формат inline-тегов `[EBM: Author Year]`, обязательные структурные элементы (EBM Benchmark §, idempotency marker `<!-- EBM_ENRICHED_v1.1 -->`, метаданные v2.0), целевые метрики (≥30 тегов, ≥8 «школа vs EBM» расхождений, ≥15 источников), pre-commit чек-лист.
+
+**Аудит-инструмент:** `scripts/audit_ebm_compliance.ps1` — прогон по всем 53 контентным файлам `references/methodology/*.md` по 15 критериям стандарта. Выводит карту состояний + сводную статистику (тегов, строк, файлов).
+
+**Текущая карта состояний (2026-07-31, Session 50):**
+
+- **FULL_EBM — 4 файла (7.5 %):** `autoimmune_basics.md`, `minerals.md`, `nutraceuticals.md`, `thyroid_health.md`.
+- **PARTIAL_EBM — 9 файлов (17 %):** `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `joints_osteoporosis.md`, `nervous_system.md`, `pancreas_health.md`, `stress_adrenals.md`, `vitamins.md`.
+- **NO_EBM — 40 файлов (75.5 %):** в основном методологические и клиентские файлы, где EBM в форме RCT неприменима (интервью с клиентом, мотивационное интервью, этика, шаблоны меню, антипаразитарные протоколы без RCT-базы).
+- **Всего:** 435 EBM-тегов, 37 373 строки методологии.
+
+**Плановые скрипты Этапа F (обогащение PARTIAL → FULL):**
+
+- `scripts/ebm_enrich_nutraceuticals.ps1` ✅ (Session 50, 74 тега).
+- `scripts/ebm_enrich_joints_osteoporosis.ps1` ⏳ (Session 51).
+- `scripts/ebm_enrich_hashimoto.ps1` ⏳ (Session 52).
+- `scripts/ebm_enrich_vitamins.ps1` ⏳ (Session 53).
+- Остальные 5 PARTIAL — по мере готовности.
+
+**Приоритет для агента при цитировании:** файлы FULL_EBM > PARTIAL_EBM > NO_EBM. При выборе источника рекомендации указывать EBM-тег дословно (например, `[EBM: Manson 2019 VITAL]`) и уровень доказательности (OCEBM 1–5).
+
+---
+
 ## Темы, которых нет в базе (требуют досдачи или относятся к Категории B/C)
 
 - Генетические полиморфизмы (MTHFR, VDR, COMT и др.) — нет в базе, Категория C.
@@ -618,3 +643,5 @@
 - Кожа, волосы, ногти — плановый протокол `skin_hair_health.md`.
 - Нервная система, мигрень, сон — плановый протокол `nervous_system.md`.
 - Нутрицевтики (сводный протокол БАД) — плановый протокол `nutraceuticals_comprehensive.md`.
+
+<!-- SOURCES_INDEX_EBM_APPLIED_v50 -->
