@@ -613,15 +613,16 @@
 
 **Текущая карта состояний (2026-07-31, Session 50):**
 
-- **FULL_EBM — 4 файла (7.5 %):** `autoimmune_basics.md`, `minerals.md`, `nutraceuticals.md`, `thyroid_health.md`.
-- **PARTIAL_EBM — 9 файлов (17 %):** `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `joints_osteoporosis.md`, `nervous_system.md`, `pancreas_health.md`, `stress_adrenals.md`, `vitamins.md`.
+- **FULL_EBM — 5 файлов (9.4 %):** `autoimmune_basics.md`, `joints_osteoporosis.md`, `minerals.md`, `nutraceuticals.md`, `thyroid_health.md`.
+- **PARTIAL_EBM — 8 файлов (15.1 %):** `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `nervous_system.md`, `pancreas_health.md`, `stress_adrenals.md`, `vitamins.md`.
 - **NO_EBM — 40 файлов (75.5 %):** в основном методологические и клиентские файлы, где EBM в форме RCT неприменима (интервью с клиентом, мотивационное интервью, этика, шаблоны меню, антипаразитарные протоколы без RCT-базы).
-- **Всего:** 435 EBM-тегов, 37 373 строки методологии.
+- **Всего:** 468 EBM-тегов, 37 375 строк методологии (обновлено Session 51, 2026-07-31).
 
 **Плановые скрипты Этапа F (обогащение PARTIAL → FULL):**
 
 - `scripts/ebm_enrich_nutraceuticals.ps1` ✅ (Session 50, 74 тега).
-- `scripts/ebm_enrich_joints_osteoporosis.ps1` ⏳ (Session 51).
+- `scripts/ebm_enrich_joints_osteoporosis.ps1` + `scripts/ebm_enrich_joints_osteoporosis_v2.ps1` ✅ (Session 51, 33 тега).
+- `scripts/ebm_enrich_hashimoto.ps1` ⏳ (Session 52).
 - `scripts/ebm_enrich_hashimoto.ps1` ⏳ (Session 52).
 - `scripts/ebm_enrich_vitamins.ps1` ⏳ (Session 53).
 - Остальные 5 PARTIAL — по мере готовности.
@@ -644,4 +645,4 @@
 - Нервная система, мигрень, сон — плановый протокол `nervous_system.md`.
 - Нутрицевтики (сводный протокол БАД) — плановый протокол `nutraceuticals_comprehensive.md`.
 
-<!-- SOURCES_INDEX_EBM_APPLIED_v50 -->
+<!-- SOURCES_INDEX_EBM_APPLIED_v51 -->
