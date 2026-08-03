@@ -613,10 +613,10 @@
 
 **Текущая карта состояний (2026-07-31, Session 50):**
 
-- **FULL_EBM — 7 файлов (13.2 %):** `autoimmune_basics.md`, `hashimoto.md`, `joints_osteoporosis.md`, `minerals.md`, `nutraceuticals.md`, `thyroid_health.md`, `vitamins.md`.
-- **PARTIAL_EBM — 6 файлов (11.3 %):** `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `nervous_system.md`, `pancreas_health.md`, `stress_adrenals.md`.
+- **FULL_EBM — 8 файлов (15.1 %):** `autoimmune_basics.md`, `hashimoto.md`, `joints_osteoporosis.md`, `minerals.md`, `nervous_system.md`, `nutraceuticals.md`, `thyroid_health.md`, `vitamins.md`.
+- **PARTIAL_EBM — 5 файлов (9.4 %):** `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `pancreas_health.md`, `stress_adrenals.md`.
 - **NO_EBM — 40 файлов (75.5 %):** в основном методологические и клиентские файлы, где EBM в форме RCT неприменима (интервью с клиентом, мотивационное интервью, этика, шаблоны меню, антипаразитарные протоколы без RCT-базы).
-- **Всего:** 492 EBM-тега, 37 375 строк методологии (обновлено Session 53, 2026-07-31).
+- **Всего:** 492 EBM-тега, 37 378 строк методологии (обновлено Session 54, 2026-07-31 — структурная нормализация nervous_system.md, +3 строки метаданных).
 
 **Плановые скрипты Этапа F (обогащение PARTIAL → FULL):**
 
@@ -644,4 +644,4 @@
 - Нервная система, мигрень, сон — плановый протокол `nervous_system.md`.
 - Нутрицевтики (сводный протокол БАД) — плановый протокол `nutraceuticals_comprehensive.md`.
 
-<!-- SOURCES_INDEX_EBM_APPLIED_v53 -->
+<!-- SOURCES_INDEX_EBM_APPLIED_v54 -->
