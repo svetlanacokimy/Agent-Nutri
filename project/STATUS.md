@@ -1,9 +1,9 @@
 ﻿# STATUS.md — состояние проекта Agent-Nutri v2
 
-## 📌 Текущее состояние (на 2026-07-31, Session 52)
+## 📌 Текущее состояние (на 2026-07-31, Session 53)
 
 **Ветка:** `main`
-**Последнее событие:** Session 52, Этап F.2 — EBM-обогащение `hashimoto.md` (PARTIAL → FULL_EBM, 24 → 34 EBM-тега, v1.1 → v1.2). Прогресс: 5 → **6 FULL_EBM** файлов (11.3 %), 8 → 7 PARTIAL, 478 EBM-тегов всего.
+**Последнее событие:** Session 53, Этап F.2 — EBM-обогащение `vitamins.md` (PARTIAL → FULL_EBM, 29 → 43 EBM-тега, v1.1 → v1.2). Прогресс: 6 → **7 FULL_EBM** файлов (13.2 %), 7 → 6 PARTIAL, 492 EBM-тега всего.
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
@@ -71,9 +71,9 @@
 
 ---
 
-## 🔄 Последняя сессия — 2026-07-31 (Session 52, Этап F.2)
+## 🔄 Последняя сессия — 2026-07-31 (Session 53, Этап F.2)
 
-**Тема:** EBM-обогащение `hashimoto.md` — PARTIAL_EBM → FULL_EBM
+**Тема:** EBM-обогащение `vitamins.md` — PARTIAL_EBM → FULL_EBM
 
 ### Что сделано
 
@@ -84,10 +84,10 @@
 
 ### Результаты аудита (по `project/EBM_STANDARD.md` v1.0)
 
-- **FULL_EBM: 6/53 файлов (11.3%)** — было 5, +1 (`hashimoto.md`)
-- **PARTIAL_EBM: 7/53 файлов (13.2%)** — было 8, -1
+- **FULL_EBM: 7/53 файлов (13.2%)** — было 6, +1 (`vitamins.md`)
+- **PARTIAL_EBM: 6/53 файлов (11.3%)** — было 7, -1
 - **NO_EBM: 40/53 файлов (75.5%)** — без изменений
-- Всего EBM-тегов: **478** (было 468, +10)
+- Всего EBM-тегов: **492** (было 478, +14)
 - Всего строк: 37 375
 
 ### Технические уроки
@@ -97,14 +97,14 @@
 - Файлы с существующим §EBM Benchmark и подробными Src-ссылками требуют только inline-тегов, не структурного расширения (экономия ~50% усилий на сессию).
 ---
 
-## ➡️ Следующая сессия — Session 53 (Этап F.2 продолжение)
+## ➡️ Следующая сессия — Session 54 (Этап F.2 продолжение)
 
-**Цель:** EBM-обогащение `vitamins.md` (PARTIAL_EBM → FULL_EBM)
+**Цель:** структурная нормализация `nervous_system.md` (PARTIAL_EBM → FULL_EBM, быстрая доводка)
 
 ### Исходное состояние
 
 - `references/methodology/vitamins.md`: 1777 строк, 171.6 KB (самая крупная методичка проекта)
-- **29 EBM-тегов** (нужно ≥30 для FULL_EBM — на пороге, добавить минимум +5–10 для запаса)
+- **36 EBM-тегов уже есть** (порог FULL_EBM = 30 перекрыт), §19 EBM Benchmark на месте
 - `EBM Benchmark` секция присутствует (yes), метаданные отсутствуют (no)
 - Маркер обогащения ещё не установлен → v1.1 (новый)
 
@@ -127,22 +127,23 @@
 - Стратегия: разведка H2-структуры → 12–15 inline-патчей → расширение §EBM Benchmark если требуется
 - Целевой маркер: `<!-- EBM_ENRICHED_v1.1 -->`
 
-### Оставшиеся PARTIAL_EBM после Session 53
+### Оставшиеся PARTIAL_EBM после Session 54
 
 covid_pregnancy.md, female_hormones.md, gallbladder_health.md, nervous_system.md, pancreas_health.md, stress_adrenals.md — итого 6 файлов на Sessions 54–57.
 
 ### Долгосрочный план Этапа F.2
 
-- Session 53: vitamins.md (29 → ~40 тегов)
-- Session 54: female_hormones.md (29 → ~35, добавить 5–8)
-- Session 55: nervous_system.md (36 тегов + §19 — только структурная нормализация)
-- Session 56: covid_pregnancy.md (16 тегов + §21)
-- Session 57: stress_adrenals.md, gallbladder_health.md, pancreas_health.md (0 тегов, +Benchmark)
+- Session 54: nervous_system.md (36 тегов + §19 — только структурная нормализация, добавить маркер+метаданные)
+- Session 55: female_hormones.md (29 → ~35, добавить 5–8 тегов)
+- Session 56: covid_pregnancy.md (16 → ~32 тега, +§21 добавления)
+- Session 57: stress_adrenals.md (0 тегов, полный §Benchmark + inline-теги)
+- Session 58: gallbladder_health.md + pancreas_health.md (0 тегов каждый, +Benchmark)
 
-**Прогноз к концу Session 57:** 12/53 FULL_EBM (22.6 %), 1 PARTIAL, 40 NO_EBM.
+**Прогноз к концу Session 58:** 12/53 FULL_EBM (22.6 %), 0 PARTIAL, 41 NO_EBM.
 
 ## 📜 История сессий (краткая хронология)
 
+- **Session 53** (2026-07-31, Этап F.2): `vitamins.md` PARTIAL → FULL_EBM (29 → 43 EBM-тега, v1.1 → v1.2). Скрипт `ebm_enrich_vitamins_v2.ps1` (168 строк, 13 патчей). Источники: Smith 2018 B12 neurology, Hemilä 2013 Cochrane Vit C, ATBC 1994 NEJM, Omenn 1996 CARET, Klein 2011 SELECT, Lonn 2005 HOPE-TOO, AIM-HIGH 2011, HPS2-THRIVE 2014, Schaumburg 1983, Caudill 2018, Wang 2011 TMAO, Koeth 2013, Unfer 2017 PCOS, D'Anna 2013 GDM. Коммит `1fb26fe` (+185/−17). 🎉 **7/53 FULL_EBM (13.2 %), 492 тега.**
 - **Session 52** (2026-07-31, Этап F.2): `hashimoto.md` PARTIAL → FULL_EBM (24 → 34 EBM-тега, v1.1 → v1.2). Скрипт `ebm_enrich_hashimoto_v2.ps1` (180 строк, 10 патчей, стратегия парных якорей). Источники: Stagnaro-Green 2011, Mizokami 2004, Ch'ng 2007, Tomer 2013, Kim 2017, Mahmoodianfard 2015, Rayman 2019, Messina 2006, Skelin 2017, Alexander 2017 ATA Pregnancy. Коммиты: `ff2008b` (обогащение), `e55b583` (частичное закрытие), fix-коммит (ремонт). Прогресс: FULL 5→6, PARTIAL 8→7, тегов 468→478.
 
 - **Session 51** (Этап F.2, 2026-07-31): `joints_osteoporosis.md` PARTIAL → **FULL_EBM** (0 → 33 EBM-тега, v1.0 → v1.2), §16 EBM benchmark сохранён. Два скрипта: v1 (11/14 патчей) + v2 (20/20 патчей после точечной разведки). Источники: WHO 1994, NOF 2022, VITAL, GAIT, Knapen 2013, Kuptniratsaikul, Bolland, Rizzoli ESCEO. Коммит `59447a5` (+442/−30). 🎉 **5/53 FULL_EBM (9.4 %).**
@@ -187,4 +188,4 @@ covid_pregnancy.md, female_hormones.md, gallbladder_health.md, nervous_system.md
 - **SSoT для нумерации кластеров** — `references/methodology/_clusters.md`; здесь только зеркало.
 - **Обновлять STATUS.md** — в конце каждой сессии, не откладывать на потом.
 
-<!-- STATUS_SESSION52_APPLIED -->
+<!-- STATUS_SESSION53_APPLIED -->
