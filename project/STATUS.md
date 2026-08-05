@@ -3,7 +3,7 @@
 ## 📌 Текущее состояние (на 2026-07-31, Session 53)
 
 **Ветка:** `main`
-**Последнее событие:** Session 55, Этап F.2 — EBM-обогащение `female_hormones.md` (PARTIAL → FULL_EBM, 29 → 37 EBM-тегов, +8 inline, v2.1 → v2.2). Прогресс: 8 → **9 FULL_EBM** файлов (17.0 %), 5 → 4 PARTIAL, 492 → **500 EBM-тегов** (+8). 🎉 Полтысячи EBM-тегов в методологии.
+**Последнее событие:** Session 56, Этап F.2 — EBM-обогащение `covid_pregnancy.md` (PARTIAL → FULL_EBM, 16 → 30 EBM-тегов, +14 inline двумя проходами, v1.1 → v1.3). Прогресс: 9 → **10 FULL_EBM** файлов (18.9 %), 4 → 3 PARTIAL, 500 → **514 EBM-тегов** (+14). Почти пятая часть методологии — FULL_EBM.
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
@@ -84,10 +84,10 @@
 
 ### Результаты аудита (по `project/EBM_STANDARD.md` v1.0)
 
-- **FULL_EBM: 9/53 файлов (17.0%)** — было 8, +1 (`female_hormones.md`)
-- **PARTIAL_EBM: 4/53 файлов (7.5%)** — было 5, -1
+- **FULL_EBM: 10/53 файлов (18.9%)** — было 9, +1 (`covid_pregnancy.md`)
+- **PARTIAL_EBM: 3/53 файлов (5.7%)** — было 4, -1
 - **NO_EBM: 40/53 файлов (75.5%)** — без изменений
-- Всего EBM-тегов: **500** (было 492, +8 — 🎉 полтысячи EBM-тегов в методологии)
+- Всего EBM-тегов: **514** (было 500, +14 — двухпроходное обогащение covid_pregnancy.md: v1 +9, v2 +5 до порога аудита 30)
 - Всего строк: 37 375
 
 ### Технические уроки
@@ -97,7 +97,7 @@
 - Файлы с существующим §EBM Benchmark и подробными Src-ссылками требуют только inline-тегов, не структурного расширения (экономия ~50% усилий на сессию).
 ---
 
-## ➡️ Следующая сессия — Session 56 (Этап F.2 продолжение)
+## ➡️ Следующая сессия — Session 57 (Этап F.2 продолжение)
 
 **Цель:** структурная нормализация `nervous_system.md` (PARTIAL_EBM → FULL_EBM, быстрая доводка)
 
@@ -127,15 +127,14 @@
 - Стратегия: разведка H2-структуры → 12–15 inline-патчей → расширение §EBM Benchmark если требуется
 - Целевой маркер: `<!-- EBM_ENRICHED_v1.1 -->`
 
-### Оставшиеся PARTIAL_EBM после Session 56
+### Оставшиеся PARTIAL_EBM после Session 57
 
-covid_pregnancy.md, female_hormones.md, gallbladder_health.md, nervous_system.md, pancreas_health.md, stress_adrenals.md — итого 6 файлов на Sessions 54–57.
+gallbladder_health.md, pancreas_health.md, stress_adrenals.md — итого 3 файла на Sessions 57–59 (все с 0 тегов, требуют полного обогащения с нуля).
 
 ### Долгосрочный план Этапа F.2
 
-- Session 56: covid_pregnancy.md (16 тегов → ~25, добавить 9-10 тегов до FULL_EBM — ACOG COVID pregnancy, RCOG, WHO, Cochrane)
+- Session 57: gallbladder_health.md (0 тегов → ~30, полное обогащение с нуля — AASLD 2018, EASL 2016 gallstone guideline, Cochrane, WGO)
 - Session 55: female_hormones.md (29 → ~35, добавить 5–8 тегов)
-- Session 56: covid_pregnancy.md (16 → ~32 тега, +§21 добавления)
 - Session 57: stress_adrenals.md (0 тегов, полный §Benchmark + inline-теги)
 - Session 58: gallbladder_health.md + pancreas_health.md (0 тегов каждый, +Benchmark)
 
@@ -190,4 +189,4 @@ covid_pregnancy.md, female_hormones.md, gallbladder_health.md, nervous_system.md
 - **SSoT для нумерации кластеров** — `references/methodology/_clusters.md`; здесь только зеркало.
 - **Обновлять STATUS.md** — в конце каждой сессии, не откладывать на потом.
 
-<!-- STATUS_SESSION55_APPLIED -->
+<!-- STATUS_SESSION56_APPLIED -->
