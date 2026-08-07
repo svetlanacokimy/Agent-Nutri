@@ -95,6 +95,24 @@
 8. Размер файла увеличился (не уменьшился).
    9-13. Проверки на присутствие конкретных цитат (по одной на каждый P-патч).
 
+### ⚠️ Ловушка PowerShell (L-057-01)
+
+Если якорная строка содержит markdown-бэктики (например, имя файла в обратных кавычках), **всегда** оборачивай её в **single quotes** (одинарные кавычки), а не в double quotes.
+
+Причина: в double-quoted строке PowerShell бэктик — это escape-префикс, он исчезает из строки, и `-replace` не находит якорь → `ANCHOR NOT FOUND`.
+
+Плохо (бэктики съедаются):
+
+    $anchor = "- `covid_pregnancy.md` (обогащён)"   # бэктики исчезнут
+
+Хорошо (литерал сохраняется):
+
+    $anchor = '- `covid_pregnancy.md` (обогащён)'   # бэктики на месте
+
+Для многострочных якорей — конкатенация single-quoted литералов или here-string на одинарных кавычках.
+
+Инцидент: close_session57.ps1 v1 упал на [S2] из-за escape-эффекта → фикс v2 через single quotes → 19 патчей + 23 валидации зелёные.
+
 ## Шаг 5 — Прогон и валидация
 
 Запуск: `powershell -ExecutionPolicy Bypass -File scripts\normalize_<...>_v1.ps1`.
@@ -175,9 +193,11 @@
 4. Все скрипты создаются через `code scripts/<name>.ps1` (L-054-01), не через `-Command`.
 5. Строки для `-replace` — только полные, никогда через `Substring` (L-055-01).
 6. Guard идемпотентности в начале каждого скрипта — обязателен.
+7. Якорные строки с markdown-бэктиками, знаками доллара или двойными кавычками — только в single quotes (L-057-01). Double quotes + backtick = escape-ловушка.
 
 ---
 
-<!-- PLAYBOOK_VERSION: 1.0 -->
-<!-- PLAYBOOK_LAST_UPDATED: 2026-08-05, Session 55 -->
-<!-- BASED_ON_SESSIONS: 53, 54, 55 -->
+<!-- PLAYBOOK_VERSION: 1.1 -->
+<!-- PLAYBOOK_v1.1_APPLIED -->
+<!-- PLAYBOOK_LAST_UPDATED: 2026-08-06, Session 57 -->
+<!-- BASED_ON_SESSIONS: 53, 54, 55, 57 -->
