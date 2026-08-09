@@ -3,7 +3,7 @@
 ## 📌 Текущее состояние (на 2026-07-31, Session 53)
 
 **Ветка:** `main`
-**Последнее событие:** Session 57, Этап F.2 — EBM-обогащение `gallbladder_health.md` (NO_EBM → FULL_EBM, 0 → 30 EBM-тегов, +30 inline с нуля, v2.0 → v2.1). Прогресс: 10 → **11 FULL_EBM** файлов (20.8 %), 3 → 2 PARTIAL, 514 → **544 EBM-тегов** (+30). 🎯 Впервые >= 20 % методологии — FULL_EBM.
+**Последнее событие:** Session 58, Этап F.2 — EBM-обогащение `pancreas_health.md` (NO_EBM → FULL_EBM, 0 → 30 EBM-тегов, +30 inline с нуля, v2.0 → v2.1). Прогресс: 11 → **12 FULL_EBM** файлов (22.6 %), 2 → **0 PARTIAL**, 544 → **574 EBM-тегов** (+30). 🎯 PARTIAL_EBM исчерпан — все файлы с Benchmark-секцией переведены в FULL_EBM.
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
@@ -84,10 +84,10 @@
 
 ### Результаты аудита (по `project/EBM_STANDARD.md` v1.0)
 
-- **FULL_EBM: 11/53 файлов (20.8%)** — было 10, +1 (`gallbladder_health.md`)
-- **PARTIAL_EBM: 2/53 файлов (3.8%)** — было 3, -1 (gallbladder ушёл в FULL_EBM; классификация аудита: pancreas_health.md и stress_adrenals.md имеют Benchmark-секцию без тегов)
+- **FULL_EBM: 12/53 файлов (22.6%)** — было 11, +1 (`pancreas_health.md`)
+- **PARTIAL_EBM: 0/53 файлов (0%)** — было 2, -2 (pancreas ушёл в FULL_EBM; stress_adrenals переклассифицирован в NO_EBM аудитом — Benchmark-секция отсутствует)
 - **NO_EBM: 40/53 файлов (75.5%)** — без изменений
-- Всего EBM-тегов: **544** (было 514, +30 — полное EBM-обогащение gallbladder_health.md с нуля в 22 из 27 H2-секций)
+- Всего EBM-тегов: **574** (было 544, +30 — полное EBM-обогащение pancreas_health.md с нуля в 22 из 27 H2-секций)
 - Всего строк: 37 375
 
 ### Технические уроки
@@ -97,14 +97,14 @@
 - Файлы с существующим §EBM Benchmark и подробными Src-ссылками требуют только inline-тегов, не структурного расширения (экономия ~50% усилий на сессию).
 ---
 
-## ➡️ Следующая сессия — Session 58 (Этап F.2 продолжение)
+## ➡️ Следующая сессия — Session 59 (Этап F.2 продолжение)
 
-**Цель:** EBM-обогащение `pancreas_health.md` (PARTIAL_EBM → FULL_EBM, 0 → ~30 EBM-тегов, полное обогащение с нуля — UEG 2017, ACG guidelines, TIGAR-O, Atlanta 2012, Hardt/Ewald для СД 3c, Hamano 2001 для АИП)
+**Цель:** EBM-обогащение `stress_adrenals.md` (NO_EBM → FULL_EBM, 0 → ~30 EBM-тегов, полное обогащение с нуля — Endocrine Society 2016 (Cushing), NICE, ATA, Cochrane, обзоры по кортизолу/HPA-оси, адаптогенам)
 
 ### Исходное состояние
 
 - `references/methodology/vitamins.md`: 1777 строк, 171.6 KB (самая крупная методичка проекта)
-- **0 EBM-тегов сейчас** (порог FULL_EBM = 30), Benchmark-секция уже присутствует (аудит: HasBenchmark=yes), 907 строк, кластер 3 (гепато-билиарно-панкреатический)
+- **0 EBM-тегов сейчас** (порог FULL_EBM = 30), Benchmark-секция отсутствует (аудит после Session 58: HasBenchmark=no → NO_EBM), 1031 строка, кластер 4 (эндокринная система, ось HPA)
 - `EBM Benchmark` секция присутствует (yes), метаданные отсутствуют (no)
 - Маркер обогащения ещё не установлен → v1.1 (новый)
 
@@ -127,21 +127,22 @@
 - Стратегия: разведка H2-структуры → 12–15 inline-патчей → расширение §EBM Benchmark если требуется
 - Целевой маркер: `<!-- EBM_ENRICHED_v1.1 -->`
 
-### Оставшиеся PARTIAL_EBM после Session 58
+### Оставшиеся PARTIAL_EBM после Session 58 — ✅ ИСЧЕРПАНЫ
 
-pancreas_health.md, stress_adrenals.md — итого 2 файла на Sessions 58–59 (оба с 0 тегов, Benchmark-секции уже есть, требуется inline-обогащение до >=30 тегов).
+PARTIAL_EBM = 0/53 после Session 58. Все файлы с Benchmark-секцией переведены в FULL_EBM. Дальнейшие сессии F.2 работают с NO_EBM (40 файлов): создание Benchmark-секции с нуля + inline-теги. Первый кандидат — stress_adrenals.md (Session 59).
 
 ### Долгосрочный план Этапа F.2
 
-- Session 58: pancreas_health.md (0 → ~30 тегов, полное обогащение с нуля — UEG 2017 PERT, ACG, Atlanta 2012, Hardt/Ewald СД 3c, Hamano 2001 АИП, Cochrane)
+- ✅ Session 58 (закрыта, 2026-08-06): pancreas_health.md 0 → 30 тегов (Whitcomb 2019 NEJM, Banks 2013 Atlanta, Tenner 2013 ACG, UEG Löhr 2017 HaPanEU, IAP/APA 2013, Yadav 2013, DiMagno 1973, Hardt 2008, Ewald 2012, Wagner 2020, Hamano 2001, ICDC 2011, ACG 2018, Lowenfels 1993, Uden 1990, Siriwardena 2007, Frank 1999, Opie 1901). Density 83.8 %.
 - Session 55: female_hormones.md (29 → ~35, добавить 5–8 тегов)
-- Session 59: stress_adrenals.md (0 → ~30 тегов, полное обогащение — ES 2016 CS guideline, NICE, ATA, Cochrane; закроет весь список PARTIAL_EBM)
-- Прогноз к концу Session 59: **13/53 FULL_EBM (24.5 %), 0 PARTIAL, 40 NO_EBM**, ~604 EBM-тегов.
+- Session 59: stress_adrenals.md (0 → ~30 тегов, NO_EBM → FULL_EBM — Endocrine Society 2016 (Cushing), Fries 2005 (HPA-ось), Panossian 2010 (адаптогены), NICE addisonian, Cochrane; создание Benchmark-секции с нуля + inline-теги)
+- Прогноз к концу Session 59: **13/53 FULL_EBM (24.5 %), 0 PARTIAL, 39 NO_EBM**, ~604 EBM-тегов.
 
-**Session 58 промежуточный прогноз:** 12/53 FULL_EBM (22.6 %), 1 PARTIAL (stress_adrenals), 40 NO_EBM, ~574 EBM-тегов.
+**Session 58 факт:** 12/53 FULL_EBM (22.6 %), **0 PARTIAL** (stress_adrenals оказался без Benchmark → переклассифицирован в NO_EBM), 40 NO_EBM, 574 EBM-тегов. 🎯 Milestone: PARTIAL_EBM полностью исчерпан.
 
 ## 📜 История сессий (краткая хронология)
 
+- **Session 58** (2026-08-06, Этап F.2): `pancreas_health.md` NO_EBM → FULL_EBM (0 → 30 EBM-тегов, полное обогащение с нуля, v2.0 → v2.1). Скрипт `normalize_pancreas_health_v1.ps1` v2 (30 патчей контента + 5 метаданных, 29/29 валидаций OK со второго прохода). Инцидент v1: P6 упал из-за неверной логики корректировочных патчей (искал якорь с уже вставленным тегом Tenner 2013, которого там не было — тег ушёл в inline-блок перед §5); файл остался нетронут благодаря транзакционности. Фикс v2: убраны P10 и P17 для точного попадания в 30 тегов, P6 использует чистый якорь. Теги в 22 из 27 H2-секций: анатомия/физиология (Whitcomb 2019 NEJM), 10 ферментов (DiMagno 1973), карта ЖКТ (Whitcomb 2019), связки ПЖ (Opie 1901 common-channel, Tenner 2013 ACG), правила приёма ферментов (UEG Löhr 2017 HaPanEU), сладкое+жирное (Yadav 2013), животные vs растительные (UEG 2017), дозировки (UEG 2017), патогенез ОП (Banks 2013 Atlanta, Tenner 2013 критерии), причины ОП (Yadav 2013, Tenner 2013 ЖКБ+алкоголь), симптомы (IAP/APA 2013), лаб.диагностика (Tenner 2013 липаза >3× ВГН), лекарства (Frank 1999 макроамилаземия), ПЖ↔ИР (Wagner 2020 Nat Med), диета (IAP/APA 2013 раннее энтеральное), нутрицевтики (Uden 1990 селен, Siriwardena 2007 АО в ХП), EPI (UEG Löhr 2017, DiMagno 1973 порог 10 %), PERT (UEG 2017 дозы, Whitcomb 2019), СД 3c (Hardt 2008, Ewald 2012 недооценка ~9 %), кисты/IPMN (ACG 2018 + European 2018), AIP (Hamano 2001 IgG4 NEJM, ICDC 2011 критерии), рак ПЖ (Lowenfels 1993 NEJM). Коммит `f50ea34` (+336/-25). 🎯 **12/53 FULL_EBM (22.6 %), 574 EBM-тегов, PARTIAL_EBM = 0 (исчерпан).**
 - **Session 57** (2026-08-05, Этап F.2): `gallbladder_health.md` NO_EBM → FULL_EBM (0 → 30 EBM-тегов, полное обогащение с нуля, v2.0 → v2.1). Скрипт `normalize_gallbladder_health_v1.ps1` (28 патчей + 6 метаданных, 21/21 валидаций OK с первого прохода). Теги в 22 из 27 H2-секций: анатомия (Boyer 2013), функции желчи (Hofmann 2009, Reboul 2013, Ridlon 2014), билиарный панкреатит (Tenner 2013 ACG), диагностика (EASL 2016), копрограмма (Fine 1999), Бристоль (Lewis-Heaton 1997), ДЖВП (Cotton 2016 Rome IV), причины застоя (Sichieri 1991, Weinsier 1995), лабмаркеры (Kwo 2017 ACG), нутрицевтики (Chiang 2013 таурин, Russell 2003 глицин, Guarino 2013 PC+УДХК, Tsai 2008 Mg), травы (Rambaldi Cochrane 2007, Holtmann 2003, Shoba 1998 куркумин+пиперин), полипы (Wiles 2017 EASL/ESGAR), камни (Lammert 2016 Nat Rev), холецистэктомия (Gurusamy Cochrane 2013), УДХК (May 1993), ПХЭС (Sauter 2002, Hofmann 1972). Коммит `239dbf0` (+261/-29). 🎯 **11/53 FULL_EBM (20.8 %), 544 EBM-тегов — впервые >= 20 % методологии.**
 - **Session 55** (2026-07-31, Этап F.2): `female_hormones.md` PARTIAL → FULL_EBM (+8 inline EBM-тегов: 29 → 37, v2.1 → v2.2). Теги в §5 Прогестерон (Stanczyk 2013 / Prior 2015), §8 Пролактин + §12 Гиперпролактинемия (Melmed 2011 Endocrine Society), §13 ПМС/ПМДР (ACOG 2023, Cochrane Whelan 2009 B6, Thys-Jacobs 1998 Ca RCT), §18 КОК (Palmery 2013, WHO MEC 2015), §19 Лабдиагностика (ESHRE Rotterdam 2003, Monash 2018, NICE NG73), §21 Питание и §23 Образ жизни (Monash 2018, NAMS 2022). Коммит `6013e29` (+13/-12). 🎉 **9/53 FULL_EBM (17.0 %), 500 EBM-тегов (+8) — полтысячи.**
 - **Session 54** (2026-07-31, Этап F.2): `nervous_system.md` PARTIAL → FULL_EBM (36 EBM-тегов подтверждено, v1.1 → v1.2). Структурная нормализация без правки контента: маркер `<!-- EBM_ENRICHED_v1.2 -->`, статус EBM-lite → FULL_EBM, история версий v1.0 → v1.1 → v1.2. Атомарные патчи вместо multiline-скрипта (правило Session 52 + урок Session 54: multiline @-strings в PS 5.x → возврат к формату Session 50-53). Коммит `46fc173` (+6/-3). 🎉 **8/53 FULL_EBM (15.1 %), 492 тега (без изменений).**
@@ -192,3 +193,4 @@ pancreas_health.md, stress_adrenals.md — итого 2 файла на Sessions
 
 <!-- STATUS_SESSION56_APPLIED -->
 <!-- STATUS_SESSION57_APPLIED -->
+<!-- STATUS_SESSION58_APPLIED -->

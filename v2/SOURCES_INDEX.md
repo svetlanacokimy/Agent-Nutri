@@ -613,10 +613,10 @@
 
 **Текущая карта состояний (2026-07-31, Session 50):**
 
-- **FULL_EBM — 11 файлов (20.8 %):** `autoimmune_basics.md`, `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `joints_osteoporosis.md`, `minerals.md`, `nervous_system.md`, `nutraceuticals.md`, `thyroid_health.md`, `vitamins.md`.
-- **PARTIAL_EBM — 2 файла (3.8 %):** `pancreas_health.md`, `stress_adrenals.md`.
+- **FULL_EBM — 12 файлов (22.6 %):** `autoimmune_basics.md`, `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `joints_osteoporosis.md`, `minerals.md`, `nervous_system.md`, `nutraceuticals.md`, `pancreas_health.md`, `thyroid_health.md`, `vitamins.md`.
+- **PARTIAL_EBM — 0 файлов (0 %):** ✅ исчерпан (Session 58, pancreas_health.md переведён в FULL_EBM; stress_adrenals.md переклассифицирован аудитом в NO_EBM — отсутствует Benchmark-секция).
 - **NO_EBM — 40 файлов (75.5 %):** в основном методологические и клиентские файлы, где EBM в форме RCT неприменима (интервью с клиентом, мотивационное интервью, этика, шаблоны меню, антипаразитарные протоколы без RCT-базы).
-- **Всего:** 544 EBM-тегов, ~37 500 строк методологии (обновлено Session 57, 2026-08-05 — полное EBM-обогащение gallbladder_health.md с нуля, +30 inline тегов).
+- **Всего:** 574 EBM-тегов, ~37 500 строк методологии (обновлено Session 58, 2026-08-06 — полное EBM-обогащение pancreas_health.md с нуля, +30 inline тегов; PARTIAL_EBM исчерпан).
 
 **Плановые скрипты Этапа F (обогащение PARTIAL → FULL):**
 
@@ -644,4 +644,4 @@
 - Нервная система, мигрень, сон — плановый протокол `nervous_system.md`.
 - Нутрицевтики (сводный протокол БАД) — плановый протокол `nutraceuticals_comprehensive.md`.
 
-<!-- SOURCES_INDEX_EBM_APPLIED_v57 -->
+<!-- SOURCES_INDEX_EBM_APPLIED_v58 -->
