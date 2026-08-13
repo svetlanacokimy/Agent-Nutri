@@ -1,0 +1,1406 @@
+﻿{
+    "generated":  "2026-08-13 19:28:40",
+    "scannedDir":  "references/methodology",
+    "summary":  {
+                    "total":  57,
+                    "fullEbm":  1,
+                    "partialEbm":  0,
+                    "noEbm":  56,
+                    "totalTags":  30,
+                    "totalLines":  37897,
+                    "totalBytes":  3287966,
+                    "uniquePmids":  78,
+                    "anomalyCount":  3
+                },
+    "files":  [
+                  {
+                      "File":  "_clusters.md",
+                      "SizeBytes":  15896,
+                      "Lines":  140,
+                      "H2":  5,
+                      "H3":  9,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.2",
+                      "Status":  "✅ Ready for clinical use.",
+                      "Cluster":  null,
+                      "LastUpdated":  "2026-07-21 (Session 39)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "_conventions.md",
+                      "SizeBytes":  8260,
+                      "Lines":  157,
+                      "H2":  14,
+                      "H3":  9,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "_template.md",
+                      "SizeBytes":  4113,
+                      "Lines":  90,
+                      "H2":  10,
+                      "H3":  10,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "◐ В работе",
+                      "Cluster":  "N (название кластера)",
+                      "LastUpdated":  "2026-MM-DD (Сессия NN)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "autoimmune_basics.md",
+                      "SizeBytes":  89296,
+                      "Lines":  1016,
+                      "H2":  13,
+                      "H3":  70,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "1.1",
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+                                        "marker present but no version in metadata"
+                                    ]
+                  },
+                  {
+                      "File":  "blastocystis.md",
+                      "SizeBytes":  23226,
+                      "Lines":  408,
+                      "H2":  15,
+                      "H3":  51,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "10 «Антипаразитарные протоколы»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "client_assessment.md",
+                      "SizeBytes":  32283,
+                      "Lines":  539,
+                      "H2":  19,
+                      "H3":  53,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "11 «Клиентская работа»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "client_communication.md",
+                      "SizeBytes":  35621,
+                      "Lines":  758,
+                      "H2":  19,
+                      "H3":  81,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "11 «Клиентская работа»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "client_intake.md",
+                      "SizeBytes":  32078,
+                      "Lines":  607,
+                      "H2":  20,
+                      "H3":  67,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "11 «Клиентская работа»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "colon_coprogram.md",
+                      "SizeBytes":  71833,
+                      "Lines":  887,
+                      "H2":  26,
+                      "H3":  45,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "2 (ЖКТ (верхний и нижний отделы))",
+                      "LastUpdated":  "2026-06-19 (Сессия 28)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "covid_pregnancy.md",
+                      "SizeBytes":  104055,
+                      "Lines":  780,
+                      "H2":  26,
+                      "H3":  29,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "1.3",
+                      "MetadataVersion":  "1.3",
+                      "Status":  "✅ Готов (FULL_EBM)",
+                      "Cluster":  "16 (Восстановление после COVID, прегравидарная подготовка)",
+                      "LastUpdated":  "2026-08-05 (Session 56, PARTIAL_EBM → FULL_EBM)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "digestion_basics.md",
+                      "SizeBytes":  17558,
+                      "Lines":  273,
+                      "H2":  7,
+                      "H3":  26,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "🔄 Базовый — требует расширения",
+                      "Cluster":  "1 (Основы питания и пищеварения)",
+                      "LastUpdated":  "2026-06-19 (Сессия 28)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "ethics_scope.md",
+                      "SizeBytes":  59443,
+                      "Lines":  1079,
+                      "H2":  27,
+                      "H3":  130,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "11 «Клиентская работа»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "female_hormones.md",
+                      "SizeBytes":  90208,
+                      "Lines":  886,
+                      "H2":  28,
+                      "H3":  109,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "2.2",
+                      "MetadataVersion":  "2.2",
+                      "Status":  "✅ Готов (FULL_EBM)",
+                      "Cluster":  "6 (Эндокринология: женское здоровье)",
+                      "LastUpdated":  "2026-07-31 (Session 55, EBM-lite → FULL_EBM, +8 inline EBM-тегов)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "gallbladder_health.md",
+                      "SizeBytes":  69765,
+                      "Lines":  744,
+                      "H2":  28,
+                      "H3":  64,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "2.1",
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ Готов (FULL_EBM)",
+                      "Cluster":  "3 (Гепато-билиарно-панкреатическая система)",
+                      "LastUpdated":  "2026-08-05 (Session 57)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "giardia.md",
+                      "SizeBytes":  28884,
+                      "Lines":  501,
+                      "H2":  15,
+                      "H3":  61,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "10 «Антипаразитарные протоколы»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "gluten_celiac.md",
+                      "SizeBytes":  67476,
+                      "Lines":  788,
+                      "H2":  24,
+                      "H3":  43,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "2 (ЖКТ (верхний и нижний отделы))",
+                      "LastUpdated":  "2026-06-22 (Сессия 31)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "goal_setting.md",
+                      "SizeBytes":  33897,
+                      "Lines":  644,
+                      "H2":  23,
+                      "H3":  74,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "11 «Клиентская работа»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "hashimoto.md",
+                      "SizeBytes":  185766,
+                      "Lines":  624,
+                      "H2":  15,
+                      "H3":  68,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "1.2",
+                      "MetadataVersion":  "1.2",
+                      "Status":  "✅ Готов (EBM-lite)",
+                      "Cluster":  "9 (Аутоиммунные состояния)",
+                      "LastUpdated":  "2026-07-31 (Session 52, Этап F.2 — EBM-lite v2 обогащение)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "helminths.md",
+                      "SizeBytes":  41522,
+                      "Lines":  656,
+                      "H2":  21,
+                      "H3":  75,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "10 «Антипаразитарные протоколы»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "ibd.md",
+                      "SizeBytes":  42914,
+                      "Lines":  564,
+                      "H2":  11,
+                      "H3":  54,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "ibs.md",
+                      "SizeBytes":  64496,
+                      "Lines":  673,
+                      "H2":  22,
+                      "H3":  55,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "2 (ЖКТ — верхний и нижний отделы)",
+                      "LastUpdated":  "2026-06-23 (Сессия 32)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "insulin_resistance.md",
+                      "SizeBytes":  88514,
+                      "Lines":  1161,
+                      "H2":  27,
+                      "H3":  100,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "2.1",
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ Готов (FULL_EBM)",
+                      "Cluster":  "5 (Эндокринология: метаболизм и углеводы)",
+                      "LastUpdated":  "2026-08-10 (Сессия 60, EBM-обогащение)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  25,
+                      "Pmids":  [
+                                    "11832527",
+                                    "16278749",
+                                    "19805654",
+                                    "20497781",
+                                    "20705776",
+                                    "22683128",
+                                    "26022934",
+                                    "26481101",
+                                    "26964835",
+                                    "27189025",
+                                    "27261273",
+                                    "27926890",
+                                    "28199805",
+                                    "29221645",
+                                    "29897866",
+                                    "29916386",
+                                    "30067154",
+                                    "3056758",
+                                    "31000505",
+                                    "31231311",
+                                    "31881139",
+                                    "38078589",
+                                    "3899825",
+                                    "6259925",
+                                    "9742976"
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "intestinal_health.md",
+                      "SizeBytes":  75824,
+                      "Lines":  935,
+                      "H2":  28,
+                      "H3":  92,
+                      "EbmTags":  30,
+                      "MarkerVersion":  "2.1",
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ FULL_EBM (Session 62, +30 EBM tags, 30 peer-reviewed PMID sources)",
+                      "Cluster":  "2 (ЖКТ (верхний и нижний отделы))",
+                      "LastUpdated":  "2026-08-13 (Session 62)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  23,
+                      "Pmids":  [
+                                    "20458757",
+                                    "24009397",
+                                    "24076059",
+                                    "24679531",
+                                    "24739189",
+                                    "24912386",
+                                    "27259147",
+                                    "27383980",
+                                    "28611480",
+                                    "29462280",
+                                    "30193113",
+                                    "30294792",
+                                    "31076401",
+                                    "31296969",
+                                    "31460832",
+                                    "31945360",
+                                    "32023228",
+                                    "33315591",
+                                    "33398112",
+                                    "34931080",
+                                    "36602836",
+                                    "37211380",
+                                    "38885083"
+                                ],
+                      "Category":  "FULL_EBM",
+                      "Density":  107.1,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "joints_osteoporosis.md",
+                      "SizeBytes":  67971,
+                      "Lines":  562,
+                      "H2":  24,
+                      "H3":  49,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "1.2",
+                      "MetadataVersion":  "1.2",
+                      "Status":  "✅ Активен (Ready for clinical use)",
+                      "Cluster":  "19 (Суставы и остеопороз)",
+                      "LastUpdated":  "2026-07-31 (Session 51, Этап F.2 — EBM-lite обогащение)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "liver_health.md",
+                      "SizeBytes":  79197,
+                      "Lines":  995,
+                      "H2":  28,
+                      "H3":  97,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "2.1",
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ Готов (FULL_EBM, 30 inline EBM-тегов, density 100 %)",
+                      "Cluster":  "3 (Гепато-билиарно-панкреатическая система)",
+                      "LastUpdated":  "2026-08-13 (Session 61)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  30,
+                      "Pmids":  [
+                                    "12093239",
+                                    "16729309",
+                                    "17393509",
+                                    "19501929",
+                                    "20427778",
+                                    "22023985",
+                                    "22134222",
+                                    "22414768",
+                                    "23511777",
+                                    "23532424",
+                                    "24935270",
+                                    "25280421",
+                                    "25865049",
+                                    "26341719",
+                                    "26707365",
+                                    "26806124",
+                                    "27062661",
+                                    "27194895",
+                                    "28371239",
+                                    "28419855",
+                                    "28545937",
+                                    "28714183",
+                                    "29886156",
+                                    "31439850",
+                                    "33185364",
+                                    "34322514",
+                                    "36727674",
+                                    "38324483",
+                                    "38851997",
+                                    "7565971"
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "long_term_support.md",
+                      "SizeBytes":  42816,
+                      "Lines":  807,
+                      "H2":  21,
+                      "H3":  85,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "11 «Клиентская работа»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "lupus_sle.md",
+                      "SizeBytes":  37132,
+                      "Lines":  535,
+                      "H2":  12,
+                      "H3":  57,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "lymph_immune.md",
+                      "SizeBytes":  47524,
+                      "Lines":  512,
+                      "H2":  19,
+                      "H3":  23,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  "◐ В работе",
+                      "Cluster":  "14 (лимфатическая и иммунная системы)",
+                      "LastUpdated":  "2026-07-17",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "mastopathy.md",
+                      "SizeBytes":  74906,
+                      "Lines":  803,
+                      "H2":  28,
+                      "H3":  103,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "6 (Эндокринология: женское здоровье)",
+                      "LastUpdated":  "2026-06-19 (Сессия 28)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "menopause.md",
+                      "SizeBytes":  83570,
+                      "Lines":  881,
+                      "H2":  28,
+                      "H3":  124,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "6 (Эндокринология: женское здоровье)",
+                      "LastUpdated":  "2026-06-19 (Сессия 28)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "menus.md",
+                      "SizeBytes":  51076,
+                      "Lines":  501,
+                      "H2":  18,
+                      "H3":  24,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  "◐ В работе",
+                      "Cluster":  "17 (Лечебные меню)",
+                      "LastUpdated":  "2026-07-20",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "minerals.md",
+                      "SizeBytes":  96430,
+                      "Lines":  1376,
+                      "H2":  23,
+                      "H3":  160,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "1.1",
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+                                        "marker present but no version in metadata"
+                                    ]
+                  },
+                  {
+                      "File":  "motivational_interviewing.md",
+                      "SizeBytes":  34219,
+                      "Lines":  619,
+                      "H2":  21,
+                      "H3":  66,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "11 «Клиентская работа»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "multiple_sclerosis.md",
+                      "SizeBytes":  40625,
+                      "Lines":  529,
+                      "H2":  12,
+                      "H3":  61,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "myasthenia_gravis.md",
+                      "SizeBytes":  36881,
+                      "Lines":  400,
+                      "H2":  15,
+                      "H3":  34,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "nervous_system.md",
+                      "SizeBytes":  77862,
+                      "Lines":  710,
+                      "H2":  24,
+                      "H3":  43,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "1.2",
+                      "MetadataVersion":  "1.2",
+                      "Status":  "✅ Готов (FULL_EBM)",
+                      "Cluster":  "15 (Нервная система, стресс, сон)",
+                      "LastUpdated":  "2026-07-31 (Session 54, структурная нормализация PARTIAL_EBM → FULL_EBM — маркер идемпотентности, 36 EBM-тегов подтверждено)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "nutraceuticals.md",
+                      "SizeBytes":  79696,
+                      "Lines":  654,
+                      "H2":  18,
+                      "H3":  30,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "1.1",
+                      "MetadataVersion":  "1.0",
+                      "Status":  "◐ В работе",
+                      "Cluster":  "18 (Нутрицевтики)",
+                      "LastUpdated":  "2026-07-20",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+                                        "marker version (1.1) != metadata version (1.0)"
+                                    ]
+                  },
+                  {
+                      "File":  "nutrition_basics.md",
+                      "SizeBytes":  20975,
+                      "Lines":  393,
+                      "H2":  15,
+                      "H3":  33,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "1 (Основы питания и пищеварения)",
+                      "LastUpdated":  "2026-06-19 (Сессия 28)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "nutrition_principles.md",
+                      "SizeBytes":  25907,
+                      "Lines":  332,
+                      "H2":  13,
+                      "H3":  36,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "1 (Основы питания и пищеварения)",
+                      "LastUpdated":  "2026-06-19 (Сессия 28)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "objection_handling.md",
+                      "SizeBytes":  43947,
+                      "Lines":  627,
+                      "H2":  21,
+                      "H3":  76,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "11 «Клиентская работа»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "pancreas_health.md",
+                      "SizeBytes":  85782,
+                      "Lines":  924,
+                      "H2":  28,
+                      "H3":  92,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "2.1",
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ Готов (FULL_EBM)",
+                      "Cluster":  "3 (Гепато-билиарно-панкреатическая система)",
+                      "LastUpdated":  "2026-08-06 (Сессия 58, EBM enrichment)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "parasitology_basics.md",
+                      "SizeBytes":  48326,
+                      "Lines":  528,
+                      "H2":  14,
+                      "H3":  49,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "protozoa_others.md",
+                      "SizeBytes":  28434,
+                      "Lines":  500,
+                      "H2":  16,
+                      "H3":  50,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "10 «Антипаразитарные протоколы»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "psoriasis.md",
+                      "SizeBytes":  55505,
+                      "Lines":  735,
+                      "H2":  12,
+                      "H3":  65,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "README.md",
+                      "SizeBytes":  3536,
+                      "Lines":  35,
+                      "H2":  8,
+                      "H3":  0,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "rheumatoid_arthritis.md",
+                      "SizeBytes":  52752,
+                      "Lines":  739,
+                      "H2":  12,
+                      "H3":  55,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "scleroderma.md",
+                      "SizeBytes":  36197,
+                      "Lines":  466,
+                      "H2":  16,
+                      "H3":  39,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "sibo_parasites_overlap.md",
+                      "SizeBytes":  24785,
+                      "Lines":  416,
+                      "H2":  16,
+                      "H3":  43,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  null,
+                      "Cluster":  "10 «Антипаразитарные протоколы»",
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "sibo_sifo.md",
+                      "SizeBytes":  63380,
+                      "Lines":  661,
+                      "H2":  27,
+                      "H3":  33,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "2 (ЖКТ (верхний и нижний отделы))",
+                      "LastUpdated":  "2026-06-22 (Сессия 30)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "sjogren.md",
+                      "SizeBytes":  31510,
+                      "Lines":  435,
+                      "H2":  11,
+                      "H3":  43,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "skin_hair_health.md",
+                      "SizeBytes":  60470,
+                      "Lines":  618,
+                      "H2":  17,
+                      "H3":  34,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  "◐ В работе",
+                      "Cluster":  "12 (кожа / волосы / ногти / коллаген)",
+                      "LastUpdated":  "2026-07-16",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "stomach_health.md",
+                      "SizeBytes":  83777,
+                      "Lines":  969,
+                      "H2":  27,
+                      "H3":  62,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "2.0",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "2 (ЖКТ (верхний и нижний отделы))",
+                      "LastUpdated":  "2026-06-19 (Сессия 28)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "stress_adrenals.md",
+                      "SizeBytes":  105981,
+                      "Lines":  1033,
+                      "H2":  28,
+                      "H3":  144,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "2.1",
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ Готов (FULL_EBM)",
+                      "Cluster":  "7 (Стресс и надпочечники)",
+                      "LastUpdated":  "2026-08-09 (Сессия 59)",
+                      "HasBenchmark":  true,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "thyroid_health.md",
+                      "SizeBytes":  109013,
+                      "Lines":  797,
+                      "H2":  28,
+                      "H3":  124,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "2.1",
+                      "MetadataVersion":  "2.1",
+                      "Status":  "✅ Готов",
+                      "Cluster":  "4 (Эндокринология: щитовидная железа)",
+                      "LastUpdated":  "2026-07-27 (Session 47, EBM-lite обогащение)",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "urogenital_infections.md",
+                      "SizeBytes":  58691,
+                      "Lines":  605,
+                      "H2":  22,
+                      "H3":  35,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  "1.0",
+                      "Status":  "◐ В работе",
+                      "Cluster":  "13 (мочеполовые инфекции / пигментация)",
+                      "LastUpdated":  "2026-07-17",
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "vitamins.md",
+                      "SizeBytes":  176329,
+                      "Lines":  1776,
+                      "H2":  23,
+                      "H3":  157,
+                      "EbmTags":  0,
+                      "MarkerVersion":  "1.2",
+                      "MetadataVersion":  "1.2",
+                      "Status":  "✅ Готов (FULL_EBM)",
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  },
+                  {
+                      "File":  "vitiligo.md",
+                      "SizeBytes":  39836,
+                      "Lines":  514,
+                      "H2":  11,
+                      "H3":  58,
+                      "EbmTags":  0,
+                      "MarkerVersion":  null,
+                      "MetadataVersion":  null,
+                      "Status":  null,
+                      "Cluster":  null,
+                      "LastUpdated":  null,
+                      "HasBenchmark":  false,
+                      "UniquePmids":  0,
+                      "Pmids":  [
+
+                                ],
+                      "Category":  "NO_EBM",
+                      "Density":  0,
+                      "Anomalies":  [
+
+                                    ]
+                  }
+              ],
+    "pmidReuse":  [
+
+                  ]
+}
