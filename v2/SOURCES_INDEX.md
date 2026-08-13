@@ -611,12 +611,12 @@
 
 **Аудит-инструмент:** `scripts/audit_ebm_compliance.ps1` — прогон по всем 53 контентным файлам `references/methodology/*.md` по 15 критериям стандарта. Выводит карту состояний + сводную статистику (тегов, строк, файлов).
 
-**Текущая карта состояний (2026-08-13, Session 61):**
+**Текущая карта состояний (2026-08-13, Session 62):**
 
-- **FULL_EBM — 15 файлов (28.3 %):** `autoimmune_basics.md`, `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `insulin_resistance.md`, `joints_osteoporosis.md`, `liver_health.md`, `minerals.md`, `nervous_system.md`, `nutraceuticals.md`, `pancreas_health.md`, `stress_adrenals.md`, `thyroid_health.md`, `vitamins.md`.
-- **PARTIAL_EBM — 0 файлов (0 %):** ✅ исчерпан с Session 58. После Session 59 `stress_adrenals.md` переведён из NO_EBM в FULL_EBM (Benchmark §14 присутствовал, +30 inline тегов добавлено с нуля). После Session 60 `insulin_resistance.md` переведён из NO_EBM в FULL_EBM (Benchmark создан с нуля, +30 inline тегов, 23 H2 + 7 H3). После Session 61 `liver_health.md` переведён из NO_EBM в FULL_EBM (Benchmark создан с нуля, +30 inline тегов, 23 H2 + 7 H3, замыкание кластера 5).
-- **NO_EBM — 37 файлов (69.8 %):** в основном методологические и клиентские файлы, где EBM в форме RCT неприменима (интервью с клиентом, мотивационное интервью, этика, шаблоны меню, антипаразитарные протоколы без RCT-базы). Приоритетные кандидаты на FULL_EBM: `intestinal_health.md` (Session 62 — gut-liver axis, замыкание кластера 2), `menopause.md`, `digestion_basics.md`.
-- **Всего:** 664 EBM-тегов, ~37 500 строк методологии (обновлено Session 61, 2026-08-13 — полное EBM-обогащение liver_health.md с нуля, +30 inline тегов; density 100 %; playbook v1.2 третий прогон без инцидентов — 35/35 патчей, 39/39 валидаций; замыкание кластера 5).
+- **FULL_EBM — 16 файлов (30.2 %):** `autoimmune_basics.md`, `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `insulin_resistance.md`, `intestinal_health.md`, `joints_osteoporosis.md`, `liver_health.md`, `minerals.md`, `nervous_system.md`, `nutraceuticals.md`, `pancreas_health.md`, `stress_adrenals.md`, `thyroid_health.md`, `vitamins.md`.
+- **PARTIAL_EBM — 0 файлов (0 %):** ✅ исчерпан с Session 58. После Session 59 `stress_adrenals.md` переведён из NO_EBM в FULL_EBM (Benchmark §14 присутствовал, +30 inline тегов добавлено с нуля). После Session 60 `insulin_resistance.md` переведён из NO_EBM в FULL_EBM (Benchmark создан с нуля, +30 inline тегов, 23 H2 + 7 H3). После Session 61 `liver_health.md` переведён из NO_EBM в FULL_EBM (Benchmark создан с нуля, +30 inline тегов, 23 H2 + 7 H3, замыкание кластера 5). После Session 62 `intestinal_health.md` переведён из NO_EBM в FULL_EBM (Benchmark §25 присутствовал, +30 inline тегов, 25 H2 + 5 H3, замыкание кластера 2 gut-brain-liver axis, преодолён порог 30 %).
+- **NO_EBM — 36 файлов (67.9 %):** в основном методологические и клиентские файлы, где EBM в форме RCT неприменима (интервью с клиентом, мотивационное интервью, этика, шаблоны меню, антипаразитарные протоколы без RCT-базы). Приоритетные кандидаты на FULL_EBM: `menopause.md` (Session 63 — WHI 2002, NAMS 2022, MHT, isoflavones, кластер 4 эндокринология), `digestion_basics.md`, `stomach_health.md`, `sibo_sifo.md`.
+- **Всего:** 694 EBM-тегов, ~37 527 строк методологии (обновлено Session 62, 2026-08-13 — полное EBM-обогащение intestinal_health.md с нуля, +30 inline тегов; density 100 %; playbook v1.2 четвёртый прогон с 2 исправимыми инцидентами — 35/35 патчей, 32/32 валидаций после фиксов; замыкание кластера 2; преодолён порог 30 %).
 
 **Плановые скрипты Этапа F (обогащение PARTIAL → FULL):**
 
@@ -644,4 +644,4 @@
 - Нервная система, мигрень, сон — плановый протокол `nervous_system.md`.
 - Нутрицевтики (сводный протокол БАД) — плановый протокол `nutraceuticals_comprehensive.md`.
 
-<!-- SOURCES_INDEX_EBM_APPLIED_v61 -->
+<!-- SOURCES_INDEX_EBM_APPLIED_v62 -->

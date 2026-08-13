@@ -3,7 +3,7 @@
 ## 📌 Текущее состояние (на 2026-07-31, Session 53)
 
 **Ветка:** `main`
-**Последнее событие:** Session 61, Этап F.2 — EBM-обогащение `liver_health.md` (NO_EBM → FULL_EBM, 0 → 30 EBM-тегов, +30 inline с нуля, v2.0 → v2.1). Прогресс: 14 → **15 FULL_EBM** файлов (28.3 %), 0 PARTIAL, 634 → **664 EBM-тегов** (+30). 🎯 Третье NO_EBM → FULL_EBM подряд с нуля, 0 инцидентов в третьей сессии — playbook v1.2 доказал устойчивость (35/35 патчей + 39/39 валидаций с первого прогона). Замыкание кластера 5 (ИР → NAFLD → цирроз). Методология стабильно масштабируется на оставшиеся 37 файлов.
+**Последнее событие:** Session 62, Этап F.2 — EBM-обогащение `intestinal_health.md` (NO_EBM → FULL_EBM, 0 → 30 EBM-тегов, +30 inline с нуля, v2.0 → v2.1). Прогресс: 15 → **16 FULL_EBM** файлов (30.2 %), 0 PARTIAL, 664 → **694 EBM-тегов** (+30). 🎯 Четвёртое NO_EBM → FULL_EBM подряд с нуля, 2 инцидента (P25 пробел в кириллице, size limit 8000) исправлены — playbook v1.2 требует апгрейда до v1.3 (адаптивный лимит + hex-dump якорей). Замыкание кластера 2 (ЖКТ, gut-brain-liver axis). Преодолён порог 30 % FULL_EBM.
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
@@ -84,11 +84,11 @@
 
 ### Результаты аудита (по `project/EBM_STANDARD.md` v1.0)
 
-- **FULL_EBM: 15/53 файлов (28.3%)** — было 14, +1 (`liver_health.md`)
+- **FULL_EBM: 16/53 файлов (30.2%)** — было 15, +1 (`intestinal_health.md`)
 - **PARTIAL_EBM: 0/53 файлов (0%)** — без изменений с Session 58 (исчерпан)
-- **NO_EBM: 37/53 файлов (69.8%)** — было 38, -1 (`liver_health.md` ушёл в FULL_EBM)
+- **NO_EBM: 36/53 файлов (67.9%)** — было 37, -1 (`intestinal_health.md` ушёл в FULL_EBM)
 - Всего EBM-тегов: **664** (было 634, +30 — полное EBM-обогащение liver_health.md с нуля в 23 H2 + 7 H3, density 100 %)
-- Всего строк: 37 465
+- Всего строк: 37 527
 
 ### Технические уроки
 
@@ -99,11 +99,11 @@
 
 ## ➡️ Следующая сессия — Session 62 (Этап F.2 продолжение)
 
-**Цель:** EBM-обогащение `intestinal_health.md` (NO_EBM → FULL_EBM, 0 → ~30 EBM-тегов, полное обогащение с нуля — WGO 2023 Global Guidelines, ESPGHAN 2023, Cochrane пробиотики, Sonnenburg 2016 Cell, ACG IBS 2021, Ford 2020 Lancet)
+**Цель:** EBM-обогащение `menopause.md` (NO_EBM → FULL_EBM, 0 → ~30 EBM-тегов, полное обогащение с нуля — WHI 2002 JAMA, NAMS 2022 Position Statement, MHT, isoflavones, Endocrine Society 2015 CPG)
 
 ### Исходное состояние
 
-- `references/methodology/intestinal_health.md`: файл в списке NO_EBM (37/53), кластер 2 (гастроэнтерология, микробиом)
+- `references/methodology/menopause.md`: файл в списке NO_EBM (36/53), кластер 4 (эндокринология, женское здоровье)
 - **0 EBM-тегов сейчас** (порог FULL_EBM = 30), Benchmark-секция подлежит созданию с нуля (или уточнению)
 - Прямые связки с уже готовыми FULL_EBM: `liver_health.md` (gut-liver axis) и `pancreas_health.md` (энзимы, SIBO/SIFO) — логическое продолжение gut-liver-pancreas cross-talk
 - Маркер обогащения будет: `<!-- EBM_ENRICHED_v2.1 -->` (новый)
@@ -145,10 +145,12 @@ PARTIAL_EBM = 0/53 после Session 58. Все файлы с Benchmark-сек�
 - ✅ Session 59 (закрыта, 2026-08-10): stress_adrenals.md 0 → 30 тегов, NO_EBM → FULL_EBM (Selye 1936, Bornstein 2016 Endocrine Society, Herman 2016, Oster 2017, Sapolsky 2000, Kroboth 1999, Funder 2016, Goldstein 2003, Chrousos 2009 Nat Rev Endocrinol, McEwen 1998 NEJM, McEwen & Wingfield 2003, Nieman 2015/2008, Bornstein 2016, Cadegiani 2016, Hellhammer 2009, Miller & Auchus 2011, Broersen 2015, Lenders 2014, Panossian & Wikman 2010, Chandrasekhar 2012, Pittler & Ernst 2003 Cochrane, Boyle 2017, Williams 2020, Adam & Epel 2007, Hirshkowitz 2015, Zaccaro 2018, Goyal 2014 JAMA, Fries 2005, Rushworth 2019 NEJM). Density 100 %.
 - Session 60: insulin_resistance.md ✅ выполнено (0 → 30 тегов, NO_EBM → FULL_EBM — Röder 2016, Jenkins 1981, Rizza 2010, Wilcox 2005, ADA 2024, Uribarri 2010, Fasshauer & Blüher 2015, Petersen & Shulman 2018, Tabák 2012, Alberti 2009, Reaven 1988, DiMeglio 2018, DeFronzo 2015, UKPDS 33 1998, Matthews 1985, Evert 2019, de Cabo & Mattson 2019, Colberg 2016, Costello 2016, Knowler 2002 DPP, Lean 2018 DiRECT, Schauer 2017 STAMPEDE, Estruch 2018 PREDIMED, Athinarayanan 2019, Jelleyman 2015; 23 H2 + 7 H3, density 100 %)
 - Session 61: liver_health.md ✅ выполнено (0 → 30 тегов, NO_EBM → FULL_EBM — EASL-EASD-EASO 2024 MASLD CPG, Rinella 2023 AASLD, Younossi 2016 глобальная эпидемиология (13 965 cited), Sanyal 2010 NEJM PIVENS, Harrison 2024 NEJM MAESTRO-NASH resmetirom, Chalasani 2018 AASLD (8 857 cited), Vilar-Gomez 2015 Gastroenterology (3 093 cited), Prati 2002 Ann Intern Med ALT, Sterling 2006 FIB-4, Angulo 2007 NFS, Zelber-Sagi 2017 Mediterranean, Keating 2012 exercise meta, Kennedy 2016 coffee meta, Rehm 2013 ALD burden, Bosma 1995 NEJM UGT1A1, EASL 2015 AIH, EASL 2009 cholestasis, Chalasani 2014 ACG DILI, Wah Kheong 2017 silymarin RCT, Corbin 2012 choline, Katayama 2014 Zn cirrhosis, Andrade 2019 DILI, Estes 2018 burden 2030, Romero-Gómez 2017 lifestyle meta; 23 H2 + 7 H3, density 100 %)
-- Session 62: intestinal_health.md (0 → ~30 тегов, NO_EBM → FULL_EBM — WGO 2023, ESPGHAN 2023, Sonnenburg 2016 Cell, Ford 2020 Lancet, Cochrane 2017 пробиотики, ACG IBS 2021; gut-liver axis замыкание кластера 2)
+- Session 63: menopause.md (0 → ~30 тегов, NO_EBM → FULL_EBM — WHI 2002 JAMA, NAMS 2022, Endocrine Society 2015 CPG, MHT, isoflavones; кластер 4 эндокринология)
 - Прогноз к концу Session 62: **16/53 FULL_EBM (30.2 %), 0 PARTIAL, 36 NO_EBM**, ~694 EBM-тегов.
 
 **Session 61 факт:** 15/53 FULL_EBM (28.3 %), 0 PARTIAL, **37 NO_EBM**, **664 EBM-тегов** (+30). 🎯 Milestone: третье NO_EBM → FULL_EBM подряд с нуля, 0 инцидентов третью сессию подряд — playbook v1.2 (Invariants 8+9) стабильно работает. Замыкание кластера 5 (гепато-панкреатическая ось: pancreas_health.md + insulin_resistance.md + liver_health.md все FULL_EBM). Обогащение liver_health.md за один проход (30 патчей контента + 5 метаданных, 35/35 патчей + 39/39 валидаций OK), density 100 %. Commit f483080. Дополнительно закрыто 3 tech-debt (TD-011/012/013) + 1 lesson (L-061-01).
+
+**Session 62 факт:** 16/53 FULL_EBM (30.2 %), 0 PARTIAL, **36 NO_EBM**, **694 EBM-тегов** (+30). 🎯 Milestone: преодолён порог 30 % FULL_EBM. Четвёртое NO_EBM → FULL_EBM подряд с нуля, 2 инцидента (P25 пробел в кириллице "функциональный подход" vs "функциональныйподход"; size limit 8000 превышен на 665 байт из-за длинных названий Nature Reviews/Cell) — оба исправлены в этой же сессии. Замыкание кластера 2 (ЖКТ, gut-brain-liver axis). Обогащение intestinal_health.md за один проход после фиксов (35/35 патчей + 32/32 валидаций OK), density 100 %. Commit ea67cf2. Дополнительно закрыто 3 tech-debt (TD-014 адаптивный лимит, TD-015 LAST_UPDATED парсинг, TD-016 git branch expectation) + 2 lessons (L-062-01 hex-dump якорей, L-062-02 адаптивный лимит размера).
 
 **Session 58 факт:** 12/53 FULL_EBM (22.6 %), **0 PARTIAL** (stress_adrenals оказался без Benchmark → переклассифицирован в NO_EBM), 40 NO_EBM, 574 EBM-тегов. 🎯 Milestone: PARTIAL_EBM полностью исчерпан.
 
@@ -214,3 +216,4 @@ PARTIAL_EBM = 0/53 после Session 58. Все файлы с Benchmark-сек�
 <!-- STATUS_SESSION59_APPLIED -->
 <!-- STATUS_SESSION60_APPLIED -->
 <!-- STATUS_SESSION61_APPLIED -->
+<!-- STATUS_SESSION62_APPLIED -->
