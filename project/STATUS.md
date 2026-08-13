@@ -3,7 +3,7 @@
 ## 📌 Текущее состояние (на 2026-07-31, Session 53)
 
 **Ветка:** `main`
-**Последнее событие:** Session 59, Этап F.2 — EBM-обогащение `stress_adrenals.md` (NO_EBM → FULL_EBM, 0 → 30 EBM-тегов, +30 inline с нуля, v2.0 → v2.1). Прогресс: 12 → **13 FULL_EBM** файлов (24.5 %), 0 PARTIAL, 574 → **604 EBM-тегов** (+30). 🎯 Первое NO_EBM → FULL_EBM с нуля после исчерпания PARTIAL — доказана масштабируемость методологии на оставшиеся 39 файлов.
+**Последнее событие:** Session 60, Этап F.2 — EBM-обогащение `insulin_resistance.md` (NO_EBM → FULL_EBM, 0 → 30 EBM-тегов, +30 inline с нуля, v2.0 → v2.1). Прогресс: 13 → **14 FULL_EBM** файлов (26.4 %), 0 PARTIAL, 604 → **634 EBM-тегов** (+30). 🎯 Второе NO_EBM → FULL_EBM подряд с нуля — playbook v1.2 (Invariants 8+9) обеспечил 35/35 патчей и 38/38 валидаций с первого прогона, 0 инцидентов. Методология стабильно масштабируется на оставшиеся 38 файлов.
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
@@ -84,11 +84,11 @@
 
 ### Результаты аудита (по `project/EBM_STANDARD.md` v1.0)
 
-- **FULL_EBM: 13/53 файлов (24.5%)** — было 12, +1 (`stress_adrenals.md`)
-- **PARTIAL_EBM: 0/53 файлов (0%)** — без изменений (исчерпан с Session 58)
-- **NO_EBM: 39/53 файлов (73.6%)** — было 40, -1 (`stress_adrenals.md` ушёл в FULL_EBM)
-- Всего EBM-тегов: **604** (было 574, +30 — полное EBM-обогащение stress_adrenals.md с нуля в 27 H2 + 3 H3, density 100 %)
-- Всего строк: 37 416
+- **FULL_EBM: 14/53 файлов (26.4%)** — было 13, +1 (`insulin_resistance.md`)
+- **PARTIAL_EBM: 0/53 файлов (0%)** — без изменений с Session 58 (исчерпан)
+- **NO_EBM: 38/53 файлов (71.7%)** — было 39, -1 (`insulin_resistance.md` ушёл в FULL_EBM)
+- Всего EBM-тегов: **634** (было 604, +30 — полное EBM-обогащение insulin_resistance.md с нуля в 23 H2 + 7 H3, density 100 %)
+- Всего строк: 37 457
 
 ### Технические уроки
 
@@ -97,22 +97,24 @@
 - Файлы с существующим §EBM Benchmark и подробными Src-ссылками требуют только inline-тегов, не структурного расширения (экономия ~50% усилий на сессию).
 ---
 
-## ➡️ Следующая сессия — Session 60 (Этап F.2 продолжение)
+## ➡️ Следующая сессия — Session 61 (Этап F.2 продолжение)
 
-**Цель:** EBM-обогащение `insulin_resistance.md` (NO_EBM → FULL_EBM, 0 → ~30 EBM-тегов, полное обогащение с нуля — ADA Standards of Care 2024, DPP, Look AHEAD, DiRECT, Taylor twin-cycle, HOMA-IR)
+**Цель:** EBM-обогащение `liver_health.md` (NO_EBM → FULL_EBM, 0 → ~30 EBM-тегов, полное обогащение с нуля — EASL 2024, AASLD 2023, Younossi 2016, PIVENS 2010, Chalasani 2018, Sanyal 2021 resmetirom, Romero-Gómez 2017 lifestyle meta)
 
 ### Исходное состояние
 
-- `references/methodology/insulin_resistance.md`: файл в списке NO_EBM (39/53), кластер 5 (углеводный обмен, метаболический синдром)
+- `references/methodology/liver_health.md`: файл в списке NO_EBM (38/53), кластер 5 (гепатология, NAFLD/MASLD)
 - **0 EBM-тегов сейчас** (порог FULL_EBM = 30), Benchmark-секция подлежит созданию с нуля
-- Прямые связки с уже готовыми FULL_EBM: `pancreas_health.md` (β-клетки, диабет 3c) и `stress_adrenals.md` (кортизол → глюконеогенез)
+- Прямые связки с уже готовыми FULL_EBM: `pancreas_health.md` (β-клетки, метаболизм) и `insulin_resistance.md` (ИР → NAFLD ключевая ось) — логическое замыкание кластера 5: ИР → NAFLD → цирроз
 - Маркер обогащения будет: `<!-- EBM_ENRICHED_v2.1 -->` (новый)
 
 ### Ключевые источники для добавления
 
-- **ADA Standards of Care 2024** — диагностические критерии, HbA1c, преддиабет
-- **Knowler 2002 NEJM (DPP)** — модификация образа жизни vs метформин, снижение риска СД2 на 58 %
-- **Look AHEAD 2013 NEJM** — интенсивная модификация образа жизни при СД2
+- **EASL–EASD–EASO Clinical Practice Guidelines 2024** — MASLD (обновлённая номенклатура NAFLD), диагностика, стратификация
+- **AASLD 2023 Practice Guidance** (Rinella et al., Hepatology) — многодисциплинарное ведение MASLD/MASH
+- **Younossi 2016 Hepatology** — глобальная эпидемиология NAFLD (мета-анализ, 8.5 млн пациентов, 86 исследований)
+- **PIVENS 2010 NEJM** (Sanyal) — витамин E 800 МЕ/сут vs пиоглитазон vs плацебо при NASH без диабета
+- **Sanyal 2021/2024 NEJM (MAESTRO-NASH)** — resmetirom, первый одобренный препарат для MASH (2024)
 - **Lean 2018 Lancet (DiRECT)** — ремиссия СД2 через снижение веса (46 % через 12 мес)
 - **Taylor 2013 Diabetologia** — twin-cycle гипотеза, ремиссия через снижение жира ПЖ/печени
 - **Tuomilehto 2001 NEJM (Finnish DPS)** — профилактика СД2 модификацией образа жизни
@@ -134,17 +136,20 @@
 
 ### Оставшиеся PARTIAL_EBM после Session 58 — ✅ ИСЧЕРПАНЫ
 
-PARTIAL_EBM = 0/53 после Session 58. Все файлы с Benchmark-секцией переведены в FULL_EBM. Дальнейшие сессии F.2 работают с NO_EBM (39 файлов после Session 59): создание Benchmark-секции с нуля + inline-теги. Session 59 закрыта (stress_adrenals.md → FULL_EBM). Следующий кандидат — insulin_resistance.md (Session 60).
+PARTIAL_EBM = 0/53 после Session 58. Все файлы с Benchmark-секцией переведены в FULL_EBM. Дальнейшие сессии F.2 работают с NO_EBM (38 файлов после Session 60): создание Benchmark-секции с нуля + inline-теги. Session 60 закрыта (insulin_resistance.md → FULL_EBM). Следующий кандидат — liver_health.md (Session 61) — логическая связка кластера 5: ИР → NAFLD → цирроз.
 
 ### Долгосрочный план Этапа F.2
 
 - ✅ Session 58 (закрыта, 2026-08-06): pancreas_health.md 0 → 30 тегов (Whitcomb 2019 NEJM, Banks 2013 Atlanta, Tenner 2013 ACG, UEG Löhr 2017 HaPanEU, IAP/APA 2013, Yadav 2013, DiMagno 1973, Hardt 2008, Ewald 2012, Wagner 2020, Hamano 2001, ICDC 2011, ACG 2018, Lowenfels 1993, Uden 1990, Siriwardena 2007, Frank 1999, Opie 1901). Density 83.8 %.
 - Session 55: female_hormones.md (29 → ~35, добавить 5–8 тегов)
 - ✅ Session 59 (закрыта, 2026-08-10): stress_adrenals.md 0 → 30 тегов, NO_EBM → FULL_EBM (Selye 1936, Bornstein 2016 Endocrine Society, Herman 2016, Oster 2017, Sapolsky 2000, Kroboth 1999, Funder 2016, Goldstein 2003, Chrousos 2009 Nat Rev Endocrinol, McEwen 1998 NEJM, McEwen & Wingfield 2003, Nieman 2015/2008, Bornstein 2016, Cadegiani 2016, Hellhammer 2009, Miller & Auchus 2011, Broersen 2015, Lenders 2014, Panossian & Wikman 2010, Chandrasekhar 2012, Pittler & Ernst 2003 Cochrane, Boyle 2017, Williams 2020, Adam & Epel 2007, Hirshkowitz 2015, Zaccaro 2018, Goyal 2014 JAMA, Fries 2005, Rushworth 2019 NEJM). Density 100 %.
-- Session 60: insulin_resistance.md (0 → ~30 тегов, NO_EBM → FULL_EBM — ADA 2024, DPP, Look AHEAD, DiRECT, Taylor twin-cycle, Finnish DPS, HOMA-IR, Reaven; создание Benchmark-секции с нуля + inline-теги)
-- Прогноз к концу Session 60: **14/53 FULL_EBM (26.4 %), 0 PARTIAL, 38 NO_EBM**, ~634 EBM-тегов.
+- Session 60: insulin_resistance.md ✅ выполнено (0 → 30 тегов, NO_EBM → FULL_EBM — Röder 2016, Jenkins 1981, Rizza 2010, Wilcox 2005, ADA 2024, Uribarri 2010, Fasshauer & Blüher 2015, Petersen & Shulman 2018, Tabák 2012, Alberti 2009, Reaven 1988, DiMeglio 2018, DeFronzo 2015, UKPDS 33 1998, Matthews 1985, Evert 2019, de Cabo & Mattson 2019, Colberg 2016, Costello 2016, Knowler 2002 DPP, Lean 2018 DiRECT, Schauer 2017 STAMPEDE, Estruch 2018 PREDIMED, Athinarayanan 2019, Jelleyman 2015; 23 H2 + 7 H3, density 100 %)
+- Session 61: liver_health.md (0 → ~30 тегов, NO_EBM → FULL_EBM — EASL 2024, AASLD 2023, Younossi 2016, PIVENS 2010, Chalasani 2018, Sanyal 2021, Romero-Gómez 2017; создание Benchmark-секции с нуля + inline-теги)
+- Прогноз к концу Session 61: **15/53 FULL_EBM (28.3 %), 0 PARTIAL, 37 NO_EBM**, ~664 EBM-тегов.
 
 **Session 58 факт:** 12/53 FULL_EBM (22.6 %), **0 PARTIAL** (stress_adrenals оказался без Benchmark → переклассифицирован в NO_EBM), 40 NO_EBM, 574 EBM-тегов. 🎯 Milestone: PARTIAL_EBM полностью исчерпан.
+
+**Session 60 факт:** 14/53 FULL_EBM (26.4 %), 0 PARTIAL, **38 NO_EBM**, **634 EBM-тегов** (+30). 🎯 Milestone: второе NO_EBM → FULL_EBM подряд с нуля; playbook v1.2 (Invariants 8+9 — байтовая валидация якорей + UTF-8 BOM + пороги по факту) обеспечил 35/35 патчей и 38/38 валидаций с первого прогона (0 инцидентов, впервые за F.2). Обогащение insulin_resistance.md: 23/23 H2 + 7 H3 глубоких (DPP, DiRECT, STAMPEDE, HOMA-IR, PREDIMED, low-carb, HIIT), +4 440 байт, density 100 %.
 
 **Session 59 факт:** 13/53 FULL_EBM (24.5 %), 0 PARTIAL, **39 NO_EBM**, **604 EBM-тегов** (+30). 🎯 Milestone: первое NO_EBM → FULL_EBM с нуля после исчерпания PARTIAL. Обогащение stress_adrenals.md за один проход (30 патчей контента + 5 метаданных, 41/41 валидаций OK), density 100 %.
 
@@ -204,3 +209,4 @@ PARTIAL_EBM = 0/53 после Session 58. Все файлы с Benchmark-сек�
 <!-- STATUS_SESSION57_APPLIED -->
 <!-- STATUS_SESSION58_APPLIED -->
 <!-- STATUS_SESSION59_APPLIED -->
+<!-- STATUS_SESSION60_APPLIED -->
