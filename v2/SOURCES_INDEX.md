@@ -611,12 +611,12 @@
 
 **Аудит-инструмент:** `scripts/audit_ebm_compliance.ps1` — прогон по всем 53 контентным файлам `references/methodology/*.md` по 15 критериям стандарта. Выводит карту состояний + сводную статистику (тегов, строк, файлов).
 
-**Текущая карта состояний (2026-07-31, Session 50):**
+**Текущая карта состояний (2026-08-10, Session 59):**
 
-- **FULL_EBM — 12 файлов (22.6 %):** `autoimmune_basics.md`, `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `joints_osteoporosis.md`, `minerals.md`, `nervous_system.md`, `nutraceuticals.md`, `pancreas_health.md`, `thyroid_health.md`, `vitamins.md`.
-- **PARTIAL_EBM — 0 файлов (0 %):** ✅ исчерпан (Session 58, pancreas_health.md переведён в FULL_EBM; stress_adrenals.md переклассифицирован аудитом в NO_EBM — отсутствует Benchmark-секция).
-- **NO_EBM — 40 файлов (75.5 %):** в основном методологические и клиентские файлы, где EBM в форме RCT неприменима (интервью с клиентом, мотивационное интервью, этика, шаблоны меню, антипаразитарные протоколы без RCT-базы).
-- **Всего:** 574 EBM-тегов, ~37 500 строк методологии (обновлено Session 58, 2026-08-06 — полное EBM-обогащение pancreas_health.md с нуля, +30 inline тегов; PARTIAL_EBM исчерпан).
+- **FULL_EBM — 13 файлов (24.5 %):** `autoimmune_basics.md`, `covid_pregnancy.md`, `female_hormones.md`, `gallbladder_health.md`, `hashimoto.md`, `joints_osteoporosis.md`, `minerals.md`, `nervous_system.md`, `nutraceuticals.md`, `pancreas_health.md`, `stress_adrenals.md`, `thyroid_health.md`, `vitamins.md`.
+- **PARTIAL_EBM — 0 файлов (0 %):** ✅ исчерпан с Session 58. После Session 59 `stress_adrenals.md` переведён из NO_EBM в FULL_EBM (Benchmark §14 присутствовал, +30 inline тегов добавлено с нуля).
+- **NO_EBM — 39 файлов (73.6 %):** в основном методологические и клиентские файлы, где EBM в форме RCT неприменима (интервью с клиентом, мотивационное интервью, этика, шаблоны меню, антипаразитарные протоколы без RCT-базы). Приоритетные кандидаты на FULL_EBM: `insulin_resistance.md` (Session 60), `liver_health.md`, `menopause.md`.
+- **Всего:** 604 EBM-тегов, ~37 500 строк методологии (обновлено Session 59, 2026-08-10 — полное EBM-обогащение stress_adrenals.md с нуля, +30 inline тегов; density 100 %).
 
 **Плановые скрипты Этапа F (обогащение PARTIAL → FULL):**
 
@@ -644,4 +644,4 @@
 - Нервная система, мигрень, сон — плановый протокол `nervous_system.md`.
 - Нутрицевтики (сводный протокол БАД) — плановый протокол `nutraceuticals_comprehensive.md`.
 
-<!-- SOURCES_INDEX_EBM_APPLIED_v58 -->
+<!-- SOURCES_INDEX_EBM_APPLIED_v59 -->
