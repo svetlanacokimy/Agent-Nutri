@@ -197,7 +197,33 @@
 
 ---
 
-<!-- PLAYBOOK_VERSION: 1.1 -->
-<!-- PLAYBOOK_v1.1_APPLIED -->
-<!-- PLAYBOOK_LAST_UPDATED: 2026-08-06, Session 57 -->
-<!-- BASED_ON_SESSIONS: 53, 54, 55, 57 -->
+<!-- PLAYBOOK_VERSION: 1.2 -->
+## Invariant 8: Побайтная валидация якорей до отправки скрипта
+
+Перед составлением `$Old` в `Apply-Patch` — обязательный вывод целевых строк из файла и побайтная сверка с текстом якоря:
+
+    $line = (Get-Content $file -Encoding UTF8)[N-1]
+    Write-Host "Contains anchor: $($line.Contains($anchor))"
+
+Для якорей с Unicode-символами (стрелки →, тире —, буллеты •) — дополнительно вывести коды каждого символа в контексте якоря. Не полагаться на визуальное совпадение: пробел U+0020, неразрывный пробел U+00A0 и артефакты Write-Host в узкой консоли выглядят одинаково.
+
+**Rationale:** L-057-01 (single quotes) закрывает интерпретацию бэктиков, но не решает проблему пробелов вокруг Unicode. Session 59 — три инцидента якорей (S1, S9, P28), суммарно ~15 минут потерь.
+
+**Related lessons:** L-057-01, TD-010.
+
+---
+
+## Invariant 9: UTF-8 BOM для скриптов + пороги размера по факту
+
+**9a. Кодировка PS-скриптов.** Все скрипты сохранять только с `UTF-8 with BOM`. При записи из PS — `Set-Content -Encoding UTF8` или `UTF8Encoding($true)`. Запрещено: `UTF8Encoding($false)` — Windows PowerShell 5.1 читает без BOM как cp1251, кириллица → mojibake, скрипт не парсится.
+
+**9b. Пороги валидации размера.** Первый запуск скрипта — «сухой» с порогом +50 chars для сбора реальной дельты. Финальный порог = 50–70 % от факта (запас 20–30 %). Для метафайлов (SOURCES_INDEX, STATUS), где патчи могут сокращать — использовать `[Math]::Abs($delta) -ge N`.
+
+**Rationale:** TD-008 (BOM) и TD-009 (пороги) — по 15 и 10 минут потерь в Session 59.
+
+**Related lessons:** L-059-02, L-059-03. Related tech debt: TD-008, TD-009.
+
+---
+<!-- PLAYBOOK_v1.2_APPLIED -->
+<!-- PLAYBOOK_LAST_UPDATED: 2026-08-10, Session 59 -->
+<!-- BASED_ON_SESSIONS: 53, 54, 55, 57, 58, 59 -->
