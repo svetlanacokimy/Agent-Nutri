@@ -1,16 +1,16 @@
 ﻿{
-    "generated":  "2026-08-13 19:28:40",
+    "generated":  "2026-08-13 19:51:26",
     "scannedDir":  "references/methodology",
     "summary":  {
                     "total":  57,
-                    "fullEbm":  1,
+                    "fullEbm":  16,
                     "partialEbm":  0,
-                    "noEbm":  56,
-                    "totalTags":  30,
+                    "noEbm":  41,
+                    "totalTags":  694,
                     "totalLines":  37897,
                     "totalBytes":  3287966,
                     "uniquePmids":  78,
-                    "anomalyCount":  3
+                    "anomalyCount":  13
                 },
     "files":  [
                   {
@@ -88,7 +88,7 @@
                       "Lines":  1016,
                       "H2":  13,
                       "H3":  70,
-                      "EbmTags":  0,
+                      "EbmTags":  81,
                       "MarkerVersion":  "1.1",
                       "MetadataVersion":  null,
                       "Status":  null,
@@ -99,10 +99,11 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  623.1,
                       "Anomalies":  [
-                                        "marker present but no version in metadata"
+                                        "marker present but no version in metadata",
+                                        "PMID diversity low: 0 unique / 81 tags (0%)"
                                     ]
                   },
                   {
@@ -226,7 +227,7 @@
                       "Lines":  780,
                       "H2":  26,
                       "H3":  29,
-                      "EbmTags":  0,
+                      "EbmTags":  30,
                       "MarkerVersion":  "1.3",
                       "MetadataVersion":  "1.3",
                       "Status":  "✅ Готов (FULL_EBM)",
@@ -237,10 +238,10 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  115.4,
                       "Anomalies":  [
-
+                                        "PMID diversity low: 0 unique / 30 tags (0%)"
                                     ]
                   },
                   {
@@ -295,7 +296,7 @@
                       "Lines":  886,
                       "H2":  28,
                       "H3":  109,
-                      "EbmTags":  0,
+                      "EbmTags":  37,
                       "MarkerVersion":  "2.2",
                       "MetadataVersion":  "2.2",
                       "Status":  "✅ Готов (FULL_EBM)",
@@ -306,10 +307,10 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  132.1,
                       "Anomalies":  [
-
+                                        "PMID diversity low: 0 unique / 37 tags (0%)"
                                     ]
                   },
                   {
@@ -318,7 +319,7 @@
                       "Lines":  744,
                       "H2":  28,
                       "H3":  64,
-                      "EbmTags":  0,
+                      "EbmTags":  30,
                       "MarkerVersion":  "2.1",
                       "MetadataVersion":  "2.1",
                       "Status":  "✅ Готов (FULL_EBM)",
@@ -329,10 +330,10 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  107.1,
                       "Anomalies":  [
-
+                                        "PMID diversity low: 0 unique / 30 tags (0%)"
                                     ]
                   },
                   {
@@ -410,7 +411,7 @@
                       "Lines":  624,
                       "H2":  15,
                       "H3":  68,
-                      "EbmTags":  0,
+                      "EbmTags":  34,
                       "MarkerVersion":  "1.2",
                       "MetadataVersion":  "1.2",
                       "Status":  "✅ Готов (EBM-lite)",
@@ -421,10 +422,11 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  226.7,
                       "Anomalies":  [
-
+                                        "status in metadata does not mention FULL_EBM: \u0027✅ Готов (EBM-lite)\u0027",
+                                        "PMID diversity low: 0 unique / 34 tags (0%)"
                                     ]
                   },
                   {
@@ -502,7 +504,7 @@
                       "Lines":  1161,
                       "H2":  27,
                       "H3":  100,
-                      "EbmTags":  0,
+                      "EbmTags":  30,
                       "MarkerVersion":  "2.1",
                       "MetadataVersion":  "2.1",
                       "Status":  "✅ Готов (FULL_EBM)",
@@ -537,8 +539,8 @@
                                     "6259925",
                                     "9742976"
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  111.1,
                       "Anomalies":  [
 
                                     ]
@@ -594,7 +596,7 @@
                       "Lines":  562,
                       "H2":  24,
                       "H3":  49,
-                      "EbmTags":  0,
+                      "EbmTags":  33,
                       "MarkerVersion":  "1.2",
                       "MetadataVersion":  "1.2",
                       "Status":  "✅ Активен (Ready for clinical use)",
@@ -605,10 +607,11 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  137.5,
                       "Anomalies":  [
-
+                                        "status in metadata does not mention FULL_EBM: \u0027✅ Активен (Ready for clinical use)\u0027",
+                                        "PMID diversity low: 0 unique / 33 tags (0%)"
                                     ]
                   },
                   {
@@ -617,7 +620,7 @@
                       "Lines":  995,
                       "H2":  28,
                       "H3":  97,
-                      "EbmTags":  0,
+                      "EbmTags":  30,
                       "MarkerVersion":  "2.1",
                       "MetadataVersion":  "2.1",
                       "Status":  "✅ Готов (FULL_EBM, 30 inline EBM-тегов, density 100 %)",
@@ -657,8 +660,8 @@
                                     "38851997",
                                     "7565971"
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  107.1,
                       "Anomalies":  [
 
                                     ]
@@ -807,7 +810,7 @@
                       "Lines":  1376,
                       "H2":  23,
                       "H3":  160,
-                      "EbmTags":  0,
+                      "EbmTags":  30,
                       "MarkerVersion":  "1.1",
                       "MetadataVersion":  null,
                       "Status":  null,
@@ -818,10 +821,11 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  130.4,
                       "Anomalies":  [
-                                        "marker present but no version in metadata"
+                                        "marker present but no version in metadata",
+                                        "PMID diversity low: 0 unique / 30 tags (0%)"
                                     ]
                   },
                   {
@@ -899,7 +903,7 @@
                       "Lines":  710,
                       "H2":  24,
                       "H3":  43,
-                      "EbmTags":  0,
+                      "EbmTags":  36,
                       "MarkerVersion":  "1.2",
                       "MetadataVersion":  "1.2",
                       "Status":  "✅ Готов (FULL_EBM)",
@@ -910,10 +914,10 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  150,
                       "Anomalies":  [
-
+                                        "PMID diversity low: 0 unique / 36 tags (0%)"
                                     ]
                   },
                   {
@@ -922,7 +926,7 @@
                       "Lines":  654,
                       "H2":  18,
                       "H3":  30,
-                      "EbmTags":  0,
+                      "EbmTags":  74,
                       "MarkerVersion":  "1.1",
                       "MetadataVersion":  "1.0",
                       "Status":  "◐ В работе",
@@ -933,10 +937,12 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  411.1,
                       "Anomalies":  [
-                                        "marker version (1.1) != metadata version (1.0)"
+                                        "marker version (1.1) != metadata version (1.0)",
+                                        "status in metadata does not mention FULL_EBM: \u0027◐ В работе\u0027",
+                                        "PMID diversity low: 0 unique / 74 tags (0%)"
                                     ]
                   },
                   {
@@ -1014,7 +1020,7 @@
                       "Lines":  924,
                       "H2":  28,
                       "H3":  92,
-                      "EbmTags":  0,
+                      "EbmTags":  30,
                       "MarkerVersion":  "2.1",
                       "MetadataVersion":  "2.1",
                       "Status":  "✅ Готов (FULL_EBM)",
@@ -1025,10 +1031,10 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  107.1,
                       "Anomalies":  [
-
+                                        "PMID diversity low: 0 unique / 30 tags (0%)"
                                     ]
                   },
                   {
@@ -1290,7 +1296,7 @@
                       "Lines":  1033,
                       "H2":  28,
                       "H3":  144,
-                      "EbmTags":  0,
+                      "EbmTags":  30,
                       "MarkerVersion":  "2.1",
                       "MetadataVersion":  "2.1",
                       "Status":  "✅ Готов (FULL_EBM)",
@@ -1301,10 +1307,10 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  107.1,
                       "Anomalies":  [
-
+                                        "PMID diversity low: 0 unique / 30 tags (0%)"
                                     ]
                   },
                   {
@@ -1313,7 +1319,7 @@
                       "Lines":  797,
                       "H2":  28,
                       "H3":  124,
-                      "EbmTags":  0,
+                      "EbmTags":  116,
                       "MarkerVersion":  "2.1",
                       "MetadataVersion":  "2.1",
                       "Status":  "✅ Готов",
@@ -1324,10 +1330,11 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  414.3,
                       "Anomalies":  [
-
+                                        "status in metadata does not mention FULL_EBM: \u0027✅ Готов\u0027",
+                                        "PMID diversity low: 0 unique / 116 tags (0%)"
                                     ]
                   },
                   {
@@ -1359,7 +1366,7 @@
                       "Lines":  1776,
                       "H2":  23,
                       "H3":  157,
-                      "EbmTags":  0,
+                      "EbmTags":  43,
                       "MarkerVersion":  "1.2",
                       "MetadataVersion":  "1.2",
                       "Status":  "✅ Готов (FULL_EBM)",
@@ -1370,10 +1377,10 @@
                       "Pmids":  [
 
                                 ],
-                      "Category":  "NO_EBM",
-                      "Density":  0,
+                      "Category":  "FULL_EBM",
+                      "Density":  187,
                       "Anomalies":  [
-
+                                        "PMID diversity low: 0 unique / 43 tags (0%)"
                                     ]
                   },
                   {

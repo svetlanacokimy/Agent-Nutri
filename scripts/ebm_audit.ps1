@@ -44,10 +44,12 @@ foreach ($f in $files) {
     $h3Count = ([regex]::Matches($raw, '(?m)^### ')).Count
 
     # EBM tags (multiple formats: 📚 **EBM** or 📚 EBM: or > 📚 **EBM:**)
-    $ebmTags = ([regex]::Matches($raw, '📚 \*\*EBM')).Count
+    $ebmTagsV21 = ([regex]::Matches($raw, '📚 \*\*EBM')).Count
+    $ebmTagsLegacy = ([regex]::Matches($raw, '\[EBM:')).Count
+    $ebmTags = $ebmTagsV21 + $ebmTagsLegacy
     if ($ebmTags -eq 0) {
         # Fallback: try plain "📚 EBM:" without bold
-        $ebmTags = ([regex]::Matches($raw, '📚 \*\*EBM')).Count
+        $ebmTagsV21 = ([regex]::Matches($raw, '📚 \*\*EBM')).Count; $ebmTagsLegacy = ([regex]::Matches($raw, '\[EBM:')).Count; $ebmTags = $ebmTagsV21 + $ebmTagsLegacy
     }
 
     # Marker EBM_ENRICHED_v*
