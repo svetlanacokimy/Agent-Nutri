@@ -1,12 +1,14 @@
-﻿# EBM Standard v3.0 — Единый стандарт научного цитирования Agent-Nutri Pro
+﻿# EBM Standard v3.1 — Единый стандарт научного цитирования Agent-Nutri Pro
 
 > **Назначение документа:** единый источник истины (SSoT) для формата научного цитирования в проекте Agent-Nutri Pro. Определяет, как выглядит доказательный (EBM) тег в методических файлах и клиентских материалах, какие поля обязательны, как валидируется тег и как мигрируются старые форматы.
 >
-> **Версия:** 3.0
-> **Дата:** 2026-08-14
+> **Версия:** 3.1 — 2026-08-15 (уроки пилота №1)
+> **Дата:** 2026-08-15
 > **Статус:** ACTIVE — замещает старый `project/EBM_STANDARD.md` (v1.1, EBM-lite, формат `[EBM: Автор Год]`).
 > **Владелец:** Светлана + Claude
 > **Обновлять:** при изменении структуры тега, словарей или точек валидации.
+>
+> **Changelog v3.0 → v3.1:** по итогам пилота миграции №1 (`pancreas_health.md`, 3 тега, 2026-08-14) добавлены 7 уроков (см. раздел 12): (1) автоматический fallback на PMC full-text; (2) `n/a` вместо `NOT_IN_ABSTRACT` в чистом теге методички; (3) удаление пустых плейсхолдеров substance/dose для non-interventional работ; (4) детекция guideline по нескольким источникам (не только PublicationType); (5) обработка legacy topic mismatch со вторым кандидатом; (6) правило для старых работ до ~1975 без abstract; (7) обязательный блок `## Verification` в annotated-версии.
 
 ---
 
@@ -23,6 +25,7 @@
 9. Миграция со старых стандартов
 10. Примеры на реальных данных (5 полных тегов)
 11. References (образец раздела для inline-версии)
+12. Уроки пилота миграции №1 (v3.1)
 
 ---
 
@@ -73,6 +76,13 @@
     > **Gärtner R, et al. 2002.** Selenomethionine 200 mcg once daily reduces anti-TPO antibodies by 40 percent vs placebo.
     > **Population:** women and men with autoimmune thyroiditis, mean age 47 years (n=70, 3 months).
     > *J Clin Endocrinol Metab* 87(4):1687-1691. PMID: [11932302](https://pubmed.ncbi.nlm.nih.gov/11932302)
+
+**Чистый тег при отсутствии данных (v3.1, урок 2).** В финальном v3.0-блоке, который вставляется в файл методологии, отсутствующие числовые поля пишутся как `n/a`, а не как отладочная плашка `NOT_IN_ABSTRACT`. Плашка `NOT_IN_ABSTRACT` живёт только в annotated-версии (для confidence-логирования и отладки, см. раздел 12).
+
+    > 📚 **EBM** [Level 2b, cohort] [hard]
+    > **Wagner R, et al. 2021.** Pathophysiology-based subphenotyping of individuals at elevated risk for type 2 diabetes identifies six clusters; cluster 6 has increased risk of kidney disease and all-cause mortality.
+    > **Population:** men and women at elevated risk for type 2 diabetes (n=n/a, follow-up=n/a).
+    > *Nature medicine* 27(1):49-57. PMID: [33398163](https://pubmed.ncbi.nlm.nih.gov/33398163)
 
 ---
 
@@ -292,11 +302,79 @@
 
 ---
 
+## 12. Уроки пилота миграции №1 (v3.1)
+
+Раздел выведен из пилотного прогона миграции 3 тегов файла `references/methodology/pancreas_health.md` на v3.0 (2026-08-14). Пилот выявил 7 системных проблем, каждая закрыта правилом ниже. Все правила действуют совместно с разделами 1–11.
+
+### 12.1. PMC full-text fallback (automatic)
+
+Если abstract статьи не содержит критичных числовых данных (`n`, длительность/follow-up, доза) — агент действует автоматически:
+
+1. Проверяет наличие PMC ID в `esummary` (поле `articleids` с `idtype=pmc`, либо `pmc`).
+2. При наличии PMC ID делает второй запрос: `efetch db=pmc id=<PMC_ID>&rettype=xml`.
+3. Ищет числовые данные в секциях Methods / Results (размер выборки, длительность, доза).
+
+Правила:
+
+- Работает **автоматически** для open access статей (PMC full-text доступен).
+- Если данные найдены в PMC — confidence остаётся **HIGH**, но поле помечается источником `[source: PMC full-text]` (в annotated-версии).
+- Если статья не в open access или PMC ID отсутствует — fallback не выполняется, поля остаются `n/a` (см. урок 2).
+
+### 12.2. `n/a` вместо `NOT_IN_ABSTRACT` в чистом теге
+
+- В финальном v3.0-блоке для файла методологии числовые поля без данных пишутся как `n=n/a`, `follow-up=n/a`.
+- Плашка `NOT_IN_ABSTRACT` используется **только** в annotated-версии тега (для отладки и confidence-логирования).
+- Обоснование: файл методологии читает нутрициолог, ему нужен чистый тег; отладочные плашки — визуальный шум и ложный сигнал «ошибка».
+- Пример чистого блока с `n/a` — см. раздел 2 (Wagner 2021).
+
+### 12.3. Убирать пустые плейсхолдеры для non-interventional работ
+
+Для работ типа **cohort / cross-sectional / guideline / registry / editorial** поля substance / dose / effect объективно неприменимы — исследование не про вещество и дозу.
+
+- Вместо `[Substance/dose: NOT_IN_ABSTRACT] [Quantitative effect: NOT_IN_ABSTRACT]` — просто **одна фраза с findings** из abstract (что именно показано/рекомендовано).
+- Пустые плейсхолдеры substance/dose остаются **только** для интервенционных работ (RCT, meta-analysis of RCT), где вещество и доза _должны были быть_, но их нет в abstract — это сигнал подозрительной работы, требующей ручной проверки.
+
+### 12.4. Guideline detection по нескольким источникам
+
+`PublicationType` не всегда содержит `Guideline` (в пилоте Löhr HaPanEU шёл в PubMed как `Review`, хотя это evidence-based guideline).
+
+Правило v3.1: если **title** или **abstract** содержит любое из ключевых слов —
+`guideline`, `guidelines`, `consensus`, `recommendations`, `position statement`, `criteria`, `HaPanEU`, `IAP/APA`, `ACG guideline` —
+классифицировать источник как `[Level 5, Guideline]` **независимо** от `PublicationType`. Confidence: `[HIGH]`.
+
+### 12.5. Legacy topic mismatch — предупреждение и второй кандидат
+
+- Если legacy-тег в файле описывает тему X (по контексту предложения вокруг тега), а abstract новой найденной статьи — про тему Y, расхождение помечается `TOPIC_MISMATCH_DETECTED` в annotated-версии.
+- В этом случае агент ищет **второго кандидата**: контекстный поиск в PubMed по теме legacy-тега на английском (auto-translate предложения-контекста RU→EN).
+- Второй кандидат отбирается по фильтрам:
+  - **Журнал** Q1–Q2 (impact factor > 5) или из белого списка: NEJM, Lancet, Gastroenterology, JAMA, Nature Medicine, BMJ, Diabetes Care, Gut, Am J Gastroenterol, Ann Intern Med, Circulation.
+  - **PublicationType:** RCT / Meta-Analysis / Systematic Review / Guideline / Practice Guideline.
+  - **Citations** > 50 (для работ ≥ 5 лет) или **Altmetric** > 20 (для новых).
+- Если ни одна статья фильтры не проходит — второй кандидат не предлагается, оставляется только первый (из карты миграции).
+
+### 12.6. Старые статьи без abstract
+
+- Для работ до ~1975 года `<AbstractText>` в PubMed часто отсутствует.
+- Правило: если `<AbstractText>` пустой — **не пытаться** извлечь Substance / Effect / Population из внутренних знаний.
+- В annotated-версии ставится `[NO_ABSTRACT_AVAILABLE — pre-1975 publication]`, confidence `LOW`.
+- В чистом теге v3.0 bibliographic record (автор, год, журнал, том, страницы, PMID) — полный, а клинические поля = `n/a`.
+- Такие работы валидируются нутрициологом вручную.
+
+### 12.7. Verification block обязателен
+
+Каждый annotated-файл заканчивается секцией `## Verification` с двумя пунктами:
+
+1. **Сверка author / year / journal** с картой миграции: `PASS` / `FAIL` (с деталями расхождения).
+2. **Topic mismatch check** — совпадает ли тема legacy-тега с abstract: `PASS` / `MISMATCH_DETECTED` + описание расхождения.
+
+---
+
 ## Приложение А. История изменений стандарта
 
+- v3.1 (2026-08-15, уроки пилота №1): добавлен раздел 12 с 7 уроками (PMC full-text fallback, `n/a` вместо `NOT_IN_ABSTRACT` в чистом теге, удаление пустых плейсхолдеров для non-interventional работ, guideline-детекция по нескольким источникам, legacy topic mismatch + второй кандидат, правило для работ до ~1975 без abstract, обязательный блок `## Verification`). Уточнён пример чистого тега в разделе 2.
 - v3.0 (2026-08-14): полный самодостаточный блокквот-тег (Level, форма, доза, эффект, Population, PMID), условные поля Safety/Interaction/Currency, 10 точек валидации, спецформаты (мета-анализ, guideline, conflicting, no-PMID), inline-версия с References. Замещает v1.1.
 - v1.1 (2026-07-31, Session 50): EBM-lite, формат `[EBM: Автор Год]`. Переведён в статус LEGACY.
 
 ---
 
-EBM_STANDARD_v3_APPLIED
+EBM_STANDARD_v3.1_APPLIED
