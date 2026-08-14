@@ -1,4 +1,4 @@
-﻿# ============================================
+# ============================================
 # Agent-Nutri — .gitignore
 # ============================================
 
@@ -45,3 +45,12 @@ desktop.ini
 scripts/_temp/
 *.backup_*
 *.backup
+
+# --- Etap 1 hygiene (2026-08-14) ---
+# Temporary work folders
+project/_temp/
+**/_temp/
+
+# Archive folders (allow content)
+!project/_archive/
+!scripts/_archive/
