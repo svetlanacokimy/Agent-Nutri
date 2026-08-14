@@ -1,6 +1,16 @@
 ﻿# Поджелудочная железа — клинический протокол
 
-## 1. Анатомия и физиология поджелудочной железы [EBM: Whitcomb 2019 NEJM]
+<!-- EBM Status: MIGRATED_v3.0 -->
+<!-- Migration date: 2026-08-15 -->
+<!-- Source standard: EBM_STANDARD v3.1 -->
+<!-- Legacy tags migrated: 30 → 17 unique PMIDs + 1 SKIP (TD-026) -->
+
+## 1. Анатомия и физиология поджелудочной железы
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Löhr JM, et al. 2017.** United European Gastroenterology evidence-based guidelines (HaPanEU) for the diagnosis and therapy of chronic pancreatitis; 101 GRADE-graded recommendations across 12 topics, including pancreatic enzyme replacement therapy dosing.
+> **Population:** patients with chronic pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
 
 Поджелудочная железа (ПЖ) — железа смешанной секреции, относящаяся одновременно к пищеварительной и эндокринной системам. Состоит из двух функционально разных частей.
 
@@ -11,6 +21,7 @@
 ### Эндокринная часть ⭐
 
 Островки Лангерганса (1–2 % массы железы), выделяют гормоны прямо в кровь:
+
 - **Инсулин** — снижает глюкозу крови, обеспечивает её усвоение клетками
 - **Глюкагон** — повышает глюкозу крови (антагонист инсулина)
 - **Соматостатин** — регулирует выделение инсулина и глюкагона, тормозит секрецию ПЖ
@@ -21,30 +32,40 @@
 
 ---
 
-## 2. Десять панкреатических ферментов [EBM: DiMagno 1973 NEJM]
+## 2. Десять панкреатических ферментов
+
+> 📚 **EBM** [Level 4, Journal Article] [clinical]
+> **DiMagno EP, et al. 1973.** Relations between pancreatic enzyme outputs and malabsorption in severe pancreatic insufficiency.
+> **Population:** adults with severe pancreatic insufficiency (n=n/a, follow-up=n/a).
+> _The New England journal of medicine_ 288(16):813-815. PMID: [4693931](https://pubmed.ncbi.nlm.nih.gov/4693931)
 
 ### Классификация по субстрату ⭐
 
 Десять ферментов ПЖ делятся на 4 группы: протеолитические (трипсин, химотрипсин, эластаза, карбоксипептидаза), липолитические (липаза, фосфолипаза A2, холестеролэстераза), амилолитические (амилаза), нуклеазы (рибонуклеаза, дезоксирибонуклеаза).
 
-| № | Фермент | Что расщепляет |
-|---|---|---|
-| 1 | Амилаза | Углеводы (крахмал, гликоген) |
-| 2 | Трипсин | Белки |
-| 3 | Химотрипсин | Белки |
-| 4 | Карбоксипептидаза | Белки |
-| 5 | Эластаза | Пептиды |
-| 6 | Стеапсин | Жиры |
-| 7 | Липаза | Триглицериды |
-| 8 | Амилаза (вторая форма) | Крахмал и гликоген |
-| 9 | Рибонуклеаза | РНК |
-| 10 | Дезоксирибонуклеаза | ДНК |
+| №   | Фермент                | Что расщепляет               |
+| --- | ---------------------- | ---------------------------- |
+| 1   | Амилаза                | Углеводы (крахмал, гликоген) |
+| 2   | Трипсин                | Белки                        |
+| 3   | Химотрипсин            | Белки                        |
+| 4   | Карбоксипептидаза      | Белки                        |
+| 5   | Эластаза               | Пептиды                      |
+| 6   | Стеапсин               | Жиры                         |
+| 7   | Липаза                 | Триглицериды                 |
+| 8   | Амилаза (вторая форма) | Крахмал и гликоген           |
+| 9   | Рибонуклеаза           | РНК                          |
+| 10  | Дезоксирибонуклеаза    | ДНК                          |
 
 **Ключевые маркеры для лабораторной диагностики:** амилаза (общая), липаза (специфичный маркер ПЖ), эластаза-1 в кале (для оценки экзокринной функции).
 
 ---
 
-## 3. Карта ферментов всего ЖКТ [EBM: Whitcomb 2019 NEJM]
+## 3. Карта ферментов всего ЖКТ
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Löhr JM, et al. 2017.** United European Gastroenterology evidence-based guidelines (HaPanEU) for the diagnosis and therapy of chronic pancreatitis; 101 GRADE-graded recommendations across 12 topics, including pancreatic enzyme replacement therapy dosing.
+> **Population:** patients with chronic pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
 
 ### Полная карта пищеварения ⭐
 
@@ -52,26 +73,31 @@
 
 Пищеварение начинается не в ПЖ — ферменты вырабатываются по всему ЖКТ. Понимание этого критично, потому что проблемы в верхних отделах (низкая кислотность, плохой желчеотток) перегружают ПЖ.
 
-| Место | Фермент | Расщепление |
-|---|---|---|
-| **Слюнные железы** | Амилаза | Крахмалы, гликоген |
-| | Мальтаза | Дисахарид мальтозы |
-| **Желудок** | Пепсин | Белки |
-| | Химозин (сычужный) | Молочные белки |
-| | Желатиназа | Белки (желатин) |
-| | Уреаза | Мочевина |
-| **Стенки тонкого кишечника** | Аминопептидаза | Белки |
-| | Липаза кишечная | Триглицериды |
-| | Глюкоамилаза | Дисахариды |
-| | Лактаза | Лактоза |
-| | Сахараза | Сахароза |
-| **Поджелудочная железа** | См. раздел 2 (10 ферментов) | БЖУ |
+| Место                        | Фермент                     | Расщепление        |
+| ---------------------------- | --------------------------- | ------------------ |
+| **Слюнные железы**           | Амилаза                     | Крахмалы, гликоген |
+|                              | Мальтаза                    | Дисахарид мальтозы |
+| **Желудок**                  | Пепсин                      | Белки              |
+|                              | Химозин (сычужный)          | Молочные белки     |
+|                              | Желатиназа                  | Белки (желатин)    |
+|                              | Уреаза                      | Мочевина           |
+| **Стенки тонкого кишечника** | Аминопептидаза              | Белки              |
+|                              | Липаза кишечная             | Триглицериды       |
+|                              | Глюкоамилаза                | Дисахариды         |
+|                              | Лактаза                     | Лактоза            |
+|                              | Сахараза                    | Сахароза           |
+| **Поджелудочная железа**     | См. раздел 2 (10 ферментов) | БЖУ                |
 
 **Вывод:** если ПЖ перегружена — сначала чиним верхние отделы, не назначаем ферменты ПЖ слепо.
 
 ---
 
-## 4. Связки ПЖ с другими органами [EBM: Opie 1901 common-channel theory]
+## 4. Связки ПЖ с другими органами
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Żorniak M, et al. 2023.** Consensus (systematic review plus Delphi) defining biliary sludge and microlithiasis as distinct entities and a treatable cause of otherwise idiopathic acute pancreatitis; severity of biliary acute pancreatitis was independent of concrement size.
+> **Population:** patients with presumed biliary or idiopathic acute pancreatitis (systematic review of 1682 reports plus 30-expert survey; retrospective cohort n=177).
+> _Gut_ 72(10):1919-1926. PMID: [37072178](https://pubmed.ncbi.nlm.nih.gov/37072178)
 
 ### ПЖ ↔ желчный пузырь ⭐
 
@@ -90,27 +116,41 @@
 Эндокринная часть = бета-клетки → инсулин. Хронический панкреатит → разрушение островков → СД 3c типа (см. §21). Кросс: `insulin_resistance.md`.
 
 **ПЖ ↔ Желчный пузырь:**
+
 - Общий сфинктер Одди на выходе в 12-перстную кишку
 - Камень в ЖП или спазм Одди → заброс желчи в проток ПЖ → активация трипсиногена внутри ПЖ → самопереваривание → панкреатит
 - При любой проблеме с ПЖ обязательно УЗИ ЖП (детали — `gallbladder_health.md`)
 
 **ПЖ ↔ Желудок:**
+
 - Низкая кислотность желудочного сока → недостаточная активация всех ферментов ниже по ЖКТ → перегрузка ПЖ
 - ⚠️ Низкую кислотность исправить **до** назначения ферментов
 
 **ПЖ ↔ Тонкий кишечник:**
+
 - Дефицит ферментов ПЖ → непереваренная пища → СИБР, СДК, дисбиоз (детали — `intestinal_health.md`)
 - Воспаление тонкого кишечника → снижение секреции ПЖ (обратная связь)
 
 **ПЖ ↔ Печень:**
+
 - Печёночные пробы (АЛТ, АСТ, общий билирубин) входят в стандартную диагностику ПЖ
 - Холестаз и нарушенный желчеотток — частая причина панкреатита (детали — `liver_health.md`)
 
 ---
 
-_Билиарный панкреатит — вторая по частоте причина острого панкреатита; механизм включает обструкцию сфинктера Одди камнем с рефлюксом жёлчи в панкреатический проток._ [EBM: Tenner 2013 ACG]
+_Билиарный панкреатит — вторая по частоте причина острого панкреатита; механизм включает обструкцию сфинктера Одди камнем с рефлюксом жёлчи в панкреатический проток._
 
-## 5. ⚠️ Восемь правил «прежде чем пить ферменты» [EBM: UEG Löhr 2017 HaPanEU]
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Tenner S, et al. 2013.** American College of Gastroenterology guideline on management of acute pancreatitis; diagnosis by clinical presentation plus lipase or amylase above three times the upper limit of normal, early aggressive hydration, etiology dominated by gallstones and alcohol.
+> **Population:** patients with acute pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _The American journal of gastroenterology_ 108(9):1400-1415. PMID: [23896955](https://pubmed.ncbi.nlm.nih.gov/23896955)
+
+## 5. ⚠️ Восемь правил «прежде чем пить ферменты»
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Löhr JM, et al. 2017.** United European Gastroenterology evidence-based guidelines (HaPanEU) for the diagnosis and therapy of chronic pancreatitis; 101 GRADE-graded recommendations across 12 topics, including pancreatic enzyme replacement therapy dosing.
+> **Population:** patients with chronic pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
 
 ### Когда ферменты НЕ показаны ⚠️
 
@@ -131,7 +171,12 @@ _Билиарный панкреатит — вторая по частоте п
 
 ---
 
-## 6. ⚠️ Принцип «сладкое + жирное» — главный враг ПЖ [EBM: Yadav 2013 Gastroenterology]
+## 6. ⚠️ Принцип «сладкое + жирное» — главный враг ПЖ
+
+> 📚 **EBM** [Level 5, narrative review] [clinical]
+> **Yadav D, et al. 2013.** Epidemiology of pancreatitis and pancreatic cancer: gallstones are the most common cause of acute pancreatitis; alcohol is the leading risk factor for chronic pancreatitis; smoking is an independent risk factor.
+> **Population:** epidemiologic review of pancreatic disorders (n=n/a, follow-up=n/a).
+> _Gastroenterology_ 144(6):1252-1261. PMID: [23622135](https://pubmed.ncbi.nlm.nih.gov/23622135)
 
 ### Механизм двойной нагрузки ⚠️
 
@@ -149,7 +194,12 @@ _Билиарный панкреатит — вторая по частоте п
 
 ---
 
-## 7. ⚠️ Животные vs растительные ферменты [EBM: UEG Löhr 2017 HaPanEU]
+## 7. ⚠️ Животные vs растительные ферменты
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Löhr JM, et al. 2017.** United European Gastroenterology evidence-based guidelines (HaPanEU) for the diagnosis and therapy of chronic pancreatitis; 101 GRADE-graded recommendations across 12 topics, including pancreatic enzyme replacement therapy dosing.
+> **Population:** patients with chronic pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
 
 **Принципиальный нутрицевтический инсайт школы. Большинство пациентов принимают «не тот тип» ферментов.**
 
@@ -172,7 +222,12 @@ _Билиарный панкреатит — вторая по частоте п
 
 ---
 
-## 8. Дозировки ферментов [EBM: UEG Löhr 2017 HaPanEU]
+## 8. Дозировки ферментов
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Löhr JM, et al. 2017.** United European Gastroenterology evidence-based guidelines (HaPanEU) for the diagnosis and therapy of chronic pancreatitis; 101 GRADE-graded recommendations across 12 topics, including pancreatic enzyme replacement therapy dosing.
+> **Population:** patients with chronic pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
 
 ### Расчёт по липазе ⭐
 
@@ -183,17 +238,20 @@ _Билиарный панкреатит — вторая по частоте п
 Причины неэффективности PERT: низкий pH в 12-перстной (нужен ИПП), неправильный приём (не в начале еды), несоблюдение диеты, несоблюдение режима, ошибка диагноза (это не EPI).
 
 **Взрослые:**
+
 - 1 капсула во время каждого приёма пищи
 - При необходимости дозу можно увеличивать
 - Курс при лёгких расстройствах: 1-2 месяца → плавная отмена
 - Курс при необратимой недостаточности ПЖ (поздний панкреатит): пожизненно
 
 **Дети:**
+
 - Начинать с **1/8 капсулы** во время еды
 - Постепенно увеличивать до **½ капсулы** с каждым приёмом пищи
 - Содержимое капсулы можно высыпать в еду
 
 **Общие правила:**
+
 - Нет одного фермента, который подойдёт всем — менять при отсутствии эффекта
 - Принимать строго во время еды (не до, не после)
 - Запивать достаточным количеством воды
@@ -204,7 +262,12 @@ _Билиарный панкреатит — вторая по частоте п
 
 ---
 
-## 9. Панкреатит — определение и патогенез [EBM: Banks 2013 Atlanta classification]
+## 9. Панкреатит — определение и патогенез
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Banks PA, et al. 2013.** Revision of the Atlanta classification of acute pancreatitis by international consensus; defines early and late phases and mild, moderate and severe grades.
+> **Population:** patients with acute pancreatitis (classification consensus; n=n/a, follow-up=n/a).
+> _Gut_ 62(1):102-111. PMID: [23100216](https://pubmed.ncbi.nlm.nih.gov/23100216)
 
 ### Острый панкреатит ⭐
 
@@ -221,6 +284,7 @@ _Билиарный панкреатит — вторая по частоте п
 **Панкреатит** — воспаление поджелудочной железы. Болезнь развивается постепенно.
 
 **Ключевой механизм необратимости:**
+
 - В результате хронического воспаления **живые клетки ПЖ замещаются рубцовой тканью**
 - Орган повреждается **необратимо** и перестаёт вырабатывать ферменты
 - ⚠️ **Хронический панкреатит вылечить раз и навсегда нельзя — можно только замедлить его развитие**
@@ -230,9 +294,19 @@ _Билиарный панкреатит — вторая по частоте п
 
 ---
 
-_Диагноз острого панкреатита ставится при наличии ≥2 из 3 критериев: типичная боль, липаза/амилаза >3× ВГН, характерные признаки на КТ/МРТ/УЗИ._ [EBM: Tenner 2013 ACG]
+_Диагноз острого панкреатита ставится при наличии ≥2 из 3 критериев: типичная боль, липаза/амилаза >3× ВГН, характерные признаки на КТ/МРТ/УЗИ._
 
-## 10. Шесть причин панкреатита [EBM: Yadav 2013 Gastroenterology]
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Tenner S, et al. 2013.** American College of Gastroenterology guideline on management of acute pancreatitis; diagnosis by clinical presentation plus lipase or amylase above three times the upper limit of normal, early aggressive hydration, etiology dominated by gallstones and alcohol.
+> **Population:** patients with acute pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _The American journal of gastroenterology_ 108(9):1400-1415. PMID: [23896955](https://pubmed.ncbi.nlm.nih.gov/23896955)
+
+## 10. Шесть причин панкреатита
+
+> 📚 **EBM** [Level 5, narrative review] [clinical]
+> **Yadav D, et al. 2013.** Epidemiology of pancreatitis and pancreatic cancer: gallstones are the most common cause of acute pancreatitis; alcohol is the leading risk factor for chronic pancreatitis; smoking is an independent risk factor.
+> **Population:** epidemiologic review of pancreatic disorders (n=n/a, follow-up=n/a).
+> _Gastroenterology_ 144(6):1252-1261. PMID: [23622135](https://pubmed.ncbi.nlm.nih.gov/23622135)
 
 ### Топ-2: алкоголь и ЖКБ ⚠️
 
@@ -251,9 +325,19 @@ _Диагноз острого панкреатита ставится при н
 
 ---
 
-_ЖКБ и алкоголь — две доминирующие причины острого панкреатита (~70 % случаев в развитых странах)._ [EBM: Tenner 2013 ACG]
+_ЖКБ и алкоголь — две доминирующие причины острого панкреатита (~70 % случаев в развитых странах)._
 
-## 11. Симптомы панкреатита [EBM: IAP/APA 2013 evidence-based guidelines]
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Tenner S, et al. 2013.** American College of Gastroenterology guideline on management of acute pancreatitis; diagnosis by clinical presentation plus lipase or amylase above three times the upper limit of normal, early aggressive hydration, etiology dominated by gallstones and alcohol.
+> **Population:** patients with acute pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _The American journal of gastroenterology_ 108(9):1400-1415. PMID: [23896955](https://pubmed.ncbi.nlm.nih.gov/23896955)
+
+## 11. Симптомы панкреатита
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Working Group IAP/APA, 2013.** IAP/APA evidence-based guidelines for the management of acute pancreatitis; 38 GRADE-graded recommendations across 12 topics including diagnosis, clinical presentation and nutritional support.
+> **Population:** patients with acute pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _Pancreatology_ 13(4 Suppl 2):e1-e15. PMID: [24054878](https://pubmed.ncbi.nlm.nih.gov/24054878)
 
 ### Острый приступ ⚠️
 
@@ -277,7 +361,12 @@ _ЖКБ и алкоголь — две доминирующие причины �
 
 ---
 
-## 12. Лабораторная диагностика ПЖ — 7 показателей [EBM: Tenner 2013 ACG (липаза >3× ВГН)]
+## 12. Лабораторная диагностика ПЖ — 7 показателей
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Tenner S, et al. 2013.** American College of Gastroenterology guideline on management of acute pancreatitis; diagnosis established by clinical symptoms and laboratory testing (lipase or amylase above three times the upper limit of normal), imaging reserved for unclear cases.
+> **Population:** patients with acute pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _The American journal of gastroenterology_ 108(9):1400-1415. PMID: [23896955](https://pubmed.ncbi.nlm.nih.gov/23896955)
 
 ### 12.1. Общий белок ◆
 
@@ -292,6 +381,7 @@ _ЖКБ и алкоголь — две доминирующие причины �
 - Стремление к верхней границе референса = ПЖ уже чувствительна к жирному и сладкому, возможен скрытый панкреатит
 
 **Причины повышения:**
+
 - Острый и хронический панкреатит (при остром обычно вместе с липазой)
 - Травма, рак ПЖ
 - Закупорка панкреатического протока (камнем, рубцом)
@@ -301,6 +391,7 @@ _ЖКБ и алкоголь — две доминирующие причины �
 - Прерванная трубная беременность
 
 **Причины снижения:**
+
 - Снижение функции ПЖ
 - Тяжёлый гепатит
 - Муковисцидоз
@@ -314,11 +405,13 @@ _ЖКБ и алкоголь — две доминирующие причины �
 - При хроническом панкреатите может быть в норме или стремиться к верхней границе
 
 **Динамика при остром панкреатите:**
+
 - Начинает повышаться через 2-6 часов после повреждения
 - Максимум — через 12-30 часов
 - Постепенное снижение в течение 2-4 дней
 
 **Причины повышения:**
+
 - Острый и хронический панкреатит
 - Основные причины острого — камни в ЖП и злоупотребление алкоголем
 - Травма ПЖ
@@ -327,6 +420,7 @@ _ЖКБ и алкоголь — две доминирующие причины �
 - Хроническая почечная недостаточность
 
 **Причины снижения:**
+
 - Снижение функции ПЖ
 - Муковисцидоз
 - Удаление ПЖ
@@ -365,6 +459,7 @@ _ЖКБ и алкоголь — две доминирующие причины �
 **Золотой стандарт диагностики экзокринной недостаточности ПЖ (EPI).** Эластаза-1 — фермент, синтезируемый только ПЖ, не разрушается при прохождении через кишечник, поэтому её концентрация в кале точно отражает функцию ПЖ.
 
 **Интерпретация (UEG 2017, Löhr):**
+
 - **>200 мкг/г** — норма
 - **100–200 мкг/г** — лёгкая/умеренная EPI
 - **<100 мкг/г** — тяжёлая EPI, показана PERT (§20)
@@ -377,9 +472,12 @@ _ЖКБ и алкоголь — две доминирующие причины �
 
 ---
 
-## 13. ⚠️ Лекарства, искажающие результаты анализов [EBM: Frank 1999 макроамилаземия]
+## 13. ⚠️ Лекарства, искажающие результаты анализов
+
+> 📚 **EBM** `PMID: N/A [SOURCE_UNVERIFIED — see TD-026]`
 
 **Повышают активность амилазы:**
+
 - Беременность (физиологически)
 - Каптоприл (от давления)
 - Кортикостероиды
@@ -389,6 +487,7 @@ _ЖКБ и алкоголь — две доминирующие причины �
 - Наркотические анальгетики
 
 **Повышают активность липазы:**
+
 - Каптоприл
 - Кортикостероиды
 - Оральные контрацептивы
@@ -401,7 +500,12 @@ _ЖКБ и алкоголь — две доминирующие причины �
 
 ---
 
-## 14. Связь ПЖ ↔ инсулинорезистентность [EBM: Wagner 2020 Nature Medicine]
+## 14. Связь ПЖ ↔ инсулинорезистентность
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Vujasinovic M, et al. 2026.** International multidisciplinary consensus defining fatty pancreas, its diagnostic imaging criteria and its associations with type 2 diabetes mellitus, beta-cell function and glucose homeostasis.
+> **Population:** patients with fatty pancreas (multi-society consensus; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 14(1):e70185. PMID: [41689768](https://pubmed.ncbi.nlm.nih.gov/41689768)
 
 ### Механизмы ⭐
 
@@ -420,11 +524,13 @@ _ЖКБ и алкоголь — две доминирующие причины �
 **Двусторонняя связь:**
 
 **ИР → панкреатит:**
+
 - Хроническая гиперинсулинемия → постоянная перегрузка бета-клеток ПЖ
 - Висцеральное ожирение → жировая инфильтрация ПЖ (липоматоз) → снижение и эндокринной, и экзокринной функций
 - Воспаление, сопровождающее ИР, затрагивает ПЖ
 
 **Панкреатит → ИР и СД2:**
+
 - Хронический панкреатит → постепенная гибель бета-клеток островков Лангерганса
 - Снижение выработки инсулина → нарушение углеводного обмена
 - Конечный итог запущенного хронического панкреатита — панкреатогенный сахарный диабет (тип 3с)
@@ -435,7 +541,12 @@ _ЖКБ и алкоголь — две доминирующие причины �
 
 ---
 
-## 15. Диетические рекомендации [EBM: IAP/APA 2013 (раннее энтеральное питание)]
+## 15. Диетические рекомендации
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Working Group IAP/APA, 2013.** IAP/APA evidence-based guidelines for the management of acute pancreatitis; topic on nutritional support recommends early enteral nutrition rather than prolonged fasting.
+> **Population:** patients with acute pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _Pancreatology_ 13(4 Suppl 2):e1-e15. PMID: [24054878](https://pubmed.ncbi.nlm.nih.gov/24054878)
 
 ### Принципы питания при ХП ⭐
 
@@ -456,6 +567,7 @@ _ЖКБ и алкоголь — две доминирующие причины �
 **Базовый принцип:** еда только по чувству голода, без перееданий.
 
 **Исключить:**
+
 - Сахар и быстрые углеводы
 - Глютен (особенно при подозрении на целиакию — `gluten_celiac.md`)
 - Молочные продукты при непереносимости
@@ -464,66 +576,81 @@ _ЖКБ и алкоголь — две доминирующие причины �
 - Сочетание сладкого + жирного в одном приёме
 
 **Способы готовки в порядке предпочтения:**
+
 1. Варка
 2. Тушение
 3. Запекание (без зажаристой корочки)
 4. На пару
 
 **Включить:**
+
 - Качественный белок в каждом приёме (для синтеза собственных ферментов)
 - Овощи в широком разнообразии
 - Тёплая еда (не холодная — холод спазмирует сфинктер Одди)
 - Достаточное жевание — амилаза слюны начинает работу
 
 **Режим приёма пищи:**
+
 - 3-4 раза в день
 - Без перекусов «на бегу»
 - Не есть перед сном (последний приём за 3 часа до сна)
 
 ---
 
-## 16. Нутрицевтическая поддержка ПЖ [EBM: Uden 1990 селен/антиоксиданты]
+## 16. Нутрицевтическая поддержка ПЖ
+
+> 📚 **EBM** [Level 2b, controlled clinical trial, double-blind] [clinical]
+> **Uden S, et al. 1990.** Micronutrient antioxidants (selenium 600 mcg, beta-carotene 9000 IU, vitamin C 0.54 g, vitamin E 270 IU, methionine 2 g daily) prevent attacks of recurrent pancreatitis (0 attacks on active vs 6 on placebo, P=0.032) and reduce background pain vs placebo.
+> **Population:** patients with recurrent or chronic pancreatitis (n=20 completed of 28, 20-week double-blind crossover).
+> _Alimentary pharmacology & therapeutics_ 4(4):357-371. PMID: [2103755](https://pubmed.ncbi.nlm.nih.gov/2103755)
+> ⚠️ **Safety:** selenium upper limit 400 mcg per day; the trial dose 600 mcg per day exceeds the UL; selenosis reported above approximately 900 mcg per day.
 
 **Легенда:** ⭐ — прямо названо в Уроке 7; ◆ — логическое следствие из методологии школы.
 
 ### Ферменты ⭐
 
-| Препарат | Дозировка | Курс | Тип |
-|---|---|---|---|
-| **Растительные (бромелайн, папаин)** | 1 капс. × приём пищи | 1-2 мес → отмена при лёгких нарушениях | Первый выбор |
-| **Юниэнзим** (аптечный) | По инструкции | По состоянию | Доступный вариант |
-| **Животные (Креон, Мезим, Панкреатин)** | По назначению врача | Пожизненно при необратимой недостаточности | ⚠️ Только когда нет выбора — вызывают привыкание |
+| Препарат                                | Дозировка            | Курс                                       | Тип                                              |
+| --------------------------------------- | -------------------- | ------------------------------------------ | ------------------------------------------------ |
+| **Растительные (бромелайн, папаин)**    | 1 капс. × приём пищи | 1-2 мес → отмена при лёгких нарушениях     | Первый выбор                                     |
+| **Юниэнзим** (аптечный)                 | По инструкции        | По состоянию                               | Доступный вариант                                |
+| **Животные (Креон, Мезим, Панкреатин)** | По назначению врача  | Пожизненно при необратимой недостаточности | ⚠️ Только когда нет выбора — вызывают привыкание |
 
 ### Противовоспалительная поддержка ◆
 
-| Нутрицевт | Дозировка | Курс | Источник |
-|---|---|---|---|
-| **Омега-3 (EPA+DHA)** | 1-2 г EPA+DHA/сут | Длительно | ◆ — урок описывает ПЖ как воспалительный процесс |
-| **Куркумин с пиперином** | 500 мг/сут | 2-3 мес курсами | ◆ — мощный противовоспалительный, школа применяет системно |
+| Нутрицевт                | Дозировка         | Курс            | Источник                                                   |
+| ------------------------ | ----------------- | --------------- | ---------------------------------------------------------- |
+| **Омега-3 (EPA+DHA)**    | 1-2 г EPA+DHA/сут | Длительно       | ◆ — урок описывает ПЖ как воспалительный процесс           |
+| **Куркумин с пиперином** | 500 мг/сут        | 2-3 мес курсами | ◆ — мощный противовоспалительный, школа применяет системно |
 
 ### Поддержка ферментативной функции ◆
 
-| Нутрицевт | Дозировка | Курс | Источник |
-|---|---|---|---|
-| **Бетаин HCl** (при низкой кислотности желудка) | 250-500 мг с белковой едой | Под контролем самочувствия | ◆ — урок прямо требует «исключить низкую кислотность» (правило №2 в разделе 5) |
-| **Цинк** | 15-25 мг/сут | 2-3 мес | ◆ — кофактор многих ферментов ПЖ; дефицит распространён при ферментной недостаточности |
+| Нутрицевт                                       | Дозировка                  | Курс                       | Источник                                                                               |
+| ----------------------------------------------- | -------------------------- | -------------------------- | -------------------------------------------------------------------------------------- |
+| **Бетаин HCl** (при низкой кислотности желудка) | 250-500 мг с белковой едой | Под контролем самочувствия | ◆ — урок прямо требует «исключить низкую кислотность» (правило №2 в разделе 5)         |
+| **Цинк**                                        | 15-25 мг/сут               | 2-3 мес                    | ◆ — кофактор многих ферментов ПЖ; дефицит распространён при ферментной недостаточности |
 
 ### Компенсация дефицитов при мальабсорбции ⭐
 
 При панкреатите часто формируются дефициты из-за нарушения всасывания (особенно жирорастворимых):
 
-| Нутрицевт | Дозировка | Контроль | Источник |
-|---|---|---|---|
-| **Витамин D (25-OH)** | 2000-5000 МЕ/сут | По анализу каждые 6 мес | ◆ — урок упоминает дефициты при панкреатите |
-| **Витамин K2 (MK-7)** | 100-200 мкг/сут | По симптомам | ◆ |
-| **Витамины группы B (B-комплекс)** | По инструкции | По общему белку и симптомам | ◆ — урок прямо называет дефициты В12 при мальабсорбции |
-| **Магний (глицинат/цитрат)** | 300-400 мг/сут | Длительно | ◆ — расслабляет сфинктер Одди, помогает оттоку |
+| Нутрицевт                          | Дозировка        | Контроль                    | Источник                                               |
+| ---------------------------------- | ---------------- | --------------------------- | ------------------------------------------------------ |
+| **Витамин D (25-OH)**              | 2000-5000 МЕ/сут | По анализу каждые 6 мес     | ◆ — урок упоминает дефициты при панкреатите            |
+| **Витамин K2 (MK-7)**              | 100-200 мкг/сут  | По симптомам                | ◆                                                      |
+| **Витамины группы B (B-комплекс)** | По инструкции    | По общему белку и симптомам | ◆ — урок прямо называет дефициты В12 при мальабсорбции |
+| **Магний (глицинат/цитрат)**       | 300-400 мг/сут   | Длительно                   | ◆ — расслабляет сфинктер Одди, помогает оттоку         |
 
 ⚠️ **Все дозировки — ориентир, не жёсткая схема.** Конкретное назначение — после анализов и оценки общего состояния.
 
 ---
 
-_Антиоксидантная терапия при хроническом панкреатите (селен + витамины A/C/E + метионин) снижает болевой синдром в подгруппе алкогольного ХП, но эффект неоднозначен и не заменяет анальгезии._ [EBM: Siriwardena 2007 Gastroenterology]
+_Антиоксидантная терапия при хроническом панкреатите (селен + витамины A/C/E + метионин) снижает болевой синдром в подгруппе алкогольного ХП, но эффект неоднозначен и не заменяет анальгезии._
+
+> 📚 **EBM** [Level 1b, RCT, double-blind] [clinical] [⚡ Conflicting evidence]
+> **Siriwardena AK, et al. 2012.** Antioxidant therapy (Antox version 1.2, two tablets three times daily) does not reduce pain in chronic pancreatitis vs placebo.
+> **Population:** adults with chronic pancreatitis (n=70, 6 months).
+> _Gastroenterology_ 143(3):655-663. PMID: [22683257](https://pubmed.ncbi.nlm.nih.gov/22683257)
+> ⚡ **Conflict:** earlier smaller trial (Uden 1990, PMID 2103755) reported benefit in recurrent or alcoholic pancreatitis.
 
 ## 17. ⚠️ Критические правила безопасности
 
@@ -570,6 +697,7 @@ _Антиоксидантная терапия при хроническом п�
 - [ ] Оценить **общий белок** как маркер ферментного потенциала
 
 **Агент НЕ должен:**
+
 - ❌ Назначать ферменты без выполнения 8 правил из раздела 5
 - ❌ Назначать животные ферменты (Креон, Мезим) при сохранной функции ПЖ
 - ❌ Интерпретировать повышенную амилазу/липазу без учёта лекарств пациента
@@ -580,6 +708,7 @@ _Антиоксидантная терапия при хроническом п�
 - ❌ Допускать сочетание «сладкое + жирное» в рекомендуемом меню
 
 **Агент ДОЛЖЕН:**
+
 - ✅ Всегда работать «сверху вниз» — желудок → ЖП → печень → ПЖ → кишечник
 - ✅ Объяснять пациенту необратимость хронического панкреатита и важность раннего вмешательства
 - ✅ Подчёркивать предпочтение растительных ферментов над животными
@@ -592,6 +721,7 @@ _Антиоксидантная терапия при хроническом п�
 ---
 
 **Связанные протоколы:**
+
 - `gallbladder_health.md` — желчный пузырь, сфинктер Одди, билиарный панкреатит
 - `liver_health.md` — печёночные пробы, фазы детокса, холестаз
 - `intestinal_health.md` — СИБР, дисбиоз как следствие ферментной недостаточности
@@ -605,7 +735,12 @@ _Антиоксидантная терапия при хроническом п�
 
 ---
 
-## 19. Экзокринная недостаточность ПЖ (EPI/PEI) ⭐ [EBM: UEG Löhr 2017 HaPanEU]
+## 19. Экзокринная недостаточность ПЖ (EPI/PEI) ⭐
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Löhr JM, et al. 2017.** United European Gastroenterology evidence-based guidelines (HaPanEU) for the diagnosis and therapy of chronic pancreatitis; 101 GRADE-graded recommendations across 12 topics, including pancreatic enzyme replacement therapy dosing.
+> **Population:** patients with chronic pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
 
 ### Определение и эпидемиология ⭐
 
@@ -629,9 +764,19 @@ _Антиоксидантная терапия при хроническом п�
 
 ---
 
-_Клинически значимая мальабсорбция жиров развивается при снижении секреции липазы ниже ~10 % от нормы (классическое правило DiMagno)._ [EBM: DiMagno 1973 NEJM]
+_Клинически значимая мальабсорбция жиров развивается при снижении секреции липазы ниже ~10 % от нормы (классическое правило DiMagno)._
 
-## 20. Ферментозаместительная терапия (PERT) ⭐⚠️ [EBM: UEG Löhr 2017 HaPanEU]
+> 📚 **EBM** [Level 4, Journal Article] [clinical]
+> **DiMagno EP, et al. 1973.** Relations between pancreatic enzyme outputs and malabsorption in severe pancreatic insufficiency.
+> **Population:** adults with severe pancreatic insufficiency (n=n/a, follow-up=n/a).
+> _The New England journal of medicine_ 288(16):813-815. PMID: [4693931](https://pubmed.ncbi.nlm.nih.gov/4693931)
+
+## 20. Ферментозаместительная терапия (PERT) ⭐⚠️
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Löhr JM, et al. 2017.** United European Gastroenterology evidence-based guidelines (HaPanEU) for the diagnosis and therapy of chronic pancreatitis; 101 GRADE-graded recommendations across 12 topics, including pancreatic enzyme replacement therapy dosing.
+> **Population:** patients with chronic pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
 
 ### Показания ⭐
 
@@ -659,9 +804,19 @@ PERT — рецептурный препарат. Нутрициолог НЕ н
 
 ---
 
-_Стартовая доза PERT — 40 000–50 000 ЕД липазы на основной приём пищи и 25 000 ЕД на перекус; коррекция по симптомам и коэффициенту абсорбции жиров._ [EBM: Whitcomb 2019 NEJM]
+_Стартовая доза PERT — 40 000–50 000 ЕД липазы на основной приём пищи и 25 000 ЕД на перекус; коррекция по симптомам и коэффициенту абсорбции жиров._
 
-## 21. Сахарный диабет 3c типа (панкреатогенный) ⭐ [EBM: Hardt 2008 Diabetes Care]
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Löhr JM, et al. 2017.** United European Gastroenterology evidence-based guidelines (HaPanEU) for the diagnosis and therapy of chronic pancreatitis; pancreatic enzyme replacement therapy starting dose among 101 GRADE-graded recommendations.
+> **Population:** patients with chronic pancreatitis (population-level guideline; n=n/a, follow-up=n/a).
+> _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
+
+## 21. Сахарный диабет 3c типа (панкреатогенный) ⭐
+
+> 📚 **EBM** [Level 5, narrative review] [clinical]
+> **Hardt PD, et al. 2008.** Pancreatic (type 3c) diabetes is underdiagnosed and misdiagnosed and may comprise 8 percent or more of the general diabetic population.
+> **Population:** patients with diabetes and exocrine pancreatic disease (n=n/a, follow-up=n/a).
+> _Diabetes care_ 31 Suppl 2:S165-S169. PMID: [18227480](https://pubmed.ncbi.nlm.nih.gov/18227480)
 
 ### Определение ⭐
 
@@ -669,15 +824,15 @@ _Стартовая доза PERT — 40 000–50 000 ЕД липазы на о�
 
 ### Отличия от СД1 и СД2 ⭐
 
-| Признак | СД1 | СД2 | СД3c |
-|---|---|---|---|
-| Возраст начала | <30 | >40 | любой, чаще 40–60 |
-| Антитела к β-клеткам | + | – | – |
-| С-пептид | низкий/0 | высокий | низкий (но не 0) |
-| Глюкагон | сохранён | сохранён | **снижен** (страдают α-клетки) |
-| Гипогликемии | частые | редкие | **очень частые** (нет защитного глюкагона) |
-| Инсулинорезистентность | нет | есть | вариабельна |
-| Анамнез ПЖ | нет | нет | **обязателен** |
+| Признак                | СД1      | СД2      | СД3c                                       |
+| ---------------------- | -------- | -------- | ------------------------------------------ |
+| Возраст начала         | <30      | >40      | любой, чаще 40–60                          |
+| Антитела к β-клеткам   | +        | –        | –                                          |
+| С-пептид               | низкий/0 | высокий  | низкий (но не 0)                           |
+| Глюкагон               | сохранён | сохранён | **снижен** (страдают α-клетки)             |
+| Гипогликемии           | частые   | редкие   | **очень частые** (нет защитного глюкагона) |
+| Инсулинорезистентность | нет      | есть     | вариабельна                                |
+| Анамнез ПЖ             | нет      | нет      | **обязателен**                             |
 
 ### Диагностические критерии (Ewald 2012) ⭐
 
@@ -693,9 +848,24 @@ _Стартовая доза PERT — 40 000–50 000 ЕД липазы на о�
 
 ---
 
-_Диабет типа 3c (панкреатогенный) недооценён: до ~9 % всех случаев СД связаны с патологией ПЖ, но большинство ошибочно классифицированы как СД2._ [EBM: Ewald 2012 Diabetes Metab Res Rev]
+_Диабет типа 3c (панкреатогенный) недооценён: до ~9 % всех случаев СД связаны с патологией ПЖ, но большинство ошибочно классифицированы как СД2._
 
-## 22. Кисты ПЖ и IPMN ⚠️ [EBM: ACG 2018 + European evidence-based 2018]
+> 📚 **EBM** [Level 4, cross-sectional] [clinical]
+> **Ewald N, et al. 2012.** Type 3c diabetes accounted for 9.2 percent (172 of 1868) of diabetic inpatients, of whom 78.5 percent had chronic pancreatitis; only 51.2 percent were initially classified correctly.
+> **Population:** hospitalized patients with diabetes mellitus (n=1868, retrospective 24 months).
+> _Diabetes/metabolism research and reviews_ 28(4):338-342. PMID: [22121010](https://pubmed.ncbi.nlm.nih.gov/22121010)
+
+## 22. Кисты ПЖ и IPMN ⚠️
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Elta GH, et al. 2018.** ACG Clinical Guideline for the diagnosis and management of pancreatic cysts; provides a practical approach and surveillance recommendations.
+> **Population:** patients with pancreatic cysts (population-level guideline; n=n/a, follow-up=n/a).
+> _The American journal of gastroenterology_ 113(4):464-479. PMID: [29485131](https://pubmed.ncbi.nlm.nih.gov/29485131)
+
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **European Study Group on Cystic Tumours of the Pancreas, 2018.** European evidence-based guidelines on pancreatic cystic neoplasms (GRADE); conservative management for asymptomatic MCN or IPMN below 40 mm without enhancing nodule, with relative and absolute surgical indications.
+> **Population:** patients with pancreatic cystic neoplasms (population-level guideline; n=n/a, follow-up=n/a).
+> _Gut_ 67(5):789-804. PMID: [29574408](https://pubmed.ncbi.nlm.nih.gov/29574408)
 
 ### Классификация ⭐
 
@@ -719,7 +889,12 @@ IPMN выявляются у 2–3 % взрослых при КТ/МРТ по д
 
 ---
 
-## 23. Аутоиммунный панкреатит (AIP) ◆ [EBM: Hamano 2001 NEJM (IgG4)]
+## 23. Аутоиммунный панкреатит (AIP) ◆
+
+> 📚 **EBM** [Level 3b, case-control] [surrogate]
+> **Hamano H, et al. 2001.** Serum IgG4 is markedly elevated in sclerosing pancreatitis (median 663 mg/dL) versus normal subjects (median 51 mg/dL) and other pancreatobiliary diseases.
+> **Population:** patients with sclerosing pancreatitis, matched normal subjects and other pancreatic or biliary diseases (n=20 cases plus 20 controls plus 154 comparison).
+> _The New England journal of medicine_ 344(10):732-738. PMID: [11236777](https://pubmed.ncbi.nlm.nih.gov/11236777)
 
 ### Два типа AIP ⭐
 
@@ -739,9 +914,19 @@ IPMN выявляются у 2–3 % взрослых при КТ/МРТ по д
 
 ---
 
-_Диагноз AIP ставится по критериям ICDC 2011 (International Consensus Diagnostic Criteria): гистология, визуализация, серология IgG4, вовлечение других органов, ответ на стероиды._ [EBM: ICDC 2011]
+_Диагноз AIP ставится по критериям ICDC 2011 (International Consensus Diagnostic Criteria): гистология, визуализация, серология IgG4, вовлечение других органов, ответ на стероиды._
 
-## 24. ⚠️⚠️⚠️ Онконастороженность — рак ПЖ [EBM: Lowenfels 1993 NEJM (риск в ХП)]
+> 📚 **EBM** [Level 5, Guideline] [recommendation]
+> **Shimosegawa T, et al. 2011.** International Consensus Diagnostic Criteria (ICDC) for autoimmune pancreatitis using five cardinal features (imaging, serology, other-organ involvement, histology, steroid response) and classifying AIP into types 1 and 2.
+> **Population:** patients with autoimmune pancreatitis (diagnostic-criteria consensus; n=n/a, follow-up=n/a).
+> _Pancreas_ 40(3):352-358. PMID: [21412117](https://pubmed.ncbi.nlm.nih.gov/21412117)
+
+## 24. ⚠️⚠️⚠️ Онконастороженность — рак ПЖ
+
+> 📚 **EBM** [Level 2b, cohort] [hard]
+> **Lowenfels AB, et al. 1993.** Chronic pancreatitis markedly increases pancreatic cancer risk: standardized incidence ratio 26.3 (95% CI 19.9 to 34.2); cumulative risk rises 10 to 20 years after diagnosis.
+> **Population:** subjects with chronic pancreatitis from six countries (n=2015, mean follow-up 7.4 years).
+> _The New England journal of medicine_ 328(20):1433-1437. PMID: [8479461](https://pubmed.ncbi.nlm.nih.gov/8479461)
 
 ### Эпидемиология и прогноз ⚠️
 
@@ -766,7 +951,6 @@ _Диагноз AIP ставится по критериям ICDC 2011 (Internat
 ### ⚠️⚠️⚠️ Критическая компетенция нутрициолога
 
 Нутрициолог НЕ диагностирует рак ПЖ, НЕ интерпретирует CA 19-9 / КТ / МРТ, НЕ даёт прогнозов. ОБЯЗАН немедленно направить к врачу при триаде «желтуха + потеря веса + новый СД» или при сочетании 2 из 3 у пациента >50 лет. Промедление = снижение шансов на радикальную операцию. После постановки диагноза — нутритивная поддержка (омега-3, BCAA, PERT при EPI вследствие опухоли), сопровождение онкодиетой по рекомендациям онколога.
-
 
 ---
 
@@ -806,63 +990,63 @@ _Диагноз AIP ставится по критериям ICDC 2011 (Internat
 
 ### 26.1. Ферменты «для улучшения пищеварения» vs UEG 2017
 
-| Школа (старый подход) | Доказательная медицина |
-|---|---|
+| Школа (старый подход)                                         | Доказательная медицина                                                                          |
+| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Ферменты при переедании, тяжести в животе, «для профилактики» | PERT показана **только** при подтверждённой EPI (эластаза-1 <200) или клинической мальабсорбции |
-| Любой панкреатин подойдёт | Только микросферы с энтеросолюбильным покрытием (Креон, Эрмиталь) |
-| 1–2 таблетки на приём | 40 000–50 000 ед. липазы на приём, 25 000 на перекус |
-| Принимать после еды | В начале еды (микросферы должны смешаться с химусом) |
+| Любой панкреатин подойдёт                                     | Только микросферы с энтеросолюбильным покрытием (Креон, Эрмиталь)                               |
+| 1–2 таблетки на приём                                         | 40 000–50 000 ед. липазы на приём, 25 000 на перекус                                            |
+| Принимать после еды                                           | В начале еды (микросферы должны смешаться с химусом)                                            |
 
 **Источник:** UEG evidence-based guideline 2017 (Löhr et al., HaPanEU). **Вывод:** «профилактический» приём ферментов угнетает собственную секрецию ПЖ и не имеет доказательной базы.
 
 ### 26.2. «Панкреатит от жирного» vs Banks 2012 Atlanta
 
-| Школа | Доказательная медицина |
-|---|---|
+| Школа                                    | Доказательная медицина                                                                                                                     |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Главная причина панкреатита — жирная еда | Топ-3 (Banks 2012, Atlanta classification): **#1 алкоголь (40 %)**, **#2 ЖКБ (35 %)**, **#3 гипертриглицеридемия (ТГ >1000 мг/дл, 1–4 %)** |
-| Любая жирная еда опасна | Жиры — триггер **только** при ТГ >1000 мг/дл, обычное содержание жира в пище не вызывает ОП |
-| Жирное вызывает хронический панкреатит | ХП вызывают: алкоголь + курение (50–80 %), генетика (PRSS1/SPINK1), обструкция протоков, AIP |
+| Любая жирная еда опасна                  | Жиры — триггер **только** при ТГ >1000 мг/дл, обычное содержание жира в пище не вызывает ОП                                                |
+| Жирное вызывает хронический панкреатит   | ХП вызывают: алкоголь + курение (50–80 %), генетика (PRSS1/SPINK1), обструкция протоков, AIP                                               |
 
 **Источник:** Banks PA et al. Classification of acute pancreatitis—2012, Gut 2013. **Вывод:** жирная еда — не главный враг ПЖ; алкоголь и курение — главные модифицируемые факторы.
 
 ### 26.3. Растительные ферменты vs ACG 2020
 
-| Школа | Доказательная медицина |
-|---|---|
+| Школа                                                 | Доказательная медицина                                                                                     |
+| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Бромелайн, папаин — «натуральная альтернатива» Креону | При EPI растительные ферменты **НЕ заменяют** PERT — нет доказательств активности при pH 12-перстной кишки |
-| Подходят при «лёгкой» EPI | Не входят ни в один международный гайдлайн по EPI (ACG 2020, UEG 2017) |
-| Безопаснее животных | Могут вызывать аллергии (бромелайн), взаимодействия с антикоагулянтами |
+| Подходят при «лёгкой» EPI                             | Не входят ни в один международный гайдлайн по EPI (ACG 2020, UEG 2017)                                     |
+| Безопаснее животных                                   | Могут вызывать аллергии (бромелайн), взаимодействия с антикоагулянтами                                     |
 
 **Источник:** ACG Clinical Guideline: Chronic Pancreatitis 2020 (Gardner et al.). **Вывод:** при подтверждённой EPI — только панкреатин-микросферы; растительные ферменты могут применяться как вспомогательная поддержка при отсутствии EPI.
 
 ### 26.4. «Дюбажи и чистка ПЖ» vs отсутствие доказательств
 
-| Школа | Доказательная медицина |
-|---|---|
-| Дюбажи с сорбитом/магнезией «чистят» ПЖ | Нет ни одного RCT, подтверждающего «чистку» ПЖ; в международных гайдлайнах термин отсутствует |
-| «Травы для поджелудочной» (расторопша, бессмертник) | Расторопша — печень (Cochrane 2007), для ПЖ доказательной базы нет |
-| Голодание «лечит» ХП | UEG 2017: при ХП — **нормокалорийная** диета, голодание ухудшает нутритивный статус |
+| Школа                                               | Доказательная медицина                                                                        |
+| --------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Дюбажи с сорбитом/магнезией «чистят» ПЖ             | Нет ни одного RCT, подтверждающего «чистку» ПЖ; в международных гайдлайнах термин отсутствует |
+| «Травы для поджелудочной» (расторопша, бессмертник) | Расторопша — печень (Cochrane 2007), для ПЖ доказательной базы нет                            |
+| Голодание «лечит» ХП                                | UEG 2017: при ХП — **нормокалорийная** диета, голодание ухудшает нутритивный статус           |
 
 **Риски:** дюбажи при сопутствующей ЖКБ → миграция камней → билиарный панкреатит (механизм #2 ОП по Banks 2012). **Вывод:** «чистки» ПЖ не существует как доказательной практики.
 
 ### 26.5. «Диета 5п пожизненно» vs UEG 2017
 
-| Школа | Доказательная медицина |
-|---|---|
-| Стол 5п (Певзнер, 1929) — пожизненно при ХП | UEG 2017: нормокалорийная диета, 5–6 приёмов, БЖУ сбалансировано |
-| Жиры строго <50 г/сут | Жиры **не ограничивать** — нужны для усвоения витаминов A/D/E/K, при EPI компенсируются PERT |
-| Только варёное, протёртое | Только в остром периоде (1–2 недели); далее — обычное питание + исключение алкоголя/курения |
+| Школа                                       | Доказательная медицина                                                                       |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Стол 5п (Певзнер, 1929) — пожизненно при ХП | UEG 2017: нормокалорийная диета, 5–6 приёмов, БЖУ сбалансировано                             |
+| Жиры строго <50 г/сут                       | Жиры **не ограничивать** — нужны для усвоения витаминов A/D/E/K, при EPI компенсируются PERT |
+| Только варёное, протёртое                   | Только в остром периоде (1–2 недели); далее — обычное питание + исключение алкоголя/курения  |
 
 **Источник:** Löhr JM et al. UEG evidence-based guidelines for chronic pancreatitis 2017. **Вывод:** диета Певзнера 5п — исторический документ 1929 г., не соответствует современным рекомендациям.
 
 ### 26.6. «СД при панкреатите = СД2» vs Hardt 2008 / Ewald 2012
 
-| Школа | Доказательная медицина |
-|---|---|
-| СД после панкреатита = СД2 | СД 3c (T3cDM) — отдельный тип, 5–10 % всех случаев СД (Hardt 2008) |
-| Метформин — первая линия | При СД 3c метформин часто неэффективен (нет ИР как ведущего механизма); раннее назначение инсулина (Ewald 2012) |
-| Гипогликемии редки | При СД 3c — **очень частые** гипогликемии из-за дефицита глюкагона |
-| Тактика как при СД2 | Параллельно — PERT при EPI (улучшает контроль гликемии) |
+| Школа                      | Доказательная медицина                                                                                          |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| СД после панкреатита = СД2 | СД 3c (T3cDM) — отдельный тип, 5–10 % всех случаев СД (Hardt 2008)                                              |
+| Метформин — первая линия   | При СД 3c метформин часто неэффективен (нет ИР как ведущего механизма); раннее назначение инсулина (Ewald 2012) |
+| Гипогликемии редки         | При СД 3c — **очень частые** гипогликемии из-за дефицита глюкагона                                              |
+| Тактика как при СД2        | Параллельно — PERT при EPI (улучшает контроль гликемии)                                                         |
 
 **Источник:** Hardt PD et al. Diabetes Care 2008; Ewald N et al. Diabetes Metab Res Rev 2012. **Вывод:** при сочетании «новый СД + анамнез панкреатита/ЖКБ» — обязательная дифференциальная диагностика с СД 3c.
 
@@ -872,22 +1056,23 @@ _Диагноз AIP ставится по критериям ICDC 2011 (Internat
 
 ### Связи с другими протоколами ◆
 
-| Протокол | Связь с ПЖ |
-|---|---|
-| `liver_health.md` | Общий проток (Одди); НАЖБП ↔ панкреатический стеатоз; AIP-1 ↔ PSC (IgG4) |
-| `gallbladder_health.md` | ЖКБ → билиарный панкреатит (35 % ОП); постхолецистэктомический синдром → EPI |
-| `intestinal_health.md` | Энтерокиназа 12-перстной → активация трипсина; атрофия → функциональная EPI |
-| `sibo_sifo.md` | СИБР маскирует/усиливает мальабсорбцию при EPI; ложно низкая эластаза-1 |
-| `gluten_celiac.md` | Целиакия → функциональная EPI (атрофия слизистой); дифдиагноз стеатореи |
-| `colon_coprogram.md` | Стеаторея в копрограмме = маркер EPI; нейтральный жир vs жирные кислоты |
-| `insulin_resistance.md` | СД 3c vs СД2 — разная тактика; HOMA-IR при ХП |
-| `stress_adrenals.md` | Кортизол → гипергликемия → нагрузка на бета-клетки |
-| `digestion_basics.md` | Базовая физиология пищеварения, ферментный каскад |
-| `nutrition_principles.md` | Принципы диеты, БЖУ, MCT-масла |
+| Протокол                  | Связь с ПЖ                                                                   |
+| ------------------------- | ---------------------------------------------------------------------------- |
+| `liver_health.md`         | Общий проток (Одди); НАЖБП ↔ панкреатический стеатоз; AIP-1 ↔ PSC (IgG4)     |
+| `gallbladder_health.md`   | ЖКБ → билиарный панкреатит (35 % ОП); постхолецистэктомический синдром → EPI |
+| `intestinal_health.md`    | Энтерокиназа 12-перстной → активация трипсина; атрофия → функциональная EPI  |
+| `sibo_sifo.md`            | СИБР маскирует/усиливает мальабсорбцию при EPI; ложно низкая эластаза-1      |
+| `gluten_celiac.md`        | Целиакия → функциональная EPI (атрофия слизистой); дифдиагноз стеатореи      |
+| `colon_coprogram.md`      | Стеаторея в копрограмме = маркер EPI; нейтральный жир vs жирные кислоты      |
+| `insulin_resistance.md`   | СД 3c vs СД2 — разная тактика; HOMA-IR при ХП                                |
+| `stress_adrenals.md`      | Кортизол → гипергликемия → нагрузка на бета-клетки                           |
+| `digestion_basics.md`     | Базовая физиология пищеварения, ферментный каскад                            |
+| `nutrition_principles.md` | Принципы диеты, БЖУ, MCT-масла                                               |
 
 ### Ключевые источники ⭐
 
 **Гайдлайны:**
+
 - **UEG evidence-based guideline 2017** (Löhr JM et al., HaPanEU) — chronic pancreatitis, PERT, EPI
 - **ACG Clinical Guideline 2020** (Gardner TB et al.) — chronic pancreatitis
 - **ACG Guideline 2013** (Tenner S et al.) + **AGA Guideline 2018** — acute pancreatitis
@@ -895,6 +1080,7 @@ _Диагноз AIP ставится по критериям ICDC 2011 (Internat
 - **ICDC 2011** (International Consensus Diagnostic Criteria) — autoimmune pancreatitis
 
 **Ключевые исследования:**
+
 - **Banks PA et al. Gut 2013** — Atlanta classification of acute pancreatitis 2012
 - **Whitcomb DC. NEJM 2019** — chronic pancreatitis review; **Whitcomb 1996** — PRSS1
 - **Hardt PD et al. Diabetes Care 2008**; **Ewald N et al. 2012** — type 3c diabetes
@@ -909,7 +1095,36 @@ _Диагноз AIP ставится по критериям ICDC 2011 (Internat
 
 ---
 
+## References (v3.0 migration, 2026-08-15)
+
+Ordered list of 17 unique PMIDs used in EBM tags above:
+
+1. Löhr JM et al. 2017. United European Gastroenterology evidence-based guidelines for the diagnosis and therapy of chronic pancreatitis (HaPanEU). _United European gastroenterology journal_ 5(2):153-199. PMID: [28344786](https://pubmed.ncbi.nlm.nih.gov/28344786)
+2. DiMagno EP et al. 1973. Relations between pancreatic enzyme outputs and malabsorption in severe pancreatic insufficiency. _The New England journal of medicine_ 288(16):813-815. PMID: [4693931](https://pubmed.ncbi.nlm.nih.gov/4693931)
+3. Żorniak M et al. 2023. Consensus on biliary sludge and microlithiasis as a treatable cause of idiopathic acute pancreatitis. _Gut_ 72(10):1919-1926. PMID: [37072178](https://pubmed.ncbi.nlm.nih.gov/37072178)
+4. Tenner S et al. 2013. American College of Gastroenterology guideline: management of acute pancreatitis. _The American journal of gastroenterology_ 108(9):1400-1415. PMID: [23896955](https://pubmed.ncbi.nlm.nih.gov/23896955)
+5. Yadav D et al. 2013. Epidemiology of pancreatitis and pancreatic cancer. _Gastroenterology_ 144(6):1252-1261. PMID: [23622135](https://pubmed.ncbi.nlm.nih.gov/23622135)
+6. Banks PA et al. 2013. Classification of acute pancreatitis 2012: revision of the Atlanta classification by international consensus. _Gut_ 62(1):102-111. PMID: [23100216](https://pubmed.ncbi.nlm.nih.gov/23100216)
+7. Working Group IAP/APA Acute Pancreatitis Guidelines, 2013. IAP/APA evidence-based guidelines for the management of acute pancreatitis. _Pancreatology_ 13(4 Suppl 2):e1-e15. PMID: [24054878](https://pubmed.ncbi.nlm.nih.gov/24054878)
+8. Vujasinovic M et al. 2026. International multidisciplinary consensus on fatty pancreas: definition, diagnostic criteria and metabolic associations. _United European gastroenterology journal_ 14(1):e70185. PMID: [41689768](https://pubmed.ncbi.nlm.nih.gov/41689768)
+9. Uden S et al. 1990. Antioxidant therapy for recurrent pancreatitis: placebo-controlled trial. _Alimentary pharmacology & therapeutics_ 4(4):357-371. PMID: [2103755](https://pubmed.ncbi.nlm.nih.gov/2103755)
+10. Siriwardena AK et al. 2012. Antioxidant therapy does not reduce pain in chronic pancreatitis (ANTICIPATE study). _Gastroenterology_ 143(3):655-663. PMID: [22683257](https://pubmed.ncbi.nlm.nih.gov/22683257)
+11. Hardt PD et al. 2008. Is pancreatic diabetes (type 3c diabetes) underdiagnosed and misdiagnosed? _Diabetes care_ 31 Suppl 2:S165-S169. PMID: [18227480](https://pubmed.ncbi.nlm.nih.gov/18227480)
+12. Ewald N et al. 2012. Prevalence of diabetes mellitus secondary to pancreatic diseases (type 3c). _Diabetes/metabolism research and reviews_ 28(4):338-342. PMID: [22121010](https://pubmed.ncbi.nlm.nih.gov/22121010)
+13. Elta GH et al. 2018. ACG Clinical Guideline: diagnosis and management of pancreatic cysts. _The American journal of gastroenterology_ 113(4):464-479. PMID: [29485131](https://pubmed.ncbi.nlm.nih.gov/29485131)
+14. European Study Group on Cystic Tumours of the Pancreas, 2018. European evidence-based guidelines on pancreatic cystic neoplasms. _Gut_ 67(5):789-804. PMID: [29574408](https://pubmed.ncbi.nlm.nih.gov/29574408)
+15. Hamano H et al. 2001. High serum IgG4 concentrations in patients with sclerosing pancreatitis. _The New England journal of medicine_ 344(10):732-738. PMID: [11236777](https://pubmed.ncbi.nlm.nih.gov/11236777)
+16. Shimosegawa T et al. 2011. International Consensus Diagnostic Criteria (ICDC) for autoimmune pancreatitis. _Pancreas_ 40(3):352-358. PMID: [21412117](https://pubmed.ncbi.nlm.nih.gov/21412117)
+17. Lowenfels AB et al. 1993. Pancreatitis and the risk of pancreatic cancer. _The New England journal of medicine_ 328(20):1433-1437. PMID: [8479461](https://pubmed.ncbi.nlm.nih.gov/8479461)
+
+Skipped legacy source (not migrated): Frank 1999 макроамилаземия — `PMID: N/A [SOURCE_UNVERIFIED — see TD-026]`.
+
+Migration status: MIGRATED_v3.0 (2026-08-15)
+
+---
+
 <!-- EBM_ENRICHED_v2.1 -->
+
 ## Метаданные
 
 - **Автор:** Agent-Nutri team
