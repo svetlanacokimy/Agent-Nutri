@@ -12,7 +12,7 @@ Write-Host "=== Agent-Nutri: проверка синхронизации ===" -F
 
 # 3. Текущая ветка
 $branch = git branch --show-current
-$expectedBranch = "copilot/build-v2-nutrition-agent-core"
+$expectedBranch = "main"
 if ($branch -eq $expectedBranch) {
     Write-Host "Ветка: $branch ✅" -ForegroundColor Green
 } else {
