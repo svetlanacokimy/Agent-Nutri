@@ -1,5 +1,10 @@
 ﻿# Протокол: здоровье кишечника
 
+<!-- EBM Status: MIGRATED_v3.1 -->
+<!-- Migration date: 2026-08-15 -->
+<!-- Source standard: EBM_STANDARD v3.1 -->
+<!-- Migration path: v2.1 → v3.1 (30 blocks reformatted, 24 unique PMIDs = 23 audited + Salvi PMC→PMID, 3 point fixes) -->
+
 ## Связанные документы
 - `gallbladder_health.md` — желчеотток, желчегонные, магний, гормоны (детально)
 - `nutrition_principles.md` §9 — сладкая зависимость и завтрак
@@ -13,7 +18,12 @@
 
 ## 1. Норма работы кишечника ⭐
 
-> 📚 **EBM:** Camilleri M. Leaky gut: mechanisms, measurement and clinical implications in humans. Gut 2019;68:1516-1526 — фундаментальный обзор физиологии кишечного барьера и нормальной проницаемости. PMID: 31076401
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Camilleri M. 2019.** Reviews the mechanisms, measurement, and clinical implications of increased intestinal permeability (leaky gut) and normal barrier physiology in humans.
+> **Population:** humans, intestinal barrier physiology (n=n/a, follow-up=n/a).
+> *Gut* 68(8):1516-1526.
+> **RU:** фундаментальный обзор физиологии кишечного барьера и нормальной проницаемости.
+> PMID: [31076401](https://pubmed.ncbi.nlm.nih.gov/31076401)
 
 ### Критерии здорового стула ⭐
 - Частота: 1-2 раза в сутки (минимум 1 раз в 1-2 дня)
@@ -33,7 +43,12 @@
 
 ## 2. Четыре группы причин нарушения работы кишечника ⭐
 
-> 📚 **EBM:** Sonnenburg JL, Bäckhed F. Diet-microbiota interactions as moderators of human metabolism. Nature 2016;535:56-64 — доказательная классификация факторов, влияющих на кишечник через микробиоту. PMID: 27383980
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Sonnenburg JL, et al. 2016.** Reviews how diet-microbiota interactions moderate human metabolism, framing an evidence-based classification of factors acting on the gut through the microbiota.
+> **Population:** humans, diet-microbiota-metabolism interactions (n=n/a, follow-up=n/a).
+> *Nature* 535(7610):56-64.
+> **RU:** доказательная классификация факторов, влияющих на кишечник через микробиоту.
+> PMID: [27383980](https://pubmed.ncbi.nlm.nih.gov/27383980)
 
 ### Группа 1: Питание (см. §3) ⭐
 Дефицит клетчатки, избыток рафинированных углеводов, недостаток воды.
@@ -51,7 +66,12 @@
 
 ## 3. Группа 1: Питание ⭐
 
-> 📚 **EBM:** Koh A, De Vadder F, Kovatcheva-Datchary P, Bäckhed F. From dietary fiber to host physiology: short-chain fatty acids as key bacterial metabolites. Cell 2016;165:1332-1345 — механизм влияния пищевых волокон на здоровье кишечника через SCFA. PMID: 27259147
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Koh A, et al. 2016.** Reviews how dietary fiber is fermented to short-chain fatty acids (acetate, propionate, butyrate) that signal host physiology via GPR41/43 and HDAC inhibition.
+> **Population:** humans, dietary fiber and SCFA metabolism (n=n/a, follow-up=n/a).
+> *Cell* 165(6):1332-1345.
+> **RU:** механизм влияния пищевых волокон на здоровье кишечника через SCFA.
+> PMID: [27259147](https://pubmed.ncbi.nlm.nih.gov/27259147)
 
 ### Клетчатка — основа здоровья кишечника ⭐
 - Норма: 25-30 г/сутки (ВОЗ), оптимум 35-40 г
@@ -77,7 +97,13 @@
 
 ## 4. Микрофлора кишечника ⭐
 
-> 📚 **EBM:** Sanders ME, Merenstein DJ, Reid G, et al. Probiotics and prebiotics in intestinal health and disease: from biology to the clinic. Nat Rev Gastroenterol Hepatol 2019;16:605-616 — консенсус ISAPP по роли микрофлоры. PMID: 31296969
+> 📚 **EBM** [Level 5, narrative review, N/A] [clinical]
+> **Sanders ME, et al. 2019.** Reviews the role of probiotics and prebiotics in intestinal health and disease from biology to the clinic.
+> **Population:** humans, probiotics and prebiotics in gut health (n=n/a, follow-up=n/a).
+> *Nat Rev Gastroenterol Hepatol* 16(10):605-616.
+> **RU:** консенсус ISAPP по роли микрофлоры.
+> PMID: [31296969](https://pubmed.ncbi.nlm.nih.gov/31296969)
+> ⚠️ **Safety:** Probiotics may cause bacteremia or fungemia in critically ill, immunocompromised patients, or those with central venous catheters — use only under medical supervision in these groups.
 
 ### Два вида флоры ⭐
 - **Симбиотная (нормофлора):** Lactobacillus, Bifidobacterium, F. prausnitzii, Akkermansia
@@ -104,7 +130,14 @@
 
 ## 5. Сахаромицеты Буларди (Saccharomyces boulardii) ⭐
 
-> 📚 **EBM:** McFarland LV. Systematic review and meta-analysis of Saccharomyces boulardii in adult patients. World J Gastroenterol 2010;16:2202-2222 — мета-анализ эффективности S. boulardii при ААД, СРК, ВЗК (RR=0.47 для ААД). PMID: 20458757
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **McFarland LV. 2010.** Saccharomyces boulardii reduces antibiotic-associated diarrhea, RR 0.47 (95% CI 0.35-0.63, p<0.001) vs placebo.
+> **Population:** adults on antibiotics or with diarrheal disease (27 RCTs, total n=5029, follow-up=n/a).
+> *World J Gastroenterol* 16(18):2202-2222.
+> **RU:** мета-анализ эффективности S. boulardii при ААД, СРК, ВЗК (RR=0.47 для ААД).
+> PMID: [20458757](https://pubmed.ncbi.nlm.nih.gov/20458757)
+> ⚠️ **Safety:** Contraindicated in critically ill, immunocompromised patients, and those with central venous catheters — risk of fungemia (case reports). Not recommended for children under 2 years without medical supervision.
+> ⏰ **Currency:** Published 2010 — verify with more recent sources.
 
 ### Показания ⭐
 - Антибиотик-ассоциированная диарея (профилактика и лечение) ⭐
@@ -126,7 +159,12 @@
 
 ## 6. Желчеотток (краткая сводка) ◆
 
-> 📚 **EBM:** Tilg H, Adolph TE, Trauner M. Gut-liver axis: pathophysiological concepts and clinical implications. Cell Metab 2022;34:1700-1718 — ось кишечник-печень и роль желчных кислот в микробиоте. PMID: 34931080
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Tilg H, et al. 2022.** Reviews gut-liver axis pathophysiology, including bile acid signaling and microbial translocation, and its clinical implications.
+> **Population:** humans, gut-liver axis pathophysiology (n=n/a, follow-up=n/a).
+> *Cell Metab* 34(11):1700-1718.
+> **RU:** ось кишечник-печень и роль желчных кислот в микробиоте.
+> PMID: [36208625](https://pubmed.ncbi.nlm.nih.gov/36208625)
 
 Желчеотток — критический фактор работы тонкого кишечника: эмульгация жиров, усвоение жирорастворимых витаминов (A, D, E, K), антимикробное действие на тонкий кишечник.
 
@@ -151,7 +189,12 @@
 
 ## 7. Гормоны и кишечник ◆
 
-> 📚 **EBM:** Cryan JF, O''Riordan KJ, Cowan CSM, et al. The microbiota-gut-brain axis. Physiol Rev 2019;99:1877-2013 — систематический обзор гормональных путей связи кишечник-мозг. PMID: 31460832
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Cryan JF, et al. 2019.** Reviews the microbiota-gut-brain axis, including hormonal and neural signaling pathways linking gut and brain.
+> **Population:** humans and preclinical models, gut-brain axis (n=n/a, follow-up=n/a).
+> *Physiol Rev* 99(4):1877-2013.
+> **RU:** систематический обзор гормональных путей связи кишечник-мозг.
+> PMID: [31460832](https://pubmed.ncbi.nlm.nih.gov/31460832)
 
 - Эстрогены → влияют на состав желчи и моторику (см. `gallbladder_health.md` §3)
 - Прогестерон → замедляет моторику (запоры во 2-й фазе цикла, беременности)
@@ -164,7 +207,12 @@
 
 ## 8. Группа 3: Активность и режим дня ◆
 
-> 📚 **EBM:** Marco ML, Sanders ME, Gänzle M, et al. The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on fermented foods. Nat Rev Gastroenterol Hepatol 2021;18:196-208 — консенсус по образу жизни и ферментированным продуктам. PMID: 33398112
+> 📚 **EBM** [Level 5, Consensus, N/A] [recommendation]
+> **Marco ML, et al. 2021.** ISAPP consensus statement defining fermented foods and summarizing their role in diet and gut health.
+> **Population:** general population, fermented foods (population-level statement).
+> *Nat Rev Gastroenterol Hepatol* 18(3):196-208.
+> **RU:** консенсус по образу жизни и ферментированным продуктам.
+> PMID: [33398112](https://pubmed.ncbi.nlm.nih.gov/33398112)
 
 ### Физическая активность ◆
 - Ходьба 8-10 тыс. шагов/сутки → улучшение моторики
@@ -181,7 +229,13 @@
 
 ## 9. Группа 4: Хронические заболевания ⚠️
 
-> 📚 **EBM:** Belkaid Y, Hand TW. Role of the microbiota in immunity and inflammation. Cell 2014;157:121-141 — фундаментальная роль микробиоты в развитии хронических воспалительных заболеваний. PMID: 24679531
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Belkaid Y, et al. 2014.** Reviews the fundamental role of the microbiota in shaping immunity and inflammation, relevant to chronic inflammatory disease.
+> **Population:** humans and preclinical models, microbiota and immunity (n=n/a, follow-up=n/a).
+> *Cell* 157(1):121-141.
+> **RU:** фундаментальная роль микробиоты в развитии хронических воспалительных заболеваний.
+> PMID: [24679531](https://pubmed.ncbi.nlm.nih.gov/24679531)
+> ⏰ **Currency:** Published 2014 — verify with more recent sources.
 
 ### Ключевые состояния, нарушающие работу кишечника ⚠️
 - СИБР/СИФР → `sibo_sifo.md` ⚠️
@@ -203,7 +257,13 @@
 
 ## 10. Сладкая зависимость — кросс-ссылка ◆
 
-> 📚 **EBM:** Ridaura VK, Faith JJ, Rey FE, et al. Gut microbiota from twins discordant for obesity modulate metabolism in mice. Science 2013;341:1241214 — микробиом ожирения и его связь с метаболической регуляцией. PMID: 24009397
+> 📚 **EBM** [Level 5, animal study, N/A] [surrogate]
+> **Ridaura VK, et al. 2013.** Gut microbiota transplanted from twins discordant for obesity transmit adiposity and metabolic phenotypes to gnotobiotic mice.
+> **Population:** gnotobiotic mice colonized with human twin microbiota (animal study, n=n/a, follow-up=n/a).
+> *Science* 341(6150):1241214.
+> **RU:** микробиом ожирения и его связь с метаболической регуляцией.
+> PMID: [24009397](https://pubmed.ncbi.nlm.nih.gov/24009397)
+> ⏰ **Currency:** Published 2013 — verify with more recent sources.
 
 Сладкая зависимость, голод и завтрак сладкоежки — поведенческие аспекты питания, тесно связанные с дисбиозом (Candida) и инсулинорезистентностью.
 
@@ -215,7 +275,12 @@
 
 ## 11. СДК-тест со свёклой ⭐ (тест транзита)
 
-> 📚 **EBM:** Bharucha AE, Lacy BE. Mechanisms, evaluation, and management of chronic constipation. Gastroenterology 2020;158:1232-1249 — оценка транзита ЖКТ как маркер функции кишечника. PMID: 31945360
+> 📚 **EBM** [Level 5, narrative review, N/A] [clinical]
+> **Bharucha AE, et al. 2020.** Reviews mechanisms, evaluation, and management of chronic constipation, including colonic transit assessment.
+> **Population:** adults with chronic constipation (n=n/a, follow-up=n/a).
+> *Gastroenterology* 158(5):1232-1249.
+> **RU:** оценка транзита ЖКТ как маркер функции кишечника.
+> PMID: [31945360](https://pubmed.ncbi.nlm.nih.gov/31945360)
 
 ### Что показывает ⭐
 Скорость кишечного транзита — критерий моторики.
@@ -235,7 +300,12 @@
 
 ## 12. Аутоиммунное меню (примечание) ◆
 
-> 📚 **EBM:** Rubio-Tapia A, Hill ID, Semrad C, et al. American College of Gastroenterology guidelines update: diagnosis and management of celiac disease. Am J Gastroenterol 2023;118:59-76 — обновлённые ACG рекомендации по элиминационным диетам. PMID: 36602836
+> 📚 **EBM** [Level 1a, Guideline, N/A] [recommendation]
+> **Rubio-Tapia A, et al. 2023.** ACG guideline update on the diagnosis and management of celiac disease, including elimination-diet recommendations.
+> **Population:** patients with suspected or confirmed celiac disease (population-level recommendation).
+> *Am J Gastroenterol* 118(1):59-76.
+> **RU:** обновлённые ACG рекомендации по элиминационным диетам.
+> PMID: [36602836](https://pubmed.ncbi.nlm.nih.gov/36602836)
 
 При аутоиммунных заболеваниях (АИТ, РА, псориаз, ВЗК) рассмотреть AIP-протокол (Autoimmune Protocol) — исключение глютена, молочных, паслёновых, бобовых, орехов, яиц на 30-90 дней с последующим reintroduction.
 
@@ -245,7 +315,12 @@
 
 ## 13. Чек-лист для Agent-Nutri ⭐
 
-> 📚 **EBM:** Guarner F, Sanders ME, Szajewska H, et al. World Gastroenterology Organisation Global Guidelines: Probiotics and Prebiotics. J Clin Gastroenterol 2024;58:533-553 — клинический алгоритм WGO 2023 для оценки кишечника. PMID: 38885083
+> 📚 **EBM** [Level 1a, Guideline, N/A] [recommendation]
+> **Guarner F, et al. 2024.** WGO Global Guidelines on probiotics and prebiotics, providing a clinical algorithm for their use.
+> **Population:** general clinical population (population-level recommendation).
+> *J Clin Gastroenterol* 58(6):533-553.
+> **RU:** клинический алгоритм WGO 2023 для оценки кишечника.
+> PMID: [38885083](https://pubmed.ncbi.nlm.nih.gov/38885083)
 
 ### Опросник на первой консультации ⭐
 - Частота и форма стула (Бристольская шкала)
@@ -284,7 +359,12 @@
 
 ## 14. Анатомия и физиология кишечника ⭐
 
-> 📚 **EBM:** Camilleri M. Leaky gut: mechanisms, measurement and clinical implications in humans. Gut 2019;68:1516-1526 — детальное описание анатомии барьера (tight junctions, mucus layer, IgA). PMID: 31076401
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Camilleri M. 2019.** Reviews intestinal barrier anatomy (tight junctions, mucus layer, IgA) and measurement of permeability in humans.
+> **Population:** humans, intestinal barrier anatomy (n=n/a, follow-up=n/a).
+> *Gut* 68(8):1516-1526.
+> **RU:** детальное описание анатомии барьера (tight junctions, mucus layer, IgA).
+> PMID: [31076401](https://pubmed.ncbi.nlm.nih.gov/31076401)
 
 ### Отделы кишечника ⭐
 - **Тонкий кишечник** (~6 м): двенадцатиперстная (ДПК, 25–30 см) → тощая (jejunum, ~2,5 м) → подвздошная (ileum, ~3,5 м)
@@ -316,11 +396,21 @@
 
 ## 15. Кишечный барьер и проницаемость ⭐⚠️
 
-> 📚 **EBM:** Camilleri M. Leaky gut: mechanisms, measurement and clinical implications in humans. Gut 2019;68:1516-1526 — механизмы и измерение проницаемости кишечника (lactulose/mannitol, zonulin). PMID: 31076401
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Camilleri M. 2019.** Reviews mechanisms and measurement of intestinal permeability (lactulose/mannitol, zonulin) and their clinical implications.
+> **Population:** humans, intestinal permeability (n=n/a, follow-up=n/a).
+> *Gut* 68(8):1516-1526.
+> **RU:** механизмы и измерение проницаемости кишечника (lactulose/mannitol, zonulin).
+> PMID: [31076401](https://pubmed.ncbi.nlm.nih.gov/31076401)
 
 ### Четыре уровня кишечного барьера ⭐
 
-> 📚 **EBM (H3):** Camilleri M. Gut 2019;68:1516-1526 — детальные методы измерения проницаемости: lactulose/mannitol, sucralose, zonulin. PMID: 31076401
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Camilleri M. 2019.** Details methods for measuring intestinal permeability: lactulose/mannitol, sucralose, and zonulin.
+> **Population:** humans, permeability measurement methods (n=n/a, follow-up=n/a).
+> *Gut* 68(8):1516-1526.
+> **RU:** детальные методы измерения проницаемости: lactulose/mannitol, sucralose, zonulin.
+> PMID: [31076401](https://pubmed.ncbi.nlm.nih.gov/31076401)
 1. **Слизистый слой (mucus)** — MUC2, поддерживается *Akkermansia muciniphila*; первая линия защиты ⭐
 2. **Эпителиальный слой** — клетки + межклеточные контакты (tight junctions: claudin, occludin, ZO-1)
 3. **Иммунный слой** — GALT, sIgA, дендритные клетки
@@ -357,11 +447,20 @@
 
 ## 16. Микробиота: ключевые штаммы ⭐
 
-> 📚 **EBM:** Hill C, Guarner F, Reid G, et al. The International Scientific Association for Probiotics and Prebiotics consensus statement on the scope and appropriate use of the term probiotic. Nat Rev Gastroenterol Hepatol 2014;11:506-514 — критерии штамм-специфичности пробиотиков. PMID: 24912386
+> 📚 **EBM** [Level 5, Consensus, N/A] [recommendation]
+> **Hill C, et al. 2014.** ISAPP consensus statement on the scope and appropriate use of the term probiotic, emphasizing strain specificity.
+> **Population:** general population, probiotic definition and use (population-level statement).
+> *Nat Rev Gastroenterol Hepatol* 11(8):506-514.
+> **RU:** критерии штамм-специфичности пробиотиков.
+> PMID: [24912386](https://pubmed.ncbi.nlm.nih.gov/24912386)
+> ⚠️ **Safety:** Strain-specific probiotics may cause bacteremia or fungemia in critically ill or immunocompromised patients — use only under medical supervision in these groups.
 
 ### Состав здоровой микробиоты ⭐
 
-> 📚 **EBM (H3):** Gibson GR, Hutkins R, Sanders ME, et al. Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics. Nat Rev Gastroenterol Hepatol 2017;14:491-502. PMID: 28611480
+> 📚 **EBM** [Level 5, Consensus, N/A] [recommendation]
+> **Gibson GR, et al. 2017.** ISAPP consensus statement on the definition and scope of prebiotics.
+> **Population:** general population, prebiotic definition (population-level statement).
+> *Nat Rev Gastroenterol Hepatol* 14(8):491-502. PMID: [28611480](https://pubmed.ncbi.nlm.nih.gov/28611480)
 - **Bacteroidetes** (~40–60 %) и **Firmicutes** (~30–50 %) — основные филумы
 - **Соотношение F/B** — индикатор метаболического здоровья (↑ при ожирении)
 - **Видовое разнообразие** (α-diversity) — главный предиктор здоровья (Sonnenburg 2014)
@@ -406,11 +505,21 @@
 
 ## 17. SCFA и бутират ⭐
 
-> 📚 **EBM:** Koh A, De Vadder F, Kovatcheva-Datchary P, Bäckhed F. From dietary fiber to host physiology: short-chain fatty acids as key bacterial metabolites. Cell 2016;165:1332-1345 — механизмы действия ацетата, пропионата, бутирата на GPR41/43 и HDAC. PMID: 27259147
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Koh A, et al. 2016.** Reviews mechanisms of acetate, propionate, and butyrate action on GPR41/43 and HDAC inhibition.
+> **Population:** humans, SCFA mechanisms (n=n/a, follow-up=n/a).
+> *Cell* 165(6):1332-1345.
+> **RU:** механизмы действия ацетата, пропионата, бутирата на GPR41/43 и HDAC.
+> PMID: [27259147](https://pubmed.ncbi.nlm.nih.gov/27259147)
 
 ### Что такое SCFA ⭐
 
-> 📚 **EBM (H3):** Salvi PS, Cowles RA. Butyrate and the intestinal epithelium: modulation of proliferation and inflammation in homeostasis and disease. Cells 2021;10:1775 — механизмы бутирата на пролиферацию колоноцитов. PMC: 8304699
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Salvi PS, et al. 2021.** Reviews how butyrate modulates intestinal epithelial proliferation and inflammation in homeostasis and disease.
+> **Population:** humans and preclinical models, butyrate and colonocytes (n=n/a, follow-up=n/a).
+> *Cells* 10(7):1775.
+> **RU:** механизмы бутирата на пролиферацию колоноцитов.
+> PMID: [34359944](https://pubmed.ncbi.nlm.nih.gov/34359944)
 **SCFA** (Short-Chain Fatty Acids) — короткоцепочечные жирные кислоты, конечный продукт ферментации клетчатки микробиотой толстого кишечника.
 
 ### Три ключевые SCFA ⭐
@@ -450,7 +559,12 @@
 
 ## 18. Оси кишечника ◆
 
-> 📚 **EBM:** Cryan JF, O''Riordan KJ, Cowan CSM, et al. The microbiota-gut-brain axis. Physiol Rev 2019;99:1877-2013 — систематический обзор всех осей (мозг, печень, кожа, иммунитет). PMID: 31460832
+> 📚 **EBM** [Level 5, narrative review, N/A] [surrogate]
+> **Cryan JF, et al. 2019.** Reviews the microbiota-gut-brain axis and its links to brain, liver, skin, and immune systems.
+> **Population:** humans and preclinical models, gut axes (n=n/a, follow-up=n/a).
+> *Physiol Rev* 99(4):1877-2013.
+> **RU:** систематический обзор всех осей (мозг, печень, кожа, иммунитет).
+> PMID: [31460832](https://pubmed.ncbi.nlm.nih.gov/31460832)
 
 ### Ось кишечник–мозг ⭐
 - **Блуждающий нерв** — двусторонняя связь, 80 % волокон афферентные (от кишечника к мозгу)
@@ -486,11 +600,21 @@
 
 ## 19. FODMAP — протокол ⭐⚠️
 
-> 📚 **EBM:** Halmos EP, Power VA, Shepherd SJ, Gibson PR, Muir JG. A diet low in FODMAPs reduces symptoms of irritable bowel syndrome. Gastroenterology 2014;146:67-75 — рандомизированное перекрёстное исследование low-FODMAP при СРК. PMID: 24076059
+> 📚 **EBM** [Level 1b, RCT, single-blind] [clinical]
+> **Halmos EP, et al. 2014.** Low-FODMAP diet reduces overall gastrointestinal symptom scores to 22.8 mm (95% CI 16.7-28.8) vs 44.9 mm (95% CI 36.6-53.1) on a typical Australian diet, p<0.001.
+> **Population:** adults with irritable bowel syndrome and healthy controls (n=30 IBS + 8 controls, 21-day cross-over).
+> *Gastroenterology* 146(1):67-75.e5.
+> **RU:** рандомизированное перекрёстное исследование low-FODMAP при СРК.
+> PMID: [24076059](https://pubmed.ncbi.nlm.nih.gov/24076059)
 
 ### Что такое FODMAP ⭐
 
-> 📚 **EBM (H3):** Ford AC, Harris LA, Lacy BE, et al. Aliment Pharmacol Ther 2018;48:1044-1060 — мета-анализ эффективности low-FODMAP при СРК. PMID: 30294792
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **Ford AC, et al. 2018.** In IBS, rifaximin reduces symptom persistence, RR 0.84 (95% CI 0.79-0.90) vs placebo; specific probiotic strains show modest symptom benefit.
+> **Population:** adults with irritable bowel syndrome (53 probiotic RCTs, total n=5545, follow-up=n/a).
+> *Aliment Pharmacol Ther* 48(10):1044-1060.
+> **RU:** мета-анализ эффективности low-FODMAP при СРК.
+> PMID: [30294792](https://pubmed.ncbi.nlm.nih.gov/30294792)
 **FODMAP** = Fermentable Oligo-, Di-, Mono-saccharides And Polyols — ферментируемые короткоцепочечные углеводы, плохо всасываемые в тонком кишечнике.
 
 - **O**ligosaccharides: фруктаны (пшеница, лук, чеснок), ГОС (бобовые)
@@ -540,11 +664,19 @@
 
 ## 20. Восстановление после антибиотиков ⭐⚠️
 
-> 📚 **EBM:** Suez J, Zmora N, Zilberman-Schapira G, et al. Post-antibiotic gut mucosal microbiome reconstitution is impaired by probiotics and improved by autologous FMT. Cell 2018;174:1406-1423 — восстановление микробиоты после АБ. PMID: 30193113
+> 📚 **EBM** [Level 2b, controlled trial, open-label] [surrogate]
+> **Suez J, et al. 2018.** Multi-strain probiotics delay and impair post-antibiotic gut mucosal microbiome reconstitution, whereas autologous fecal microbiome transplantation restores it within days.
+> **Population:** humans and mice after antibiotic exposure (n=n/a, follow-up=n/a).
+> *Cell* 174(6):1406-1423.e16.
+> **RU:** восстановление микробиоты после АБ.
+> PMID: [30193113](https://pubmed.ncbi.nlm.nih.gov/30193113)
 
 ### Антибиотик-ассоциированная диарея (AAD) ⚠️
 
-> 📚 **EBM (H3):** McDonald LC, Gerding DN, Johnson S, et al. Clinical practice guidelines for Clostridium difficile infection in adults and children: 2017 update by the IDSA and SHEA. Clin Infect Dis 2018;66:e1-e48. PMID: 29462280
+> 📚 **EBM** [Level 1a, Guideline, N/A] [recommendation]
+> **McDonald LC, et al. 2018.** IDSA/SHEA clinical practice guidelines for Clostridium difficile infection in adults and children (2017 update).
+> **Population:** adults and children with C. difficile infection (population-level recommendation).
+> *Clin Infect Dis* 66(7):e1-e48. PMID: [29462280](https://pubmed.ncbi.nlm.nih.gov/29462280)
 - Частота: 5–25 % курсов антибиотикотерапии
 - Группы риска: клиндамицин, амоксициллин/клавуланат, цефалоспорины, фторхинолоны
 - Возраст >65, ИПП, госпитализация — дополнительные факторы риска
@@ -591,7 +723,12 @@
 
 ## 21. Запоры: классификация и протокол ⭐
 
-> 📚 **EBM:** Chang L, Chey WD, Imdad A, et al. American Gastroenterological Association-American College of Gastroenterology clinical practice guideline: pharmacological management of chronic idiopathic constipation. Gastroenterology 2023;164:1086-1106 — EBM-протокол лечения хронических запоров. PMID: 37211380
+> 📚 **EBM** [Level 1a, Guideline, N/A] [recommendation]
+> **Chang L, et al. 2023.** AGA-ACG clinical practice guideline on pharmacological management of chronic idiopathic constipation.
+> **Population:** adults with chronic idiopathic constipation (population-level recommendation).
+> *Gastroenterology* 164(7):1086-1106.
+> **RU:** EBM-протокол лечения хронических запоров.
+> PMID: [37211380](https://pubmed.ncbi.nlm.nih.gov/37211380)
 
 ### Определение (Rome IV, 2016) ⭐
 Функциональный запор — ≥2 критерия в течение ≥3 месяцев:
@@ -644,7 +781,10 @@
 
 ## 22. Диарея: классификация и протокол ⭐⚠️
 
-> 📚 **EBM:** Guarino A, Ashkenazi S, Gendrel D, et al. European Society for Pediatric Gastroenterology, Hepatology, and Nutrition/European Society for Pediatric Infectious Diseases evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014. J Pediatr Gastroenterol Nutr 2014;59:132-152. PMID: 24739189
+> 📚 **EBM** [Level 1a, Guideline, N/A] [recommendation]
+> **Guarino A, et al. 2014.** ESPGHAN/ESPID evidence-based guidelines for the management of acute gastroenteritis in children in Europe (2014 update).
+> **Population:** children with acute gastroenteritis (population-level recommendation).
+> *J Pediatr Gastroenterol Nutr* 59(1):132-152. PMID: [24739189](https://pubmed.ncbi.nlm.nih.gov/24739189)
 
 ### Острая vs хроническая ⭐
 - **Острая**: <2 недель, чаще инфекционная
@@ -707,7 +847,12 @@
 
 ## 23. Симптом-навигатор кишечника ⭐⚠️
 
-> 📚 **EBM:** Lacy BE, Pimentel M, Brenner DM, et al. ACG clinical guideline: management of irritable bowel syndrome. Am J Gastroenterol 2021;116:17-44 — алгоритмы диф.диагностики симптомов СРК. PMID: 33315591
+> 📚 **EBM** [Level 1a, Guideline, N/A] [recommendation]
+> **Lacy BE, et al. 2021.** ACG clinical guideline on the management of irritable bowel syndrome, including diagnostic algorithms.
+> **Population:** adults with irritable bowel syndrome (population-level recommendation).
+> *Am J Gastroenterol* 116(1):17-44.
+> **RU:** алгоритмы диф.диагностики симптомов СРК.
+> PMID: [33315591](https://pubmed.ncbi.nlm.nih.gov/33315591)
 
 > **Назначение:** быстрая маршрутизация пользователя по жалобе → разделы этого файла + смежные протоколы. Используется агентом как первая точка входа.
 
@@ -758,7 +903,12 @@
 
 ## 24. Диагностика кишечника: лабораторный минимум ⭐
 
-> 📚 **EBM:** Pimentel M, Saad RJ, Long MD, Rao SSC. ACG clinical guideline: small intestinal bacterial overgrowth. Am J Gastroenterol 2020;115:165-178 — лабораторный минимум (водородный тест, кальпротектин, зонулин). PMID: 32023228
+> 📚 **EBM** [Level 1a, Guideline, N/A] [recommendation]
+> **Pimentel M, et al. 2020.** ACG clinical guideline on small intestinal bacterial overgrowth, including diagnostic testing recommendations.
+> **Population:** adults with suspected SIBO (population-level recommendation).
+> *Am J Gastroenterol* 115(2):165-178.
+> **RU:** лабораторный минимум (водородный тест, кальпротектин, зонулин).
+> PMID: [32023228](https://pubmed.ncbi.nlm.nih.gov/32023228)
 
 > **Назначение:** свод анализов и тестов при жалобах на ЖКТ. Используется как чек-лист «что сдать перед тем, как назначать протокол».
 
@@ -851,7 +1001,12 @@
 
 ## 25. Бенчмарк: школьная гастроэнтерология vs EBM-функциональный подход ◆
 
-> 📚 **EBM:** Ford AC, Harris LA, Lacy BE, Quigley EMM, Moayyedi P. Systematic review with meta-analysis: the efficacy of prebiotics, probiotics, synbiotics and antibiotics in irritable bowel syndrome. Aliment Pharmacol Ther 2018;48:1044-1060 — мета-анализ EBM vs традиционные подходы. PMID: 30294792
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **Ford AC, et al. 2018.** Meta-analysis of prebiotics, probiotics, synbiotics, and antibiotics in IBS; rifaximin reduces symptom persistence, RR 0.84 (95% CI 0.79-0.90) vs placebo, while specific probiotic strains show modest benefit.
+> **Population:** adults with irritable bowel syndrome (53 probiotic RCTs, total n=5545, follow-up=n/a).
+> *Aliment Pharmacol Ther* 48(10):1044-1060.
+> **RU:** мета-анализ EBM vs традиционные подходы.
+> PMID: [30294792](https://pubmed.ncbi.nlm.nih.gov/30294792)
 
 > **Назначение:** карта согласий и разногласий между академической гастроэнтерологией и функциональной медициной по ключевым вопросам кишечника. Защищает агента от двух крайностей: эзотерики функциональной медицины и отбрасывания полезных инструментов как «ненаучных».
 
@@ -933,3 +1088,37 @@
 - **Статус:** ✅ FULL_EBM (Session 62, +30 EBM tags, 30 peer-reviewed PMID sources)
 
 <!-- EBM_ENRICHED_v2.1 -->
+
+---
+
+## References (v3.1 migration, 2026-08-15)
+
+24 unique PMIDs used in EBM blocks above (23 from the original audit set + Salvi PS, PMID 34359944, resolved from PMC 8304699):
+
+1. Camilleri M. 2019. Leaky gut: mechanisms, measurement and clinical implications in humans. *Gut* 68(8):1516-1526. PMID: [31076401](https://pubmed.ncbi.nlm.nih.gov/31076401)
+2. Sonnenburg JL, et al. 2016. Diet-microbiota interactions as moderators of human metabolism. *Nature* 535(7610):56-64. PMID: [27383980](https://pubmed.ncbi.nlm.nih.gov/27383980)
+3. Koh A, et al. 2016. From dietary fiber to host physiology: short-chain fatty acids as key bacterial metabolites. *Cell* 165(6):1332-1345. PMID: [27259147](https://pubmed.ncbi.nlm.nih.gov/27259147)
+4. Sanders ME, et al. 2019. Probiotics and prebiotics in intestinal health and disease: from biology to the clinic. *Nat Rev Gastroenterol Hepatol* 16(10):605-616. PMID: [31296969](https://pubmed.ncbi.nlm.nih.gov/31296969)
+5. McFarland LV. 2010. Systematic review and meta-analysis of Saccharomyces boulardii in adult patients. *World J Gastroenterol* 16(18):2202-2222. PMID: [20458757](https://pubmed.ncbi.nlm.nih.gov/20458757)
+6. Tilg H, et al. 2022. Gut-liver axis: pathophysiological concepts and clinical implications. *Cell Metab* 34(11):1700-1718. PMID: [36208625](https://pubmed.ncbi.nlm.nih.gov/36208625)
+7. Cryan JF, et al. 2019. The microbiota-gut-brain axis. *Physiol Rev* 99(4):1877-2013. PMID: [31460832](https://pubmed.ncbi.nlm.nih.gov/31460832)
+8. Marco ML, et al. 2021. ISAPP consensus statement on fermented foods. *Nat Rev Gastroenterol Hepatol* 18(3):196-208. PMID: [33398112](https://pubmed.ncbi.nlm.nih.gov/33398112)
+9. Belkaid Y, et al. 2014. Role of the microbiota in immunity and inflammation. *Cell* 157(1):121-141. PMID: [24679531](https://pubmed.ncbi.nlm.nih.gov/24679531)
+10. Ridaura VK, et al. 2013. Gut microbiota from twins discordant for obesity modulate metabolism in mice. *Science* 341(6150):1241214. PMID: [24009397](https://pubmed.ncbi.nlm.nih.gov/24009397)
+11. Bharucha AE, et al. 2020. Mechanisms, evaluation, and management of chronic constipation. *Gastroenterology* 158(5):1232-1249. PMID: [31945360](https://pubmed.ncbi.nlm.nih.gov/31945360)
+12. Rubio-Tapia A, et al. 2023. ACG guidelines update: diagnosis and management of celiac disease. *Am J Gastroenterol* 118(1):59-76. PMID: [36602836](https://pubmed.ncbi.nlm.nih.gov/36602836)
+13. Guarner F, et al. 2024. WGO Global Guidelines: Probiotics and Prebiotics. *J Clin Gastroenterol* 58(6):533-553. PMID: [38885083](https://pubmed.ncbi.nlm.nih.gov/38885083)
+14. Hill C, et al. 2014. ISAPP consensus statement on the scope and appropriate use of the term probiotic. *Nat Rev Gastroenterol Hepatol* 11(8):506-514. PMID: [24912386](https://pubmed.ncbi.nlm.nih.gov/24912386)
+15. Gibson GR, et al. 2017. ISAPP consensus statement on the definition and scope of prebiotics. *Nat Rev Gastroenterol Hepatol* 14(8):491-502. PMID: [28611480](https://pubmed.ncbi.nlm.nih.gov/28611480)
+16. Salvi PS, et al. 2021. Butyrate and the intestinal epithelium: modulation of proliferation and inflammation in homeostasis and disease. *Cells* 10(7):1775. PMID: [34359944](https://pubmed.ncbi.nlm.nih.gov/34359944)
+17. Halmos EP, et al. 2014. A diet low in FODMAPs reduces symptoms of irritable bowel syndrome. *Gastroenterology* 146(1):67-75.e5. PMID: [24076059](https://pubmed.ncbi.nlm.nih.gov/24076059)
+18. Ford AC, et al. 2018. Systematic review with meta-analysis: efficacy of prebiotics, probiotics, synbiotics and antibiotics in irritable bowel syndrome. *Aliment Pharmacol Ther* 48(10):1044-1060. PMID: [30294792](https://pubmed.ncbi.nlm.nih.gov/30294792)
+19. Suez J, et al. 2018. Post-antibiotic gut mucosal microbiome reconstitution is impaired by probiotics and improved by autologous FMT. *Cell* 174(6):1406-1423.e16. PMID: [30193113](https://pubmed.ncbi.nlm.nih.gov/30193113)
+20. McDonald LC, et al. 2018. Clinical practice guidelines for Clostridium difficile infection: 2017 update by IDSA and SHEA. *Clin Infect Dis* 66(7):e1-e48. PMID: [29462280](https://pubmed.ncbi.nlm.nih.gov/29462280)
+21. Chang L, et al. 2023. AGA-ACG clinical practice guideline: pharmacological management of chronic idiopathic constipation. *Gastroenterology* 164(7):1086-1106. PMID: [37211380](https://pubmed.ncbi.nlm.nih.gov/37211380)
+22. Guarino A, et al. 2014. ESPGHAN/ESPID evidence-based guidelines for management of acute gastroenteritis in children in Europe: update 2014. *J Pediatr Gastroenterol Nutr* 59(1):132-152. PMID: [24739189](https://pubmed.ncbi.nlm.nih.gov/24739189)
+23. Lacy BE, et al. 2021. ACG clinical guideline: management of irritable bowel syndrome. *Am J Gastroenterol* 116(1):17-44. PMID: [33315591](https://pubmed.ncbi.nlm.nih.gov/33315591)
+24. Pimentel M, et al. 2020. ACG clinical guideline: small intestinal bacterial overgrowth. *Am J Gastroenterol* 115(2):165-178. PMID: [32023228](https://pubmed.ncbi.nlm.nih.gov/32023228)
+
+Migration status: MIGRATED_v3.1 (2026-08-15)
+Previous status: MIGRATED_v2.1 (Session 62)
