@@ -1,0 +1,164 @@
+﻿{
+  "_meta": {
+    "description": "Справочник критичных веществ для автоматической вставки Safety-блоков в EBM-теги. Источник: project/EBM_STANDARD_v2.0.md (v3.1) §4-5.",
+    "version": "1.0",
+    "created": "2026-08-17",
+    "standard": "EBM_STANDARD v3.1",
+    "usage": "Скрипт scripts/ebm_reformat.ps1 при обнаружении любого из triggers в тексте EBM-блока добавляет строку '⚠️ **Safety:** <safety>'. Порог dose_threshold (если указан) — Safety обязателен при указанной дозе и выше.",
+    "note": "triggers — регистронезависимые подстроки/формы вещества. Не выдумывать данные: safety-тексты выверены по IOM/EFSA/WHO."
+  },
+  "substances": {
+    "selenium": {
+      "label": "селен",
+      "triggers": [
+        "selenium",
+        "selenomethionine",
+        "sodium selenite",
+        "selenite"
+      ],
+      "dose_threshold": null,
+      "safety": "Upper limit 400 mcg per day (IOM). Selenosis above 900 mcg per day: alopecia, brittle nails, garlic breath, GI symptoms."
+    },
+    "iodine": {
+      "label": "йод",
+      "triggers": ["iodine", "iodide", "potassium iodide"],
+      "dose_threshold": null,
+      "safety": "Upper limit 500-1100 mcg per day; excess iodine may trigger thyroid dysfunction (Wolff-Chaikoff), caution in autoimmune thyroiditis and nodular goiter."
+    },
+    "iron": {
+      "label": "железо",
+      "triggers": [
+        "iron",
+        "ferrous",
+        "ferrous bisglycinate",
+        "ferrous sulfate",
+        "ferric"
+      ],
+      "dose_threshold": null,
+      "safety": "Contraindicated in hereditary hemochromatosis and iron overload. Upper limit 45 mg per day (adults); doses above cause GI distress and oxidative stress."
+    },
+    "copper": {
+      "label": "медь",
+      "triggers": ["copper", "copper gluconate", "cupric"],
+      "dose_threshold": null,
+      "safety": "Upper limit 10 mg per day (IOM). Contraindicated in Wilson disease. High zinc intake depletes copper — monitor ratio."
+    },
+    "zinc": {
+      "label": "цинк",
+      "triggers": ["zinc", "zinc picolinate", "zinc gluconate", "zinc citrate"],
+      "dose_threshold": "40 mg",
+      "safety": "Upper limit 40 mg per day (IOM). Chronic intake above 40 mg per day depletes copper, causing anemia and neuropathy. Take apart from iron and calcium."
+    },
+    "manganese": {
+      "label": "марганец",
+      "triggers": ["manganese"],
+      "dose_threshold": null,
+      "safety": "Upper limit 11 mg per day (IOM). Excess is neurotoxic (manganism); caution in cholestasis and liver disease (impaired excretion)."
+    },
+    "chromium": {
+      "label": "хром",
+      "triggers": ["chromium", "chromium picolinate"],
+      "dose_threshold": null,
+      "safety": "Generally well tolerated up to 200-1000 mcg per day; caution with antidiabetic drugs (additive glucose lowering). Rare hepatic/renal reports at very high doses."
+    },
+    "molybdenum": {
+      "label": "молибден",
+      "triggers": ["molybdenum"],
+      "dose_threshold": null,
+      "safety": "Upper limit 2 mg per day (IOM). Excess interferes with copper metabolism; high intake may raise uric acid."
+    },
+    "vitamin_a": {
+      "label": "витамин A",
+      "triggers": ["vitamin a", "retinol", "retinyl", "retinoic"],
+      "dose_threshold": "10000 IU",
+      "safety": "Upper limit 10000 IU (3000 mcg RAE) per day. Teratogenic — contraindicated in pregnancy above UL. Chronic excess: hepatotoxicity, bone loss, intracranial hypertension."
+    },
+    "vitamin_d": {
+      "label": "витамин D",
+      "triggers": [
+        "vitamin d",
+        "cholecalciferol",
+        "calcitriol",
+        "ergocalciferol"
+      ],
+      "dose_threshold": "4000 IU",
+      "safety": "Upper limit 4000 IU per day (IOM) without monitoring. Excess causes hypercalcemia, hypercalciuria, nephrocalcinosis. Monitor 25-OH-D and calcium at high doses."
+    },
+    "vitamin_e": {
+      "label": "витамин E",
+      "triggers": [
+        "vitamin e",
+        "alpha-tocopherol",
+        "tocopherol",
+        "tocotrienol"
+      ],
+      "dose_threshold": "400 IU",
+      "safety": "Upper limit 1000 mg per day (~1500 IU). Doses above 400 IU per day increase bleeding risk; caution with anticoagulants/antiplatelets and before surgery."
+    },
+    "vitamin_k": {
+      "label": "витамин K",
+      "triggers": [
+        "vitamin k",
+        "phylloquinone",
+        "menaquinone",
+        "vitamin k2",
+        "mk-7"
+      ],
+      "dose_threshold": null,
+      "safety": "Contraindicated / requires INR monitoring with warfarin (antagonizes anticoagulation). Keep intake stable if on vitamin K antagonists."
+    },
+    "vitamin_b6": {
+      "label": "витамин B6",
+      "triggers": ["vitamin b6", "pyridoxine", "pyridoxal", "p5p"],
+      "dose_threshold": "100 mg",
+      "safety": "Upper limit 100 mg per day (IOM). Chronic intake above 100-200 mg per day causes sensory peripheral neuropathy (usually reversible on cessation)."
+    },
+    "dhea": {
+      "label": "DHEA",
+      "triggers": ["dhea", "dehydroepiandrosterone"],
+      "dose_threshold": null,
+      "safety": "Hormone precursor — androgenic/estrogenic effects. Contraindicated in hormone-sensitive cancers (breast, prostate, ovarian). Not for pregnancy/lactation. Physician supervision required."
+    },
+    "pregnenolone": {
+      "label": "прегненолон",
+      "triggers": ["pregnenolone"],
+      "dose_threshold": null,
+      "safety": "Steroid hormone precursor with unpredictable downstream conversion. Contraindicated in hormone-sensitive conditions; avoid in pregnancy/lactation. Physician supervision required."
+    },
+    "melatonin": {
+      "label": "мелатонин",
+      "triggers": ["melatonin"],
+      "dose_threshold": "3 mg",
+      "safety": "Doses above 3 mg per day may cause grogginess, vivid dreams, and morning sedation. Caution with anticoagulants, antihypertensives, and in autoimmune disease. Avoid driving after intake."
+    },
+    "ashwagandha": {
+      "label": "ашваганда",
+      "triggers": ["ashwagandha", "withania somnifera", "withania"],
+      "dose_threshold": null,
+      "safety": "Not recommended during pregnancy (abortifacient risk). Caution with thyroid hormone therapy (may raise T4/T3) and immunosuppressants. Rare hepatotoxicity reports."
+    },
+    "curcumin": {
+      "label": "куркумин",
+      "triggers": ["curcumin", "turmeric"],
+      "dose_threshold": null,
+      "safety": "Caution with anticoagulants/antiplatelets (additive bleeding risk) and gallstones/biliary obstruction (stimulates bile). May reduce iron absorption at high doses. Rare hepatotoxicity."
+    },
+    "saccharomyces_boulardii": {
+      "label": "S. boulardii",
+      "triggers": ["s. boulardii", "saccharomyces boulardii", "boulardii"],
+      "dose_threshold": null,
+      "safety": "Contraindicated in critically ill, immunocompromised patients, and those with central venous catheters — risk of fungemia (case reports). Not for children under 2 years without medical supervision."
+    },
+    "lactobacillus": {
+      "label": "определённые Lactobacillus",
+      "triggers": [
+        "lactobacillus rhamnosus gg",
+        "lactobacillus reuteri",
+        "l. rhamnosus",
+        "l. reuteri"
+      ],
+      "dose_threshold": null,
+      "safety": "Generally safe in immunocompetent hosts. Caution / avoid in severely immunocompromised, critically ill, or central-catheter patients — rare bacteremia/sepsis case reports. Not for infants without supervision."
+    }
+  }
+}
