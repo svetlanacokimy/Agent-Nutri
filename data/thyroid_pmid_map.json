@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "file": "thyroid_health.md",
+    "created": "2026-08-17",
+    "total_unique_authors": 17,
+    "total_unique_pmids": 15,
+    "verified": 16,
+    "no_pmid": 1,
+    "note": "PMID map for legacy v1.1 EBM tags. ATA 2014 = Jonklaas 2014 (same document, PMID 25266247)."
+  },
+  "mappings": {
+    "Haugen 2016": {
+      "pmid": "26462967",
+      "citation": "Haugen BR, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.",
+      "type": "Guideline",
+      "confidence": "verified"
+    },
+    "Vanderpump 1995": {
+      "pmid": "7641412",
+      "citation": "Vanderpump MP, et al. The incidence of thyroid disorders in the community: a twenty-year follow-up of the Whickham Survey. Clin Endocrinol (Oxf). 1995;43(1):55-68.",
+      "type": "Cohort study (Level 2b)",
+      "confidence": "verified"
+    },
+    "Tessler 2017": {
+      "pmid": "28372962",
+      "citation": "Tessler FN, et al. ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACR TI-RADS Committee. J Am Coll Radiol. 2017;14(5):587-595.",
+      "type": "Guideline / classification system",
+      "confidence": "verified"
+    },
+    "Feller 2018": {
+      "pmid": "30285179",
+      "citation": "Feller M, et al. Association of Thyroid Hormone Therapy With Quality of Life and Thyroid-Related Symptoms in Patients With Subclinical Hypothyroidism: A Systematic Review and Meta-analysis. JAMA. 2018;320(13):1349-1359.",
+      "type": "Meta-analysis (Level 1a)",
+      "confidence": "verified"
+    },
+    "Wichman 2016": {
+      "pmid": "27702392",
+      "citation": "Wichman J, et al. Selenium Supplementation Significantly Reduces Thyroid Autoantibody Levels in Patients with Chronic Autoimmune Thyroiditis: A Systematic Review and Meta-Analysis. Thyroid. 2016;26(12):1681-1692.",
+      "type": "Meta-analysis (Level 1a)",
+      "confidence": "verified"
+    },
+    "WHO/UNICEF/ICCIDD 2007": {
+      "pmid": null,
+      "citation": "WHO/UNICEF/ICCIDD. Assessment of Iodine Deficiency Disorders and Monitoring Their Elimination: A Guide for Programme Managers, 3rd ed. Geneva: WHO; 2007.",
+      "type": "International guideline (book, not indexed in PubMed)",
+      "confidence": "verified_no_pmid",
+      "url": "https://www.who.int/publications/i/item/9789241595827"
+    },
+    "Sharma 2018": {
+      "pmid": "28829155",
+      "citation": "Sharma AK, Basu I, Singh S. Efficacy and Safety of Ashwagandha Root Extract in Subclinical Hypothyroid Patients: A Double-Blind, Randomized Placebo-Controlled Trial. J Altern Complement Med. 2018;24(3):243-248.",
+      "type": "RCT (Level 1b, pilot)",
+      "confidence": "verified"
+    },
+    "Krysiak 2019": {
+      "pmid": "30844687",
+      "citation": "Krysiak R, Kowalcze K, Okopien B. Selenomethionine potentiates the impact of vitamin D on thyroid autoimmunity in euthyroid women with Hashimoto's thyroiditis and low vitamin D status. Pharmacol Rep. 2019;71(2):367-373.",
+      "type": "Case-control / cohort (Level 3)",
+      "confidence": "verified"
+    },
+    "Benvenga 2001": {
+      "pmid": "11502782",
+      "citation": "Benvenga S, Ruggeri RM, Russo A, et al. Usefulness of L-carnitine, a naturally occurring peripheral antagonist of thyroid hormone action, in iatrogenic hyperthyroidism: a randomized, double-blind, placebo-controlled clinical trial. J Clin Endocrinol Metab. 2001;86(8):3579-3594.",
+      "type": "RCT (Level 1b)",
+      "confidence": "verified",
+      "note": "L-carnitine RCT in JCEM, NOT the levothyroxine absorption paper."
+    },
+    "Gartner 2002": {
+      "pmid": "11932302",
+      "citation": "Gartner R, Gasnier BC, Dietrich JW, Krebs B, Angstwurm MW. Selenium supplementation in patients with autoimmune thyroiditis decreases thyroid peroxidase antibodies concentrations. J Clin Endocrinol Metab. 2002;87(4):1687-1691.",
+      "type": "RCT (Level 1b)",
+      "confidence": "verified",
+      "aliases": ["Gärtner 2002"]
+    },
+    "Farebrother 2019": {
+      "pmid": "30891786",
+      "citation": "Farebrother J, Zimmermann MB, Andersson M. Excess iodine intake: sources, assessment, and effects on thyroid function. Ann N Y Acad Sci. 2019;1446(1):44-65.",
+      "type": "Narrative review (Level 5)",
+      "confidence": "verified"
+    },
+    "ATA 2014": {
+      "pmid": "25266247",
+      "citation": "Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the treatment of hypothyroidism: prepared by the American Thyroid Association task force on thyroid hormone replacement. Thyroid. 2014;24(12):1670-1751.",
+      "type": "Guideline",
+      "confidence": "verified",
+      "note": "Same document as 'Jonklaas 2014' — file uses two citation styles for the same guideline."
+    },
+    "USPSTF 2015": {
+      "pmid": "25798805",
+      "citation": "LeFevre ML; U.S. Preventive Services Task Force. Screening for thyroid dysfunction: U.S. Preventive Services Task Force recommendation statement. Ann Intern Med. 2015;162(9):641-650.",
+      "type": "Guideline",
+      "confidence": "verified"
+    },
+    "Jonklaas 2014": {
+      "pmid": "25266247",
+      "citation": "Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the treatment of hypothyroidism: prepared by the American Thyroid Association task force on thyroid hormone replacement. Thyroid. 2014;24(12):1670-1751.",
+      "type": "Guideline",
+      "confidence": "verified"
+    },
+    "Bolk 2010": {
+      "pmid": "21149757",
+      "citation": "Bolk N, Visser TJ, Nijman J, Jongste IJ, Tijssen JG, Berghout A. Effects of evening vs morning levothyroxine intake: a randomized double-blind crossover trial. Arch Intern Med. 2010;170(22):1996-2003.",
+      "type": "RCT (Level 1b)",
+      "confidence": "verified"
+    },
+    "Bell 2001": {
+      "pmid": "11421567",
+      "citation": "Bell DS, Ovalle F. Use of soy protein supplement and resultant need for increased dose of levothyroxine. Endocr Pract. 2001;7(3):193-194.",
+      "type": "Case report (Level 4)",
+      "confidence": "verified"
+    },
+    "Benvenga 2008": {
+      "pmid": "18341376",
+      "citation": "Benvenga S, Bartolone L, Pappalardo MA, et al. Altered intestinal absorption of L-thyroxine caused by coffee. Thyroid. 2008;18(3):293-301.",
+      "type": "Case series + in vitro (Level 4)",
+      "confidence": "verified"
+    }
+  }
+}

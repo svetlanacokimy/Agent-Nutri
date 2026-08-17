@@ -27,7 +27,8 @@ param(
     [string]$Mode = 'audit',           # audit | dryrun | apply
     [switch]$Backup,                   # бэкап перед apply (SHA256-проверка)
     [switch]$Verbose,                  # подробный вывод
-    [switch]$NoCache                   # игнорировать кэш PubMed, запрашивать заново
+    [switch]$NoCache,                  # игнорировать кэш PubMed, запрашивать заново
+    [string]$PmidMap = ''              # опциональный JSON-файл с картой 'Author Year -> PMID'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -36,6 +37,25 @@ $ErrorActionPreference = 'Stop'
 # чтобы -Verbose оставался кастомным switch, а не common-параметром).
 if (-not $File) { Write-Host '[ERROR] -File is required (e.g. -File pancreas_health.md)' -ForegroundColor Red; exit 1 }
 if ($Mode -notin @('audit', 'dryrun', 'apply')) { Write-Host "[ERROR] -Mode must be audit|dryrun|apply (got '$Mode')" -ForegroundColor Red; exit 1 }
+
+# --- Загрузка карты PMID (опционально) --------------------------------------
+# Формат JSON: { "mappings": { "Author Year": { "pmid": "...", "citation": "...", ... } } }
+# Ключи регистронезависимы; null PMID означает "источник без PubMed ID".
+$script:PmidMapData = $null
+if ($PmidMap) {
+    if (-not (Test-Path $PmidMap)) { Write-Host "[ERROR] PmidMap file not found: $PmidMap" -ForegroundColor Red; exit 1 }
+    try {
+        $mapJson = Get-Content $PmidMap -Raw -Encoding UTF8 | ConvertFrom-Json
+        $script:PmidMapData = @{}
+        foreach ($prop in $mapJson.mappings.PSObject.Properties) {
+            $key = $prop.Name.ToLower().Trim()
+            $script:PmidMapData[$key] = $prop.Value
+        }
+        Write-Host "[INFO] PmidMap loaded: $($script:PmidMapData.Count) entries from $PmidMap" -ForegroundColor Cyan
+    } catch {
+        Write-Host "[ERROR] Failed to parse PmidMap JSON: $_" -ForegroundColor Red; exit 1
+    }
+}
 
 # --- Глифы через код-поинты (устойчивость к кодировке исходного .ps1) --------
 # Не полагаемся на литеральные emoji в тексте скрипта: строим их из Unicode.
@@ -556,6 +576,22 @@ function Invoke-Migration {
         $source = 'existing PMID'
         $legacySurname = ''
         if ($b.Author) { $legacySurname = (($b.Author -split '[\s,/]+') | Where-Object { $_ -match '\p{L}' } | Select-Object -First 1) }
+
+        if (-not $pmid -and $script:PmidMapData) {
+            # Сначала пробуем карту PMID (доверенный источник, без запросов к PubMed).
+            $mapKey = ("{0} {1}" -f $b.Author, $b.Year).ToLower().Trim()
+            if ($script:PmidMapData.ContainsKey($mapKey)) {
+                $entry = $script:PmidMapData[$mapKey]
+                if ($entry.pmid) {
+                    $pmid = [string]$entry.pmid
+                    $source = 'PmidMap (verified)'
+                    Write-Log "PmidMap hit: '$mapKey' -> PMID $pmid" 'INFO'
+                } else {
+                    $plan += [PSCustomObject]@{ Block = $b; Pmid = ''; Verdict = 'NO_PMID_BOOK'; NewBlock = ''; Source = "PmidMap: $($entry.citation)" }
+                    continue
+                }
+            }
+        }
 
         if (-not $pmid) {
             # v1.1 без PMID -> esearch по автору[Author] + году[dp].
