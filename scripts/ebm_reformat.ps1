@@ -415,7 +415,10 @@ function Get-EBMBlocks {
         $line = $lines[$i]
 
         # Формат v3.0/v3.1: > 📚 **EBM** [Level ...]
-        if ($line -match ([regex]::Escape($book) + '\s*\*\*EBM\*\*\s*\[Level')) {
+        # Якорим на начало строки (^\s*>): иначе строка, где EBM-блок оказался
+        # вставлен в середину прозы, совпадает с заголовком, но не начинается с '>',
+        # while не сдвигает $i, а $i-- откатывает индекс -> бесконечный цикл.
+        if ($line -match ('^\s*>\s*' + [regex]::Escape($book) + '\s*\*\*EBM\*\*\s*\[Level')) {
             $start = $i
             $blockLines = @()
             while ($i -lt $lines.Count -and $lines[$i] -match '^\s*>') { $blockLines += $lines[$i]; $i++ }
@@ -851,7 +854,7 @@ if ($Mode -eq 'apply') {
         $newText = $text
         $applied = 0
         foreach ($p in $plan) {
-            if ($p.Verdict -eq 'PLANNED' -and $p.NewBlock) {
+            if ($p.NewBlock -and ($p.Verdict -eq 'PLANNED' -or $p.Verdict -eq 'PmidMap (verified)')) {
                 $newText = $newText.Replace($p.Block.Raw, $p.NewBlock)
                 $applied++
             }
