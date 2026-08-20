@@ -6,7 +6,7 @@
 >
 > **Обозначения источников:**
 > - ⭐ — материал Школы нутрициологии (Этап 2, Урок 21 «Гормоны. СДЭ. Мастопатия. КОК. Менопауза», Урок 8 «Режим дня. Спорт. ПМС»).
-> - ◆ — доказательная медицина (ESHRE/ASRM Rotterdam 2003/2018 [EBM: ESHRE/ASRM Rotterdam 2003; Monash 2018 PCOS Guideline], Endocrine Society Clinical Practice Guidelines [EBM: Endocrine Society Hyperprolactinemia 2011 [EBM: Melmed 2011 JCEM Endocrine Society Guideline]-2013], NICE Endometriosis 2017 [EBM: NICE NG73 2017]], AE-PCOS Society 2023 [EBM: Monash/AE-PCOS 2023 PCOS Guideline update] [EBM: Monash/AE-PCOS 2023 PCOS Guideline update]).
+> - ◆ — доказательная медицина (ESHRE/ASRM Rotterdam 2003/2018, Endocrine Society Clinical Practice Guidelines, NICE NG73, AE‑PCOS Society 2023).
 > - ⚠️ — красный флаг, требующий направления к врачу.
 
 ---
@@ -760,7 +760,9 @@
 - Endocrine Society Clinical Practice Guideline: PCOS (2013).
 - NICE NG73 — Endometriosis (2017, updated).
 - ACOG Practice Bulletin No. 194 — Polycystic Ovary Syndrome.
-- Cochrane inositol PCOS 2018 [EBM: Showell 2018 Cochrane Vitex agnus-castus [EBM: van Die 2013 Planta Med — умеренные данные для ПМС/ПМДР] PMS [EBM: van Die 2013 Planta Med; Cochrane magnesium PMS [EBM: Whelan 2009 J Womens Health — данные умеренные].
+- Cochrane inositol PCOS 2018 [EBM: Showell 2018 Cochrane PMID:30570133]
+- Vitex agnus-castus при ПМС/ПМДР [EBM: van Die 2013 Planta Med — умеренные данные]
+- Магний при ПМС [EBM: Whelan 2009 J Womens Health — данные умеренные]
 - Метаанализы по DIM/I3C, NAC при СПКЯ [EBM: Thakker 2015 Obstet Gynecol Int — мета-анализ, эффект сопоставим с метформином] и эндометриозе, спирмята при гиперандрогении.
 
 ### 27.3 Связанные файлы в репозитории
