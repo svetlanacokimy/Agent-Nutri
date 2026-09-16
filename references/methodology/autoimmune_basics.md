@@ -348,7 +348,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 ### 5.2. Зонулин [EBM: Fasano 2011 Physiol Rev] — молекулярный ключ
 
 - **Зонулин [EBM: Fasano 2011 Physiol Rev]** — единственный известный физиологический регулятор межклеточных контактов у человека (Fasano 2011)
-- Триггеры высвобождения зонулин [EBM: Fasano 2011 Physiol Rev]а: **глиадин** (независимо от целиакии), некоторые бактерии (энтеропатогенные E. coli, сальмонеллы)
+- Триггеры высвобождения зонулина [EBM: Fasano 2011 Physiol Rev]: **глиадин** (независимо от целиакии), некоторые бактерии (энтеропатогенные E. coli, сальмонеллы)
 - Повышенный сывороточный зонулин [EBM: Fasano 2011 Physiol Rev] обнаружен при: целиакии, СД1, MS, СКВ, анкилозирующем спондилите, ВЗК, аутоиммунном гепатите
 
 ⚠️ **Клинически важно:** тест на сывороточный зонулин [EBM: Fasano 2011 Physiol Rev] доступен, но имеет ограничения — вариабельность, влияние возраста и пола. Не заменяет клиническую картину и другие маркеры.
@@ -465,7 +465,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 
 **Нецелиакийная чувствительность к глютену (NCGS) и АИЗ:**
 
-- Механизмы: молекулярная мимикрия [EBM: Rojas 2018 J Autoimmun] глиадина с тканевой трансглутаминазой (присутствует в щитовидной железе, коже, суставах); индукция зонулин [EBM: Fasano 2011 Physiol Rev]а
+- Механизмы: молекулярная мимикрия [EBM: Rojas 2018 J Autoimmun] глиадина с тканевой трансглутаминазой (присутствует в щитовидной железе, коже, суставах); индукция зонулина [EBM: Fasano 2011 Physiol Rev]
 - **Krysiak 2019** — безглютеновая диета у женщин с Хашимото → значимое снижение антиТПО и антиТГ через 6 месяцев
 - Ограниченная доказательная база при других АИЗ, но клиническая практика показывает эффект у части пациентов
 
@@ -497,9 +497,9 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 
 ⚠️ **Практический принцип:** не исключать целые группы продуктов "на всякий случай". Индивидуальный подход через элиминационно-провокационный протокол.
 
-### 6.6. Аутоиммунный протокол [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus] AIP [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus]
+### 6.6. Аутоиммунный протокол AIP
 
-**Структура AIP [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus]:**
+**Структура AIP:**
 
 - Фаза элиминации (30-90 дней): исключение злаков, бобовых, молочных, яиц, паслёновых, орехов, семян, кофе, алкоголя, сахара, добавок
 - Фаза реинтродукции: последовательное возвращение продуктов с интервалом 5-7 дней и мониторингом симптомов
@@ -510,9 +510,9 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 - **Abbott 2019** — Хашимото (n=17): улучшение качества жизни, снижение hs-CRP; на антиТПО значимого эффекта не показано
 - Отдельных крупных РКИ пока нет
 
-⭐ **Ключевой факт:** AIP [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus] — терапевтический инструмент, не диета для постоянного применения. Цель — идентификация индивидуальных триггеров, а не пожизненные ограничения.
+⭐ **Ключевой факт:** AIP — терапевтический инструмент, не диета для постоянного применения. Цель — идентификация индивидуальных триггеров, а не пожизненные ограничения.
 
-⚠️ **Кому AIP [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus] не подходит:**
+⚠️ **Кому AIP не подходит:**
 
 - Расстройства пищевого поведения в анамнезе
 - Выраженный дефицит веса
@@ -553,7 +553,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 
 ### 6.10. Индивидуализация питания
 
-◆ **Клиническая жемчужина:** не существует "одной диеты для всех АИЗ". Общие принципы (противовоспалительная база, средиземноморский паттерн, достаточно белка и клетчатки, омега-3) применимы всем; специфические ограничения (глютен, молочные, паслёновые, AIP [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus]) — индивидуально по элиминационно-провокационному протоколу с мониторингом клиники и антител.
+◆ **Клиническая жемчужина:** не существует "одной диеты для всех АИЗ". Общие принципы (противовоспалительная база, средиземноморский паттерн, достаточно белка и клетчатки, омега-3) применимы всем; специфические ограничения (глютен, молочные, паслёновые, AIP) — индивидуально по элиминационно-провокационному протоколу с мониторингом клиники и антител.
 
 ---
 
@@ -777,7 +777,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 
 - Индивидуальная идентификация пищевых триггеров
 - Пробное исключение глютена (60-90 дней) при показаниях
-- AIP [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus] при показаниях (после стабилизации кишечника)
+- AIP при показаниях (после стабилизации кишечника)
 - Реинтродукция с мониторингом
 
 **Этап 4 (3-6 месяцев и далее): специфическая нутрицевтическая поддержка**
@@ -918,7 +918,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 
 **Патогенез и иммунология:**
 
-- Fasano A. (2012). Leaky gut [EBM: Camilleri 2019 Gut] and autoimmune diseases. _Clin Rev Allergy Immunol_, 42(1), 71-78.
+- Fasano A. (2012). Leaky gut and autoimmune diseases. _Clin Rev Allergy Immunol_, 42(1), 71-78.
 - Fasano A. (2011). Zonulin and its regulation of intestinal barrier function. _Physiol Rev_, 91(1), 151-175.
 - Cooper GS, Bynum ML, Somers EC. (2009). Recent insights in the epidemiology of autoimmune diseases. _J Autoimmun_, 33(3-4), 197-207.
 - Lerner A, Jeremias P, Matthias T. (2015). The world incidence and prevalence of autoimmune diseases is increasing. _Int J Celiac Dis_, 3(4), 151-155.
@@ -938,7 +938,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 
 **Триггеры:**
 
-- Bjornevik K et al. (2022). Longitudinal ana [EBM: Meroni 2014 Ann Rheum Dis]lysis reveals high prevalence of EBV [EBM: Kivity 2011 Cell Mol Immunol] associated with MS. _Science_, 375(6578), 296-301.
+- Bjornevik K et al. (2022). Longitudinal analysis reveals high prevalence of EBV associated with MS. _Science_, 375(6578), 296-301.
 - Stojanovich L, Marisavljevich D. (2008). Stress as a trigger of autoimmune disease. _Autoimmun Rev_, 7(3), 209-213.
 - Vanuytsel T et al. (2014). Psychological stress and CRH increase intestinal permeability. _Gut_, 63(8), 1293-1299.
 - Laurberg P et al. (2010). Iodine intake as a determinant of thyroid disorders. _Best Pract Res Clin Endocrinol Metab_, 24(1), 13-27.
@@ -961,8 +961,8 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 - Johansson K et al. (2018). Mediterranean diet and RA risk. _Arthritis Res Ther_, 20(1), 175.
 - Pocovi-Gerardino G et al. (2020). Mediterranean diet and SLE. _Rheumatology_, 60(1), 160-169.
 - Krysiak R, Szkróbka W, Okopień B. (2019). Gluten-free diet in Hashimoto. _Exp Clin Endocrinol Diabetes_, 127(7), 417-422.
-- Konijeti GG et al. (2017). Efficacy of the AIP [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus] diet for IBD. _Inflamm Bowel Dis_, 23(11), 2054-2060.
-- Abbott RD, Sadowski A, Alt AG. (2019). AIP [EBM: Konijeti 2017 IBD; Abbott 2019 Cureus] diet in Hashimoto. _Cureus_, 11(4), e4556.
+- Konijeti GG et al. (2017). Efficacy of the AIP diet for IBD. _Inflamm Bowel Dis_, 23(11), 2054-2060.
+- Abbott RD, Sadowski A, Alt AG. (2019). AIP diet in Hashimoto. _Cureus_, 11(4), e4556.
 - Miles EA, Calder PC. (2012). Omega-3 in RA. _Br J Nutr_, 107 Suppl 2, S171-184.
 - Vaarala O, Atkinson MA, Neu J. (2008). The perfect storm for T1D: gut, diet, and microbiome. _Diabetes_, 57(10), 2555-2562.
 
