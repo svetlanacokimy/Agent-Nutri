@@ -54,3 +54,4 @@ project/_temp/
 # Archive folders (allow content)
 !project/_archive/
 !scripts/_archive/
+clients/_KEY.md
