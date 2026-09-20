@@ -1,4 +1,4 @@
-# Gangan — Consult Expert (Unified)
+﻿# CL-002 — Consult Expert (Unified)
 
 Дата консультации: 21.04.2026
 Режим: EXPERT
@@ -17,8 +17,8 @@
 
 Приоритет 4. Дефицитный блок: 25-гидроксивитамин D 20,5 нанограмм на миллилитр и субоптимальный витамин B12 ухудшают обратимость метаболического каскада.
 
-[Источник: clients/Gangan/profile.md]
-[Источник: clients/Gangan/blood_tests.md]
+[Источник: clients/CL-002/profile.md]
+[Источник: clients/CL-002/blood_tests.md]
 [Источник: references/11_reference_values.md]
 [Источник: references/04_lipids_insulin.md]
 
@@ -55,7 +55,7 @@
 Тиреотропный гормон 1,152 и пересчитанный трийодтиронин свободный 5,13 не дают признаков явной декомпенсации щитовидной железы в текущем срезе.
 Свободный тироксин, антитела к тиреопероксидазе и антитела к тиреоглобулину не сданы.
 
-[Источник: clients/Gangan/blood_tests.md]
+[Источник: clients/CL-002/blood_tests.md]
 [Источник: references/11_reference_values.md]
 [Источник: references/unit_conversions.md]
 
@@ -88,7 +88,7 @@
 Шаг 6: рост липидной нагрузки ухудшает углеводный контроль.
 Шаг 7: без коррекции дефицита витамина D этот контур хуже поддаётся развороту даже при дисциплинированном режиме.
 
-[Источник: clients/Gangan/blood_tests.md]
+[Источник: clients/CL-002/blood_tests.md]
 [Источник: references/04_lipids_insulin.md]
 [Источник: references/03_lab_diagnostics.md]
 [Источник: text_extracted/УРОК 8. СИБР. СДК. Анализ по Осипову.txt]
@@ -105,8 +105,8 @@
 Клиническая привязка к жалобам.
 Аллергическая симптоматика может усиливаться на фоне системного воспаления и нарушенного кишечного барьера, что подтверждает клиническую значимость оси кишечник-печень в текущем состоянии клиента.
 
-[Источник: clients/Gangan/profile.md]
-[Источник: clients/Gangan/blood_tests.md]
+[Источник: clients/CL-002/profile.md]
+[Источник: clients/CL-002/blood_tests.md]
 [Источник: references/04_lipids_insulin.md]
 [Источник: text_extracted/УРОК 8. СИБР. СДК. Анализ по Осипову.txt]
 
@@ -543,7 +543,7 @@ Lactobacillus rhamnosus и Bifidobacterium lactis как пробиотичес�
 Привязка:
 ось кишечник-печень и воспалительно-метаболический контур с ферритином 338.
 
-[Источник: clients/Gangan/profile.md]
+[Источник: clients/CL-002/profile.md]
 [Источник: references/02_nutrition_basics.md]
 [Источник: references/04_lipids_insulin.md]
 [Источник: text_extracted/УРОК 4. КИШЕЧНИК. СЛАДКОЕ. ЗАВТРАК.txt]
@@ -600,7 +600,7 @@ Lactobacillus rhamnosus и Bifidobacterium lactis как пробиотичес�
 
 При высокой приверженности прогноз на 1-3-6 месяцев умеренно благоприятный: ожидается устойчивое снижение метаболической нагрузки при условии строгой этапности и лабораторного контроля.
 
-[Источник: clients/Gangan/blood_tests.md]
-[Источник: clients/Gangan/profile.md]
+[Источник: clients/CL-002/blood_tests.md]
+[Источник: clients/CL-002/profile.md]
 [Источник: references/03_lab_diagnostics.md]
 [Источник: references/04_lipids_insulin.md]
