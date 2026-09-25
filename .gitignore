@@ -55,3 +55,6 @@ project/_temp/
 !project/_archive/
 !scripts/_archive/
 clients/_KEY.md
+
+# Локальные бэкапы (история версий хранится в git, бэкапы не коммитим)
+*_backup_*.md
