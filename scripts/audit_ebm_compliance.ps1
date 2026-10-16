@@ -1,4 +1,5 @@
 ﻿<#
+# [DEPRECATED 2026-10-16] Считает только legacy [EBM:]. Используй scripts/ebm_audit_v2.ps1 (legacy + v3.1). Оставлен для истории.
 .SYNOPSIS
     Audit EBM compliance across all methodology files.
 .DESCRIPTION
