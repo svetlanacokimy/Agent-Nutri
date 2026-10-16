@@ -1,0 +1,12 @@
+#!/bin/sh
+# pre-commit: EBM invariants gate (Agent-Nutri)
+echo "[pre-commit] EBM audit gate..."
+powershell.exe -ExecutionPolicy Bypass -NoProfile -File "scripts/ebm_audit_v2.ps1" -FailOnViolation >/dev/null 2>&1
+code=$?
+if [ "$code" -ne 0 ]; then
+  echo "[pre-commit] BLOCKED: EBM-invariants violated (exit $code)."
+  echo "            Run manually: powershell -File scripts/ebm_audit_v2.ps1"
+  exit 1
+fi
+echo "[pre-commit] EBM OK."
+exit 0
