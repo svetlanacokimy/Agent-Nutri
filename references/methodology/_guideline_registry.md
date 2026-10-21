@@ -16,8 +16,8 @@
 
 | Тег | PMID | Проверено | Примечание |
 |---|---|---|---|
-| ADA 2024 | TODO | нет | Standards of Care in Diabetes 2024 (Diabetes Care, приложение) |
-| UKPDS 33 | TODO | нет | UK Prospective Diabetes Study 33, Lancet 1998 |
+| UKPDS 33 | 9742976 | да | UKPDS 33, Lancet 1998 — intensive blood-glucose control (sulphonylureas/insulin) |
+| ADA 2024 | 38078589 | частично | Standards of Care in Diabetes-2024 (общий intro). УТОЧНИТЬ раздел по контексту тега (диагностика/питание/пожилые) |
 
 <!-- Добавляй строки по мере встречи организаций в тегах. -->
 <!-- "Проверено: да" ставить ТОЛЬКО когда PMID сверен со статьёй вручную. -->

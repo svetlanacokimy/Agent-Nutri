@@ -256,6 +256,28 @@ function Select-BestCandidate {
     }
     return $null
 }
+
+function Get-RegistryMatch {
+    param([string]$Author, [string]$Year)
+
+    $regPath = Join-Path $script:MethodologyDir '_guideline_registry.md'
+    if (-not (Test-Path $regPath)) { return $null }
+
+    $full = "$Author $Year".Trim()
+    $rows = Get-Content $regPath -Encoding UTF8 | Where-Object { $_ -match '^\|' }
+
+    foreach ($row in $rows) {
+        $cells = @($row -split '\|' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' })
+        if ($cells.Count -lt 2) { continue }
+        $key  = $cells[0]
+        $pmid = $cells[1]
+        if ($key -eq 'Тег' -or $key -match 'точно как' -or $pmid -eq 'PMID' -or $pmid -notmatch '^\d+$') { continue }
+        if ($full.ToLower().StartsWith($key.ToLower())) {
+            return [PSCustomObject]@{ Pmid = $pmid; Key = $key }
+        }
+    }
+    return $null
+}
 function Build-V3Tag {
     param($Summary, [string]$Context, [string]$PopulationHint)
     $author  = if ($Summary.FirstAuthor) { $Summary.FirstAuthor } else { 'Author' }
@@ -604,9 +626,19 @@ function Invoke-MigrateMode {
         $v3Tag = ''
         # Выбираем кандидата: точное совпадение (1 шт) ИЛИ автовыбор среди нескольких
         $pick = $null
-        if ($exact.Count -eq 1) {
+
+        # --- Реестр организаций-гайдлайнов: проверяется ПЕРВЫМ, главнее PubMed ---
+        $regHit = Get-RegistryMatch -Author $author -Year $year
+        if ($regHit) {
+            $pick = [PSCustomObject]@{
+                Pmid = $regHit.Pmid; FirstAuthor = $regHit.Key; Year = $year; AuthorCount = 1
+            }
+            Write-Host ("        (реестр: $($regHit.Key) -> PMID $($regHit.Pmid))") -ForegroundColor Cyan
+        }
+        elseif ($exact.Count -eq 1) {
             $pick = $exact[0]
-        } elseif ($exact.Count -ge 2) {
+        }
+        elseif ($exact.Count -ge 2) {
             # Несколько однофамильцев того же года -> выбираем по контексту
             $pick = Select-BestCandidate -Candidates $exact -Context $context -FileTopic $baseName
         }
