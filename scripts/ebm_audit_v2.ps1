@@ -18,7 +18,7 @@ $RX_DEF_NEST = '\[EBM:[^\]]*\[EBM:'
 if (-not (Test-Path $Root)) { Write-Error "Not found: $Root"; exit 2 }
 
 $rows = @(); $violations = @()
-Get-ChildItem (Join-Path $Root '*.md') | ForEach-Object {
+Get-ChildItem (Join-Path $Root '*.md') | Where-Object { $_.Name -notlike '_*' } | ForEach-Object {
     $name = $_.Name
     $c    = Get-Content $_.FullName -Encoding UTF8 -Raw
     $legacy = ([regex]::Matches($c, $RX_LEGACY)).Count
