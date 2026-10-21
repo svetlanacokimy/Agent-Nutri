@@ -225,6 +225,37 @@ function Get-PubMedSurname {
     return $SortFirstAuthor
 }
 
+
+function Select-BestCandidate {
+    param($Candidates, [string]$Context, [string]$FileTopic)
+
+    # Слова-темы: контекст тега + тема файла; слова длиннее 3 букв, нижний регистр
+    $topicText = ("{0} {1}" -f $Context, $FileTopic).ToLower()
+    $topicWords = @($topicText -split '[^\p{L}]+' | Where-Object { $_.Length -gt 3 } | Select-Object -Unique)
+
+    # Англо-якоря темы (названия в PubMed на англ., контекст на рус. -- мостик)
+    $anchorWords = @('insulin','glucose','glycemic','glycaemic','diabet','metaboli','adipo','resistance','obes','lipid')
+
+    $scored = foreach ($c in $Candidates) {
+        $title = ([string]$c.Title).ToLower()
+        $score = 0
+        foreach ($w in $topicWords)  { if ($title -like "*$w*") { $score++ } }
+        foreach ($w in $anchorWords) { if ($title -like "*$w*") { $score += 2 } }
+        [PSCustomObject]@{ Cand = $c; Score = $score }
+    }
+
+    $ranked = @($scored | Sort-Object Score -Descending)
+    if ($ranked.Count -eq 0) { return $null }
+
+    $best = $ranked[0]
+    $second = if ($ranked.Count -ge 2) { $ranked[1].Score } else { 0 }
+
+    # AUTO только если победитель набрал очки И оторвался от второго (разрыв >= 2)
+    if ($best.Score -ge 2 -and ($best.Score - $second) -ge 2) {
+        return $best.Cand
+    }
+    return $null
+}
 function Build-V3Tag {
     param($Summary, [string]$Context, [string]$PopulationHint)
     $author  = if ($Summary.FirstAuthor) { $Summary.FirstAuthor } else { 'Author' }
@@ -571,8 +602,17 @@ function Invoke-MigrateMode {
         $status = 'MANUAL'
         $resolved = $null
         $v3Tag = ''
+        # Выбираем кандидата: точное совпадение (1 шт) ИЛИ автовыбор среди нескольких
+        $pick = $null
         if ($exact.Count -eq 1) {
-            $resolved = $exact[0]
+            $pick = $exact[0]
+        } elseif ($exact.Count -ge 2) {
+            # Несколько однофамильцев того же года -> выбираем по контексту
+            $pick = Select-BestCandidate -Candidates $exact -Context $context -FileTopic $baseName
+        }
+
+        if ($pick) {
+            $resolved = $pick
             $status = 'AUTO'
             $autoCount++
             $popHint = "[MANUAL: extract from abstract PMID $($resolved.Pmid)]"
