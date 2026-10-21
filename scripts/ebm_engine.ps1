@@ -196,10 +196,25 @@ function Get-PopulationHint {
 
 function Get-Surname {
     param([string]$AuthorField)
-    # legacy author can be "Whitcomb", "UEG Loehr", "IAP/APA" -> take last alpha word
+
+    # Приставки фамилий: de Cabo, van Dijk, von Hippel -- часть фамилии, не отдельный автор
+    $prefixes = @('de','van','von','der','den','del','della','da','di','la','le','du','dos','das')
+
+    # Режем на слова, оставляем только буквенные (выкидываем цифры/мусор)
     $words = @(($AuthorField -split '\s+') | Where-Object { $_ -match '\p{L}' })
-    if ($words.Count -gt 0) { return [string]$words[-1] }
-    return $AuthorField
+
+    if ($words.Count -eq 0) { return $AuthorField }
+    if ($words.Count -eq 1) { return [string]$words[0] }
+
+    # Берём ПЕРВОГО автора (в тегах он записан первым: Fasshauer Bluher -> Fasshauer)
+    $first = $words[0]
+
+    # Если первое слово -- приставка (de), приклеиваем следующее: "de Cabo"
+    if ($prefixes -contains $first.ToLower() -and $words.Count -ge 2) {
+        return [string]("{0} {1}" -f $words[0], $words[1])
+    }
+
+    return [string]$first
 }
 
 function Get-PubMedSurname {
