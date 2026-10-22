@@ -196,10 +196,25 @@ function Get-PopulationHint {
 
 function Get-Surname {
     param([string]$AuthorField)
-    # legacy author can be "Whitcomb", "UEG Loehr", "IAP/APA" -> take last alpha word
+
+    # Приставки фамилий: de Cabo, van Dijk, von Hippel -- часть фамилии, не отдельный автор
+    $prefixes = @('de','van','von','der','den','del','della','da','di','la','le','du','dos','das')
+
+    # Режем на слова, оставляем только буквенные (выкидываем цифры/мусор)
     $words = @(($AuthorField -split '\s+') | Where-Object { $_ -match '\p{L}' })
-    if ($words.Count -gt 0) { return [string]$words[-1] }
-    return $AuthorField
+
+    if ($words.Count -eq 0) { return $AuthorField }
+    if ($words.Count -eq 1) { return [string]$words[0] }
+
+    # Берём ПЕРВОГО автора (в тегах он записан первым: Fasshauer Bluher -> Fasshauer)
+    $first = $words[0]
+
+    # Если первое слово -- приставка (de), приклеиваем следующее: "de Cabo"
+    if ($prefixes -contains $first.ToLower() -and $words.Count -ge 2) {
+        return [string]("{0} {1}" -f $words[0], $words[1])
+    }
+
+    return [string]$first
 }
 
 function Get-PubMedSurname {
@@ -210,6 +225,59 @@ function Get-PubMedSurname {
     return $SortFirstAuthor
 }
 
+
+function Select-BestCandidate {
+    param($Candidates, [string]$Context, [string]$FileTopic)
+
+    # Слова-темы: контекст тега + тема файла; слова длиннее 3 букв, нижний регистр
+    $topicText = ("{0} {1}" -f $Context, $FileTopic).ToLower()
+    $topicWords = @($topicText -split '[^\p{L}]+' | Where-Object { $_.Length -gt 3 } | Select-Object -Unique)
+
+    # Англо-якоря темы (названия в PubMed на англ., контекст на рус. -- мостик)
+    $anchorWords = @('insulin','glucose','glycemic','glycaemic','diabet','metaboli','adipo','resistance','obes','lipid')
+
+    $scored = foreach ($c in $Candidates) {
+        $title = ([string]$c.Title).ToLower()
+        $score = 0
+        foreach ($w in $topicWords)  { if ($title -like "*$w*") { $score++ } }
+        foreach ($w in $anchorWords) { if ($title -like "*$w*") { $score += 2 } }
+        [PSCustomObject]@{ Cand = $c; Score = $score }
+    }
+
+    $ranked = @($scored | Sort-Object Score -Descending)
+    if ($ranked.Count -eq 0) { return $null }
+
+    $best = $ranked[0]
+    $second = if ($ranked.Count -ge 2) { $ranked[1].Score } else { 0 }
+
+    # AUTO только если победитель набрал очки И оторвался от второго (разрыв >= 2)
+    if ($best.Score -ge 2 -and ($best.Score - $second) -ge 2) {
+        return $best.Cand
+    }
+    return $null
+}
+
+function Get-RegistryMatch {
+    param([string]$Author, [string]$Year)
+
+    $regPath = Join-Path $script:MethodologyDir '_guideline_registry.md'
+    if (-not (Test-Path $regPath)) { return $null }
+
+    $full = "$Author $Year".Trim()
+    $rows = Get-Content $regPath -Encoding UTF8 | Where-Object { $_ -match '^\|' }
+
+    foreach ($row in $rows) {
+        $cells = @($row -split '\|' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' })
+        if ($cells.Count -lt 2) { continue }
+        $key  = $cells[0]
+        $pmid = $cells[1]
+        if ($key -eq 'Тег' -or $key -match 'точно как' -or $pmid -eq 'PMID' -or $pmid -notmatch '^\d+$') { continue }
+        if ($full.ToLower().StartsWith($key.ToLower())) {
+            return [PSCustomObject]@{ Pmid = $pmid; Key = $key }
+        }
+    }
+    return $null
+}
 function Build-V3Tag {
     param($Summary, [string]$Context, [string]$PopulationHint)
     $author  = if ($Summary.FirstAuthor) { $Summary.FirstAuthor } else { 'Author' }
@@ -556,8 +624,27 @@ function Invoke-MigrateMode {
         $status = 'MANUAL'
         $resolved = $null
         $v3Tag = ''
-        if ($exact.Count -eq 1) {
-            $resolved = $exact[0]
+        # Выбираем кандидата: точное совпадение (1 шт) ИЛИ автовыбор среди нескольких
+        $pick = $null
+
+        # --- Реестр организаций-гайдлайнов: проверяется ПЕРВЫМ, главнее PubMed ---
+        $regHit = Get-RegistryMatch -Author $author -Year $year
+        if ($regHit) {
+            $pick = [PSCustomObject]@{
+                Pmid = $regHit.Pmid; FirstAuthor = $regHit.Key; Year = $year; AuthorCount = 1
+            }
+            Write-Host ("        (реестр: $($regHit.Key) -> PMID $($regHit.Pmid))") -ForegroundColor Cyan
+        }
+        elseif ($exact.Count -eq 1) {
+            $pick = $exact[0]
+        }
+        elseif ($exact.Count -ge 2) {
+            # Несколько однофамильцев того же года -> выбираем по контексту
+            $pick = Select-BestCandidate -Candidates $exact -Context $context -FileTopic $baseName
+        }
+
+        if ($pick) {
+            $resolved = $pick
             $status = 'AUTO'
             $autoCount++
             $popHint = "[MANUAL: extract from abstract PMID $($resolved.Pmid)]"
