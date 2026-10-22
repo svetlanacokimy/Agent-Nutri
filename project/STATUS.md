@@ -1,6 +1,6 @@
 ﻿# STATUS.md — состояние проекта Agent-Nutri v2
 
-## 📌 Текущее состояние (на 2026-10-16, Session 63)
+## 📌 Текущее состояние (на 2026-10-22, Session 64)
 
 **Ветка:** `main`
 
@@ -13,7 +13,7 @@
 
 **Клинический аудит источников (PMID через PubMed):** ✅ thyroid_health.md (Huwiler 2024 38243784, Durante 2023 37358008) ✅ insulin_resistance.md (Lean 2024 38423026). Остальные 55 — не начаты.
 ---
-**Последнее событие:** Session 63, Этап F.2 — EBM-обогащение `menopause.md` (NO_EBM → FULL_EBM, 0 → 30 EBM-тегов, +30 inline с нуля). Прогресс: 16 → **17 FULL_EBM** файлов (32.1 %), 0 PARTIAL, 694 → **724 EBM-тегов** (+30). 🎯 Пятое NO_EBM → FULL_EBM подряд с нуля. Особенность сессии: актуализация устаревших источников (Canonico 2008 → Vinogradova 2019 BMJ §18.5, US MEC 2016 → 2024 §17.3, Gleason 2015 → 2024 + Pourhadi 2023 §16.3) и осознанный пропуск дублей PMID (§14.5, §12.4/12.5). Замыкание кластера 6 (женское здоровье: female_hormones + menopause + mastopathy — 3/3). Коммиты 8521e13, b3e5959.
+**Последнее событие:** Session 64 — движок v2 (реестр организаций + умный автовыбор, Get-Surname/Select-BestCandidate/Get-RegistryMatch) влит в main (merge 9fff830). Боевая миграция `insulin_resistance.md` legacy → v3.1: 21 блок переведён, файл теперь HYBRID (9 legacy + 21 v3.1). Распределение по аудитору v2: **690 единиц** (608 legacy + 82 v3.1), 17 FULL_EBM, 247 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты b9bd9ed, c54a421, fbaef80, 46e867f, ee2d1af. ⚠️ TODO (ручная доводка): 7 MANUAL-тегов в insulin_resistance.md + плейсхолдеры [Level ?] и Population во всех 21 v3.1-блоке.
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
