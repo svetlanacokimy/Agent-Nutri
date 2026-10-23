@@ -13,7 +13,7 @@
 
 **Клинический аудит источников (PMID через PubMed):** ✅ thyroid_health.md (Huwiler 2024 38243784, Durante 2023 37358008) ✅ insulin_resistance.md (Lean 2024 38423026). Остальные 55 — не начаты.
 ---
-**Последнее событие:** Session 64 — движок v2 (реестр организаций + умный автовыбор, Get-Surname/Select-BestCandidate/Get-RegistryMatch) влит в main (merge 9fff830). Боевая миграция `insulin_resistance.md` legacy → v3.1: 21 блок переведён, файл теперь HYBRID (9 legacy + 21 v3.1). Распределение по аудитору v2: **690 единиц** (608 legacy + 82 v3.1), 17 FULL_EBM, 247 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты b9bd9ed, c54a421, fbaef80, 46e867f, ee2d1af. ⚠️ TODO (ручная доводка): 7 MANUAL-тегов в insulin_resistance.md + плейсхолдеры [Level ?] и Population во всех 21 v3.1-блоке.
+**Последнее событие:** Session 64 — `insulin_resistance.md` ПОЛНОСТЬЮ мигрирован на v3.1 (0 legacy / 30 v3.1, FULL). Закрыты все 9 ручных тегов с точными PMID: Roder 2016 (26964835), ADA 2024 §5+§10 (38078589), Reaven 1988 (3056758), DeFronzo 2015 (27189025), Estruch 2018 PREDIMED (29897866), de Cabo & Mattson 2019 (31881139), Colberg 2016 (27926890), Costello 2016 chromium (27261273). Аудитор v2: **690 единиц** (599 legacy + 91 v3.1), 17 FULL_EBM, 256 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты f1984d9, fc1daba, e045d45, 2ae8e30, 5ac87d2, db7789b, e86b91c, 2fc95c8, acb3d84 — все в main. Файлов полностью на v3.1: 3 (pancreas_health, intestinal_health, insulin_resistance).
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
