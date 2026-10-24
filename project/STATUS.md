@@ -1,6 +1,6 @@
 ﻿# STATUS.md — состояние проекта Agent-Nutri v2
 
-## 📌 Текущее состояние (на 2026-10-22, Session 64)
+## 📌 Текущее состояние (на 2026-10-24, Session 65)
 
 **Ветка:** `main`
 
@@ -13,7 +13,7 @@
 
 **Клинический аудит источников (PMID через PubMed):** ✅ thyroid_health.md (Huwiler 2024 38243784, Durante 2023 37358008) ✅ insulin_resistance.md (Lean 2024 38423026). Остальные 55 — не начаты.
 ---
-**Последнее событие:** Session 64 — `insulin_resistance.md` ПОЛНОСТЬЮ мигрирован на v3.1 (0 legacy / 30 v3.1, FULL). Закрыты все 9 ручных тегов с точными PMID: Roder 2016 (26964835), ADA 2024 §5+§10 (38078589), Reaven 1988 (3056758), DeFronzo 2015 (27189025), Estruch 2018 PREDIMED (29897866), de Cabo & Mattson 2019 (31881139), Colberg 2016 (27926890), Costello 2016 chromium (27261273). Аудитор v2: **690 единиц** (599 legacy + 91 v3.1), 17 FULL_EBM, 256 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты f1984d9, fc1daba, e045d45, 2ae8e30, 5ac87d2, db7789b, e86b91c, 2fc95c8, acb3d84 — все в main. Файлов полностью на v3.1: 3 (pancreas_health, intestinal_health, insulin_resistance).
+**Последнее событие:** Session 65 — `gallbladder_health.md` ПОЛНОСТЬЮ мигрирован на v3.1 (0 legacy / 30 v3.1, FULL). Закрыты все оставшиеся legacy-теги: Hofmann/Hagey 2008 (18488143), Reboul 2013 (24036530), Ridlon 2014 (24625896), Fine 2000 (10761454), Tenner 2013 (23896955), Boyer 2013 (23897680), EASL 2016 (27085810), плюс ранее Lewis/Cotton/Ros/Sichieri/Weinsier/Kwo/May/Sauter/Hofmann-Poley/Gurusamy/Lammert/Wiles/DiBaise/Chiang/Russell/Guarino/Tsai/McMullen/Rambaldi/Holtmann/Shoba. Аудитор v2: **690 единиц** (569 legacy + 121 v3.1), 17 FULL_EBM, 286 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты сессии: 73908cc (#29,31,32,62), d9decb0 (#78,90,102), 0d60aef (#158,160), 48c3365 (#179,198,227), b80ea5a, 19f28b5 (#43 Tenner), c9d8c2d (#5,54 финал) — все в main. Файлов полностью на v3.1: **4** (pancreas_health, intestinal_health, insulin_resistance, gallbladder_health).
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
