@@ -168,9 +168,19 @@
 
 ### 4.15 🔬 Ключевые исследования
 
-- Stoffel NU et al., Lancet Haematol 2017 [EBM: Stoffel 2017 Lancet Haematol] — приём Fe через день лучше ежедневного;
-- Camaschella C, NEJM 2015 [EBM: Camaschella 2015 NEJM] — обзор ЖДА;
+- Stoffel NU et al., Lancet Haematol 2017 — приём Fe через день лучше ежедневного;
+- Camaschella C, NEJM 2015 — обзор ЖДА;
 - Pasricha SR et al., Lancet 2021 — обзор Fe дефицита.
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Stoffel NU, et al. 2017.** Приём железа через день повышает абсорбцию.
+> **Population:** женщины с дефицитом железа
+> *Lancet Haematol* 4(11):e524-e533. PMID: [29032957](https://pubmed.ncbi.nlm.nih.gov/29032957)
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Camaschella C. 2015.** Обзор железодефицитной анемии.
+> **Population:** N/A (обзор)
+> *N Engl J Med* 372(19):1832-1843. PMID: [25946282](https://pubmed.ncbi.nlm.nih.gov/25946282)
 
 ---
 
@@ -266,10 +276,25 @@
 
 ### 5.12 🔬 Ключевые исследования
 
-- Rosanoff A et al., Nutr Rev 2012 [EBM: Rosanoff 2012 Nutr Rev] — эпидемия субоптимального Mg;
-- Volpe SL, Adv Nutr 2013 [EBM: Volpe 2013 Adv Nutr] — Mg и хронические болезни;
-- Slutsky I et al., Neuron 2010 [EBM: Slutsky 2010 Neuron] — Mg L‑threonate и синаптическая пластичность;
+- Rosanoff A et al., Nutr Rev 2012 — эпидемия субоптимального Mg;
+- Volpe SL, Adv Nutr 2013 — Mg и хронические болезни;
+- Slutsky I et al., Neuron 2010 — Mg L‑threonate и синаптическая пластичность;
 - de Baaij JH et al., Physiol Rev 2015 — обзор Mg в организме.
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Rosanoff A, et al. 2012.** Эпидемия субоптимального статуса магния.
+> **Population:** популяция США
+> *Nutr Rev* 70(3):153-164. PMID: [22364157](https://pubmed.ncbi.nlm.nih.gov/22364157)
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Volpe SL. 2013.** Магний в профилактике болезней и здоровье.
+> **Population:** обзор
+> *Adv Nutr* 4(3):378S-383S. PMID: [23674807](https://pubmed.ncbi.nlm.nih.gov/23674807)
+
+> 📚 **EBM** [Level 5, preclinical, N/A] [surrogate]
+> **Slutsky I, et al. 2010.** Mg L-треонат и синаптическая пластичность.
+> **Population:** доклиническое (животные)
+> *Neuron* 65(2):165-177. PMID: [20152124](https://pubmed.ncbi.nlm.nih.gov/20152124)
 
 ---
 
@@ -361,9 +386,19 @@
 
 ### 6.11 🔬 Ключевые исследования
 
-- Prasad AS, J Trace Elem Med Biol 2014 [EBM: Prasad 2014 JTEMB] — обзор биологии Zn;
+- Prasad AS, J Trace Elem Med Biol 2014 — обзор биологии Zn;
 - Wessels I et al., Nutrients 2017 — Zn и иммунитет;
-- Hemilä H, Cochrane 2011 [EBM: Hemilä 2011 Cochrane] — Zn при простуде.
+- Hemilä H, Open Respir Med J 2017 — Zn при простуде.
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Prasad AS. 2014.** Цинк как антиоксидант и противовоспалительный агент.
+> **Population:** N/A (обзор)
+> *J Trace Elem Med Biol* 28(4):364-371. PMID: [25200490](https://pubmed.ncbi.nlm.nih.gov/25200490)
+
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **Hemilä H. 2017.** Цинковые леденцы сокращают длительность простуды (метаанализ).
+> **Population:** взрослые с простудой
+> *Open Respir Med J* 11:51-64. PMID: [28515951](https://pubmed.ncbi.nlm.nih.gov/28515951)
 
 ---
 
@@ -442,10 +477,30 @@
 
 ### 7.11 🔬 Ключевые исследования
 
-- Gärtner R et al., JCEM 2002 [EBM: Gärtner 2002 JCEM] — Se 200 мкг снижает АТ‑ТПО при Hashimoto;
-- Rayman MP, Lancet 2012 [EBM: Rayman 2012 Lancet] — обзор Se;
-- Beck MA, J Nutr 1994 [EBM: Beck 1994 J Nutr] — Se и вирулентность Coxsackie;
-- Klein EA et al., JAMA 2011 (SELECT) [EBM: Klein 2011 JAMA SELECT] — Se и рак простаты.
+- Gärtner R et al., JCEM 2002 — Se 200 мкг снижает АТ‑ТПО при Hashimoto;
+- Rayman MP, Lancet 2012 — обзор Se;
+- Beck MA, J Infect Dis 1994 — Se и вирулентность Coxsackie;
+- Klein EA et al., JAMA 2011 (SELECT) — Se и рак простаты.
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Gärtner R, et al. 2002.** Селен (селенит 200 мкг) снижает АТ-ТПО при аутоиммунном тиреоидите.
+> **Population:** пациенты с АИТ
+> *JCEM* 87(4):1687-1691. PMID: [11932302](https://pubmed.ncbi.nlm.nih.gov/11932302)
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Rayman MP. 2012.** Обзор роли селена в здоровье человека.
+> **Population:** N/A (обзор)
+> *Lancet* 379(9822):1256-1268. PMID: [22381456](https://pubmed.ncbi.nlm.nih.gov/22381456)
+
+> 📚 **EBM** [Level 5, preclinical, N/A] [surrogate]
+> **Beck MA, et al. 1994.** Дефицит селена повышает вирулентность Coxsackievirus B3.
+> **Population:** доклиническое (мыши)
+> *J Infect Dis* 170(2):351-357. PMID: [8035022](https://pubmed.ncbi.nlm.nih.gov/8035022)
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Klein EA, et al. 2011.** SELECT: селен не снижает риск рака простаты.
+> **Population:** здоровые мужчины
+> *JAMA* 306(14):1549-1556. PMID: [21990298](https://pubmed.ncbi.nlm.nih.gov/21990298)
 
 ---
 
@@ -608,9 +663,24 @@
 
 ### 9.12 🔬 Ключевые исследования
 
-- Zimmermann MB, Endocr Rev 2008 [EBM: Zimmermann 2008 Endocr Rev] — I и болезни щитовидной железы;
-- Bath SC et al., Lancet 2013 [EBM: Bath 2013 Lancet] (ALSPAC) — I дефицит матери и IQ ребёнка;
-- Leung AM, JCEM 2014 [EBM: Leung 2014 JCEM] — I добавки и AITD.
+- Zimmermann MB, Endocr Rev 2009 — I и болезни щитовидной железы;
+- Bath SC et al., Lancet 2013 (ALSPAC) — I дефицит матери и IQ ребёнка;
+- Leung AM, Braverman LE, Nat Rev Endocrinol 2014 — последствия избытка йода.
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Zimmermann MB. 2009.** Йод-дефицит и его роль в болезнях щитовидной железы.
+> **Population:** N/A (обзор)
+> *Endocr Rev* 30(4):376-408. PMID: [19460960](https://pubmed.ncbi.nlm.nih.gov/19460960)
+
+> 📚 **EBM** [Level 2b, cohort, N/A] [clinical]
+> **Bath SC, et al. 2013.** Недостаточный йод-статус матери (ALSPAC) ассоциирован со снижением IQ ребёнка.
+> **Population:** беременные женщины и дети
+> *Lancet* 382(9889):331-337. PMID: [23706508](https://pubmed.ncbi.nlm.nih.gov/23706508)
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Leung AM, Braverman LE. 2014.** Последствия избытка йода; риск йод-индуцированной дисфункции ЩЖ.
+> **Population:** N/A (обзор)
+> *Nat Rev Endocrinol* 10(3):136-142. PMID: [24342882](https://pubmed.ncbi.nlm.nih.gov/24342882)
 
 ---
 
@@ -700,9 +770,19 @@
 
 ### 10.11 🔬 Ключевые исследования
 
-- Bolland MJ et al., BMJ 2010 [EBM: Bolland 2010 BMJ], 2011 — meta‑analyses по кардиоваскулярному риску Ca добавок;
+- Bolland MJ et al., BMJ 2010, 2011 — meta‑analyses по кардиоваскулярному риску Ca добавок;
 - Reid IR, Bolland MJ, BMJ 2018 — обзор Ca и остеопороз;
-- Weaver CM et al., Osteoporos Int 2016 [EBM: Weaver 2016 Osteoporos Int] — Ca+D для профилактики переломов.
+- Weaver CM et al., Osteoporos Int 2016 — Ca+D для профилактики переломов.
+
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **Bolland MJ, et al. 2010.** Добавки кальция без витамина D ассоциированы с повышенным риском инфаркта миокарда.
+> **Population:** взрослые
+> *BMJ* 341:c3691. PMID: [20671013](https://pubmed.ncbi.nlm.nih.gov/20671013)
+
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **Weaver CM, et al. 2016.** Кальций + витамин D снижают риск переломов (метаанализ).
+> **Population:** взрослые
+> *Osteoporos Int* 27(1):367-376. PMID: [26510847](https://pubmed.ncbi.nlm.nih.gov/26510847)
 
 ---
 
@@ -839,9 +919,19 @@
 
 ### 12.11 🔬 Ключевые исследования
 
-- Appel LJ et al., NEJM 1997 [EBM: Appel 1997 NEJM DASH] (DASH) — K‑богатая диета и АД;
-- Aburto NJ et al., BMJ 2013 [EBM: Aburto 2013 BMJ] — meta‑анализ K и ССС;
+- Appel LJ et al., NEJM 1997 (DASH) — K‑богатая диета и АД;
+- Aburto NJ et al., BMJ 2013 — meta‑анализ K и ССС;
 - NASEM 2019 — обновление AI для K.
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Appel LJ, et al. 1997.** DASH-диета (богатая калием) снижает артериальное давление.
+> **Population:** взрослые с нормальным/повышенным АД
+> *N Engl J Med* 336(16):1117-1124. PMID: [9099655](https://pubmed.ncbi.nlm.nih.gov/9099655)
+
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **Aburto NJ, et al. 2013.** Повышенное потребление калия снижает АД и риск инсульта.
+> **Population:** взрослые
+> *BMJ* 346:f1378. PMID: [23558164](https://pubmed.ncbi.nlm.nih.gov/23558164)
 
 ---
 
@@ -901,9 +991,19 @@
 
 ### 13.8 🔬 Ключевые исследования
 
-- Mozaffarian D et al., NEJM 2014 [EBM: Mozaffarian 2014 NEJM] — глобальная смертность от избытка Na;
-- Sacks FM et al., NEJM 2001 [EBM: Sacks 2001 NEJM DASH-Sodium] (DASH‑Sodium) — доза‑ответ Na и АД;
+- Mozaffarian D et al., NEJM 2014 — глобальная смертность от избытка Na;
+- Sacks FM et al., NEJM 2001 (DASH‑Sodium) — доза‑ответ Na и АД;
 - Cook NR et al., BMJ 2007 (TOHP) — снижение Na и долгосрочная ССС смертность.
+
+> 📚 **EBM** [Level 2b, modeling, N/A] [clinical]
+> **Mozaffarian D, et al. 2014.** Глобальная смертность от сердечно-сосудистых причин, связанная с избытком натрия.
+> **Population:** мировая популяция (моделирование)
+> *N Engl J Med* 371(7):624-634. PMID: [25119608](https://pubmed.ncbi.nlm.nih.gov/25119608)
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Sacks FM, et al. 2001.** DASH-Sodium: доза-ответ натрия и артериального давления.
+> **Population:** взрослые
+> *N Engl J Med* 344(1):3-10. PMID: [11136953](https://pubmed.ncbi.nlm.nih.gov/11136953)
 
 ---
 
@@ -964,8 +1064,13 @@
 
 ### 14.10 🔬 Ключевые исследования
 
-- Anderson RA, Diabetes 1997 [EBM: Anderson 1997 Diabetes] — Cr picolinate снижает HbA1c;
+- Anderson RA, Diabetes 1997 — Cr picolinate снижает HbA1c;
 - Costello RB et al., Nutr Rev 2016 — обзор Cr и диабета 2 типа.
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Anderson RA, et al. 1997.** Хром улучшает гликемические показатели при диабете 2 типа.
+> **Population:** пациенты с диабетом 2 типа
+> *Diabetes* 46(11):1786-1791. PMID: [9356027](https://pubmed.ncbi.nlm.nih.gov/9356027)
 
 ---
 
@@ -1094,9 +1199,14 @@
 
 ### 17.6 🔬 Ключевые исследования
 
-- Ziegler D et al., Diabetes Care 2011 [EBM: Ziegler 2011 Diabetes Care NATHAN-1] (NATHAN 1) — ALA при диабетической нейропатии;
+- Ziegler D et al., Diabetes Care 2011 (NATHAN 1) — ALA при диабетической нейропатии;
 - Berk M et al., J Affect Disord 2014 — NAC при биполярной депрессии;
 - Furst DE et al., Arthritis Rheum 2011 — NAC при склеродермии.
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Ziegler D, et al. 2011.** NATHAN 1: альфа-липоевая кислота при диабетической полинейропатии (4 года).
+> **Population:** пациенты с диабетической полинейропатией
+> *Diabetes Care* 34(9):2054-2060. PMID: [21775755](https://pubmed.ncbi.nlm.nih.gov/21775755)
 
 ---
 
