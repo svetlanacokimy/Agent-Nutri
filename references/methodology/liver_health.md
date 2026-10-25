@@ -559,9 +559,19 @@
 
 ---
 
-## 10. NAЖБП / MASLD — патогенез и эпидемиология ⭐ [EBM: Younossi 2016 Hepatology global epidemiology meta]
+## 10. NAЖБП / MASLD — патогенез и эпидемиология ⭐
 
-### Новая номенклатура (AASLD/EASL 2023) ⭐ [EBM: Rinella 2023 AASLD nomenclature MASLD Hepatology]
+> 📚 **EBM** [1a, meta-analysis, N/A] [clinical]
+> **Younossi ZM, et al. 2016.** Глобальная эпидемиология НАЖБП (метаанализ).
+> **Population:** взрослые, глобальный метаанализ
+> *Hepatology 64(1):73-84* PMID: [26707365](https://pubmed.ncbi.nlm.nih.gov/26707365)
+
+### Новая номенклатура (AASLD/EASL 2023) ⭐
+
+> 📚 **EBM** [5, consensus, N/A] [clinical]
+> **Rinella ME, et al. 2023.** Новая номенклатура MASLD (мультисоциетальный консенсус).
+> **Population:** консенсус экспертов
+> *Hepatology 78(6):1966-1986* PMID: [37363821](https://pubmed.ncbi.nlm.nih.gov/37363821)
 
 В **июне 2023 года** многосообщественский Delphi‑консенсус (Rinella et al., Hepatology 2023) заменил термин **NAFLD** (non‑alcoholic fatty liver disease) на **MASLD** — **metabolic dysfunction–associated steatotic liver disease**. Замена обусловлена: 1) уход от стигматизирующего «non‑alcoholic», 2) акцент на метаболический патогенез, 3) совместимость с другими этиологиями (alcoholic, drug‑induced).
 
@@ -569,7 +579,12 @@
 
 **Связанные термины:** MASH (бывший NASH) — стеатогепатит; MetALD — комбинация MASLD + умеренное употребление алкоголя.
 
-### Эпидемиология ⭐ [EBM: Younossi 2016 Hepatology meta 8.5M patients]
+### Эпидемиология ⭐
+
+> 📚 **EBM** [1a, meta-analysis, N/A] [clinical]
+> **Younossi ZM, et al. 2016.** Глобальная эпидемиология НАЖБП (метаанализ).
+> **Population:** взрослые, глобальный метаанализ
+> *Hepatology 64(1):73-84* PMID: [26707365](https://pubmed.ncbi.nlm.nih.gov/26707365)
 
 Глобальная распространённость MASLD — **38% взрослого населения** (метаанализ Younossi 2023), MASH — 5–6%, продвинутый фиброз (F3–F4) — 1.5–6.5%. Главная неинфекционная причина цирроза и трансплантации печени в развитых странах. Прогноз: к 2030 году MASH станет ведущей причиной трансплантации печени в США.
 
@@ -622,7 +637,12 @@
 
 Достижимо через: гипокалорийную средиземноморскую диету, физическую активность, бариатрию (при ИМТ ≥35 с осложнениями или ≥40).
 
-### Фармакотерапия (только по назначению врача) ⭐ [EBM: Harrison 2024 NEJM MAESTRO-NASH resmetirom]
+### Фармакотерапия (только по назначению врача) ⭐
+
+> 📚 **EBM** [1b, RCT, N/A] [clinical]
+> **Harrison SA, et al. 2024.** Резметиром (MAESTRO-NASH) при MASH, фаза 3 РКИ.
+> **Population:** взрослые с MASH и фиброзом
+> *N Engl J Med 390(6):497-509* PMID: [38324483](https://pubmed.ncbi.nlm.nih.gov/38324483)
 
 - **Resmetirom (Rezdiffra)** — первый одобренный FDA (март 2024) препарат для MASH F2–F3. Селективный агонист THR‑β. MAESTRO‑NASH 2024 (Harrison et al., NEJM): резолюция MASH у 25–30% vs 9% плацебо, регресс фиброза у 24–26%.
 - **GLP‑1 агонисты ⭐** — семаглутид (субанализы STEP, RCT Newsome 2021 NEJM — резолюция NASH у 59%), тирзепатид. Особенно при коморбидном диабете 2 типа или ожирении.
@@ -725,7 +745,12 @@
 
 ---
 
-## 17. Питание при заболеваниях печени ⭐ [EBM: Zelber-Sagi 2017 Liver Int Mediterranean diet NAFLD]
+## 17. Питание при заболеваниях печени ⭐
+
+> 📚 **EBM** [2b, cohort, N/A] [clinical]
+> **Zelber-Sagi S, et al. 2017.** Средиземноморская диета при НАЖБП (проспективная когорта).
+> **Population:** взрослые с НАЖБП
+> *Liver Int 37(7):936-949* PMID: [28144390](https://pubmed.ncbi.nlm.nih.gov/28144390)
 
 ### Средиземноморская диета ⭐
 
@@ -738,7 +763,12 @@
 - **Алкоголь** — детально в §18.
 - **Насыщенные жиры** в избытке (>10% калорий), трансжиры (запрет).
 
-### Кофе ⭐ [EBM: Kennedy 2016 Aliment Pharmacol Ther coffee cirrhosis meta]
+### Кофе ⭐
+
+> 📚 **EBM** [1a, meta-analysis, N/A] [clinical]
+> **Kennedy S, et al. 2016.** Кофе снижает риск цирроза печени (метаанализ).
+> **Population:** взрослые, метаанализ когортных исследований
+> *Aliment Pharmacol Ther 43(5):562-574* PMID: [26806124](https://pubmed.ncbi.nlm.nih.gov/26806124)
 
 Мета‑анализы (Wijarnpreecha 2017, Hayat 2021) — **2–3 чашки кофе/сут** ассоциированы со снижением риска NAFLD, фиброза, цирроза и ГЦК. Эффект сохраняется и для декофеинированного — действуют полифенолы (хлорогеновая кислота).
 
