@@ -1,6 +1,6 @@
 ﻿# STATUS.md — состояние проекта Agent-Nutri v2
 
-## 📌 Текущее состояние (на 2026-10-24, Session 65)
+## 📌 Текущее состояние (на 2026-10-25, Session 66)
 
 **Ветка:** `main`
 
@@ -13,7 +13,7 @@
 
 **Клинический аудит источников (PMID через PubMed):** ✅ thyroid_health.md (Huwiler 2024 38243784, Durante 2023 37358008) ✅ insulin_resistance.md (Lean 2024 38423026). Остальные 55 — не начаты.
 ---
-**Последнее событие:** Session 65 — `gallbladder_health.md` ПОЛНОСТЬЮ мигрирован на v3.1 (0 legacy / 30 v3.1, FULL). Закрыты все оставшиеся legacy-теги: Hofmann/Hagey 2008 (18488143), Reboul 2013 (24036530), Ridlon 2014 (24625896), Fine 2000 (10761454), Tenner 2013 (23896955), Boyer 2013 (23897680), EASL 2016 (27085810), плюс ранее Lewis/Cotton/Ros/Sichieri/Weinsier/Kwo/May/Sauter/Hofmann-Poley/Gurusamy/Lammert/Wiles/DiBaise/Chiang/Russell/Guarino/Tsai/McMullen/Rambaldi/Holtmann/Shoba. Аудитор v2: **690 единиц** (569 legacy + 121 v3.1), 17 FULL_EBM, 286 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты сессии: 73908cc (#29,31,32,62), d9decb0 (#78,90,102), 0d60aef (#158,160), 48c3365 (#179,198,227), b80ea5a, 19f28b5 (#43 Tenner), c9d8c2d (#5,54 финал) — все в main. Файлов полностью на v3.1: **4** (pancreas_health, intestinal_health, insulin_resistance, gallbladder_health).
+**Последнее событие:** Session 66 — `liver_health.md` ПОЛНОСТЬЮ мигрирован на v3.1 (0 legacy / 30 v3.1, FULL). 30 блоков закрыты в 4 батчах: Romero-Gomez/Katayama/Corbin/Estes/Angulo/Chalasani-DILI, Younossi×2/Rinella/Harrison/Zelber-Sagi/Kennedy, Rinella-guidance/Corbin/WahKheong/Chalasani/Rehm×2/WahKheong, Tacke/Prati/Chalasani-2018/Bosma/Sterling/Sanyal/Vilar-Gomez/Andrade/EASL-2015/EASL-2009/Keating. Проведена унификация формата журнал/том по всему файлу (`*Journal* vol:pages`). Все PMID верифицированы через PubMed. Аудитор v2: **690 единиц** (539 legacy + 151 v3.1), 17 FULL_EBM, 316 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты сессии: 5aeb0f2 (#24-28,30), 5ff18e3 (батч2 x6), 8459326 (батч3 x7 + унификация формата), 44c5229 (батч4 x11, файл ПОЛНОСТЬЮ v3.1) — все в main. Файлов полностью на v3.1: **5** (pancreas_health, intestinal_health, insulin_resistance, gallbladder_health, liver_health).
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
