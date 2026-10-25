@@ -11,7 +11,12 @@
 
 ---
 
-## 1. Анатомия печени и желчного пузыря [EBM: Rinella 2023 AASLD Practice Guidance Hepatology]
+## 1. Анатомия печени и желчного пузыря
+
+> 📚 **EBM** [5, guidance, N/A] [clinical]
+> **Rinella ME, et al. 2023.** AASLD Practice Guidance по NAFLD/MASLD.
+> **Population:** взрослые, клиническое руководство
+> *Hepatology* 78(6):1966-1986 PMID: [36727674](https://pubmed.ncbi.nlm.nih.gov/36727674)
 
 ### Расположение и анатомические связи ⭐
 
@@ -51,7 +56,12 @@
 
 ---
 
-## 3. Три фазы детоксикации печени [EBM: Corbin 2012 Curr Opin Gastroenterol]
+## 3. Три фазы детоксикации печени
+
+> 📚 **EBM** [5, review, N/A] [clinical]
+> **Corbin KD, Zeisel SH. 2012.** Нутригеномика потребности в холине.
+> **Population:** обзор
+> *Prog Mol Biol Transl Sci* 108:159-177 PMID: [22656377](https://pubmed.ncbi.nlm.nih.gov/22656377)
 
 ### Фаза 1: измельчение токсинов ⭐
 
@@ -306,7 +316,12 @@
 
 ---
 
-## 6. Нутрицевтики для печени [EBM: Wah Kheong 2017 Clin Gastroenterol Hepatol silymarin RCT]
+## 6. Нутрицевтики для печени
+
+> 📚 **EBM** [1b, RCT, N/A] [clinical]
+> **Wah Kheong C, et al. 2017.** Силимарин при NASH (РКИ).
+> **Population:** взрослые с NASH
+> *Clin Gastroenterol Hepatol* 15(12):1940-1949 PMID: [28419855](https://pubmed.ncbi.nlm.nih.gov/28419855)
 
 ### 6.1. Расторопша (силимарин) ⭐
 
@@ -564,14 +579,14 @@
 > 📚 **EBM** [1a, meta-analysis, N/A] [clinical]
 > **Younossi ZM, et al. 2016.** Глобальная эпидемиология НАЖБП (метаанализ).
 > **Population:** взрослые, глобальный метаанализ
-> *Hepatology 64(1):73-84* PMID: [26707365](https://pubmed.ncbi.nlm.nih.gov/26707365)
+> *Hepatology* 64(1):73-84 PMID: [26707365](https://pubmed.ncbi.nlm.nih.gov/26707365)
 
 ### Новая номенклатура (AASLD/EASL 2023) ⭐
 
 > 📚 **EBM** [5, consensus, N/A] [clinical]
 > **Rinella ME, et al. 2023.** Новая номенклатура MASLD (мультисоциетальный консенсус).
 > **Population:** консенсус экспертов
-> *Hepatology 78(6):1966-1986* PMID: [37363821](https://pubmed.ncbi.nlm.nih.gov/37363821)
+> *Hepatology* 78(6):1966-1986 PMID: [37363821](https://pubmed.ncbi.nlm.nih.gov/37363821)
 
 В **июне 2023 года** многосообщественский Delphi‑консенсус (Rinella et al., Hepatology 2023) заменил термин **NAFLD** (non‑alcoholic fatty liver disease) на **MASLD** — **metabolic dysfunction–associated steatotic liver disease**. Замена обусловлена: 1) уход от стигматизирующего «non‑alcoholic», 2) акцент на метаболический патогенез, 3) совместимость с другими этиологиями (alcoholic, drug‑induced).
 
@@ -584,7 +599,7 @@
 > 📚 **EBM** [1a, meta-analysis, N/A] [clinical]
 > **Younossi ZM, et al. 2016.** Глобальная эпидемиология НАЖБП (метаанализ).
 > **Population:** взрослые, глобальный метаанализ
-> *Hepatology 64(1):73-84* PMID: [26707365](https://pubmed.ncbi.nlm.nih.gov/26707365)
+> *Hepatology* 64(1):73-84 PMID: [26707365](https://pubmed.ncbi.nlm.nih.gov/26707365)
 
 Глобальная распространённость MASLD — **38% взрослого населения** (метаанализ Younossi 2023), MASH — 5–6%, продвинутый фиброз (F3–F4) — 1.5–6.5%. Главная неинфекционная причина цирроза и трансплантации печени в развитых странах. Прогноз: к 2030 году MASH станет ведущей причиной трансплантации печени в США.
 
@@ -642,7 +657,7 @@
 > 📚 **EBM** [1b, RCT, N/A] [clinical]
 > **Harrison SA, et al. 2024.** Резметиром (MAESTRO-NASH) при MASH, фаза 3 РКИ.
 > **Population:** взрослые с MASH и фиброзом
-> *N Engl J Med 390(6):497-509* PMID: [38324483](https://pubmed.ncbi.nlm.nih.gov/38324483)
+> *N Engl J Med* 390(6):497-509 PMID: [38324483](https://pubmed.ncbi.nlm.nih.gov/38324483)
 
 - **Resmetirom (Rezdiffra)** — первый одобренный FDA (март 2024) препарат для MASH F2–F3. Селективный агонист THR‑β. MAESTRO‑NASH 2024 (Harrison et al., NEJM): резолюция MASH у 25–30% vs 9% плацебо, регресс фиброза у 24–26%.
 - **GLP‑1 агонисты ⭐** — семаглутид (субанализы STEP, RCT Newsome 2021 NEJM — резолюция NASH у 59%), тирзепатид. Особенно при коморбидном диабете 2 типа или ожирении.
@@ -659,7 +674,12 @@
 
 ---
 
-## 13. Лекарственная гепатотоксичность (DILI) ⚠️ [EBM: Chalasani 2014 Am J Gastroenterol ACG DILI guideline]
+## 13. Лекарственная гепатотоксичность (DILI) ⚠️
+
+> 📚 **EBM** [1a, guideline, N/A] [clinical]
+> **Chalasani N, et al. 2014.** ACG клиническое руководство по лекарственной гепатотоксичности (DILI).
+> **Population:** взрослые с подозрением на DILI
+> *Am J Gastroenterol* 109(7):950-966 PMID: [24935270](https://pubmed.ncbi.nlm.nih.gov/24935270)
 
 ### Препараты высокого риска ⚠️
 
@@ -750,7 +770,7 @@
 > 📚 **EBM** [2b, cohort, N/A] [clinical]
 > **Zelber-Sagi S, et al. 2017.** Средиземноморская диета при НАЖБП (проспективная когорта).
 > **Population:** взрослые с НАЖБП
-> *Liver Int 37(7):936-949* PMID: [28144390](https://pubmed.ncbi.nlm.nih.gov/28144390)
+> *Liver Int* 37(7):936-949 PMID: [28144390](https://pubmed.ncbi.nlm.nih.gov/28144390)
 
 ### Средиземноморская диета ⭐
 
@@ -768,7 +788,7 @@
 > 📚 **EBM** [1a, meta-analysis, N/A] [clinical]
 > **Kennedy S, et al. 2016.** Кофе снижает риск цирроза печени (метаанализ).
 > **Population:** взрослые, метаанализ когортных исследований
-> *Aliment Pharmacol Ther 43(5):562-574* PMID: [26806124](https://pubmed.ncbi.nlm.nih.gov/26806124)
+> *Aliment Pharmacol Ther* 43(5):562-574 PMID: [26806124](https://pubmed.ncbi.nlm.nih.gov/26806124)
 
 Мета‑анализы (Wijarnpreecha 2017, Hayat 2021) — **2–3 чашки кофе/сут** ассоциированы со снижением риска NAFLD, фиброза, цирроза и ГЦК. Эффект сохраняется и для декофеинированного — действуют полифенолы (хлорогеновая кислота).
 
@@ -778,9 +798,19 @@
 
 ---
 
-## 18. Алкоголь и печень ⚠️ [EBM: Rehm 2013 Hepatology global burden ALD]
+## 18. Алкоголь и печень ⚠️
 
-### Пороги гепатотоксичности ⚠️ [EBM: Rehm 2013 Hepatology no safe alcohol dose]
+> 📚 **EBM** [2a, review, N/A] [clinical]
+> **Rehm J, et al. 2013.** Глобальное бремя алкогольной болезни печени.
+> **Population:** популяционные данные
+> *J Hepatol* 59(1):160-168 PMID: [23511777](https://pubmed.ncbi.nlm.nih.gov/23511777)
+
+### Пороги гепатотоксичности ⚠️
+
+> 📚 **EBM** [2a, review, N/A] [clinical]
+> **Rehm J, et al. 2013.** Нет безопасной дозы алкоголя для печени; глобальное бремя.
+> **Population:** популяционные данные
+> *J Hepatol* 59(1):160-168 PMID: [23511777](https://pubmed.ncbi.nlm.nih.gov/23511777)
 
 - **NICE / EASL:** мужчины **>30 г этанола/сут**, женщины **>20 г/сут** — повышенный риск ALD.
 - **Бинж‑паттерн** (≥60 г за один эпизод) опаснее регулярного умеренного.
@@ -939,7 +969,12 @@ AASLD 2023: **150 мин/нед умеренной** или **75 мин/нед �
 
 ---
 
-## 24. ⭐ Бенчмарк: школа vs доказательная медицина [EBM: Rinella 2023 AASLD Practice Guidance Hepatology]
+## 24. ⭐ Бенчмарк: школа vs доказательная медицина
+
+> 📚 **EBM** [5, guidance, N/A] [clinical]
+> **Rinella ME, et al. 2023.** AASLD Practice Guidance по NAFLD/MASLD.
+> **Population:** взрослые, клиническое руководство
+> *Hepatology* 78(6):1966-1986 PMID: [36727674](https://pubmed.ncbi.nlm.nih.gov/36727674)
 
 Сравнительный анализ ключевых утверждений «школы нутрициологии» и позиций доказательной медицины (EASL 2023, AASLD 2023, Cochrane, NEJM, Hepatology). Цель — обозначить, где школьные подходы согласуются с гайдлайнами, а где требуют коррекции.
 
