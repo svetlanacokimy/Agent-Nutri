@@ -30,7 +30,12 @@
 
 ---
 
-## 2. Пять функций печени [EBM: EASL-EASD-EASO 2024 CPG on MASLD J Hepatol]
+## 2. Пять функций печени
+
+> 📚 **EBM** [1a, guideline, N/A] [clinical]
+> **Tacke F, et al. 2024.** EASL-EASD-EASO клинические рекомендации по MASLD.
+> **Population:** взрослые с MASLD
+> *J Hepatol* 81(3):492-542 PMID: [38851997](https://pubmed.ncbi.nlm.nih.gov/38851997)
 
 ### Детоксикация ⭐
 Главная функция: жирорастворимые токсины → водорастворимая форма для выведения через почки/мочу, желчь/кал, потовые железы. Реализуется через 3 фазы (раздел 3).
@@ -132,7 +137,12 @@
 
 ---
 
-## 4. Лабораторная диагностика печени [EBM: Prati 2002 Ann Intern Med ALT upper limit]
+## 4. Лабораторная диагностика печени
+
+> 📚 **EBM** [2b, cross-sectional, N/A] [clinical]
+> **Prati D, et al. 2002.** Обновлённые референсы здорового диапазона АЛТ.
+> **Population:** взрослые доноры крови
+> *Ann Intern Med* 137(1):1-10 PMID: [12093239](https://pubmed.ncbi.nlm.nih.gov/12093239)
 
 ### 4.1. Общий билирубин ⭐
 
@@ -292,7 +302,12 @@
 
 ---
 
-## 5. Гемангиома печени [EBM: Chalasani 2018 AASLD Practice Guidance Hepatology]
+## 5. Гемангиома печени
+
+> 📚 **EBM** [1a, guidance, N/A] [clinical]
+> **Chalasani N, et al. 2018.** AASLD Practice Guidance по диагностике и ведению НАЖБП.
+> **Population:** взрослые с НАЖБП
+> *Hepatology* 67(1):328-357 PMID: [28714183](https://pubmed.ncbi.nlm.nih.gov/28714183)
 
 Доброкачественная сосудистая опухоль. У 10% населения. Чаще у женщин (влияние эстрогенов).
 
@@ -400,7 +415,12 @@
 
 ---
 
-## 7. Синдром Жильбера (СЖ) [EBM: Bosma 1995 NEJM UGT1A1 promoter]
+## 7. Синдром Жильбера (СЖ)
+
+> 📚 **EBM** [2b, genetic, N/A] [clinical]
+> **Bosma PJ, et al. 1995.** Мутация промотора UGT1A1 при синдроме Жильбера.
+> **Population:** пациенты с синдромом Жильбера
+> *N Engl J Med* 333(18):1171-1175 PMID: [7565971](https://pubmed.ncbi.nlm.nih.gov/7565971)
 
 ### 7.1. Что это ⭐
 
@@ -611,7 +631,12 @@
 
 ---
 
-## 11. Стадии фиброза и диагностика NAЖБП ⭐ [EBM: Sterling 2006 Hepatology FIB-4]
+## 11. Стадии фиброза и диагностика NAЖБП ⭐
+
+> 📚 **EBM** [2b, validation, N/A] [clinical]
+> **Sterling RK, et al. 2006.** Индекс FIB-4 для оценки фиброза печени (валидация).
+> **Population:** взрослые с ко-инфекцией ВИЧ/ВГС
+> *Hepatology* 43(6):1317-1325 PMID: [16729309](https://pubmed.ncbi.nlm.nih.gov/16729309)
 
 ### Шкала фиброза F0–F4 ⭐
 
@@ -642,9 +667,19 @@
 
 ---
 
-## 12. Терапия NAЖБП / MASLD — доказательная база ⭐ [EBM: Sanyal 2010 NEJM PIVENS vit E vs pioglitazone]
+## 12. Терапия NAЖБП / MASLD — доказательная база ⭐
 
-### Потеря веса — единственная универсально доказанная мера ⭐ [EBM: Vilar-Gomez 2015 Gastroenterology weight loss NASH resolution]
+> 📚 **EBM** [1b, RCT, N/A] [clinical]
+> **Sanyal AJ, et al. 2010.** Пиоглитазон, витамин E или плацебо при NASH (PIVENS, РКИ).
+> **Population:** взрослые с NASH без диабета
+> *N Engl J Med* 362(18):1675-1685 PMID: [20427778](https://pubmed.ncbi.nlm.nih.gov/20427778)
+
+### Потеря веса — единственная универсально доказанная мера ⭐
+
+> 📚 **EBM** [2b, cohort, N/A] [clinical]
+> **Vilar-Gomez E, et al. 2015.** Потеря веса через модификацию образа жизни улучшает гистологию NASH.
+> **Population:** взрослые с NASH
+> *Gastroenterology* 149(2):367-378 PMID: [25865049](https://pubmed.ncbi.nlm.nih.gov/25865049)
 
 - **−5%** массы тела — улучшение стеатоза.
 - **−7–10%** — улучшение MASH и регресс фиброза (AASLD 2023, EASL 2023).
@@ -706,7 +741,12 @@
 
 ---
 
-## 14. Вирусные гепатиты — нутрициологическая поддержка ◆ [EBM: Andrade 2019 Nat Rev Dis Primers hepatitis]
+## 14. Вирусные гепатиты — нутрициологическая поддержка ◆
+
+> 📚 **EBM** [5, review, N/A] [clinical]
+> **Andrade RJ, et al. 2019.** Лекарственная гепатотоксичность (DILI) — обзор.
+> **Population:** взрослые
+> *Nat Rev Dis Primers* 5(1):58 PMID: [31439850](https://pubmed.ncbi.nlm.nih.gov/31439850)
 
 ### Острые гепатиты (HAV, HEV) ◆
 
@@ -724,7 +764,12 @@
 
 ---
 
-## 15. Аутоиммунные заболевания печени ⚠️ [EBM: EASL 2015 J Hepatol AIH clinical practice guidelines]
+## 15. Аутоиммунные заболевания печени ⚠️
+
+> 📚 **EBM** [1a, guideline, N/A] [clinical]
+> **EASL. 2015.** Клинические рекомендации по аутоиммунному гепатиту.
+> **Population:** взрослые с АИГ
+> *J Hepatol* 63(4):971-1004 PMID: [26341719](https://pubmed.ncbi.nlm.nih.gov/26341719)
 
 ### Аутоиммунный гепатит (АИГ) ⚠️
 
@@ -744,7 +789,12 @@
 
 ---
 
-## 16. Холестаз — внутри- и внепечёночный ⭐ [EBM: EASL 2009 J Hepatol cholestasis management]
+## 16. Холестаз — внутри- и внепечёночный ⭐
+
+> 📚 **EBM** [1a, guideline, N/A] [clinical]
+> **EASL. 2009.** Клинические рекомендации по ведению холестатических болезней печени.
+> **Population:** взрослые с холестазом
+> *J Hepatol* 51(2):237-267 PMID: [19501929](https://pubmed.ncbi.nlm.nih.gov/19501929)
 
 ### Механизмы ⭐
 
@@ -830,7 +880,12 @@ The Lancet (GBD Alcohol Collaborators 2018) — для общего здоров
 
 ---
 
-## 19. Образ жизни при заболеваниях печени ⭐ [EBM: Keating 2012 J Hepatol exercise NAFLD meta]
+## 19. Образ жизни при заболеваниях печени ⭐
+
+> 📚 **EBM** [1a, meta-analysis, N/A] [clinical]
+> **Keating SE, et al. 2012.** Физические упражнения при НАЖБП (систематический обзор и метаанализ).
+> **Population:** взрослые с НАЖБП
+> *J Hepatol* 57(1):157-166 PMID: [22414768](https://pubmed.ncbi.nlm.nih.gov/22414768)
 
 ### Вес ⭐
 
