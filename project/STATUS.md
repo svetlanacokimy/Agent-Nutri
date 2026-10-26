@@ -1,6 +1,6 @@
 ﻿# STATUS.md — состояние проекта Agent-Nutri v2
 
-## 📌 Текущее состояние (на 2026-10-25, Session 66)
+## 📌 Текущее состояние (на 2026-10-26, Session 67)
 
 **Ветка:** `main`
 
@@ -13,7 +13,7 @@
 
 **Клинический аудит источников (PMID через PubMed):** ✅ thyroid_health.md (Huwiler 2024 38243784, Durante 2023 37358008) ✅ insulin_resistance.md (Lean 2024 38423026). Остальные 55 — не начаты.
 ---
-**Последнее событие:** Session 66 — `liver_health.md` ПОЛНОСТЬЮ мигрирован на v3.1 (0 legacy / 30 v3.1, FULL). 30 блоков закрыты в 4 батчах: Romero-Gomez/Katayama/Corbin/Estes/Angulo/Chalasani-DILI, Younossi×2/Rinella/Harrison/Zelber-Sagi/Kennedy, Rinella-guidance/Corbin/WahKheong/Chalasani/Rehm×2/WahKheong, Tacke/Prati/Chalasani-2018/Bosma/Sterling/Sanyal/Vilar-Gomez/Andrade/EASL-2015/EASL-2009/Keating. Проведена унификация формата журнал/том по всему файлу (`*Journal* vol:pages`). Все PMID верифицированы через PubMed. Аудитор v2: **690 единиц** (539 legacy + 151 v3.1), 17 FULL_EBM, 316 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты сессии: 5aeb0f2 (#24-28,30), 5ff18e3 (батч2 x6), 8459326 (батч3 x7 + унификация формата), 44c5229 (батч4 x11, файл ПОЛНОСТЬЮ v3.1) — все в main. Файлов полностью на v3.1: **5** (pancreas_health, intestinal_health, insulin_resistance, gallbladder_health, liver_health).
+**Последнее событие:** Session 67 — `minerals.md` ПОЛНОСТЬЮ мигрирован на v3.1 (0 legacy / 35 v3.1, FULL). 30 исходных тегов конвертированы: **Part A** — 22 list-тега в 5 батчах (Fe×2, Mg×3, Zn×2, Se×4, I×3, Ca×2, K×2, Na×2, Cr×1, ALA×1); **Part B** — 8 табличных тегов таблицы §20.5 вынесены в новую секцию §20.6 (13 v3.1-блоков: Stoffel/Klein/Rayman/ODS-Zn/Bolland/Weaver/Zimmermann/ATA/ACG/EASL/Costello×2/ODS-Mg). Все PMID верифицированы через PubMed (поправки: Zimmermann 2008→2009, Beck J Nutr→J Infect Dis, Hemilä Cochrane→Open Respir Med J, Leung JCEM→Nat Rev Endocrinol, Costello Cr PMID 27261273 / Mg PMID 28140318; удалён несуществующий «Cochrane 2013»). Аудитор v2: **695 единиц** (509 legacy + 186 v3.1), 17 FULL_EBM, 349 PMID (источник истины: `scripts/ebm_audit_v2.ps1`). Коммиты сессии: a8c3fa9 (Part A, 22 тега), 4e41457 (Part B, §20.6) — оба в main. Файлов полностью на v3.1: **6** (pancreas_health, intestinal_health, insulin_resistance, gallbladder_health, liver_health, minerals). ⚠️ **TODO (предсуществующий долг, НЕ регресс сессии):** `scripts\audit_links.ps1` показывает 20 битых §-кросс-ссылок (11 из них на `covid_pregnancy.md §14`/§6 — вероятна перенумерация секций в covid_pregnancy; остальные в nutraceuticals/menus/joints_osteoporosis/hashimoto). Разобрать отдельным проходом: карта «старый §N → новый».
 **Источник нумерации кластеров:** `references/methodology/_clusters.md` (SSoT), версия 1.1.
 
 ### Слой знаний — снимок
