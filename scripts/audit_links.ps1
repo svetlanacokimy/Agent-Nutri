@@ -5,7 +5,7 @@ $fileH2Map = @{}
 foreach ($f in $files) {
     $h2 = @()
     foreach ($line in (Get-Content $f.FullName -Encoding UTF8)) {
-        if ($line -match '^##\s+(\d+)\.') { $h2 += [int]$Matches[1] }
+        if ($line -match '^##\s+§?\s*(\d+)\.') { $h2 += [int]$Matches[1] }
     }
     $fileH2Map[$f.Name] = $h2
 }
@@ -20,8 +20,8 @@ foreach ($f in $files) {
             if (-not $line.Contains($tf)) { continue }
             $idx = $line.IndexOf($tf)
             $after = $line.Substring($idx + $tf.Length)
-            if ($after.Length -gt 200) { $after = $after.Substring(0,200) }
-            $matches2 = [regex]::Matches($after, '(?:§|раздел\w*)\s*([\d,\s\-–]+)')
+            $m0 = [regex]::Match($after, '^[\s#(,]*(?:§|раздел\w*)\s*([\d,\s\-–]+)')
+            $matches2 = if ($m0.Success) { @($m0) } else { @() }
             foreach ($m in $matches2) {
                 $nums = $m.Groups[1].Value
                 foreach ($part in $nums -split '[,\s]+') {
