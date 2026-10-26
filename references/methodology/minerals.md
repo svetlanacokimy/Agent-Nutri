@@ -1345,14 +1345,82 @@
 
 | Тема | Школьный протокол | EBM-позиция | Источник |
 |---|---|---|---|
-| Fe: режим приёма | Ежедневно 50-100 мг | **Через день 60-120 мг** — выше абсорбция (↓ гепсидин), ↓ побочные эффекты | [EBM: Stoffel 2017 Lancet Haematol] |
-| Se: показания | Всем при АИТ | **Только при исходно низком/нормальном Se**, оценить до добавки; UL 400 мкг; ↑ риск СД2 при избытке | [EBM: Klein 2011 JAMA SELECT; Rayman 2012 Lancet] |
-| Zn:Cu ratio | Обязательный контроль | **Не рутинный маркер** — используется в специфических ситуациях (Wilson, длительный приём Zn >40 мг) | [EBM: NIH ODS Zinc Fact Sheet 2022] |
-| Ca монотерапия | Ca 1000-1500 мг для костей | **Ca без K2/D/Mg → ↑ риск CVD**; всегда в комплексе; предпочтение — Ca из пищи | [EBM: Bolland 2010 BMJ; Weaver 2016 Osteoporos Int] |
-| Йод при Hashimoto | Ограничить/исключить | **Восполнить до физиологической нормы (150 мкг/сут) на фоне Se**; тотальный отказ ухудшает функцию ЩЖ | [EBM: Zimmermann 2008 Endocr Rev; ATA Guidelines 2017] |
-| Гемохроматоз скрининг | Не обсуждается | **HFE-генотипирование при ферритине >300 нг/мл (М) / >200 (Ж) + TSAT >45%** — обязательно перед Fe-добавками | [EBM: ACG Guidelines 2019; EASL 2010] |
-| Cr picolinate | Уверенно при ИР | **Данные противоречивы** — метаанализы не подтверждают клинически значимый эффект на HbA1c; малый эффект на массу тела | [EBM: Cochrane 2013; Costello 2016 Nutr Rev] |
-| Mg loading test | Как основной метод | **RCT-данных мало**; предпочтение — RBC Mg или клиническая оценка + пробная терапия | [EBM: Costello 2016 Adv Nutr; ODS Magnesium Fact Sheet] |
+| Fe: режим приёма | Ежедневно 50-100 мг | **Через день 60-120 мг** — выше абсорбция (↓ гепсидин), ↓ побочные эффекты | Stoffel 2017 → §20.6 |
+| Se: показания | Всем при АИТ | **Только при исходно низком/нормальном Se**, оценить до добавки; UL 400 мкг; ↑ риск СД2 при избытке | Klein 2011; Rayman 2012 → §20.6 |
+| Zn:Cu ratio | Обязательный контроль | **Не рутинный маркер** — используется в специфических ситуациях (Wilson, длительный приём Zn >40 мг) | NIH ODS Zinc 2022 → §20.6 |
+| Ca монотерапия | Ca 1000-1500 мг для костей | **Ca без K2/D/Mg → ↑ риск CVD**; всегда в комплексе; предпочтение — Ca из пищи | Bolland 2010; Weaver 2016 → §20.6 |
+| Йод при Hashimoto | Ограничить/исключить | **Восполнить до физиологической нормы (150 мкг/сут) на фоне Se**; тотальный отказ ухудшает функцию ЩЖ | Zimmermann 2009; ATA 2017 → §20.6 |
+| Гемохроматоз скрининг | Не обсуждается | **HFE-генотипирование при ферритине >300 нг/мл (М) / >200 (Ж) + TSAT >45%** — обязательно перед Fe-добавками | ACG 2019; EASL 2010 → §20.6 |
+| Cr picolinate | Уверенно при ИР | **Данные противоречивы** — метаанализы не подтверждают клинически значимый эффект на HbA1c; малый эффект на массу тела | Costello 2016 → §20.6 |
+| Mg loading test | Как основной метод | **RCT-данных мало**; предпочтение — RBC Mg или клиническая оценка + пробная терапия | Costello 2016; NIH ODS Mg → §20.6 |
+
+### 20.6 📚 Источники к таблице расхождений 20.5
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Stoffel NU, et al. 2017.** Приём Fe через день — выше фракционная абсорбция, ниже гепсидин.
+> **Population:** женщины с дефицитом железа
+> *Lancet Haematol* 4(11):e524-e533. PMID: [29032957](https://pubmed.ncbi.nlm.nih.gov/29032957)
+
+> 📚 **EBM** [Level 1b, RCT, N/A] [clinical]
+> **Klein EA, et al. 2011.** SELECT: Se не снижает риск рака простаты; сигнал ↑ риска при избытке.
+> **Population:** мужчины
+> *JAMA* 306(14):1549-1556. PMID: [21990298](https://pubmed.ncbi.nlm.nih.gov/21990298)
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Rayman MP. 2012.** Селен и здоровье человека: узкое терапевтическое окно.
+> **Population:** общая популяция
+> *Lancet* 379(9822):1256-1268. PMID: [22381456](https://pubmed.ncbi.nlm.nih.gov/22381456)
+
+> 📚 **EBM** [Level 5, fact sheet, N/A] [clinical]
+> **NIH ODS Zinc Fact Sheet. 2022.** Zn:Cu — не рутинный маркер; контроль при длительном приёме Zn >40 мг/сут.
+> **Population:** N/A (справочник)
+> NIH Office of Dietary Supplements. URL: https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/
+
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **Bolland MJ, et al. 2010.** Ca-добавки без вит D связаны с ↑ риска инфаркта миокарда.
+> **Population:** взрослые
+> *BMJ* 341:c3691. PMID: [20671013](https://pubmed.ncbi.nlm.nih.gov/20671013)
+
+> 📚 **EBM** [Level 1a, meta-analysis, N/A] [clinical]
+> **Weaver CM, et al. 2016.** Ca + вит D снижают риск переломов.
+> **Population:** взрослые
+> *Osteoporos Int* 27(1):367-376. PMID: [26510847](https://pubmed.ncbi.nlm.nih.gov/26510847)
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Zimmermann MB. 2009.** Йод и заболевания щитовидной железы; физиологическая норма ~150 мкг/сут.
+> **Population:** общая популяция
+> *Endocr Rev* 30(4):376-408. PMID: [19460960](https://pubmed.ncbi.nlm.nih.gov/19460960)
+
+> 📚 **EBM** [Level 1a, guideline, N/A] [clinical]
+> **Alexander EK, et al. (ATA) 2017.** Рекомендации по йоду при заболеваниях ЩЖ в беременность/послеродовый период.
+> **Population:** беременные/послеродовые
+> *Thyroid* 27(3):315-389. PMID: [28056690](https://pubmed.ncbi.nlm.nih.gov/28056690)
+
+> 📚 **EBM** [Level 1a, guideline, N/A] [clinical]
+> **Kowdley KV, et al. (ACG) 2019.** HFE-генотипирование при ↑ ферритине и TSAT >45% перед Fe-добавками.
+> **Population:** пациенты с подозрением на перегрузку Fe
+> *Am J Gastroenterol* 114(8):1202-1218. PMID: [31335359](https://pubmed.ncbi.nlm.nih.gov/31335359)
+
+> 📚 **EBM** [Level 1a, guideline, N/A] [clinical]
+> **EASL. 2010.** Клинические рекомендации по HFE-гемохроматозу.
+> **Population:** пациенты с HFE-гемохроматозом
+> *J Hepatol* 53(1):3-22. PMID: [20471131](https://pubmed.ncbi.nlm.nih.gov/20471131)
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Costello RB, et al. 2016.** Хром: данные не подтверждают клинически значимый эффект на HbA1c.
+> **Population:** взрослые с нарушением гликемии
+> *Nutr Rev* 74(7):455-468. PMID: [27261273](https://pubmed.ncbi.nlm.nih.gov/27261273)
+
+> 📚 **EBM** [Level 5, review, N/A] [clinical]
+> **Costello RB, et al. 2016.** Серум Mg: обоснование доказательного референсного интервала; тест нагрузки — мало RCT.
+> **Population:** общая популяция
+> *Adv Nutr* 7(6):977-993. PMID: [28140318](https://pubmed.ncbi.nlm.nih.gov/28140318)
+
+> 📚 **EBM** [Level 5, fact sheet, N/A] [clinical]
+> **NIH ODS Magnesium Fact Sheet.** Оценка статуса Mg: предпочтение RBC Mg / клинической оценке.
+> **Population:** N/A (справочник)
+> NIH Office of Dietary Supplements. URL: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+
 
 ## 21. Взаимодействия минерал ↔ минерал / минерал ↔ витамин
 
