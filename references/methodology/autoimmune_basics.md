@@ -588,7 +588,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 
 **Клинические данные:**
 
-- **Gärtner 2002, Toulis 2010 meta-ana [EBM: Meroni 2014 Ann Rheum Dis]lysis** — селен [EBM: Gärtner 2002 JCEM; Toulis 2010 Thyroid] 200 мкг/сут при Хашимото снижает антиТПО через 3-6 месяцев
+- **Gärtner 2002, Toulis 2010 meta-analysis** — селен [EBM: Gärtner 2002 JCEM; Toulis 2010 Thyroid] 200 мкг/сут при Хашимото снижает антиТПО через 3-6 месяцев
 - Селенодефицит — фактор риска Хашимото и Грейвса в йододефицитных регионах
 - При РА — снижение маркеров воспаления в отдельных исследованиях, слабая доказательная база
 
@@ -923,7 +923,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 - Cooper GS, Bynum ML, Somers EC. (2009). Recent insights in the epidemiology of autoimmune diseases. _J Autoimmun_, 33(3-4), 197-207.
 - Lerner A, Jeremias P, Matthias T. (2015). The world incidence and prevalence of autoimmune diseases is increasing. _Int J Celiac Dis_, 3(4), 151-155.
 - Ngo ST, Steyn FJ, McCombe PA. (2014). Gender differences in autoimmune disease. _Front Neuroendocrinol_, 35(3), 347-369.
-- Ana [EBM: Meroni 2014 Ann Rheum Dis]ya JM. (2014). The diagnosis and clinical significance of polyautoimmunity. _Autoimmun Rev_, 13(4-5), 423-426.
+- Anaya JM. (2014). The diagnosis and clinical significance of polyautoimmunity. _Autoimmun Rev_, 13(4-5), 423-426.
 - Arbuckle MR et al. (2003). Development of autoantibodies before the clinical onset of SLE. _N Engl J Med_, 349(16), 1526-1533.
 - Nielen MM et al. (2004). Specific autoantibodies precede the symptoms of RA. _Arthritis Rheum_, 50(2), 380-386.
 - Buckner JH. (2010). Mechanisms of impaired regulation by CD4+CD25+FOXP3+ Treg cells in human autoimmune diseases. _Nat Rev Immunol_, 10(12), 849-859.
@@ -973,7 +973,7 @@ HLA-гены на 6-й хромосоме кодируют молекулы, п�
 - Chahardoli R et al. (2019). Can supplementation with vitamin D modify thyroid autoantibodies in Hashimoto? _Horm Metab Res_, 51(5), 296-301.
 - Cutolo M. (2012). Vitamin D and autoimmune rheumatic diseases. _Rheumatology_, 51(6), 977-978.
 - Gärtner R et al. (2002). Selenium supplementation in autoimmune thyroiditis. _J Clin Endocrinol Metab_, 87(4), 1687-1691.
-- Toulis KA et al. (2010). Selenium supplementation in Hashimoto: meta-ana [EBM: Meroni 2014 Ann Rheum Dis]lysis. _Thyroid_, 20(10), 1163-1173.
+- Toulis KA et al. (2010). Selenium supplementation in Hashimoto: meta-analysis. _Thyroid_, 20(10), 1163-1173.
 - Hoffmann PR, Berry MJ. (2010). The influence of selenium on immune responses. _Mol Nutr Food Res_, 52(11), 1273-1280.
 - Chandran B, Goel A. (2012). A randomized pilot study of curcumin in active RA. _Phytother Res_, 26(11), 1719-1725.
 - Coombes JL et al. (2007). A functionally specialized population of mucosal CD103+ DCs induces Foxp3+ Treg via TGF-β and retinoic acid. _J Exp Med_, 204(8), 1757-1764.
