@@ -58,3 +58,4 @@ clients/_KEY.md
 
 # Локальные бэкапы (история версий хранится в git, бэкапы не коммитим)
 *_backup_*.md
+clients/*/consult_view.html
