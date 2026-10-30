@@ -125,8 +125,8 @@ https://www.wildberries.ru/catalog/36114476/detail.aspx?size=75340769
 https://www.wildberries.ru/catalog/943388055/detail.aspx?size=1419339339
 Триметилглицин (TMG)
 https://www.wildberries.ru/catalog/541574955/detail.aspx?size=746025695
-NAC (N-ацетилцистеин) — ВНИМАНИЕ: ссылка-корзина, заменить на карточку
-https://wildberries.ru/basket?shareId=732tla7nks
+NAC (N-ацетилцистеин) 600 мг, NOW — содержит селен 25 мкг
+https://www.wildberries.ru/catalog/176432637/detail.aspx
 SAMe (S-аденозилметионин) — ВНИМАНИЕ: ссылка-корзина, заменить на карточку
 https://wildberries.ru/basket?shareId=dzfadhv25p
 Масло чёрного тмина, софтгели с заявленным тимохиноном (мин. 1,2% TQ), холодный отжим, Amazing Herbs (iHerb)
@@ -140,3 +140,13 @@ https://www.wildberries.ru/catalog/259022519/detail.aspx
 
 L-теанин 200 мг, 60 капс, NOW
 https://www.wildberries.ru/catalog/171114845/detail.aspx
+
+Витамин C 500 мг, Solgar Ester-C Plus (мягкая форма)
+https://wildberries.ru/eapteka/product/822678851
+
+Диосмин 500 мг (диосмин 450 + гесперидин 50), Детралекс
+https://apteka.ru/product/detraleks-500-mg-60-sht-tabletki-pokrytye-plenochnoj-obolochkoj-5e3269c5ca7bdc000192d892
+
+Живой коллаген — клиент заказывает напрямую (ссылка не нужна)
+
+<!-- ГЛАВНЫЙ ФАЙЛ. Правки вносятся сюда. Не перегенерировать из source_files\Ссылки БАД.docx — иначе правки затрутся. -->
